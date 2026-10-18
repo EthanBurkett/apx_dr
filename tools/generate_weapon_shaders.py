@@ -107,14 +107,20 @@ def weapon_bytes(data):
 
 def save_treatment(weapon, record):
     """Append a treatment without discarding the other weapons' registrations."""
+    save_treatments({weapon:record})
+
+
+def save_treatments(records):
+    """Update a collection with one registry/manifest write."""
     path=ROOT/"ui/weapon_shaders.json"
     registry=json.loads(path.read_text()) if path.exists() else {"version":1,"weapons":{}}
     registry["description"]="Per-base-weapon shader treatments."
-    registry["weapons"][weapon]=record
+    registry["weapons"].update(records)
     path.write_text(json.dumps(registry,indent=2)+"\n",encoding="utf8")
     manifest="// Scoped base-weapon shader materials and view/world models.\n"
     for entry in registry["weapons"].values():
-        manifest+="material,"+entry["material"]+"\n"
+        if not entry.get("model_only",False):
+            for material in entry.get("materials",[entry["material"]]):manifest+="material,"+material+"\n"
         manifest+="xmodel,"+entry["view_model"]+"\n"
         manifest+="xmodel,"+entry["world_model"]+"\n"
     (ROOT/"manifests/18-weapon-shaders.csv").write_text(manifest,encoding="ascii",newline="\n")

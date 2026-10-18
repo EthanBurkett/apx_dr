@@ -23,6 +23,170 @@
       "world_model": "apx_phasewire_knife_world",
       "sm2": "transparent wireframe with fixed relative line width",
       "gameplay": "existing melee damage, ammo, reach and secondary slot; visual growth only"
+    },
+    "colt45_mp": {
+      "effect": "INKBOUND",
+      "category": "weapon",
+      "catalog_id": 1,
+      "material": "apx_ink_body0",
+      "materials": [
+        "apx_ink_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxink",
+      "view_model": "apx_ink_view",
+      "world_model": "apx_ink_world",
+      "pixel_shader": "apx_base_ink",
+      "source_materials": [
+        "mtl_weapon_colt1911"
+      ],
+      "concept": "Living black ink, porcelain, red moving sigils",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "usp_mp": {
+      "effect": "GHOST CIRCUIT",
+      "category": "weapon",
+      "catalog_id": 2,
+      "material": "apx_holo_body0",
+      "materials": [
+        "apx_holo_body0",
+        "apx_holo_body1"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxholo",
+      "view_model": "apx_holo_view",
+      "world_model": "apx_holo_world",
+      "pixel_shader": "apx_base_holo",
+      "source_materials": [
+        "mtl_weapon_usp",
+        "mtl_weapon_peq6"
+      ],
+      "concept": "Transparent green scan bars and holographic panel edges",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "deserteagle_mp": {
+      "effect": "SOLARFORGE",
+      "category": "weapon",
+      "catalog_id": 3,
+      "material": "apx_solar_body0",
+      "materials": [
+        "apx_solar_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxsolar",
+      "view_model": "apx_solar_view",
+      "world_model": "apx_solar_world",
+      "pixel_shader": "apx_base_solar",
+      "source_materials": [
+        "mtl_weapon_desert_eagle_silver"
+      ],
+      "concept": "Moving molten rivers, coal crust and white-hot solar pulses",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "m40a3_mp": {
+      "effect": "ABSOLUTE ZERO",
+      "category": "weapon",
+      "catalog_id": 4,
+      "material": "apx_frost_body0",
+      "materials": [
+        "apx_frost_body0",
+        "apx_frost_body1"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxfrost",
+      "view_model": "apx_frost_view",
+      "world_model": "apx_frost_world",
+      "pixel_shader": "apx_base_frost",
+      "source_materials": [
+        "mtl_weapon_m40a3",
+        "mtl_weapon_m40a3_scope"
+      ],
+      "concept": "Crystalline facets, snow stars and sweeping freezing fronts",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "deserteaglegold_mp": {
+      "effect": "MIDAS PARADOX",
+      "category": "weapon",
+      "catalog_id": 5,
+      "material": "apx_midas_body0",
+      "materials": [
+        "apx_midas_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxmidas",
+      "view_model": "apx_midas_view",
+      "world_model": "apx_midas_world",
+      "pixel_shader": "apx_base_midas",
+      "source_materials": [
+        "mtl_weapon_desert_eagle_gold"
+      ],
+      "concept": "Rotating gold gear rings and clockwork on black metal",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "remington700_mp": {
+      "effect": "EVENT HORIZON",
+      "category": "weapon",
+      "catalog_id": 6,
+      "material": "apx_void_body0",
+      "materials": [
+        "apx_void_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxvoid",
+      "view_model": "apx_void_view",
+      "world_model": "apx_void_world",
+      "pixel_shader": "apx_base_void",
+      "source_materials": [
+        "mtl_weapon_remington700"
+      ],
+      "concept": "Black holes, warped accretion spirals and drifting stars",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "colt44_mp": {
+      "effect": "STORMCOIL",
+      "category": "weapon",
+      "catalog_id": 7,
+      "material": "apx_storm_body0",
+      "materials": [
+        "apx_storm_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxstorm",
+      "view_model": "apx_storm_view",
+      "world_model": "apx_storm_world",
+      "pixel_shader": "apx_base_storm",
+      "source_materials": [
+        "weapon_colt_anaconda_44"
+      ],
+      "concept": "Branching electrical arcs and traveling white-blue charge",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
+    },
+    "tomahawk_mp": {
+      "effect": "BLOOD MOON",
+      "category": "special",
+      "catalog_id": null,
+      "material": "apx_moon_body0",
+      "materials": [
+        "apx_moon_body0"
+      ],
+      "model_only": true,
+      "techset": "l_sm_apxmoon",
+      "view_model": "apx_moon_view",
+      "world_model": "apx_moon_world",
+      "pixel_shader": "apx_base_moon",
+      "source_materials": [
+        "weapon_tomahawk"
+      ],
+      "concept": "Crimson lunar crescents, eclipse rings and beating red metal",
+      "sm2": "stock appearance",
+      "gameplay": "original definition; only view/world model references change"
     }
   }
 }

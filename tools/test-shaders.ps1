@@ -83,6 +83,15 @@ try {
     Assert-True (($script:steps -join ' ') -match 'Compiled 4 changed') 'SM2/SM3 knife vertex/pixel stages did not compile'
     $wireStages = @(Get-ChildItem (Join-Path $modRoot 'assets\shader_bin') | Where-Object { $_.Name -match '^[vp]s_[23]_0_' })
     Assert-True ($wireStages.Count -eq 12) 'Expected all twelve XP, preview, M9 and knife compiled stages'
+    $beforeBase = @(Get-ChildItem (Join-Path $modRoot 'assets\shader_bin') | ForEach-Object { $_.Name })
+    Copy-Item -Path (Join-Path $root 'src\shaders\*apx_base_*.hlsl') -Destination (Join-Path $modRoot 'src\shaders')
+    Invoke-TestCompile
+    Assert-True (($script:steps -join ' ') -match 'Compiled 9 changed') 'Seven base primaries, tomahawk and protected-material preview shader did not compile'
+    $baseStages = @(Get-ChildItem (Join-Path $modRoot 'assets\shader_bin') | Where-Object { $_.Name -notin $beforeBase })
+    Assert-True ($baseStages.Count -eq 9) 'Expected nine newly compiled base pixel stages'
+    foreach ($binary in $baseStages) {
+        Assert-True (([BitConverter]::ToUInt32([IO.File]::ReadAllBytes($binary.FullName),4) -band 0xffff) -eq 0x0300) 'Base effect has the wrong bytecode version'
+    }
     Write-Host ("PASS: {0} native HLSL/cache assertions." -f $passed) -ForegroundColor Green
 } catch { Write-Host $_.Exception.Message -ForegroundColor Red; exit 1 }
 

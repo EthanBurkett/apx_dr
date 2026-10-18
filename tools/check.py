@@ -14,7 +14,8 @@ ASSET_MODULES = {"test_interface_assets", "test_menu_assets"}
 ASSET_TESTS = {"test_progression.Progression.test_tables_and_all_custom_assets_are_complete",
                "test_repository.Repository.test_authoring_originals_are_retained_for_every_optimized_texture",
                "test_weapon_shaders.WeaponShaders.test_material_models_and_all_lighting_paths_are_packaged",
-               "test_knife_shader.KnifeShader.test_hydrated_knife_assets_match_grip_and_transparent_paths"}
+               "test_knife_shader.KnifeShader.test_hydrated_knife_assets_match_grip_and_transparent_paths",
+               "test_base_weapon_shaders.BaseWeaponShaders.test_hydrated_collection_has_scoped_models_and_protected_lenses"}
 
 
 def flatten(suite):

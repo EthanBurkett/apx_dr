@@ -40,21 +40,23 @@ try {
     if ($Force) { $turnArgs = @('--', '--force') }
     & $Blender --background --factory-startup --python-exit-code 1 --python tools/render_turntables.py @turnArgs
     if ($LASTEXITCODE -ne 0) { throw 'Turntable rendering failed.' }
-    # Native HLSL cannot be evaluated by Blender. Replace shader-equipped M9
+    # Native HLSL cannot be evaluated by Blender. Replace shader-equipped weapon
     # previews with actual D3D9 renders before the shared atlas packaging steps.
     if (Test-Path -LiteralPath (Join-Path $root 'ui\weapon_shaders.json')) {
-        & $Blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py
+        & $Blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --all
         if ($LASTEXITCODE -ne 0) { throw 'Weapon shader mesh export failed.' }
-        & $Python tools/preview_weapon_shader.py --output art/ui/models/apx_preview_weapon_0.png
-        if ($LASTEXITCODE -ne 0) { throw 'Weapon shader still preview failed.' }
-        & $Python tools/preview_weapon_shader.py --turntable --width 512 --frames-directory build/model-render/frames/apx_turn_weapon_0
-        if ($LASTEXITCODE -ne 0) { throw 'Weapon shader turntable preview failed.' }
-        & $Blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --effect phasewire
-        if ($LASTEXITCODE -ne 0) { throw 'Knife shader mesh export failed.' }
-        & $Python tools/preview_weapon_shader.py --effect phasewire --output art/ui/models/apx_preview_knife_0.png --frames-directory build/shader-lab/knife-frames
-        if ($LASTEXITCODE -ne 0) { throw 'Knife shader still preview failed.' }
-        & $Python tools/preview_weapon_shader.py --effect phasewire --turntable --width 512 --frames-directory build/model-render/frames/apx_turn_knife_0
-        if ($LASTEXITCODE -ne 0) { throw 'Knife shader turntable preview failed.' }
+        $shaderRegistry = Get-Content -LiteralPath (Join-Path $root 'ui\weapon_shaders.json') -Raw | ConvertFrom-Json
+        foreach ($entry in $shaderRegistry.weapons.PSObject.Properties) {
+            if ($null -eq $entry.Value.catalog_id) { continue } # Gameplay-only equipment has no browser tile.
+            $category = 'weapon'; $effect = 'rift'
+            if ($entry.Name -eq 'knife_mp') { $category = 'knife'; $effect = 'phasewire' }
+            elseif ($entry.Name -ne 'beretta_mp') { $effect = $entry.Value.pixel_shader.Replace('apx_base_', '') }
+            $id = $entry.Value.catalog_id
+            & $Python tools/preview_weapon_shader.py --effect $effect --output "art/ui/models/apx_preview_${category}_$id.png" --frames-directory "build/shader-lab/still-$effect"
+            if ($LASTEXITCODE -ne 0) { throw "Weapon shader still preview failed: $effect" }
+            & $Python tools/preview_weapon_shader.py --effect $effect --turntable --width 512 --frames-directory "build/model-render/frames/apx_turn_${category}_$id"
+            if ($LASTEXITCODE -ne 0) { throw "Weapon shader turntable preview failed: $effect" }
+        }
     }
     & $Python tools/package_turntables.py
     if ($LASTEXITCODE -ne 0) { throw 'Turntable packaging failed.' }

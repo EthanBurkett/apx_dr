@@ -1,6 +1,7 @@
 """Held default knife and real transparent triangle-wire asset contracts."""
 from pathlib import Path
 import struct
+import re
 import sys
 import tempfile
 import unittest
@@ -13,6 +14,13 @@ from generate_weapon_shaders import save_treatment
 
 
 class KnifeShader(unittest.TestCase):
+    def test_both_knife_vertex_profiles_use_the_confirmed_uv_input_contract(self):
+        for profile in ('2_0','3_0'):
+            shader=(ROOT/'src/shaders'/('vs_'+profile+'_apx_phasewire.hlsl')).read_text()
+            inputs=re.search(r'struct Input\s*\{([^}]+)\}',shader)[1]
+            semantics=set(re.findall(r':\s*(\w+)',inputs))
+            self.assertEqual(semantics,{'POSITION','TEXCOORD0'},'skinned knife must use UV data, not replacement vertex colors')
+
     def test_regenerating_a_treatment_preserves_the_other_weapon(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);(root/'ui').mkdir();(root/'manifests').mkdir()

@@ -70,6 +70,10 @@ def iwi_image(data):
     return Image.open(io.BytesIO(b'DDS '+header+data[-size:])).convert('RGBA')
 
 def stock_image(name):
+    if name=='$white':return Image.new('RGBA',(1,1),(255,255,255,255))
+    for base in (ROOT/'build/model-render/assets/images',ROOT/'assets/images'):
+        path=base/(name+'.iwi')
+        if path.is_file():return iwi_image(path.read_bytes())
     for archive_path in sorted((ROOT.parent.parent/'main').glob('*.iwd')):
         with zipfile.ZipFile(archive_path) as archive:
             path='images/'+name+'.iwi'
@@ -129,11 +133,13 @@ def render(args):
         Element(0,16,5,0,5,0),Element(0,20,5,0,3,0),Element(255,0,17,0,0,0))
     declaration=P();call(device,86,[P,C.POINTER(P)],elements,C.byref(declaration));call(device,87,[P],declaration)
     knife=args.effect=='phasewire'
+    extra=args.effect not in ('rift','phasewire')
     vertex=shader(device,'vs','apx_phasewire' if knife else 'apx_rift_weapon')
-    body=shader(device,'ps','apx_phasewire' if knife else 'apx_rift_body')
-    corona=None if knife else shader(device,'ps','apx_rift_corona')
+    body=shader(device,'ps','apx_base_'+args.effect if extra else 'apx_phasewire' if knife else 'apx_rift_body')
+    corona=None if knife or extra else shader(device,'ps','apx_rift_corona')
+    protected=shader(device,'ps','apx_base_stock') if extra else None
     call(device,92,[P],vertex)
-    textures={} if knife else {0:texture(device,stock_image('weapon_beretta_c')),1:cube_texture(device),
+    textures={1:cube_texture(device),4:volume_texture(device)} if extra else {} if knife else {0:texture(device,stock_image('weapon_beretta_c')),1:cube_texture(device),
         2:texture(device,Image.open(ROOT/'art/weapons/beretta-rift/camo-fields.png')),
         4:volume_texture(device),
         5:texture(device,stock_image('~weapon_beretta_s-r-17g-17b-1~41155d1b'))}
@@ -141,7 +147,14 @@ def render(args):
         call(device,65,[U,P],slot,obj)
         for state,value in ((1,1),(2,1),(3,1),(5,2),(6,2),(7,0)):
             call(device,69,[U,U,U],slot,state,value)
-    meshes=json.loads(args.mesh.read_text())
+    exported=json.loads(args.mesh.read_text())
+    meshes=exported['vertices'] if isinstance(exported,dict) else exported
+    batches=exported['batches'] if isinstance(exported,dict) else [dict(first=0,count=len(meshes),custom=True,color_texture='weapon_beretta_c')]
+    batch_textures={}
+    if extra:
+        for batch in batches:
+            name=batch['color_texture']
+            if name not in batch_textures:batch_textures[name]=texture(device,stock_image(name))
     encoded=bytearray()
     for row in meshes:
         position=row[:3];normal=row[3:6];u,v=row[6:8]
@@ -182,7 +195,17 @@ def render(args):
             for state,value in ((14,0),(27,1),(19,2),(20,2)):
                 call(device,57,[U,U],state,value)
         call(device,41,[])
-        call(device,107,[P],body);call(device,83,[U,U,P,U],4,len(meshes)//3,stream,24)
+        if extra:
+            for batch in batches:
+                transparent=args.effect=='holo' and batch['custom']
+                for state,value in ((14,0 if transparent else 1),(27,1 if transparent else 0),(19,2),(20,2)):
+                    call(device,57,[U,U],state,value)
+                call(device,65,[U,P],0,batch_textures[batch['color_texture']])
+                call(device,107,[P],body if batch['custom'] else protected)
+                pointer=P(C.addressof(stream)+batch['first']*24)
+                call(device,83,[U,U,P,U],4,batch['count']//3,pointer,24)
+        else:
+            call(device,107,[P],body);call(device,83,[U,U,P,U],4,len(meshes)//3,stream,24)
         if corona:
             call(device,57,[U,U],14,0);call(device,57,[U,U],27,1)
             call(device,57,[U,U],19,2);call(device,57,[U,U],20,2)
@@ -195,12 +218,12 @@ def render(args):
         image.save(out/(str(frame)+'.png'))
         if frame==0:image.save(args.output)
     print('Rendered',count,'frames through the actual compiled D3D9 shaders.')
-    for obj in [readback,*textures.values(),body,corona,vertex,declaration,depth,target,device,d3d]:release(obj)
+    for obj in [readback,*batch_textures.values(),*textures.values(),body,corona,protected,vertex,declaration,depth,target,device,d3d]:release(obj)
     user.DestroyWindow.argtypes=[P];user.DestroyWindow(window)
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--effect',choices=('rift','phasewire'),default='rift')
+    parser.add_argument('--effect',choices=('rift','phasewire','ink','holo','solar','frost','midas','void','storm','moon'),default='rift')
     parser.add_argument('--mesh',type=Path)
     parser.add_argument('--output',type=Path,default=ROOT/'build/shader-lab/rift-preview.png')
     parser.add_argument('--frames-directory',type=Path,default=ROOT/'build/shader-lab/frames')
@@ -210,7 +233,7 @@ def main():
     parser.add_argument('--start-time',type=float,default=3.0)
     parser.add_argument('--turntable',action='store_true',help='32 fixed-time camera angles for the catalog.')
     args=parser.parse_args()
-    if args.mesh is None: args.mesh=ROOT/'build/shader-lab'/('knife-mesh.json' if args.effect=='phasewire' else 'm9-mesh.json')
+    if args.mesh is None: args.mesh=ROOT/'build/shader-lab'/({'phasewire':'knife','rift':'m9'}.get(args.effect,args.effect)+'-mesh.json')
     if os.name!='nt':parser.error('The shader preview requires Windows Direct3D 9.')
     if not 1<=args.frames<=240 or not 1<=args.fps<=60:parser.error('frames must be 1..240 and fps 1..60')
     if args.width<128 or args.width>2048 or args.width%2:parser.error('width must be an even value in 128..2048')

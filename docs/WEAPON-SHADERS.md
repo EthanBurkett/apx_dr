@@ -2,8 +2,70 @@
 
 The base-weapon shader route starts with **Beretta M9 / RIFTHEART**. Selecting the
 normal Beretta equips the treatment automatically; no extra weapon variant or
-progression ID is created. The default knife now uses **PHASEWIRE**. Other base
-guns can be added through this pipeline in later passes.
+progression ID is created. All eight base primaries in the current catalog now
+have separate treatments, and the default knife uses **PHASEWIRE**.
+
+## Base collection
+
+![Native GPU previews of all eight base primaries](../art/weapons/base-collection/collection.png)
+
+| Base primary | Treatment | Motion and surface |
+| --- | --- | --- |
+| Beretta M9 | RIFTHEART | Dimensional plasma, fractures and circuitry |
+| Colt M1911 | INKBOUND | Black flowing ink over porcelain, moving red sigils |
+| USP .45 | GHOST CIRCUIT | Open green holographic scan bands and telemetry |
+| Desert Eagle | SOLARFORGE | Molten rivers, coal crust and solar shock rings |
+| M40A3 | ABSOLUTE ZERO | Ice facets, sixfold frost stars and freezing fronts |
+| Gold Desert Eagle | MIDAS PARADOX | Counter-rotating gold clockwork on black enamel |
+| Remington 700 | EVENT HORIZON | Warped stars, black cores and accretion spirals |
+| Colt Anaconda .44 | STORMCOIL | Branching electrical arcs and moving charge packets |
+
+These are separate pixel programs with different procedural structures, not
+palette variants. The collection generator retains all original weapon fields
+except the two scoped view/world model references. Damage, ammo, animations,
+hands, melee, scope lenses, reticles and progression IDs are preserved.
+Community primaries keep their existing materials.
+
+The seven additional primaries and Activator tomahawk use ten scoped materials
+and sixteen model assets, with no new camo images. The USP body/laser housing and M40 body/scope
+housing retain separate diffuse maps. Protected lenses, sights, bullets and
+attachment masks are excluded from material substitution. GHOST CIRCUIT uses
+transparent sorting and omits opaque depth/shadow passes; the other new effects
+keep the stock opaque depth, shadow and additional-light paths. Both model
+technique prefixes and SM/HSM paths are provided. SM2 retains stock appearance
+for these primaries.
+
+New body materials are loaded through the scoped models' dependencies. The
+manifest intentionally omits standalone registrations, which would allocate
+additional unused non-model variants from the official client's material pool.
+
+The Activator's tomahawk receives **BLOOD MOON**, with moving lunar crescents,
+eclipse rings and a beating red metallic surface. It keeps its original gameplay
+and has no primary-browser tile or new unlock ID.
+
+![BLOOD MOON tomahawk, native GPU preview](../art/weapons/base-collection/tomahawk.png)
+
+```powershell
+python tools/generate_base_weapon_shaders.py
+.\tools\render-previews.ps1 -PrepareOnly
+blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --all
+python tools/preview_weapon_shader.py --effect midas --output build/shader-lab/midas.png
+.\tools\test-shaders.ps1
+.\tools\build.ps1
+```
+
+`generate_base_weapon_shaders.py` is the authoring source for the generated
+`ps_3_0_apx_base_*.hlsl` programs. The common lighting helpers are shared; each
+effect has its own body. Original definitions in `art/weapons/base-definitions`
+provide an offline gameplay-preservation audit. They and installed game assets
+retain their original rights. The registry/manifest writer preserves the M9 and
+knife entries when regenerating the collection.
+
+The GPU exporter separates material batches. Actual custom HLSL is used on
+treated surfaces; protected surfaces use a simple studio approximation of their
+stock diffuse/lighting response in the authoring renderer. In-game protected
+materials retain the original engine techniques. These previews are not client
+screenshots and do not replace checks on intended maps, ADS, firing and reload.
 
 ![RIFTHEART, rendered from the actual M9 mesh and HLSL](../art/weapons/beretta-rift/showcase.png)
 

@@ -83,9 +83,10 @@ Rendering uses a factory-startup background scene, not an open Blender project.
 | Entry point | Inputs and dependencies | Outputs / mutation |
 | --- | --- | --- |
 | `tools/generate_weapon_shaders.py` | SDK/game, Python/Pillow; optional `--game-root` | **Source:** deterministic M9 camo data, scoped models/material, weapon override, techsets, manifest and registry |
+| `tools/generate_base_weapon_shaders.py` | SDK/game; optional `--game-root` | **Source:** seven primary effects and a tomahawk effect, ten scoped body materials, sixteen view/world models, original weapon-definition snapshots, model-only weapon overrides and registry entries |
 | `tools/generate_knife_shader.py` | SDK/game; optional `--game-root` | **Source:** held default knife, grip retarget, barycentric triangle meshes, PHASEWIRE material/techsets and registry entry |
-| `tools/export_weapon_shader_mesh.py` | Blender-only, pinned importer and prepared model asset view | Actual triangle/normal/UV data under build/shader-lab; `-- --effect rift` (default) or `phasewire` |
-| `tools/preview_weapon_shader.py` | Windows D3D9/D3DCompiler, exported mesh, stock game textures and source HLSL | Native GPU stills/frames in build by default; `--effect rift` (default) or `phasewire`, `--output`, `--mesh`, `--frames-directory`, `--frames`, `--fps`, `--start-time`, `--width` and `--turntable` |
+| `tools/export_weapon_shader_mesh.py` | Blender-only, pinned importer and prepared model asset view | Actual triangle/normal/UV data and per-material batches under build/shader-lab; `-- --all`, or `-- --effect` with a registered effect key |
+| `tools/preview_weapon_shader.py` | Windows D3D9/D3DCompiler, exported mesh, stock game textures and source HLSL | Native GPU stills/frames in build by default; `--effect` accepts rift, phasewire, ink, holo, solar, frost, midas, void, storm or moon; also `--output`, `--mesh`, `--frames-directory`, `--frames`, `--fps`, `--start-time`, `--width` and `--turntable` |
 
 `render-previews.ps1 -PrepareOnly` installs/verifies the importer and prepares
 read-only asset inputs without rendering. Normal preview generation applies
