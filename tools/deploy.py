@@ -26,6 +26,24 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
 
 
+def secure_windows_key(path):
+    powershell = str(Path(os.environ['SystemRoot']) / 'System32/WindowsPowerShell/v1.0/powershell.exe')
+    # Start with a fresh DACL. Removing inheritance alone leaves explicit
+    # OWNER RIGHTS entries installed by the hosted runner's temp directory.
+    script = '''$ErrorActionPreference = 'Stop'
+$account = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+$acl = New-Object System.Security.AccessControl.FileSecurity
+$acl.SetOwner($account.User)
+$acl.SetAccessRuleProtection($true, $false)
+$rule = New-Object System.Security.AccessControl.FileSystemAccessRule($account.User, 'FullControl', 'Allow')
+$acl.AddAccessRule($rule)
+[System.IO.File]::SetAccessControl($env:APX_SSH_IDENTITY, $acl)
+'''
+    environment = dict(os.environ, APX_SSH_IDENTITY=str(path))
+    subprocess.run([powershell, '-NoProfile', '-NonInteractive', '-Command', script],
+                   check=True, env=environment, stdout=subprocess.DEVNULL)
+
+
 @contextmanager
 def ssh_options():
     key = os.environ.get('APX_DEPLOY_KEY', '')
@@ -39,11 +57,7 @@ def ssh_options():
         known = Path(folder) / 'known_hosts'
         known.write_text(hosts.strip() + '\n', encoding='ascii')
         if os.name == 'nt':
-            powershell = str(Path(os.environ['SystemRoot']) / 'System32/WindowsPowerShell/v1.0/powershell.exe')
-            sid = subprocess.check_output([powershell, '-NoProfile', '-Command',
-                '[System.Security.Principal.WindowsIdentity]::GetCurrent().User.Value'], text=True).strip()
-            subprocess.run(['icacls', str(identity), '/inheritance:r', '/grant:r', '*' + sid + ':F'],
-                           check=True, stdout=subprocess.DEVNULL)
+            secure_windows_key(identity)
         # ProxyJump's inner SSH process inherits -F, unlike command-line -i.
         config = Path(folder) / 'config'
         config.write_text(
