@@ -49,6 +49,8 @@ jobs:
         shell: powershell
         run: |
           python -m zipfile -e build/ci-sdk.zip build/ci-sdk/game
+          if ($LASTEXITCODE -ne 0) { throw 'SDK extraction failed.' }
+          Remove-Item -LiteralPath build/ci-sdk.zip
           python tools/check.py --suite full --game-root build/ci-sdk/game
       - name: Build fastfile and public archives
         shell: powershell

@@ -7,7 +7,7 @@ comment-only fileSysCheck.cfg filesystem marker is the sole config exception.
 """
 import argparse
 import hashlib
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import zipfile
 
 
@@ -26,6 +26,36 @@ def sdk_files(game_root):
     return files
 
 
+def stock_images(game_root, existing):
+    images = {}
+    for path in sorted((game_root / 'main').glob('*.iwd')):
+        with zipfile.ZipFile(path) as archive:
+            for info in archive.infolist():
+                name = info.filename.replace('\\', '/')
+                relative = PurePosixPath(name)
+                destination = 'raw/' + name
+                if (name.lower().startswith('images/') and name.lower().endswith('.iwi')
+                        and not relative.is_absolute() and '..' not in relative.parts
+                        and destination.lower() not in existing):
+                    images[destination.lower()] = (path, info.filename)
+    return images
+
+
+def append_stock_images(archive, game_root):
+    existing = {name.lower() for name in archive.namelist()}
+    images = stock_images(game_root, existing)
+    groups = {}
+    for destination, (path, source) in images.items():
+        groups.setdefault(path, []).append((destination, source))
+    for path, entries in groups.items():
+        with zipfile.ZipFile(path) as source:
+            for destination, name in entries:
+                with source.open(name) as reader, archive.open(destination, 'w') as writer:
+                    while data := reader.read(1024 * 1024):
+                        writer.write(data)
+    return len(images)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--game-root', type=Path, required=True)
@@ -40,9 +70,10 @@ def main():
         archive.writestr('zone/english/', b'')
         for path, relative in files:
             archive.write(path, relative)
+        count = append_stock_images(archive, args.game_root)
     with args.output.open('rb') as stream:
         checksum = hashlib.file_digest(stream, 'sha256').hexdigest()
-    print(str(len(files)) + ' SDK files; SHA256 ' + checksum)
+    print(str(len(files)) + ' SDK files plus ' + str(count) + ' stock texture fallbacks; SHA256 ' + checksum)
 
 
 if __name__ == '__main__':

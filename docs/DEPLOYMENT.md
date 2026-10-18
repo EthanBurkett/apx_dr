@@ -49,7 +49,9 @@ token. `/etc/apx-dr/private.cfg` belongs to root and the server group (0640).
 `/etc/apx-dr/bunny.env` belongs to root only (0600), with `access_key` and `api_key`.
 Never print either file in Actions logs, put it in Git, or upload it to FastDL.
 
-The licensed SDK is `/srv/apx-dr/sdk/build-sdk.zip`, readable only by the CI
+The licensed SDK includes stock texture fallbacks from the base game's IWDs,
+because the linker normally reads those through the installed game's filesystem.
+Its archive is `/srv/apx-dr/sdk/build-sdk.zip`, readable only by the CI
 account and root. It is not on Bunny or published as a GitHub artifact. Regenerate
 it with `tools/prepare_ci_sdk.py` when intentionally updating the SDK, transfer it
 privately, then update `APX_SDK_SHA256`. Updating the deploy helper itself requires
