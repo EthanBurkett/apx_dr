@@ -164,3 +164,6 @@ class TestLinker {
         Remove-Item -LiteralPath $resolved -Recurse -Force
     }
 }
+# Expected failing child builds leave LASTEXITCODE nonzero. Report this suite's
+# successful result explicitly so callers such as GitHub Actions do not inherit it.
+exit 0
