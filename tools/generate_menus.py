@@ -199,9 +199,8 @@ visible when(localVarInt(apx_control_page)=={p})
 onFocus {{ setLocalVarInt ui_highlight 0; }}
 }}
 '''
-    body+=button('stock_controls',180,378,206,'Classic controls','open main_controls;')
-    body+=button('stock_settings',398,378,206,'Classic settings','open main_options;')
-    body+=text('help',180,410,424,'Click a binding, press a key. ESC cancels rebinding.',.21)
+    body+=button('stock_controls',180,397,206,'Classic controls','open main_controls;')
+    body+=button('stock_settings',398,397,206,'Classic settings','open main_options;')
     return menu(name,'Controls',body,'apx_controls',onopen='setLocalVarInt apx_control_page 0;')
 
 

@@ -63,6 +63,11 @@ admitted maps fit the safety budgets. Failed or timed-out map transitions were
 retried in fresh servers; five map-script failures remain excluded. Source text
 signatures normalize line endings and trailing whitespace, which do not change
 asset references. The report records the exact measured mod fastfile hash.
+The subsequent Controls shortcut-spacing correction retains those counters as
+conservative bounds: it changes two button coordinates and removes static help
+text, adding no asset references or dependencies. `budget_adjustment` records the
+measured baseline and this zero-increase proof; it does not claim a second full
+map sweep for a layout-only edit.
 
 The stock SDK linker's fixed vertex/index save streams are too small for the combined collection (about 86 MiB vertices and 17 MiB indices). The `cod4-sdk-large-content-v1` build profile verifies the original executable's exact SHA-256, creates a private sibling copy with 128/64 MiB ranges, and deletes it afterward. Only the two capacity constants change; assertions and serialization code remain intact. The original SDK executable is never patched. These are build-time stream limits, not client asset pools or increased weapon limits.
 
