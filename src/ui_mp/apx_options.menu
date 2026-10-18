@@ -868,9 +868,8 @@ forecolor 0.87 0.76 0.53 1
 visible when(localVarInt(apx_control_page)==3)
 onFocus { setLocalVarInt ui_highlight 0; }
 }
-APX_UI_BUTTON("stock_controls",180,378,206,"Classic controls",open main_controls;,1)
-APX_UI_BUTTON("stock_settings",398,378,206,"Classic settings",open main_options;,1)
-APX_UI_TEXT("help",180,410,424,"Click a binding, press a key. ESC cancels rebinding.",0.21)
+APX_UI_BUTTON("stock_controls",180,397,206,"Classic controls",open main_controls;,1)
+APX_UI_BUTTON("stock_settings",398,397,206,"Classic settings",open main_options;,1)
 
 }
 }

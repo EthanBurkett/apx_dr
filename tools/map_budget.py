@@ -36,6 +36,8 @@ def compatible(record,limits):
     if usage.get('material',0)<=0:return False,'No loaded map assets'
     if record.get('measurement')=='baseline-plus-image-pages':
         return True,'Measured baseline plus image-page dependencies; within client-zone asset budgets'
+    if record.get('measurement')=='baseline-with-ui-geometry-only-change':
+        return True,'Measured asset bound retained for UI geometry-only changes; within client-zone asset budgets'
     return True,'Measured within client-zone asset budgets'
 
 

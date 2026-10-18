@@ -83,7 +83,7 @@ Connect through `ssh -J root@apx.ethanburkett.dev ethan@10.50.0.10`, then:
 sudo systemctl status apx-dr
 sudo journalctl -u apx-dr -n 80 --no-pager
 sudo systemctl restart apx-dr
-cat /var/lib/apx-dr/deployed.json
+sudo cat /var/lib/apx-dr/deployed.json
 ```
 
 Keep journal output private if changing logging or querying credential cvars.
