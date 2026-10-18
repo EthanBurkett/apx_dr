@@ -1,0 +1,9 @@
+// ApX Deathrun: other
+rawfile,cleanup.cfg
+rawfile,DeathRun_ReadMe.txt
+rawfile,mp/cod2maps.arena
+rawfile,vision/mp_deathrun_long.vision
+rawfile,info/bullet_penetration_mp
+rawfile,vision/jumpers.vision
+rawfile,vision/activators.vision
+rawfile,ui_mp/menus.txt

@@ -1,0 +1,25 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.cs text eol=lf
+*.gsc text eol=lf linguist-language=GSC
+*.menu text eol=lf
+*.inc text eol=lf
+*.csv text eol=lf
+*.hlsl text eol=lf
+*.svg text eol=lf
+
+# Include extensionless binary engine assets.
+assets/** filter=lfs diff=lfs merge=lfs -text linguist-generated=true
+*.png filter=lfs diff=lfs merge=lfs -text
+art/source-images/*.iwi filter=lfs diff=lfs merge=lfs -text
+server/bin/** filter=lfs diff=lfs merge=lfs -text
+server/apx-cod4x-source.zip filter=lfs diff=lfs merge=lfs -text
+tools/iwi2dds.exe filter=lfs diff=lfs merge=lfs -text
+
+# View the repository masthead without an LFS download.
+docs/images/** -filter -diff -merge -text

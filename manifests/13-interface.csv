@@ -1,0 +1,9 @@
+// ApX interface materials; images ship inside apx_dr.iwd.
+material,apx_button_idle
+material,apx_button_hover
+material,apx_button_pressed
+material,apx_button_disabled
+material,apx_xp_fill
+material,apx_health_fill
+material,apx_logo
+material,apx_menu_background

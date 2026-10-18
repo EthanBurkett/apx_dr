@@ -1,0 +1,16 @@
+{
+    "upstream":  "https://github.com/callofduty4x/CoD4x_Server",
+    "revision":  "ddd65fce1a1093017bad2dbb6840d75d11c0d56f",
+    "patchSHA256":  "7CB39EDDE8256CFCE698EE6FA923B5A6FE279840CCF0360684255175C088710D",
+    "executableSHA256":  "0AA4008EB9B74C5BBDD36C9FD62B54D38BB45551A21E64483510B30726EC3C6F",
+    "pools":  {
+                  "weapon":  512,
+                  "loaded_sound":  4096,
+                  "fx":  1024,
+                  "xmodel":  2048,
+                  "material":  4096,
+                  "image":  4096
+              },
+    "inputSHA256":  "623FA46CDC19CFB496CEC616E70DE04EEA321A01E99D096A3E3096A574B1760A",
+    "sourceSHA256":  "462DF9B1A0880B1E986410BDC6B89483462574C0DE74823456AB67DD42395F1F"
+}

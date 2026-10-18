@@ -1,0 +1,1783 @@
+{
+  "ak_fantasy_df.iwi": {
+    "originalSHA256": "7ec4332f93063e2667413ba22899f7a5140d5e6aeebde5819af32bc830af6a0a",
+    "outputSHA256": "a8ad1d9810054d44986223626bfba1455986e01b3370773e468c5d2e047b961a",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "ak_fantasy_nm.iwi": {
+    "originalSHA256": "2e5f445d265612aa550f8ca69dbb52ee00094f036f01ecd291a5c8d0e26d824e",
+    "outputSHA256": "5b4ad0abeef4615ba141338e809dd040a0ff2926f7cf5cbd7f00810e65ceff75",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "bountyhunter_col.iwi": {
+    "originalSHA256": "974d22ed450963348b90bbffddf6651d904acef6a4adaa8375c3a3799bb4b821",
+    "outputSHA256": "80ca27301cdcaa35314b27051fb80683730091cf23afd44603b3016d559f8235",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "bountyhunter_nml.iwi": {
+    "originalSHA256": "36493abd611162cc3dda5dd69af3556aa9f8e5c414895724f7d95578ea179544",
+    "outputSHA256": "8cd42a5f943c2c1168acc2afbec7d1f4e43f055f6c442e34c2d080e025bc3152",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "chr_gign_lion_arms_diffuse.iwi": {
+    "originalSHA256": "be5278192562af728b6870c6e21c2d243ab3244af80e84a68a3fce4108bd3140",
+    "outputSHA256": "47c0866f8b2e83a23f8c24a523b40d706c13665f5f5593dc20b0006d1943c2a1",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "chr_gign_lion_backpack_diffuse.iwi": {
+    "originalSHA256": "3723ebe7a022c34c67cf8ea522bd5ac9086b0e1f08e849d354c0234f51798c2e",
+    "outputSHA256": "633bb3cb3e1fb96e1144d5f3392c8c01899f471df76bbb5d51dce2620acb6288",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "chr_gign_lion_gadget_diffuse.iwi": {
+    "originalSHA256": "6d91c28581d4cf26df66bafeeaa3df0e586be9f9a474bb9b3d27536abe8ca105",
+    "outputSHA256": "16c15be85994347dc335762cd6acb85c28f2622f8490ad4d90159eeca0c73583",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "chr_gign_lion_head_diffuse.iwi": {
+    "originalSHA256": "21b6f80fd579c67b73204a3c3e77c7063f3ae55dc2ca4e7d8a808b842976934e",
+    "outputSHA256": "54b3f00d6fbaff3a573bc50293c7bdad353e1c380bcfa777d50548c66033c7a1",
+    "sourceDimensions": [
+      1024,
+      2048
+    ],
+    "runtimeDimensions": [
+      512,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "chr_gign_lion_legs_diffuse.iwi": {
+    "originalSHA256": "12190b5edfaa453c079f97505adc588f0568ebe968793e89b3396bb34ad1b61f",
+    "outputSHA256": "f4a430881f422dd77e40d9d812dc37e9493cb2fba96a73beb6c2af9f10df259f",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "chr_gign_lion_mask_diffuse.iwi": {
+    "originalSHA256": "d94ad96283f222def316ed64b4baa589bc62a128155c740c4533afd0800c4a6d",
+    "outputSHA256": "8f3dfe53e2bcb907ae011e85ad69a4bffeddcf771bc2b056007075e81c1bc87c",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "domino_body_d.iwi": {
+    "originalSHA256": "140071e8f8ba07d3aad35dd3e5cc999cb5858eaa8b6f0e45a30f53d5fd65498c",
+    "outputSHA256": "391b91b339ab27be63b6d8b9c2af24528c01e419dc853af076351dc7dcc5f862",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "domino_body_n.iwi": {
+    "originalSHA256": "c8ad232607c43cd0fe9df706dd19a2286124d8eee91a9a3b79d0ea2d6683a167",
+    "outputSHA256": "aa7a491d7e1ad15cf30ffe2c6e277710e659af669dc275c4fca953e1c3c8f1cc",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "ely_skin.iwi": {
+    "originalSHA256": "0f3cf45efa5570792b8ab8b3b241d6c7147c49c9ff70eabadb732c07c1ae73b7",
+    "outputSHA256": "f324d4cf13624fb10e5b09e3c6bb84460ed9299da9a48de6d611285798f3c9cb",
+    "sourceDimensions": [
+      2048,
+      512
+    ],
+    "runtimeDimensions": [
+      1024,
+      256
+    ],
+    "savedBytes": 524288
+  },
+  "f_med_asn_sarah_head_d.iwi": {
+    "originalSHA256": "44a62fe42903ca05f3320ab02f65d1f1e2beab9c88e87320461c717bef01cfa5",
+    "outputSHA256": "832d12da3eff79c4c85b9cce019cc26d77a97f26679538b5c987de5ab816126c",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "f_med_asn_sarah_head_d_norm.iwi": {
+    "originalSHA256": "c3f5d7ad110416e33d58fa2ec0831faae9fc017e61d11d4d39557fd667075787",
+    "outputSHA256": "473d83494bb67f0f1215467783de24688321b57e3360f683a8dae1a78059f93f",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "fc4_870_col.iwi": {
+    "originalSHA256": "37bd347ea48f74c9a32e94e2e85bf354048292314832f79dd0e7190ff76507eb",
+    "outputSHA256": "ef6c03ffc3eb5941c21f3cb38ab61d6de6bee4d7b112fb0322919299c32623dc",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "fc4_870_nml.iwi": {
+    "originalSHA256": "29acc3049df9f05115e48475aaeccdb200ff2962d46719684210036d012f427c",
+    "outputSHA256": "66f2e3ab1a9c76d9c58e2c9e8d07d27606c9800054c81aab3b4185efd1b3af7c",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "graffiti_body_d_n.iwi": {
+    "originalSHA256": "62c55eab789376b690aff449215896a523e38b087162ad1d2a9e12be7d97f92a",
+    "outputSHA256": "199e8ffe231b7e34634fd6b3c3fc1d4736388b61999d27253484b90335e9ac4e",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "harley_body_d.iwi": {
+    "originalSHA256": "621cbb7388bb2046bef45c23043bae8315c53484b0fc1e4066d65c115a0a66df",
+    "outputSHA256": "5357aaf1f9469103354c7af12c4935b079a0bdc9147fbafa7791975b7c9b8c7c",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "harley_hair_d.iwi": {
+    "originalSHA256": "5cc9d707201bb299802bef9de107f673ad7883a40678f6fefd48ee9c572de582",
+    "outputSHA256": "40628e8776e915ab595b502e6772ee4e963bffcde7c5f37b71b8defbd5166530",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "harley_hair_d2.iwi": {
+    "originalSHA256": "5cc9d707201bb299802bef9de107f673ad7883a40678f6fefd48ee9c572de582",
+    "outputSHA256": "40628e8776e915ab595b502e6772ee4e963bffcde7c5f37b71b8defbd5166530",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "harley_head_d_clean.iwi": {
+    "originalSHA256": "7ea786f72b42b1744b7b15ef1ced27fdf0898076f714a5e453b23012d5b24e40",
+    "outputSHA256": "0dad509bac6d4ae873e917738d65cd35eca05d36052090bf91c232144dba964b",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "harley_limbs_d.iwi": {
+    "originalSHA256": "b1dc4d9af58dbbfbbebf2e4581a0b0b5efd612eb18f338587b08a8c7cc5740af",
+    "outputSHA256": "8f769a6e92476c8433cee7239b31b9ec007e48ecbe7bc0a11af3c45b91397081",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "med_female_commando_graffiti_body_d.iwi": {
+    "originalSHA256": "4333eff4f020f1fe5191807b4c40a086d5e94fe462d264d4d2d9a25c8d204070",
+    "outputSHA256": "4aa1f2b0c1c32bc32b4f876f6cdeab652c4d752fe37ae4f20a357ea64a5536c9",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mtl_bo3_cqw_main1_nml.iwi": {
+    "originalSHA256": "9713486143b1d61d997dd290bf1748c7455b15549be1cd79e01db6c30245cb59",
+    "outputSHA256": "2519fbf964dd1a620c8f6ce982513425f076a22d32b6982953f83d461bdbb868",
+    "sourceDimensions": [
+      1024,
+      2048
+    ],
+    "runtimeDimensions": [
+      512,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mtl_bo3_cqw_main2_nml.iwi": {
+    "originalSHA256": "9137c570581f25500ac61cae42a99b3f65ca03d2a4c2044da96b1cc86b115927",
+    "outputSHA256": "2d48f6a7cee829cb4e24c27d5b6bdac8ee308e2a2691c10467cea1ca2aa6683a",
+    "sourceDimensions": [
+      1024,
+      2048
+    ],
+    "runtimeDimensions": [
+      512,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mtl_deadpool_body_color.iwi": {
+    "originalSHA256": "1dab7434aa9f57ebc8f4b291551052f60f746de1747081af135a842e60390bd9",
+    "outputSHA256": "d4508584a68dba963b0d2c38829a345bcf718502501f1dd27f304e1aab580165",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mtl_fox_ramirez_body.iwi": {
+    "originalSHA256": "3bdc8aa8574e4105137a13ee12d8f9948f2991fc787b5cb1dcdbda8a26465db9",
+    "outputSHA256": "d3f0ed7bec78fb6f022ae9f27e98566ec7ebd391aea780143e3ebfe28f08f658",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mtl_fox_ramirez_hair.iwi": {
+    "originalSHA256": "9af1446380df8c2bbfe81468863020367b487c7fe6c9476f0eb830b492e6e231",
+    "outputSHA256": "1c9f0da82c841eb3bd1034707791f5e964ec8310bf4b8c2513e3075eb55fe382",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mtl_fox_ramirez_head.iwi": {
+    "originalSHA256": "a829c63eb585dd6d592494204a41069341b82f51b58ff22e88cdc2653b9c3210",
+    "outputSHA256": "f8dd517bf518044afab836f6ee8afd39ef99ec85919fb69132f7bc3bc3e7d168",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "mtl_mrh_sed.iwi": {
+    "originalSHA256": "17de20ed5f3e119eb40dc18823db70b995bb59369bd3f802adc6c7cf100f7adc",
+    "outputSHA256": "6ba356bee5c26fdc49a8289e89beab6764d96c326fc71bb034c6ac22714e2418",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mtl_streetsign_base_color.iwi": {
+    "originalSHA256": "38ba7ecb68804656703a670c5708e447f1fd9979a4370ee1566c59ea09fc2e7f",
+    "outputSHA256": "200e43ef4de95fbfd7049dd6654d8698fb04bfebac780566eda55e1a771997c8",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mtl_streetsign_normal.iwi": {
+    "originalSHA256": "1f5e8386ec1330038917b16e5a9a98b6233f4f9028507b77a1b63090168012fe",
+    "outputSHA256": "91e8bc2fb34c02341d57e53c3a726a4e95af8b9ff5004559b1baaa6bc7f1abb9",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mtl_usa_m1911_slide_col.iwi": {
+    "originalSHA256": "40a7dc60d0144fc5a395d455db189ba0122f8703b5a86df9c038cc452ac84adc",
+    "outputSHA256": "b8fc3fd2948b910ac7887666f8e5dac75505a3a40cb90c03d4edeb73b3266a79",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "mtl_usa_m1911_slide_nml.iwi": {
+    "originalSHA256": "44f4315d6139c98f2f131bf423d73afcd8fe37d7cd4279567b52a4f26f2d4a88",
+    "outputSHA256": "7525c1f50db07162e9186691d91f2710474df424eb4eb991253b31e93f7c6502",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "mw_charlie725_col.iwi": {
+    "originalSHA256": "a1247425b6bac278450cae360fd4d80290a26f5446b7fb41356399fbac3e4879",
+    "outputSHA256": "ef105fb42eecb24b3d12970b0c9c68aba8f11f611790b159b268093228e535bb",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "mw_charlie725_nml.iwi": {
+    "originalSHA256": "293802ede2bd8e809a8f062514546d3dd35297839c4790824eb9a4622b3617bf",
+    "outputSHA256": "a72be3129e1a5567a99b5c01aa3de4ad584628a75b5f44b62886013d32d872c7",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_acog_col.iwi": {
+    "originalSHA256": "d36e679a79cfb072d1f4d3154a819892891eead875a7df837c557cb24b3bacc5",
+    "outputSHA256": "70d671cf18ee1df377051883f0e37cbaa0175be08de973b047a808c33ffce489",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_acog_nml.iwi": {
+    "originalSHA256": "99c2f8ed916fa9f3dce21fcacc180f165f554aac1c18edbb89505fef54a93f52",
+    "outputSHA256": "02d83fd90d66529e2444dd070dff35499ae895d19645415ded01735d897057d4",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_ak74u_receiver_col.iwi": {
+    "originalSHA256": "f52940f65dc26b608e43736c26ace374a64c7f841ae08b7c37ebf65091b86154",
+    "outputSHA256": "db48023fabcdc8f4d7ab5c6df2bfadf4408c003452452477ebbf94492e1eac99",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_ak74u_receiver_nml.iwi": {
+    "originalSHA256": "847b705f01846e85b5230d6c00ae8954d4b780b26599e13e45c4c33a4ef21bce",
+    "outputSHA256": "87d55fb5bf2c8322f194cddac9edee265ef7c5c2e93f68a63c712644a91823b8",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_m40a3_receiver_col.iwi": {
+    "originalSHA256": "5843f15a4a34bf6055e63286ee94e601bc5ff1df141ea37ac33380e7570c7c70",
+    "outputSHA256": "57cd0446460ac5cf6893c8a3d3b4fd4f42f33cf6ade13630c90505bee198d4a0",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_m40a3_receiver_nml.iwi": {
+    "originalSHA256": "3aafdeee08c6a93a4eb1a422d2eee2be02e61e433790ab31ff930938873473ef",
+    "outputSHA256": "d7fddde6374d39c9fe0b78a6f8d811e41ae482a00b24e20ed750592c32035655",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_m40a3_stock_col.iwi": {
+    "originalSHA256": "3318d436fa28d2d118e2cc649e65c9042f800129d8e6d2457b1e270101abb7e2",
+    "outputSHA256": "ca97edb14a3a66d9fa476513c8d71fb3348374271a74155f1afa66f4530bdff9",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_m40a3_stock_nml.iwi": {
+    "originalSHA256": "12b979600b1d792ca2f33220bbd012939299409c8cb0f04a70848080ac9f600d",
+    "outputSHA256": "962423d0c7fc6cee739154057fad512750b9460a48c821cbdae46b97c55e3b73",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_r700_receiver_col.iwi": {
+    "originalSHA256": "e76f48748f9829870302852bfa1e8a61267b2de682e7880e3e5a3f4cefcf610c",
+    "outputSHA256": "e3910772a415d2eb2fe6aceed91e49095b1d4405ecac96f358a756c34301347f",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "mwr_r700_receiver_nml.iwi": {
+    "originalSHA256": "07793411e4bc25b673810c57e5b9595830ecb8ad8ed4123bebdc0ccf13e35009",
+    "outputSHA256": "14e3045105a217a3ddabe163a8653ff287f5996d9eabc8ba0e22ffc341facf26",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "mwr_r700_stock_col.iwi": {
+    "originalSHA256": "65b49cfe50649bb5fcc1867401128e774d2701838b3869b70733ca90e1196db3",
+    "outputSHA256": "8ebb408ab89be4d787c651bd38f2ba133195ba68c6334cd250577ec840137308",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "mwr_r700_stock_nml.iwi": {
+    "originalSHA256": "b9863e3874094b0d0831ac1bf827312122326733cabaa57945e612fcd80949d0",
+    "outputSHA256": "adf2acbac3ab37bf636f6d5d69110e48928a07d24741d7bea2b01ac67afe9787",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "paladinbodycolor.iwi": {
+    "originalSHA256": "3a5a5f13c4cdb0476eebfe8164c197a98c8f7fd01c559a5a9183775fa60623d9",
+    "outputSHA256": "b1cded60bfe5eb3541b0d1d7a33525b79b493eb8ac2afd4957c659d89434075f",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "paladinbodynormal.iwi": {
+    "originalSHA256": "4ac564cb00761fe02b7ea6ecfd53a2def308504de9e98cd0f931828816a24d43",
+    "outputSHA256": "6704634d5efd20a6ebf0f317cf29c046d7837d4ad19b16af5e1d3a26020e20ba",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "paladinclothcolor.iwi": {
+    "originalSHA256": "ebebb0c9cb7336b011c82cf803a6ef384e6bf483660c42d639fc735fce49bc35",
+    "outputSHA256": "a25c506c8e59fea8ba5ca0d57644c6bf2b631d90746c9fbf7ed9310c5757a4f5",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "paladinclothnormal.iwi": {
+    "originalSHA256": "5bb13af4145335fae67818c98f83eeb6165130a49ffb2b6448a6225193a13c6f",
+    "outputSHA256": "37b608ec05ba056961ab360a85c37af02aa749458c7142f4da405bb0dff28d93",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "plr_adolf_hitler_body_col.iwi": {
+    "originalSHA256": "005940d29676617a116a5fd7b244846fd1c4b735ca4d096bac4de86373db795c",
+    "outputSHA256": "ab1cec25f8d9800e966b04abf85e42fa04f437a7277592f0c346f8cb11c9e52d",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "plr_adolf_hitler_body_nml.iwi": {
+    "originalSHA256": "0b0df7b0e3ae019c67f9733c387c1c5be0cdc8288b41af87b4c36ad48f0a9fe0",
+    "outputSHA256": "2174485dfa4b7927bdc08d1f52deff411b143834e4a2c7da96f393fb77acbb01",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "plr_adolf_hitler_head_col.iwi": {
+    "originalSHA256": "07a4a412dfb5ea0cdd2b7444afd3e04184cb46cd3184492593af68ce1fe8c7ac",
+    "outputSHA256": "f842943276f55152aa4b264721c0021dda5c520b351832c59c875aff479b5350",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "plr_adolf_hitler_head_nml.iwi": {
+    "originalSHA256": "bf27d65af2b82e30878f03709925b846ddbed72f38fde4e5cc38296b9ee3335e",
+    "outputSHA256": "8442a7611bcfbd9a826e39210d07fcc7b66db288d1844115fa6df0e933476c45",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "plr_css_badass_terr_body_col.iwi": {
+    "originalSHA256": "49720e5072a9b5e4f073df20945cbbb77ce1a7935df9a4a92722180d8c4d654c",
+    "outputSHA256": "b52820f3dd2452d48b841f9f9da55c2cdb0d7e41cb3216425810723ca27d85cd",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "plr_css_badass_terr_head_col.iwi": {
+    "originalSHA256": "02affdec6e18fc7cc067c10c08076c3e3ecde3214a25dbc4da618469869b2baa",
+    "outputSHA256": "f9a3bbb6a2ae7090d6d8bd375f27888791e83609136c9e12873ff9875d21a01d",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "plr_dnf_duke_body_nml.iwi": {
+    "originalSHA256": "3a506b94da76dd12142a113f4ba0ff0b3507acd65ec816081f12e3e448b6a0c5",
+    "outputSHA256": "b8adf951c7bda948c6db7868348a8ef3c88c2165077eb8ee8e853fd8cf64f3f3",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "plr_john_cena.iwi": {
+    "originalSHA256": "c254a5dea2e61abcb8e80ee259103544622bbd85009e7312aa748c301344c1ab",
+    "outputSHA256": "05eeaf17699bcf9bbc28546d9bd90254eaa19ff340edb9f4d707410790a13fb2",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "plr_terminator_body_col.iwi": {
+    "originalSHA256": "b351be2ab9079c05bf2884bf5f2e737d3fb75ed66d6cedc14311138a73646fb5",
+    "outputSHA256": "7996bd449e8790e96c320193ca3cbe5fffee536ccb00b16380b4a221cddb7878",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "plr_terminator_body_nml.iwi": {
+    "originalSHA256": "5b0105230941e636894ac7a44e9443d12d8332ccae2036d3b78a45ca14bf6d44",
+    "outputSHA256": "a191ac5e918d0e6712fc083cbe96d4184b607be1f6867ab6f54c3da28b26bc6f",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "rb_mirage_textset_color_normx.iwi": {
+    "originalSHA256": "44c338ab60a784bcbd51985091d1b156d3bba7eddf2a26dac349522c53fb34a8",
+    "outputSHA256": "f809e0a8b7734bb536ac33a6ed78b057e2f2c4e105514468b481a118e1e149de",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "rm_rick.iwi": {
+    "originalSHA256": "11cb6901c7348dac1d0cdc764fdf8f45141d3a09edd46c15ccb94e01fc0aa0fd",
+    "outputSHA256": "bb956b8adbfe32bf79eda35b1d51aefd9ae0c1e00cfddbeaada0c7591234f63c",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "space_robot_kyle_color.iwi": {
+    "originalSHA256": "62014fb058e36371f4ad301b7cab06c32732a9efb0eb2a2a44eeae3a48b09581",
+    "outputSHA256": "7d2d337ea13941858b64493c25f4538f4f5b8f5ebd08a10f51b78262c3971bfd",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "space_robot_kyle_normal.iwi": {
+    "originalSHA256": "db5db4188a2b244a53157bad0b8728e9aea94d4ff45de1f8d98dc9c82fdf092d",
+    "outputSHA256": "d1bbbb0e3878e5da0dc1a047e794a1cd1ec53a4d525af5a98a42d70331fda696",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "t_f_med_valor_01_body_d.iwi": {
+    "originalSHA256": "1db505230e5c186cb7ef8458b8c578f919704588e5920c490e0b1dad4490a9fd",
+    "outputSHA256": "80aec412fddee8ffd8cf46b70206e7fca32c8ba9fea527cc7837489370c2d960",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "t_f_med_valor_head_01_d.iwi": {
+    "originalSHA256": "66570304d221aba196af5b07470f8253b68100523b7334d2ed46c8f5c56d06f0",
+    "outputSHA256": "4c7ad7202e2556949a238793da93484c5d11b3ea4fbe5e17d1b50b4b196dbde3",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "v_pist_223.iwi": {
+    "originalSHA256": "02872a21dd4f42d988e4d8e138b794b66847608f42b51c6174a937f4fa6fe41a",
+    "outputSHA256": "8180e3d51d6e0e3c367ab16a1ab0d1cb869d52a995e48be9ce4dc94eba992a36",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_223_n.iwi": {
+    "originalSHA256": "57f27651740c4c51781dc1d48faa86b700115f89520e5f95ec9378347ef3a09b",
+    "outputSHA256": "fdc19703f645246d358f62bf55643f1f6f8610da4535f4e420de2ae952e7d7a0",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_fiveseven.iwi": {
+    "originalSHA256": "a8f13fa3c2e4872e803f19589f311d4c0ecd8556aacb2be02d375e5e6d20688c",
+    "outputSHA256": "c967e8a99acfe05492df53719091b83027741dc207840be30999cf1d0cef00e9",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_fiveseven_n.iwi": {
+    "originalSHA256": "76a40d952681396e3fad545cc372673c899bd58a5c45a0a1cc6589dc78f58e45",
+    "outputSHA256": "351587d2b244e28ba8c4a7753ebd996879c0e89ad3ac9430b27aa200225067f9",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_p2000.iwi": {
+    "originalSHA256": "67a0e41a1cc9612f19435ffe9e4fe081fcf21fa7398901e4af45e5eb26bb76ee",
+    "outputSHA256": "1cd653cc80b8a6798bc17c99cd8543a7d34f63e61871dae739d6eec4e1138eef",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_p2000_n.iwi": {
+    "originalSHA256": "1399b8f01e7c4357365912c15f85adb98a23a2b836bcbb817a9e17eaf2fd3d0b",
+    "outputSHA256": "0a50daa043dbe94d565c7b27e01b561f33c3cf7ea2a78e591839bf4d0efbf2ec",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_tec9.iwi": {
+    "originalSHA256": "32518c910ce533f5d99fa4f212ab976a4a864a8249215393ea19f3540505f3d6",
+    "outputSHA256": "c558268dfc7fa49324abe892260011bfa0fd958a3b6ecfa4a2c354024844ce40",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_pist_tec9_n.iwi": {
+    "originalSHA256": "9e016d7d7f39220b5c0231a9bb7e2b65adc0ee91cd939b37f22cdfdd2c9febcb",
+    "outputSHA256": "a48d8e7a30202ca54f60a35ed104bc5b5d12e710fa1072724cc55162b221102e",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_snip_awp.iwi": {
+    "originalSHA256": "be104f2a01ab8c7516b88391de24d0fef090d2dbbb1fc5acc6dc604b7f54dfce",
+    "outputSHA256": "80851baf47d14d26b80abec20f784380acf1bb1a2c842ab8d281c9941a632870",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "v_snip_awp_n.iwi": {
+    "originalSHA256": "3acdb625f3bb2d0cbd7951e9e2f936dd51129a598d67ba7c072e0467fb610955",
+    "outputSHA256": "d4850c8a58176576cb75f3edfbd82651a9b53c2155dff7c2b0014630f19d73b3",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "viewmodel_ger_waffen_rolledup_c.iwi": {
+    "originalSHA256": "52dc1cb2ee3958b342a72269846b2dced2d2d73c210f00fbcec9093b84c80580",
+    "outputSHA256": "26cfd525aeabb9181b22a759bf215dd2fc8b9d43ff2380ada87433659b183c6e",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "wea_cheytac_cheytac_col.iwi": {
+    "originalSHA256": "65b307feba0fc955eb0aab8273e32fcae278bbacd4518da574b0be8f87c03dd0",
+    "outputSHA256": "ead200d817968d6c80dc612620ef9f9d554589901c1bb66a00677b93e1767f1c",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "wea_cheytac_cheytac_nml.iwi": {
+    "originalSHA256": "6c17c60e6f16455b73642b7b8e83cfb56d37723f03efdd660719b7ad6c9dae21",
+    "outputSHA256": "765d6adce2147a234f1d8723006319d1df879c5b607d6f3654eb7b418b6d9047",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "weapon_arx160_col.iwi": {
+    "originalSHA256": "f6f78545e7a5a9a9ae20690d328d2b54cca59849e18d723d1c6684d85eef0582",
+    "outputSHA256": "2fea16658a15d961dee7125203d7d60c25d70e353be7c4e8d8a501db428b57c5",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "weapon_arx160_nml.iwi": {
+    "originalSHA256": "ff53bd9c5ddf522f41e2a606133b760d6e88951279791c67affd25181873f61a",
+    "outputSHA256": "010318149fdbdf403d881df57909e4e1cbf56fee85932b3500b546148ec78bca",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_clawsuper_arm_n.iwi": {
+    "originalSHA256": "3d04b7786c5062e8186f3d4a4064ac4cce4f63f1e1cd3363d67279eb44a0f21f",
+    "outputSHA256": "96543a03a671a321272c422f30afc2a8b1ccb6598c39afd3b1828ef270c0577b",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_clawsuper_body_n.iwi": {
+    "originalSHA256": "6b2a40162c0bcfb4f947eaedbfd457df91ace39ab9bea6ea3981176b03eb1f5e",
+    "outputSHA256": "317f52a85648c4834710bdc2cda55e8b8d2bacf05f8102a1548541985b0473cc",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_k7_col.iwi": {
+    "originalSHA256": "29ad59767921a759a9c4ce565183fbc93fcd309ac0a6474d03b4d7944c92c4d7",
+    "outputSHA256": "8353a482cac18a4965e9fcf97a2cf4dfa9e629bb6ddbe03acd58ca5f79a5ca53",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_kac_chainsaw_col.iwi": {
+    "originalSHA256": "2d02a655063ccc1a567aed736903f4d0487ade18f7770b9b79ce52607bff0121",
+    "outputSHA256": "db156ea4381c345128cd5c5056ee14a9876c27e874de9805ea2775a3ddc99432",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "weapon_kac_chainsaw_nml.iwi": {
+    "originalSHA256": "77dd5b94cba9de272863a21bc351c9f0a982703d3b7e61097d05588cc86596cc",
+    "outputSHA256": "ca6aa529b796d3b546aaea22ff8a6592ec3646c4cc7d4733a8f23e59353308be",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_usr_col.iwi": {
+    "originalSHA256": "cd1d7c9127ed1d040ebaaa95c136adadc2632281784543ed7ae3d0f9d976c8a7",
+    "outputSHA256": "87b13818d6f5639d72f9d3484efea5254b887ac1454a0925ee04b850980feabc",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "weapon_usr_nml.iwi": {
+    "originalSHA256": "c3aef103c8cbe53b64d6a81fc3bbfb83e55d697be357a0cf99797369c8f6c774",
+    "outputSHA256": "4cd95f95f41fb6cf167412b75d92d7eba4dceb1249223eae01cc99da75196a8f",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "world_war_zombie_diffuse.iwi": {
+    "originalSHA256": "68f76259dd3478189edcdca1e3b9983e089c6d6fb1a6c48bb5cb596751f56e03",
+    "outputSHA256": "c6ac852e99cd161d3cdaffe5cfe523346505eaac4fa287461047a139f8acfc17",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "world_war_zombie_normal.iwi": {
+    "originalSHA256": "43fe00f07e0a676af3ef8b7732440b09b653713b4dda1fdc6e54a8c510fe6a13",
+    "outputSHA256": "c5dc269d198ef5197a110b6aafd37db262d00b300642e79dedd5cd382f6a7641",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "wpn_h1_pst_m1911_body_col.iwi": {
+    "originalSHA256": "daaf3593496d91f87b38a58a7f5ed81efc8c9e6a268e0fb27284512ac24fe182",
+    "outputSHA256": "61932f90c5a298d100c1927a63ae082898ad5f6a4243d614dac29efafba337fe",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "wpn_h1_pst_m1911_body_nml.iwi": {
+    "originalSHA256": "fa336ac853ea01b24fedb10cc0c0e08990fcb870f597d6b6804481b7cdfad761",
+    "outputSHA256": "c384770c4975dc8d1ef55d588ce0bac7473aa5335809dce6353f089feccbb543",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "wpn_h1_sni_m40a3_receiver_col.iwi": {
+    "originalSHA256": "965e523176c00abe199391a4532c06e7699a56d11e9850c940ff7d21af947b7d",
+    "outputSHA256": "7ce7c247d69e19b869704dced71ea18181869706f14edbe6a438e58fd67261ae",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "wpn_h1_sni_m40a3_receiver_nml.iwi": {
+    "originalSHA256": "dbd5c9dcbe74e377f48c7ef9c62015bef3e14705450c224f648e4cc60ecf6326",
+    "outputSHA256": "2cae9e1a25ac1d592055c06ed806948ba49f5a6eb2d19189d415bf811c387df0",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "wpn_h1_sni_m40a3_stock_col.iwi": {
+    "originalSHA256": "e40526c273dbf76b5a7ee519421ac70debdd60c4691b51e5bae8d4b088fd8b93",
+    "outputSHA256": "27ec86e9b31d72b8a6a94cb54750d0214b94b3d74383c10997f038844b5f3937",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "wpn_h1_sni_m40a3_stock_nml.iwi": {
+    "originalSHA256": "ee84cbd975c5b66884a6d48588879089abef3c3e88310da8cb9e0eb3de74fc43",
+    "outputSHA256": "31760ac39ef9aa6e2012b19ad990a5820c18b68bdcf5a5d0436356c62f665214",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "ww2_bat_col.iwi": {
+    "originalSHA256": "5df63f24fdb7dc97e1709eddee24c58a852044de68e949d7b37215a7aa038e54",
+    "outputSHA256": "fc52da334564e7880db6bef2bf3b7d6134b40e09c2b14e07ee6d6655839d3b9d",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 1048576
+  },
+  "ww2_bat_nml.iwi": {
+    "originalSHA256": "aeef45bb2a573a2307045e619bf779db054512c64466bc25eb5ece0052b4c9e4",
+    "outputSHA256": "80543c98bcb64fa514e11fa2fe321dea03909f20f5f2630b95b739d6193f4643",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~bountyhunter_spc-rgb&$white-l-11.iwi": {
+    "originalSHA256": "60ad452e6559c36f7d9194a26ffdc8f48002c32b4d2847b29df3473a1ce13fda",
+    "outputSHA256": "457433c00a266d8ac0435c56c219c26f62dca363f3cdd80c7c148d7e4984dd2e",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~domino_body_s-rgb&$white-l-11.iwi": {
+    "originalSHA256": "2898f39f84e5b3f2fda497f6e6f6eba313a365fd08eca16a9bdef68ae139c910",
+    "outputSHA256": "ac2f1c234ecbc0472c054dd642f76e4ba68343f10b02135493f07a71c2f2be06",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~f_med_asn_sarah_head_d_spec-~d2eac9f8.iwi": {
+    "originalSHA256": "ada0073eacd990f9e763e9381e51853eb5dc69a9cd654721730f4160a55ba302",
+    "outputSHA256": "dfed45fddbf5bd6ff4654f0e2f3817a86879f8fde84ae45b4808949339b748ab",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~fc4_870_sc-rgb&fc4_870_sp-l-11.iwi": {
+    "originalSHA256": "5d9457b383348b704dc171bba5103250d67cfa96ee9a54adf8c62e555581711b",
+    "outputSHA256": "4784f4d594ddd68d101ca95a7355d260e412a9e6ee5b2b7acaeeb8e4127c8846",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~graffiti_body_d_s-rgb&$white-l-11.iwi": {
+    "originalSHA256": "3bbbfd7b6057af4f6cf0d0b22c4545dbaf2945afe22ad2333f1d0de9ddd4419b",
+    "outputSHA256": "2a8c01b0b0259dd06567458eeb0632ae9744c84888385d421b6d0957463ef4c4",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mtl_bo3_cqw_main1_spc-rgb&mt~cbd8448b.iwi": {
+    "originalSHA256": "21ae4642c1c90d0f9f9bc31c85b1e781e139002a772cd7f18aeb1380c1b4905b",
+    "outputSHA256": "e1da3947a62af680e9f55c0fd44564f6a2be8baccb0c2788d28f5df44ac8e5d4",
+    "sourceDimensions": [
+      1024,
+      2048
+    ],
+    "runtimeDimensions": [
+      512,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "~mtl_bo3_cqw_main2_spc-rgb&mt~86074915.iwi": {
+    "originalSHA256": "d7bd748bc9bd9c0b1bb999a1c96634dce274431bf7392664e78dd88197e64baf",
+    "outputSHA256": "08a0036af3abae01e07b66b0d3e712d8900339cbc21f56c315ed65d3b4ca2d30",
+    "sourceDimensions": [
+      1024,
+      2048
+    ],
+    "runtimeDimensions": [
+      512,
+      1024
+    ],
+    "savedBytes": 2097152
+  },
+  "~mtl_usa_m1911_slide_spc-rgb&~1209161d.iwi": {
+    "originalSHA256": "4e86047629dcbf2dee6b9c38f20578fe5097c8f720501492aba9c4898199225f",
+    "outputSHA256": "1f362f871775f2567983aab825c01f4e6b726ed96d5b6791bac5b2f15997a760",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~mw_charlie725_spc-rgb&mw_cha~c90d7d85.iwi": {
+    "originalSHA256": "e727421ff18431692b6ee7a0ae3c756e1823743ab8f0595b032f73a44b8e242a",
+    "outputSHA256": "2d0d0fc665b5babf26cbedee994c9143eb7da46c55b2ec3759862b8d9bc8641d",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mwr_acog_spc-rgb&mwr_acog_cos-l-11.iwi": {
+    "originalSHA256": "db1472f7b4c1ab6d4355292b6d1d0001d3e52de1dc22ae6040b34e755ce20f3d",
+    "outputSHA256": "b9f48fd340467aca5ad956c6935043f8c7f1abf4e9294dcf91a2516cfdf1d420",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mwr_ak74u_receiver_spc-rgb&m~d928cf76.iwi": {
+    "originalSHA256": "91e81d06771c4ad5296ae7b6d47b608199f183012ae33e9004b43d142670d326",
+    "outputSHA256": "e084b44695d5f1c02f26ed9d642035131059c499a1e45b9972bdcb42c9d061c7",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mwr_m40a3_receiver_spc-rgb&m~21ef353a.iwi": {
+    "originalSHA256": "572df1c6271ec8a45abd93ecea8e3440b8af95dbbb1b13194d9c7672dc45fd33",
+    "outputSHA256": "f0db7768664e0e650261a39ebd6a37717e399f219099b9ddd6f8d8017592ac3b",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mwr_m40a3_stock_spc-rgb&mwr_~b7b190d8.iwi": {
+    "originalSHA256": "2b0b6a758cb0ec382de9784d12a01c5e87b7637786e0136d264006187df190ad",
+    "outputSHA256": "0d17fd64eff1c21be5def4dd3e09c81ecc8f6d8030ad25d2eef02394eaaa9964",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~mwr_r700_receiver_spc-rgb&mw~addc43c8.iwi": {
+    "originalSHA256": "52c1358e2879526e549759faec8aa9f0971408d7f34196411b2909006abfc38f",
+    "outputSHA256": "e7feb358b3d9c5e143b50b5d3b6c0d14099e985fbca872a8c56edc741e93dd33",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~mwr_r700_stock_spc-rgb&mwr_r~3577b535.iwi": {
+    "originalSHA256": "902f7f0cc83305b6b85a16fb592fc2ad396bc197678bf1f49994432c783f0057",
+    "outputSHA256": "c4d4b4fe1df6ea9d28e424a5c6e8719cd10c2187ea419aefd74fc83f63060e21",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~paladinbodymetallic-r-44g-44~c2c34658.iwi": {
+    "originalSHA256": "c52fbec3c7a272f9d39c5c4bb28c36287c78a09853580e95d9f07fdbde91ad11",
+    "outputSHA256": "5e93ebbb2bbd2db261c66495f6d1ec6eba5d8288a1b5cdf8d8e9ec856dddbdcf",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~plr_adolf_hitler_body_spc-rg~d487ed7f.iwi": {
+    "originalSHA256": "4789a3adb40f437ccd30cd2137ec013af37daefb8cba0c05ce059719e9a25ffb",
+    "outputSHA256": "8d01ae9567d1c85801231ef5c9bbf2e36326cc8b0530bb96b3667d3b54454ee1",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~plr_adolf_hitler_head_spc-rg~c39a8b7a.iwi": {
+    "originalSHA256": "7ea4ddac3af25a6b5e735113c565a1f4ff3c0ab131ab54d9957e48b6ffc7bd79",
+    "outputSHA256": "7e4b89d97bb41758bae758717e1f875120a73b1fc84ad3190bad92eb8098c3ef",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~plr_dnf_duke_body_spc-rgb&pl~1abecb57.iwi": {
+    "originalSHA256": "8e13a038197116932a58bc13caa090a5b1bf1f66942282fd655be71ffaf6699a",
+    "outputSHA256": "2c8111f916a460602859ed9799bdc014db8305341b067feca3e3101bd2e2a161",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~rb_mirage_textset_masks_norm~468dd65d.iwi": {
+    "originalSHA256": "3a0c0f31b759f48ad1f4268b220f298562d510a661ba9f05b14b30a41b639757",
+    "outputSHA256": "cc099fed682f6168965c589378c75e012d3fbe535203b5316e3aa64e6939f402",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~space_robot_kyle_specular-rg~bb1ac844.iwi": {
+    "originalSHA256": "e4f71dc0b8a56d1e30599b274bd9a7fc54db9b2acf2525f1f98e460a12cb3ebf",
+    "outputSHA256": "57505ae1da1e2b8094977808efc97959710402c1ca57dd7aec8f600e0a0121f7",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~v_pist_223_s-r-44g-44b-44&$white-l73.iwi": {
+    "originalSHA256": "55afbb5faa9d4f92ce641c1de0a54d39a4768a34f348cb8aa5413f0d6ce132cf",
+    "outputSHA256": "1315d60d63243fa19757f654d7238df496635ff33cd041e02a6360b20a332221",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~v_pist_fiveseven_s-r-44g-44b~391c120f.iwi": {
+    "originalSHA256": "ad2c6e8a2ea3dc4e50c08ae8f8427bea2e2cdc7addca6cc21a69ac7cd191851f",
+    "outputSHA256": "8e163a201695a8199f6c7d349b361df52303778ad8e1245bd614e0652fd9ebc2",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~v_pist_p2000_s-r-44g-44b-44&~7596c66b.iwi": {
+    "originalSHA256": "2a13777c4e031e869f3bd49449d81e22574223bcca3d04f69cceab4abcf9724f",
+    "outputSHA256": "e78ab046f4b6c6d7958d99a5f04cf6102ad52dd38c8824d7a8912ae482c9da75",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~v_pist_tec9_s-r-44g-44b-44&$white-l73.iwi": {
+    "originalSHA256": "3d17cabdccc0ef8326193ba3812178f16e359164919a11919c37126e91fbc9af",
+    "outputSHA256": "913cd8d3c374d28f08dee04250a159875ee0cd6da6647c780ff2096b1a2eaee8",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~wea_cheytac_cheytac_spc-rgb&~95e271d6.iwi": {
+    "originalSHA256": "713ca0e635da8e129a0767090f7426bf8815eb8a9ca29cbf81dfca48755b5f51",
+    "outputSHA256": "c4fde8e92ab8d5bbfd5a166d73bc588ec6b0cb338dd15c4e76835ce985b2ada7",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  },
+  "~weapon_arx160_spc-rgb&weapon~1f2b12aa.iwi": {
+    "originalSHA256": "a679fc3b536e4aed92425ae30580755e3e64de30cd6d2a439f19db11d7143d22",
+    "outputSHA256": "218521ea488f4005d06e721f372ee2c183b9de5b6fc6786138942f724f0a14f7",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~weapon_clawsuper_arm_s-rgb&$~ae6da276.iwi": {
+    "originalSHA256": "2e8ae9f3f1373252b889717c72875f1b4c8bf886dfc9b389f28614dfa55c0a24",
+    "outputSHA256": "d005007f68954330ed930694f4512eb480b46214500adbc19ec2956a668aea30",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~weapon_clawsuper_body_s-rgb&~9706a770.iwi": {
+    "originalSHA256": "b81c6b02c2adaa6ccca49720caae4e65a0fe80dad5df76e90851e1fbd2314e32",
+    "outputSHA256": "353b64674d7621610ef70e3328db73fdf690756f32250c75ffd16566c5d163ba",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~weapon_kac_chainsaw_spc-rgb&~0bac19af.iwi": {
+    "originalSHA256": "5631db9e138166ea6e15aff3b23b1130ddb1677a329585ca7e47daedbf621701",
+    "outputSHA256": "e4d1d45fb4d6e25e114ff37be62e20bcf9a7c5a8ccb0f531c7f8af444acf3b30",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~weapon_usr_spc_col-rgb&weapo~0cba61e3.iwi": {
+    "originalSHA256": "b683d4db7161d33860c3aeca54353fa73456192af7a5abe369e8f6c758fe85fd",
+    "outputSHA256": "cd31df6e1be807385b6e8773fb0f0875c41d1f37a81f8050ad98d823bdc0f29f",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~world_war_zombie_specular-r-~5360d36a.iwi": {
+    "originalSHA256": "d2cd858e1e2fd27e65b34e8ee08e126388024a98c832b2eab0b84359b43d33c0",
+    "outputSHA256": "d3551190b91d4ce0fc5b962f887e29e09e8a198a0816afca2aec8181d12e3970",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~wpn_h1_pst_m1911_body_spc-rg~34b69f06.iwi": {
+    "originalSHA256": "7606098fc1d2fba911acf713c8338d5e6bab00e9bba210cd4f49e6f849c96b18",
+    "outputSHA256": "b259892b91821add45102928daa5adf98fd4d5e2e44a07d487ef76d3dddf0f6b",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~wpn_h1_sni_m40a3_receiver_sp~642f96bc.iwi": {
+    "originalSHA256": "96f5ab2c5e00ac42edb03aaed53f1948acfbeecbb7d3e365ff18dc413587c63c",
+    "outputSHA256": "8eeb1de8797367f38ac16a5a7a095b56b0f04fd516e9d82000af0c33f4f6de90",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~wpn_h1_sni_m40a3_stock_spc-r~6a3a9bfa.iwi": {
+    "originalSHA256": "43bdfe25b2a06f9c4e4a234919a484820c15257afe20e352daded26c75c64422",
+    "outputSHA256": "737396d18d20d6023583bb8d83ee7d9034889e0e4587a7cf40e3035fd9675e26",
+    "sourceDimensions": [
+      2048,
+      2048
+    ],
+    "runtimeDimensions": [
+      1024,
+      1024
+    ],
+    "savedBytes": 4194304
+  },
+  "~ww2_bat_spc-rgb&ww2_bat_cos-l-11.iwi": {
+    "originalSHA256": "45b745eea829b7d9d85ae274ba961488197f3bed1bd8db5a80effa3a1952a3c7",
+    "outputSHA256": "81b1f43d44b913bba02e8f013bb27cf71940fd20f02989dedef6265888ce35a5",
+    "sourceDimensions": [
+      2048,
+      1024
+    ],
+    "runtimeDimensions": [
+      1024,
+      512
+    ],
+    "savedBytes": 2097152
+  }
+}

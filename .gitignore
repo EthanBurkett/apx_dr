@@ -1,0 +1,36 @@
+# Build products, downloaded archives, recovery snapshots and local databases
+/dist/
+/build/
+/content-check/
+/.codex-backups/
+/graphify-out/
+/.graphify_cache/
+*.ff
+*.iwd
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Operator secrets, including nested fixture copies
+private.cfg
+private.*.cfg
+!private.example.cfg
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,2864 @@
+[
+  {
+    "key": "character:0",
+    "model": "body_mp_sas_urban_sniper",
+    "category": "character",
+    "id": 0,
+    "label": "Marine",
+    "view": "front",
+    "name": "apx_preview_character_0"
+  },
+  {
+    "key": "character:0",
+    "model": "body_mp_sas_urban_sniper",
+    "category": "character",
+    "id": 0,
+    "label": "Marine",
+    "view": "back",
+    "name": "apx_preview_character_0_back"
+  },
+  {
+    "key": "character:4",
+    "model": "body_zoey",
+    "category": "character",
+    "id": 4,
+    "label": "Zoey",
+    "view": "front",
+    "name": "apx_preview_character_4"
+  },
+  {
+    "key": "character:4",
+    "model": "body_zoey",
+    "category": "character",
+    "id": 4,
+    "label": "Zoey",
+    "view": "back",
+    "name": "apx_preview_character_4_back"
+  },
+  {
+    "key": "character:5",
+    "model": "body_shepherd",
+    "category": "character",
+    "id": 5,
+    "label": "General Shepherd",
+    "view": "front",
+    "name": "apx_preview_character_5"
+  },
+  {
+    "key": "character:5",
+    "model": "body_shepherd",
+    "category": "character",
+    "id": 5,
+    "label": "General Shepherd",
+    "view": "back",
+    "name": "apx_preview_character_5_back"
+  },
+  {
+    "key": "character:6",
+    "model": "body_masterchief",
+    "category": "character",
+    "id": 6,
+    "label": "Masterchief",
+    "view": "front",
+    "name": "apx_preview_character_6"
+  },
+  {
+    "key": "character:6",
+    "model": "body_masterchief",
+    "category": "character",
+    "id": 6,
+    "label": "Masterchief",
+    "view": "back",
+    "name": "apx_preview_character_6_back"
+  },
+  {
+    "key": "character:7",
+    "model": "body_makarov",
+    "category": "character",
+    "id": 7,
+    "label": "Makarov",
+    "view": "front",
+    "name": "apx_preview_character_7"
+  },
+  {
+    "key": "character:7",
+    "model": "body_makarov",
+    "category": "character",
+    "id": 7,
+    "label": "Makarov",
+    "view": "back",
+    "name": "apx_preview_character_7_back"
+  },
+  {
+    "key": "character:8",
+    "model": "body_juggernaut",
+    "category": "character",
+    "id": 8,
+    "label": "Juggernaut",
+    "view": "front",
+    "name": "apx_preview_character_8"
+  },
+  {
+    "key": "character:8",
+    "model": "body_juggernaut",
+    "category": "character",
+    "id": 8,
+    "label": "Juggernaut",
+    "view": "back",
+    "name": "apx_preview_character_8_back"
+  },
+  {
+    "key": "character:10",
+    "model": "body_alice",
+    "category": "character",
+    "id": 10,
+    "label": "Alice",
+    "view": "front",
+    "name": "apx_preview_character_10"
+  },
+  {
+    "key": "character:10",
+    "model": "body_alice",
+    "category": "character",
+    "id": 10,
+    "label": "Alice",
+    "view": "back",
+    "name": "apx_preview_character_10_back"
+  },
+  {
+    "key": "character:11",
+    "model": "body_50cent",
+    "category": "character",
+    "id": 11,
+    "label": "50 Cent",
+    "view": "front",
+    "name": "apx_preview_character_11"
+  },
+  {
+    "key": "character:11",
+    "model": "body_50cent",
+    "category": "character",
+    "id": 11,
+    "label": "50 Cent",
+    "view": "back",
+    "name": "apx_preview_character_11_back"
+  },
+  {
+    "key": "character:12",
+    "model": "mp_body_iw4_seal_udt_ghost",
+    "category": "character",
+    "id": 12,
+    "label": "COD MW2 Seal UDT Ghost",
+    "view": "front",
+    "name": "apx_preview_character_12"
+  },
+  {
+    "key": "character:12",
+    "model": "mp_body_iw4_seal_udt_ghost",
+    "category": "character",
+    "id": 12,
+    "label": "COD MW2 Seal UDT Ghost",
+    "view": "back",
+    "name": "apx_preview_character_12_back"
+  },
+  {
+    "key": "character:13",
+    "model": "playermodel_mandalorian",
+    "category": "character",
+    "id": 13,
+    "label": "The Mandalorian",
+    "view": "front",
+    "name": "apx_preview_character_13"
+  },
+  {
+    "key": "character:13",
+    "model": "playermodel_mandalorian",
+    "category": "character",
+    "id": 13,
+    "label": "The Mandalorian",
+    "view": "back",
+    "name": "apx_preview_character_13_back"
+  },
+  {
+    "key": "character:14",
+    "model": "plr_mrh_hermione",
+    "category": "character",
+    "id": 14,
+    "label": "Hermione",
+    "view": "front",
+    "name": "apx_preview_character_14"
+  },
+  {
+    "key": "character:14",
+    "model": "plr_mrh_hermione",
+    "category": "character",
+    "id": 14,
+    "label": "Hermione",
+    "view": "back",
+    "name": "apx_preview_character_14_back"
+  },
+  {
+    "key": "character:15",
+    "model": "plr_mrheyley_venom",
+    "category": "character",
+    "id": 15,
+    "label": "Venom",
+    "view": "front",
+    "name": "apx_preview_character_15"
+  },
+  {
+    "key": "character:15",
+    "model": "plr_mrheyley_venom",
+    "category": "character",
+    "id": 15,
+    "label": "Venom",
+    "view": "back",
+    "name": "apx_preview_character_15_back"
+  },
+  {
+    "key": "character:16",
+    "model": "plr_mrh_sedtp",
+    "category": "character",
+    "id": 16,
+    "label": "Sed",
+    "view": "front",
+    "name": "apx_preview_character_16"
+  },
+  {
+    "key": "character:16",
+    "model": "plr_mrh_sedtp",
+    "category": "character",
+    "id": 16,
+    "label": "Sed",
+    "view": "back",
+    "name": "apx_preview_character_16_back"
+  },
+  {
+    "key": "character:17",
+    "model": "plr_mrh_djskully",
+    "category": "character",
+    "id": 17,
+    "label": "DJ Scully",
+    "view": "front",
+    "name": "apx_preview_character_17"
+  },
+  {
+    "key": "character:17",
+    "model": "plr_mrh_djskully",
+    "category": "character",
+    "id": 17,
+    "label": "DJ Scully",
+    "view": "back",
+    "name": "apx_preview_character_17_back"
+  },
+  {
+    "key": "character:18",
+    "model": "playermodel_iron_spider",
+    "category": "character",
+    "id": 18,
+    "label": "Iron Spider",
+    "view": "front",
+    "name": "apx_preview_character_18"
+  },
+  {
+    "key": "character:18",
+    "model": "playermodel_iron_spider",
+    "category": "character",
+    "id": 18,
+    "label": "Iron Spider",
+    "view": "back",
+    "name": "apx_preview_character_18_back"
+  },
+  {
+    "key": "character:19",
+    "model": "brigitte",
+    "category": "character",
+    "id": 19,
+    "label": "Brigitte",
+    "view": "front",
+    "name": "apx_preview_character_19"
+  },
+  {
+    "key": "character:19",
+    "model": "brigitte",
+    "category": "character",
+    "id": 19,
+    "label": "Brigitte",
+    "view": "back",
+    "name": "apx_preview_character_19_back"
+  },
+  {
+    "key": "character:20",
+    "model": "alucard",
+    "category": "character",
+    "id": 20,
+    "label": "Alucard",
+    "view": "front",
+    "name": "apx_preview_character_20"
+  },
+  {
+    "key": "character:20",
+    "model": "alucard",
+    "category": "character",
+    "id": 20,
+    "label": "Alucard",
+    "view": "back",
+    "name": "apx_preview_character_20_back"
+  },
+  {
+    "key": "character:21",
+    "model": "plr_serious_sam",
+    "category": "character",
+    "id": 21,
+    "label": "Serious Sam",
+    "view": "front",
+    "name": "apx_preview_character_21"
+  },
+  {
+    "key": "character:21",
+    "model": "plr_serious_sam",
+    "category": "character",
+    "id": 21,
+    "label": "Serious Sam",
+    "view": "back",
+    "name": "apx_preview_character_21_back"
+  },
+  {
+    "key": "character:22",
+    "model": "freeman",
+    "category": "character",
+    "id": 22,
+    "label": "Gordon Freeman",
+    "view": "front",
+    "name": "apx_preview_character_22"
+  },
+  {
+    "key": "character:22",
+    "model": "freeman",
+    "category": "character",
+    "id": 22,
+    "label": "Gordon Freeman",
+    "view": "back",
+    "name": "apx_preview_character_22_back"
+  },
+  {
+    "key": "character:23",
+    "model": "rick_model",
+    "category": "character",
+    "id": 23,
+    "label": "Rick Sanchez Model",
+    "view": "front",
+    "name": "apx_preview_character_23"
+  },
+  {
+    "key": "character:23",
+    "model": "rick_model",
+    "category": "character",
+    "id": 23,
+    "label": "Rick Sanchez Model",
+    "view": "back",
+    "name": "apx_preview_character_23_back"
+  },
+  {
+    "key": "character:24",
+    "model": "lion",
+    "category": "character",
+    "id": 24,
+    "label": "Lion",
+    "view": "front",
+    "name": "apx_preview_character_24"
+  },
+  {
+    "key": "character:24",
+    "model": "lion",
+    "category": "character",
+    "id": 24,
+    "label": "Lion",
+    "view": "back",
+    "name": "apx_preview_character_24_back"
+  },
+  {
+    "key": "character:25",
+    "model": "plr_terry_elfgirl",
+    "category": "character",
+    "id": 25,
+    "label": "Elf Girl",
+    "view": "front",
+    "name": "apx_preview_character_25"
+  },
+  {
+    "key": "character:25",
+    "model": "plr_terry_elfgirl",
+    "category": "character",
+    "id": 25,
+    "label": "Elf Girl",
+    "view": "back",
+    "name": "apx_preview_character_25_back"
+  },
+  {
+    "key": "character:26",
+    "model": "plr_terry_dragonwarrior",
+    "category": "character",
+    "id": 26,
+    "label": "Dragon Warrior",
+    "view": "front",
+    "name": "apx_preview_character_26"
+  },
+  {
+    "key": "character:26",
+    "model": "plr_terry_dragonwarrior",
+    "category": "character",
+    "id": 26,
+    "label": "Dragon Warrior",
+    "view": "back",
+    "name": "apx_preview_character_26_back"
+  },
+  {
+    "key": "character:27",
+    "model": "plr_terry_steve",
+    "category": "character",
+    "id": 27,
+    "label": "Steve(Minecraft)",
+    "view": "front",
+    "name": "apx_preview_character_27"
+  },
+  {
+    "key": "character:27",
+    "model": "plr_terry_steve",
+    "category": "character",
+    "id": 27,
+    "label": "Steve(Minecraft)",
+    "view": "back",
+    "name": "apx_preview_character_27_back"
+  },
+  {
+    "key": "character:28",
+    "model": "plr_terry_maven",
+    "category": "character",
+    "id": 28,
+    "label": "Maven",
+    "view": "front",
+    "name": "apx_preview_character_28"
+  },
+  {
+    "key": "character:28",
+    "model": "plr_terry_maven",
+    "category": "character",
+    "id": 28,
+    "label": "Maven",
+    "view": "back",
+    "name": "apx_preview_character_28_back"
+  },
+  {
+    "key": "character:29",
+    "model": "plr_terry_hulk",
+    "category": "character",
+    "id": 29,
+    "label": "Hulk",
+    "view": "front",
+    "name": "apx_preview_character_29"
+  },
+  {
+    "key": "character:29",
+    "model": "plr_terry_hulk",
+    "category": "character",
+    "id": 29,
+    "label": "Hulk",
+    "view": "back",
+    "name": "apx_preview_character_29_back"
+  },
+  {
+    "key": "character:30",
+    "model": "plr_terry_johnwick",
+    "category": "character",
+    "id": 30,
+    "label": "John Wick",
+    "view": "front",
+    "name": "apx_preview_character_30"
+  },
+  {
+    "key": "character:30",
+    "model": "plr_terry_johnwick",
+    "category": "character",
+    "id": 30,
+    "label": "John Wick",
+    "view": "back",
+    "name": "apx_preview_character_30_back"
+  },
+  {
+    "key": "character:31",
+    "model": "plr_terry_helldemon",
+    "category": "character",
+    "id": 31,
+    "label": "Hell Demon",
+    "view": "front",
+    "name": "apx_preview_character_31"
+  },
+  {
+    "key": "character:31",
+    "model": "plr_terry_helldemon",
+    "category": "character",
+    "id": 31,
+    "label": "Hell Demon",
+    "view": "back",
+    "name": "apx_preview_character_31_back"
+  },
+  {
+    "key": "character:32",
+    "model": "plr_terry_police",
+    "category": "character",
+    "id": 32,
+    "label": "Police Officer",
+    "view": "front",
+    "name": "apx_preview_character_32"
+  },
+  {
+    "key": "character:32",
+    "model": "plr_terry_police",
+    "category": "character",
+    "id": 32,
+    "label": "Police Officer",
+    "view": "back",
+    "name": "apx_preview_character_32_back"
+  },
+  {
+    "key": "character:33",
+    "model": "plr_terry_malice",
+    "category": "character",
+    "id": 33,
+    "label": "Malice",
+    "view": "front",
+    "name": "apx_preview_character_33"
+  },
+  {
+    "key": "character:33",
+    "model": "plr_terry_malice",
+    "category": "character",
+    "id": 33,
+    "label": "Malice",
+    "view": "back",
+    "name": "apx_preview_character_33_back"
+  },
+  {
+    "key": "character:34",
+    "model": "plr_terry_motoko",
+    "category": "character",
+    "id": 34,
+    "label": "Motoko Kusanagi",
+    "view": "front",
+    "name": "apx_preview_character_34"
+  },
+  {
+    "key": "character:34",
+    "model": "plr_terry_motoko",
+    "category": "character",
+    "id": 34,
+    "label": "Motoko Kusanagi",
+    "view": "back",
+    "name": "apx_preview_character_34_back"
+  },
+  {
+    "key": "character:35",
+    "model": "plr_terry_lynx",
+    "category": "character",
+    "id": 35,
+    "label": "Lynx",
+    "view": "front",
+    "name": "apx_preview_character_35"
+  },
+  {
+    "key": "character:35",
+    "model": "plr_terry_lynx",
+    "category": "character",
+    "id": 35,
+    "label": "Lynx",
+    "view": "back",
+    "name": "apx_preview_character_35_back"
+  },
+  {
+    "key": "character:36",
+    "model": "plr_terry_purpleheart",
+    "category": "character",
+    "id": 36,
+    "label": "Purple Heart",
+    "view": "front",
+    "name": "apx_preview_character_36"
+  },
+  {
+    "key": "character:36",
+    "model": "plr_terry_purpleheart",
+    "category": "character",
+    "id": 36,
+    "label": "Purple Heart",
+    "view": "back",
+    "name": "apx_preview_character_36_back"
+  },
+  {
+    "key": "character:37",
+    "model": "plr_terry_domino",
+    "category": "character",
+    "id": 37,
+    "label": "Domino",
+    "view": "front",
+    "name": "apx_preview_character_37"
+  },
+  {
+    "key": "character:37",
+    "model": "plr_terry_domino",
+    "category": "character",
+    "id": 37,
+    "label": "Domino",
+    "view": "back",
+    "name": "apx_preview_character_37_back"
+  },
+  {
+    "key": "character:38",
+    "model": "plr_terry_scifiheroine",
+    "category": "character",
+    "id": 38,
+    "label": "Sci-Fi Heroine",
+    "view": "front",
+    "name": "apx_preview_character_38"
+  },
+  {
+    "key": "character:38",
+    "model": "plr_terry_scifiheroine",
+    "category": "character",
+    "id": 38,
+    "label": "Sci-Fi Heroine",
+    "view": "back",
+    "name": "apx_preview_character_38_back"
+  },
+  {
+    "key": "character:39",
+    "model": "plr_terry_naruto",
+    "category": "character",
+    "id": 39,
+    "label": "Naruto",
+    "view": "front",
+    "name": "apx_preview_character_39"
+  },
+  {
+    "key": "character:39",
+    "model": "plr_terry_naruto",
+    "category": "character",
+    "id": 39,
+    "label": "Naruto",
+    "view": "back",
+    "name": "apx_preview_character_39_back"
+  },
+  {
+    "key": "character:40",
+    "model": "plr_terry_scififemale",
+    "category": "character",
+    "id": 40,
+    "label": "Sci-Fi Female",
+    "view": "front",
+    "name": "apx_preview_character_40"
+  },
+  {
+    "key": "character:40",
+    "model": "plr_terry_scififemale",
+    "category": "character",
+    "id": 40,
+    "label": "Sci-Fi Female",
+    "view": "back",
+    "name": "apx_preview_character_40_back"
+  },
+  {
+    "key": "character:41",
+    "model": "plr_terry_peely",
+    "category": "character",
+    "id": 41,
+    "label": "Peely",
+    "view": "front",
+    "name": "apx_preview_character_41"
+  },
+  {
+    "key": "character:41",
+    "model": "plr_terry_peely",
+    "category": "character",
+    "id": 41,
+    "label": "Peely",
+    "view": "back",
+    "name": "apx_preview_character_41_back"
+  },
+  {
+    "key": "character:42",
+    "model": "plr_terry_blackpanther",
+    "category": "character",
+    "id": 42,
+    "label": "Black Panther",
+    "view": "front",
+    "name": "apx_preview_character_42"
+  },
+  {
+    "key": "character:42",
+    "model": "plr_terry_blackpanther",
+    "category": "character",
+    "id": 42,
+    "label": "Black Panther",
+    "view": "back",
+    "name": "apx_preview_character_42_back"
+  },
+  {
+    "key": "character:43",
+    "model": "plr_terry_sylvanas",
+    "category": "character",
+    "id": 43,
+    "label": "Sylvanas",
+    "view": "front",
+    "name": "apx_preview_character_43"
+  },
+  {
+    "key": "character:43",
+    "model": "plr_terry_sylvanas",
+    "category": "character",
+    "id": 43,
+    "label": "Sylvanas",
+    "view": "back",
+    "name": "apx_preview_character_43_back"
+  },
+  {
+    "key": "character:44",
+    "model": "plr_terry_thanos",
+    "category": "character",
+    "id": 44,
+    "label": "Thanos",
+    "view": "front",
+    "name": "apx_preview_character_44"
+  },
+  {
+    "key": "character:44",
+    "model": "plr_terry_thanos",
+    "category": "character",
+    "id": 44,
+    "label": "Thanos",
+    "view": "back",
+    "name": "apx_preview_character_44_back"
+  },
+  {
+    "key": "character:45",
+    "model": "plr_terry_teknique",
+    "category": "character",
+    "id": 45,
+    "label": "Teknique",
+    "view": "front",
+    "name": "apx_preview_character_45"
+  },
+  {
+    "key": "character:45",
+    "model": "plr_terry_teknique",
+    "category": "character",
+    "id": 45,
+    "label": "Teknique",
+    "view": "back",
+    "name": "apx_preview_character_45_back"
+  },
+  {
+    "key": "character:46",
+    "model": "plr_john_marston",
+    "category": "character",
+    "id": 46,
+    "label": "John Marston",
+    "view": "front",
+    "name": "apx_preview_character_46"
+  },
+  {
+    "key": "character:46",
+    "model": "plr_john_marston",
+    "category": "character",
+    "id": 46,
+    "label": "John Marston",
+    "view": "back",
+    "name": "apx_preview_character_46_back"
+  },
+  {
+    "key": "character:47",
+    "model": "plr_terry_scorpion",
+    "category": "character",
+    "id": 47,
+    "label": "Scorpion",
+    "view": "front",
+    "name": "apx_preview_character_47"
+  },
+  {
+    "key": "character:47",
+    "model": "plr_terry_scorpion",
+    "category": "character",
+    "id": 47,
+    "label": "Scorpion",
+    "view": "back",
+    "name": "apx_preview_character_47_back"
+  },
+  {
+    "key": "character:48",
+    "model": "plr_terry_ursegor",
+    "category": "character",
+    "id": 48,
+    "label": "Ursegor",
+    "view": "front",
+    "name": "apx_preview_character_48"
+  },
+  {
+    "key": "character:48",
+    "model": "plr_terry_ursegor",
+    "category": "character",
+    "id": 48,
+    "label": "Ursegor",
+    "view": "back",
+    "name": "apx_preview_character_48_back"
+  },
+  {
+    "key": "character:49",
+    "model": "plr_terry_valora",
+    "category": "character",
+    "id": 49,
+    "label": "Valora",
+    "view": "front",
+    "name": "apx_preview_character_49"
+  },
+  {
+    "key": "character:49",
+    "model": "plr_terry_valora",
+    "category": "character",
+    "id": 49,
+    "label": "Valora",
+    "view": "back",
+    "name": "apx_preview_character_49_back"
+  },
+  {
+    "key": "character:50",
+    "model": "plr_terry_necris",
+    "category": "character",
+    "id": 50,
+    "label": "Necris",
+    "view": "front",
+    "name": "apx_preview_character_50"
+  },
+  {
+    "key": "character:50",
+    "model": "plr_terry_necris",
+    "category": "character",
+    "id": 50,
+    "label": "Necris",
+    "view": "back",
+    "name": "apx_preview_character_50_back"
+  },
+  {
+    "key": "character:51",
+    "model": "plr_terry_paladin",
+    "category": "character",
+    "id": 51,
+    "label": "Paladin",
+    "view": "front",
+    "name": "apx_preview_character_51"
+  },
+  {
+    "key": "character:51",
+    "model": "plr_terry_paladin",
+    "category": "character",
+    "id": 51,
+    "label": "Paladin",
+    "view": "back",
+    "name": "apx_preview_character_51_back"
+  },
+  {
+    "key": "character:52",
+    "model": "space_robot_kyle",
+    "category": "character",
+    "id": 52,
+    "label": "Space Robot Kyle",
+    "view": "front",
+    "name": "apx_preview_character_52"
+  },
+  {
+    "key": "character:52",
+    "model": "space_robot_kyle",
+    "category": "character",
+    "id": 52,
+    "label": "Space Robot Kyle",
+    "view": "back",
+    "name": "apx_preview_character_52_back"
+  },
+  {
+    "key": "character:53",
+    "model": "plr_terry_blackwidow",
+    "category": "character",
+    "id": 53,
+    "label": "Black Widow",
+    "view": "front",
+    "name": "apx_preview_character_53"
+  },
+  {
+    "key": "character:53",
+    "model": "plr_terry_blackwidow",
+    "category": "character",
+    "id": 53,
+    "label": "Black Widow",
+    "view": "back",
+    "name": "apx_preview_character_53_back"
+  },
+  {
+    "key": "character:54",
+    "model": "plr_hitman",
+    "category": "character",
+    "id": 54,
+    "label": "Hitman",
+    "view": "front",
+    "name": "apx_preview_character_54"
+  },
+  {
+    "key": "character:54",
+    "model": "plr_hitman",
+    "category": "character",
+    "id": 54,
+    "label": "Hitman",
+    "view": "back",
+    "name": "apx_preview_character_54_back"
+  },
+  {
+    "key": "character:55",
+    "model": "plr_terry_zombie",
+    "category": "character",
+    "id": 55,
+    "label": "WW2 Zombie",
+    "view": "front",
+    "name": "apx_preview_character_55"
+  },
+  {
+    "key": "character:55",
+    "model": "plr_terry_zombie",
+    "category": "character",
+    "id": 55,
+    "label": "WW2 Zombie",
+    "view": "back",
+    "name": "apx_preview_character_55_back"
+  },
+  {
+    "key": "character:56",
+    "model": "plr_terry_laracroft",
+    "category": "character",
+    "id": 56,
+    "label": "Lara Croft (Tomb Raider)",
+    "view": "front",
+    "name": "apx_preview_character_56"
+  },
+  {
+    "key": "character:56",
+    "model": "plr_terry_laracroft",
+    "category": "character",
+    "id": 56,
+    "label": "Lara Croft (Tomb Raider)",
+    "view": "back",
+    "name": "apx_preview_character_56_back"
+  },
+  {
+    "key": "character:57",
+    "model": "plr_terry_chucky",
+    "category": "character",
+    "id": 57,
+    "label": "Chucky",
+    "view": "front",
+    "name": "apx_preview_character_57"
+  },
+  {
+    "key": "character:57",
+    "model": "plr_terry_chucky",
+    "category": "character",
+    "id": 57,
+    "label": "Chucky",
+    "view": "back",
+    "name": "apx_preview_character_57_back"
+  },
+  {
+    "key": "character:58",
+    "model": "plr_terry_harley",
+    "category": "character",
+    "id": 58,
+    "label": "Harley Quinn",
+    "view": "front",
+    "name": "apx_preview_character_58"
+  },
+  {
+    "key": "character:58",
+    "model": "plr_terry_harley",
+    "category": "character",
+    "id": 58,
+    "label": "Harley Quinn",
+    "view": "back",
+    "name": "apx_preview_character_58_back"
+  },
+  {
+    "key": "character:59",
+    "model": "plr_far_cry_3_vaas",
+    "category": "character",
+    "id": 59,
+    "label": "Vaas Montenegro",
+    "view": "front",
+    "name": "apx_preview_character_59"
+  },
+  {
+    "key": "character:59",
+    "model": "plr_far_cry_3_vaas",
+    "category": "character",
+    "id": 59,
+    "label": "Vaas Montenegro",
+    "view": "back",
+    "name": "apx_preview_character_59_back"
+  },
+  {
+    "key": "character:60",
+    "model": "plr_adolf_hitler",
+    "category": "character",
+    "id": 60,
+    "label": "Adolf Hitler",
+    "view": "front",
+    "name": "apx_preview_character_60"
+  },
+  {
+    "key": "character:60",
+    "model": "plr_adolf_hitler",
+    "category": "character",
+    "id": 60,
+    "label": "Adolf Hitler",
+    "view": "back",
+    "name": "apx_preview_character_60_back"
+  },
+  {
+    "key": "character:61",
+    "model": "plr_terry_hitler",
+    "category": "character",
+    "id": 61,
+    "label": "Hitler",
+    "view": "front",
+    "name": "apx_preview_character_61"
+  },
+  {
+    "key": "character:61",
+    "model": "plr_terry_hitler",
+    "category": "character",
+    "id": 61,
+    "label": "Hitler",
+    "view": "back",
+    "name": "apx_preview_character_61_back"
+  },
+  {
+    "key": "character:62",
+    "model": "plr_terry_em208",
+    "category": "character",
+    "id": 62,
+    "label": "EM208(Robocop)",
+    "view": "front",
+    "name": "apx_preview_character_62"
+  },
+  {
+    "key": "character:62",
+    "model": "plr_terry_em208",
+    "category": "character",
+    "id": 62,
+    "label": "EM208(Robocop)",
+    "view": "back",
+    "name": "apx_preview_character_62_back"
+  },
+  {
+    "key": "character:63",
+    "model": "plr_terry_youngfemale",
+    "category": "character",
+    "id": 63,
+    "label": "Young Female",
+    "view": "front",
+    "name": "apx_preview_character_63"
+  },
+  {
+    "key": "character:63",
+    "model": "plr_terry_youngfemale",
+    "category": "character",
+    "id": 63,
+    "label": "Young Female",
+    "view": "back",
+    "name": "apx_preview_character_63_back"
+  },
+  {
+    "key": "character:64",
+    "model": "plr_terry_ironman",
+    "category": "character",
+    "id": 64,
+    "label": "IRON MAN",
+    "view": "front",
+    "name": "apx_preview_character_64"
+  },
+  {
+    "key": "character:64",
+    "model": "plr_terry_ironman",
+    "category": "character",
+    "id": 64,
+    "label": "IRON MAN",
+    "view": "back",
+    "name": "apx_preview_character_64_back"
+  },
+  {
+    "key": "character:65",
+    "model": "plr_terry_shrek",
+    "category": "character",
+    "id": 65,
+    "label": "Shrek",
+    "view": "front",
+    "name": "apx_preview_character_65"
+  },
+  {
+    "key": "character:65",
+    "model": "plr_terry_shrek",
+    "category": "character",
+    "id": 65,
+    "label": "Shrek",
+    "view": "back",
+    "name": "apx_preview_character_65_back"
+  },
+  {
+    "key": "character:66",
+    "model": "plr_big_smoke",
+    "category": "character",
+    "id": 66,
+    "label": "Big smoke",
+    "view": "front",
+    "name": "apx_preview_character_66"
+  },
+  {
+    "key": "character:66",
+    "model": "plr_big_smoke",
+    "category": "character",
+    "id": 66,
+    "label": "Big smoke",
+    "view": "back",
+    "name": "apx_preview_character_66_back"
+  },
+  {
+    "key": "character:67",
+    "model": "fullbody_bountyhunter",
+    "category": "character",
+    "id": 67,
+    "label": "Bountyhunter",
+    "view": "front",
+    "name": "apx_preview_character_67"
+  },
+  {
+    "key": "character:67",
+    "model": "fullbody_bountyhunter",
+    "category": "character",
+    "id": 67,
+    "label": "Bountyhunter",
+    "view": "back",
+    "name": "apx_preview_character_67_back"
+  },
+  {
+    "key": "character:68",
+    "model": "plr_carl_johnson",
+    "category": "character",
+    "id": 68,
+    "label": "Carl Johnson",
+    "view": "front",
+    "name": "apx_preview_character_68"
+  },
+  {
+    "key": "character:68",
+    "model": "plr_carl_johnson",
+    "category": "character",
+    "id": 68,
+    "label": "Carl Johnson",
+    "view": "back",
+    "name": "apx_preview_character_68_back"
+  },
+  {
+    "key": "character:69",
+    "model": "plr_counter_terrorists_gign",
+    "category": "character",
+    "id": 69,
+    "label": "Counter Terrorists Gign",
+    "view": "front",
+    "name": "apx_preview_character_69"
+  },
+  {
+    "key": "character:69",
+    "model": "plr_counter_terrorists_gign",
+    "category": "character",
+    "id": 69,
+    "label": "Counter Terrorists Gign",
+    "view": "back",
+    "name": "apx_preview_character_69_back"
+  },
+  {
+    "key": "character:70",
+    "model": "plr_terrorist_arctic_avenger",
+    "category": "character",
+    "id": 70,
+    "label": "Terrorist Arctic Avenger",
+    "view": "front",
+    "name": "apx_preview_character_70"
+  },
+  {
+    "key": "character:70",
+    "model": "plr_terrorist_arctic_avenger",
+    "category": "character",
+    "id": 70,
+    "label": "Terrorist Arctic Avenger",
+    "view": "back",
+    "name": "apx_preview_character_70_back"
+  },
+  {
+    "key": "character:71",
+    "model": "plr_bo_zom_mil_police",
+    "category": "character",
+    "id": 71,
+    "label": "Black Ops  Zombie Military police",
+    "view": "front",
+    "name": "apx_preview_character_71"
+  },
+  {
+    "key": "character:71",
+    "model": "plr_bo_zom_mil_police",
+    "category": "character",
+    "id": 71,
+    "label": "Black Ops  Zombie Military police",
+    "view": "back",
+    "name": "apx_preview_character_71_back"
+  },
+  {
+    "key": "character:72",
+    "model": "plr_john_cena",
+    "category": "character",
+    "id": 72,
+    "label": "JohnCena",
+    "view": "front",
+    "name": "apx_preview_character_72"
+  },
+  {
+    "key": "character:72",
+    "model": "plr_john_cena",
+    "category": "character",
+    "id": 72,
+    "label": "JohnCena",
+    "view": "back",
+    "name": "apx_preview_character_72_back"
+  },
+  {
+    "key": "character:73",
+    "model": "plr_aloneboy",
+    "category": "character",
+    "id": 73,
+    "label": "AloneBoy",
+    "view": "front",
+    "name": "apx_preview_character_73"
+  },
+  {
+    "key": "character:73",
+    "model": "plr_aloneboy",
+    "category": "character",
+    "id": 73,
+    "label": "AloneBoy",
+    "view": "back",
+    "name": "apx_preview_character_73_back"
+  },
+  {
+    "key": "character:74",
+    "model": "plr_tommy_vercetti",
+    "category": "character",
+    "id": 74,
+    "label": "Tommy Vercetti",
+    "view": "front",
+    "name": "apx_preview_character_74"
+  },
+  {
+    "key": "character:74",
+    "model": "plr_tommy_vercetti",
+    "category": "character",
+    "id": 74,
+    "label": "Tommy Vercetti",
+    "view": "back",
+    "name": "apx_preview_character_74_back"
+  },
+  {
+    "key": "character:75",
+    "model": "plr_chicken",
+    "category": "character",
+    "id": 75,
+    "label": "Chicken_",
+    "view": "front",
+    "name": "apx_preview_character_75"
+  },
+  {
+    "key": "character:75",
+    "model": "plr_chicken",
+    "category": "character",
+    "id": 75,
+    "label": "Chicken_",
+    "view": "back",
+    "name": "apx_preview_character_75_back"
+  },
+  {
+    "key": "character:76",
+    "model": "playermodel_kermit_the_frog",
+    "category": "character",
+    "id": 76,
+    "label": "kermit the frog",
+    "view": "front",
+    "name": "apx_preview_character_76"
+  },
+  {
+    "key": "character:76",
+    "model": "playermodel_kermit_the_frog",
+    "category": "character",
+    "id": 76,
+    "label": "kermit the frog",
+    "view": "back",
+    "name": "apx_preview_character_76_back"
+  },
+  {
+    "key": "character:77",
+    "model": "playermodel_vcfox_spiderman",
+    "category": "character",
+    "id": 77,
+    "label": "Spiderman",
+    "view": "front",
+    "name": "apx_preview_character_77"
+  },
+  {
+    "key": "character:77",
+    "model": "playermodel_vcfox_spiderman",
+    "category": "character",
+    "id": 77,
+    "label": "Spiderman",
+    "view": "back",
+    "name": "apx_preview_character_77_back"
+  },
+  {
+    "key": "character:78",
+    "model": "fox_batgirl",
+    "category": "character",
+    "id": 78,
+    "label": "BatGirl",
+    "view": "front",
+    "name": "apx_preview_character_78"
+  },
+  {
+    "key": "character:78",
+    "model": "fox_batgirl",
+    "category": "character",
+    "id": 78,
+    "label": "BatGirl",
+    "view": "back",
+    "name": "apx_preview_character_78_back"
+  },
+  {
+    "key": "character:79",
+    "model": "sonic",
+    "category": "character",
+    "id": 79,
+    "label": "Original Sonic",
+    "view": "front",
+    "name": "apx_preview_character_79"
+  },
+  {
+    "key": "character:79",
+    "model": "sonic",
+    "category": "character",
+    "id": 79,
+    "label": "Original Sonic",
+    "view": "back",
+    "name": "apx_preview_character_79_back"
+  },
+  {
+    "key": "character:80",
+    "model": "playermodel_fox_fortnite_ramirez",
+    "category": "character",
+    "id": 80,
+    "label": "Fortnite Rameriz",
+    "view": "front",
+    "name": "apx_preview_character_80"
+  },
+  {
+    "key": "character:80",
+    "model": "playermodel_fox_fortnite_ramirez",
+    "category": "character",
+    "id": 80,
+    "label": "Fortnite Rameriz",
+    "view": "back",
+    "name": "apx_preview_character_80_back"
+  },
+  {
+    "key": "character:81",
+    "model": "fox_chiller",
+    "category": "character",
+    "id": 81,
+    "label": "Chiller",
+    "view": "front",
+    "name": "apx_preview_character_81"
+  },
+  {
+    "key": "character:81",
+    "model": "fox_chiller",
+    "category": "character",
+    "id": 81,
+    "label": "Chiller",
+    "view": "back",
+    "name": "apx_preview_character_81_back"
+  },
+  {
+    "key": "character:82",
+    "model": "sonic_metal_model",
+    "category": "character",
+    "id": 82,
+    "label": "METAL_SONIC_MODEL",
+    "view": "front",
+    "name": "apx_preview_character_82"
+  },
+  {
+    "key": "character:82",
+    "model": "sonic_metal_model",
+    "category": "character",
+    "id": 82,
+    "label": "METAL_SONIC_MODEL",
+    "view": "back",
+    "name": "apx_preview_character_82_back"
+  },
+  {
+    "key": "character:83",
+    "model": "mirage",
+    "category": "character",
+    "id": 83,
+    "label": "Xenia-Gaming Transformer Model Release",
+    "view": "front",
+    "name": "apx_preview_character_83"
+  },
+  {
+    "key": "character:83",
+    "model": "mirage",
+    "category": "character",
+    "id": 83,
+    "label": "Xenia-Gaming Transformer Model Release",
+    "view": "back",
+    "name": "apx_preview_character_83_back"
+  },
+  {
+    "key": "character:84",
+    "model": "wraith",
+    "category": "character",
+    "id": 84,
+    "label": "Xenia-Gaming Ghost Model Release",
+    "view": "front",
+    "name": "apx_preview_character_84"
+  },
+  {
+    "key": "character:84",
+    "model": "wraith",
+    "category": "character",
+    "id": 84,
+    "label": "Xenia-Gaming Ghost Model Release",
+    "view": "back",
+    "name": "apx_preview_character_84_back"
+  },
+  {
+    "key": "character:85",
+    "model": "captainamerica",
+    "category": "character",
+    "id": 85,
+    "label": "Captain America V2",
+    "view": "front",
+    "name": "apx_preview_character_85"
+  },
+  {
+    "key": "character:85",
+    "model": "captainamerica",
+    "category": "character",
+    "id": 85,
+    "label": "Captain America V2",
+    "view": "back",
+    "name": "apx_preview_character_85_back"
+  },
+  {
+    "key": "character:86",
+    "model": "shadow",
+    "category": "character",
+    "id": 86,
+    "label": "Shadow the Hedgehog",
+    "view": "front",
+    "name": "apx_preview_character_86"
+  },
+  {
+    "key": "character:86",
+    "model": "shadow",
+    "category": "character",
+    "id": 86,
+    "label": "Shadow the Hedgehog",
+    "view": "back",
+    "name": "apx_preview_character_86_back"
+  },
+  {
+    "key": "character:87",
+    "model": "ratchet",
+    "category": "character",
+    "id": 87,
+    "label": "Ratchet and Clank",
+    "view": "front",
+    "name": "apx_preview_character_87"
+  },
+  {
+    "key": "character:87",
+    "model": "ratchet",
+    "category": "character",
+    "id": 87,
+    "label": "Ratchet and Clank",
+    "view": "back",
+    "name": "apx_preview_character_87_back"
+  },
+  {
+    "key": "character:88",
+    "model": "deadpool",
+    "category": "character",
+    "id": 88,
+    "label": "Deadpool",
+    "view": "front",
+    "name": "apx_preview_character_88"
+  },
+  {
+    "key": "character:88",
+    "model": "deadpool",
+    "category": "character",
+    "id": 88,
+    "label": "Deadpool",
+    "view": "back",
+    "name": "apx_preview_character_88_back"
+  },
+  {
+    "key": "character:89",
+    "model": "playermodel_vin_diesel",
+    "category": "character",
+    "id": 89,
+    "label": "Vin Diesel",
+    "view": "front",
+    "name": "apx_preview_character_89"
+  },
+  {
+    "key": "character:89",
+    "model": "playermodel_vin_diesel",
+    "category": "character",
+    "id": 89,
+    "label": "Vin Diesel",
+    "view": "back",
+    "name": "apx_preview_character_89_back"
+  },
+  {
+    "key": "character:90",
+    "model": "playermodel_terminator",
+    "category": "character",
+    "id": 90,
+    "label": "Terminator",
+    "view": "front",
+    "name": "apx_preview_character_90"
+  },
+  {
+    "key": "character:90",
+    "model": "playermodel_terminator",
+    "category": "character",
+    "id": 90,
+    "label": "Terminator",
+    "view": "back",
+    "name": "apx_preview_character_90_back"
+  },
+  {
+    "key": "character:91",
+    "model": "playermodel_gta_iv_nico",
+    "category": "character",
+    "id": 91,
+    "label": "Gta Iv Nico",
+    "view": "front",
+    "name": "apx_preview_character_91"
+  },
+  {
+    "key": "character:91",
+    "model": "playermodel_gta_iv_nico",
+    "category": "character",
+    "id": 91,
+    "label": "Gta Iv Nico",
+    "view": "back",
+    "name": "apx_preview_character_91_back"
+  },
+  {
+    "key": "character:92",
+    "model": "playermodel_ghost_recon",
+    "category": "character",
+    "id": 92,
+    "label": "Ghost Recon",
+    "view": "front",
+    "name": "apx_preview_character_92"
+  },
+  {
+    "key": "character:92",
+    "model": "playermodel_ghost_recon",
+    "category": "character",
+    "id": 92,
+    "label": "Ghost Recon",
+    "view": "back",
+    "name": "apx_preview_character_92_back"
+  },
+  {
+    "key": "character:94",
+    "model": "playermodel_css_badass_terrorist",
+    "category": "character",
+    "id": 94,
+    "label": "Css Badass Terrorist",
+    "view": "front",
+    "name": "apx_preview_character_94"
+  },
+  {
+    "key": "character:94",
+    "model": "playermodel_css_badass_terrorist",
+    "category": "character",
+    "id": 94,
+    "label": "Css Badass Terrorist",
+    "view": "back",
+    "name": "apx_preview_character_94_back"
+  },
+  {
+    "key": "character:95",
+    "model": "masterchief_halo3",
+    "category": "character",
+    "id": 95,
+    "label": "Masterchief",
+    "view": "front",
+    "name": "apx_preview_character_95"
+  },
+  {
+    "key": "character:95",
+    "model": "masterchief_halo3",
+    "category": "character",
+    "id": 95,
+    "label": "Masterchief",
+    "view": "back",
+    "name": "apx_preview_character_95_back"
+  },
+  {
+    "key": "character:96",
+    "model": "yuusha_2",
+    "category": "character",
+    "id": 96,
+    "label": "Yuusha 2",
+    "view": "front",
+    "name": "apx_preview_character_96"
+  },
+  {
+    "key": "character:96",
+    "model": "yuusha_2",
+    "category": "character",
+    "id": 96,
+    "label": "Yuusha 2",
+    "view": "back",
+    "name": "apx_preview_character_96_back"
+  },
+  {
+    "key": "character:97",
+    "model": "yuusha",
+    "category": "character",
+    "id": 97,
+    "label": "Yuusha",
+    "view": "front",
+    "name": "apx_preview_character_97"
+  },
+  {
+    "key": "character:97",
+    "model": "yuusha",
+    "category": "character",
+    "id": 97,
+    "label": "Yuusha",
+    "view": "back",
+    "name": "apx_preview_character_97_back"
+  },
+  {
+    "key": "character:98",
+    "model": "tourrette",
+    "category": "character",
+    "id": 98,
+    "label": "Tourrette",
+    "view": "front",
+    "name": "apx_preview_character_98"
+  },
+  {
+    "key": "character:98",
+    "model": "tourrette",
+    "category": "character",
+    "id": 98,
+    "label": "Tourrette",
+    "view": "back",
+    "name": "apx_preview_character_98_back"
+  },
+  {
+    "key": "character:99",
+    "model": "eo",
+    "category": "character",
+    "id": 99,
+    "label": "Eo",
+    "view": "front",
+    "name": "apx_preview_character_99"
+  },
+  {
+    "key": "character:99",
+    "model": "eo",
+    "category": "character",
+    "id": 99,
+    "label": "Eo",
+    "view": "back",
+    "name": "apx_preview_character_99_back"
+  },
+  {
+    "key": "character:100",
+    "model": "elysium_sc5",
+    "category": "character",
+    "id": 100,
+    "label": "Elysium Sc5",
+    "view": "front",
+    "name": "apx_preview_character_100"
+  },
+  {
+    "key": "character:100",
+    "model": "elysium_sc5",
+    "category": "character",
+    "id": 100,
+    "label": "Elysium Sc5",
+    "view": "back",
+    "name": "apx_preview_character_100_back"
+  },
+  {
+    "key": "character:101",
+    "model": "eliza_br2",
+    "category": "character",
+    "id": 101,
+    "label": "Eliza",
+    "view": "front",
+    "name": "apx_preview_character_101"
+  },
+  {
+    "key": "character:101",
+    "model": "eliza_br2",
+    "category": "character",
+    "id": 101,
+    "label": "Eliza",
+    "view": "back",
+    "name": "apx_preview_character_101_back"
+  },
+  {
+    "key": "character:102",
+    "model": "playermodel_bots_50cent",
+    "category": "character",
+    "id": 102,
+    "label": "50cent",
+    "view": "front",
+    "name": "apx_preview_character_102"
+  },
+  {
+    "key": "character:102",
+    "model": "playermodel_bots_50cent",
+    "category": "character",
+    "id": 102,
+    "label": "50cent",
+    "view": "back",
+    "name": "apx_preview_character_102_back"
+  },
+  {
+    "key": "character:103",
+    "model": "playermodel_mw2_usmc_assault_a",
+    "category": "character",
+    "id": 103,
+    "label": "Mw2 Usmc Assault A",
+    "view": "front",
+    "name": "apx_preview_character_103"
+  },
+  {
+    "key": "character:103",
+    "model": "playermodel_mw2_usmc_assault_a",
+    "category": "character",
+    "id": 103,
+    "label": "Mw2 Usmc Assault A",
+    "view": "back",
+    "name": "apx_preview_character_103_back"
+  },
+  {
+    "key": "character:104",
+    "model": "playermodel_mw2_usmc_lmg_a",
+    "category": "character",
+    "id": 104,
+    "label": "Mw2 Usmc Lmg A",
+    "view": "front",
+    "name": "apx_preview_character_104"
+  },
+  {
+    "key": "character:104",
+    "model": "playermodel_mw2_usmc_lmg_a",
+    "category": "character",
+    "id": 104,
+    "label": "Mw2 Usmc Lmg A",
+    "view": "back",
+    "name": "apx_preview_character_104_back"
+  },
+  {
+    "key": "character:105",
+    "model": "playermodel_mw2_usmc_shotgun_a",
+    "category": "character",
+    "id": 105,
+    "label": "Mw2 Usmc Shotgun A",
+    "view": "front",
+    "name": "apx_preview_character_105"
+  },
+  {
+    "key": "character:105",
+    "model": "playermodel_mw2_usmc_shotgun_a",
+    "category": "character",
+    "id": 105,
+    "label": "Mw2 Usmc Shotgun A",
+    "view": "back",
+    "name": "apx_preview_character_105_back"
+  },
+  {
+    "key": "character:106",
+    "model": "playermodel_mw2_usmc_smg_a",
+    "category": "character",
+    "id": 106,
+    "label": "Mw2 Usmc Smg A",
+    "view": "front",
+    "name": "apx_preview_character_106"
+  },
+  {
+    "key": "character:106",
+    "model": "playermodel_mw2_usmc_smg_a",
+    "category": "character",
+    "id": 106,
+    "label": "Mw2 Usmc Smg A",
+    "view": "back",
+    "name": "apx_preview_character_106_back"
+  },
+  {
+    "key": "character:107",
+    "model": "playermodel_mw2_usmc_sniper",
+    "category": "character",
+    "id": 107,
+    "label": "Mw2 Usmc Sniper",
+    "view": "front",
+    "name": "apx_preview_character_107"
+  },
+  {
+    "key": "character:107",
+    "model": "playermodel_mw2_usmc_sniper",
+    "category": "character",
+    "id": 107,
+    "label": "Mw2 Usmc Sniper",
+    "view": "back",
+    "name": "apx_preview_character_107_back"
+  },
+  {
+    "key": "character:108",
+    "model": "playermodel_dnf_duke",
+    "category": "character",
+    "id": 108,
+    "label": "Duke nukem Model",
+    "view": "front",
+    "name": "apx_preview_character_108"
+  },
+  {
+    "key": "character:108",
+    "model": "playermodel_dnf_duke",
+    "category": "character",
+    "id": 108,
+    "label": "Duke nukem Model",
+    "view": "back",
+    "name": "apx_preview_character_108_back"
+  },
+  {
+    "key": "weapon:0",
+    "model": "weapon_beretta",
+    "category": "weapon",
+    "id": 0,
+    "label": "@WEAPON_BERETTA",
+    "view": "front",
+    "name": "apx_preview_weapon_0"
+  },
+  {
+    "key": "weapon:1",
+    "model": "weapon_colt1911_black",
+    "category": "weapon",
+    "id": 1,
+    "label": "@WEAPON_COLT1911",
+    "view": "front",
+    "name": "apx_preview_weapon_1"
+  },
+  {
+    "key": "weapon:2",
+    "model": "weapon_USP",
+    "category": "weapon",
+    "id": 2,
+    "label": "@WEAPON_USP",
+    "view": "front",
+    "name": "apx_preview_weapon_2"
+  },
+  {
+    "key": "weapon:3",
+    "model": "weapon_desert_eagle_silver",
+    "category": "weapon",
+    "id": 3,
+    "label": "@WEAPON_DESERTEAGLE",
+    "view": "front",
+    "name": "apx_preview_weapon_3"
+  },
+  {
+    "key": "weapon:4",
+    "model": "weapon_m40a3",
+    "category": "weapon",
+    "id": 4,
+    "label": "@WEAPON_M40A3",
+    "view": "front",
+    "name": "apx_preview_weapon_4"
+  },
+  {
+    "key": "weapon:5",
+    "model": "weapon_desert_eagle_gold",
+    "category": "weapon",
+    "id": 5,
+    "label": "@WEAPON_DESERTEAGLEGOLD",
+    "view": "front",
+    "name": "apx_preview_weapon_5"
+  },
+  {
+    "key": "weapon:6",
+    "model": "weapon_remington700",
+    "category": "weapon",
+    "id": 6,
+    "label": "@WEAPON_REMINGTON700",
+    "view": "front",
+    "name": "apx_preview_weapon_6"
+  },
+  {
+    "key": "weapon:7",
+    "model": "weapon_colt_anaconda_44",
+    "category": "weapon",
+    "id": 7,
+    "label": "Colt Anaconda .44",
+    "view": "front",
+    "name": "apx_preview_weapon_7"
+  },
+  {
+    "key": "weapon:9",
+    "model": "wm_mwr_prokolot",
+    "category": "weapon",
+    "id": 9,
+    "label": "MWR PROKOLOT FINAL",
+    "view": "front",
+    "name": "apx_preview_weapon_9"
+  },
+  {
+    "key": "weapon:10",
+    "model": "wm_be_fnc",
+    "category": "weapon",
+    "id": 10,
+    "label": "FNC",
+    "view": "front",
+    "name": "apx_preview_weapon_10"
+  },
+  {
+    "key": "weapon:11",
+    "model": "worldmodel_ar15_mits",
+    "category": "weapon",
+    "id": 11,
+    "label": "AR15",
+    "view": "front",
+    "name": "apx_preview_weapon_11"
+  },
+  {
+    "key": "weapon:12",
+    "model": "weapon_ghosts_mp443",
+    "category": "weapon",
+    "id": 12,
+    "label": "ghosts mp443 grach final",
+    "view": "front",
+    "name": "apx_preview_weapon_12"
+  },
+  {
+    "key": "weapon:13",
+    "model": "weapon_aw_m1_irons",
+    "category": "weapon",
+    "id": 13,
+    "label": "aw m1irons texture",
+    "view": "front",
+    "name": "apx_preview_weapon_13"
+  },
+  {
+    "key": "weapon:14",
+    "model": "weapon_mp44",
+    "category": "weapon",
+    "id": 14,
+    "label": "\"Echo of War\"",
+    "view": "front",
+    "name": "apx_preview_weapon_14"
+  },
+  {
+    "key": "weapon:15",
+    "model": "iw_oni_world",
+    "category": "weapon",
+    "id": 15,
+    "label": "Infinite Warfare ONI",
+    "view": "front",
+    "name": "apx_preview_weapon_15"
+  },
+  {
+    "key": "weapon:18",
+    "model": "worldmodel_bf1_colt1911",
+    "category": "weapon",
+    "id": 18,
+    "label": "Battlefield 1 M1911",
+    "view": "front",
+    "name": "apx_preview_weapon_18"
+  },
+  {
+    "key": "weapon:19",
+    "model": "weapon_bo3_rift_e9_energy",
+    "category": "weapon",
+    "id": 19,
+    "label": "BO3 RIFT E9 ENERGY",
+    "view": "front",
+    "name": "apx_preview_weapon_19"
+  },
+  {
+    "key": "weapon:22",
+    "model": "bo3_bloodhound_world",
+    "category": "weapon",
+    "id": 22,
+    "label": "Black Ops 3 Bloodhound",
+    "view": "front",
+    "name": "apx_preview_weapon_22"
+  },
+  {
+    "key": "weapon:24",
+    "model": "weapon_ghosts_pdw",
+    "category": "weapon",
+    "id": 24,
+    "label": "GHOSTS VBR PDW",
+    "view": "front",
+    "name": "apx_preview_weapon_24"
+  },
+  {
+    "key": "weapon:25",
+    "model": "weapon_mwr_tac330_agressor",
+    "category": "weapon",
+    "id": 25,
+    "label": "MWR S-TAC AGRESSOR",
+    "view": "front",
+    "name": "apx_preview_weapon_25"
+  },
+  {
+    "key": "weapon:26",
+    "model": "weapon_mw2019_kilo433",
+    "category": "weapon",
+    "id": 26,
+    "label": "mw2019 kilo 141",
+    "view": "front",
+    "name": "apx_preview_weapon_26"
+  },
+  {
+    "key": "weapon:27",
+    "model": "mw2cr_g18_world",
+    "category": "weapon",
+    "id": 27,
+    "label": "MW2 Campaign Remastered - G18",
+    "view": "front",
+    "name": "apx_preview_weapon_27"
+  },
+  {
+    "key": "weapon:28",
+    "model": "ak_fantasy_worldmodel",
+    "category": "weapon",
+    "id": 28,
+    "label": "Vandal Reaver from Valorant + Sounds/Worldmodel",
+    "view": "front",
+    "name": "apx_preview_weapon_28"
+  },
+  {
+    "key": "weapon:29",
+    "model": "weapon_ww2_1911",
+    "category": "weapon",
+    "id": 29,
+    "label": "WW2 1911",
+    "view": "front",
+    "name": "apx_preview_weapon_29"
+  },
+  {
+    "key": "weapon:30",
+    "model": "weapon_clawsuper_vm",
+    "category": "weapon",
+    "id": 30,
+    "label": "IW weapon Clawsuper",
+    "view": "front",
+    "name": "apx_preview_weapon_30"
+  },
+  {
+    "key": "weapon:31",
+    "model": "weapon_aw_sac3_akimbo",
+    "category": "weapon",
+    "id": 31,
+    "label": "AW SAC3",
+    "view": "front",
+    "name": "apx_preview_weapon_31"
+  },
+  {
+    "key": "weapon:32",
+    "model": "world_BO3_MR6",
+    "category": "weapon",
+    "id": 32,
+    "label": "BO3 MR6",
+    "view": "front",
+    "name": "apx_preview_weapon_32"
+  },
+  {
+    "key": "weapon:35",
+    "model": "iw_zapper_world",
+    "category": "weapon",
+    "id": 35,
+    "label": "Infinite Warfare Dischord",
+    "view": "front",
+    "name": "apx_preview_weapon_35"
+  },
+  {
+    "key": "weapon:36",
+    "model": "mw_charlie725_world",
+    "category": "weapon",
+    "id": 36,
+    "label": "Modern Warfare 725",
+    "view": "front",
+    "name": "apx_preview_weapon_36"
+  },
+  {
+    "key": "weapon:37",
+    "model": "weapon_colt1911_black",
+    "category": "weapon",
+    "id": 37,
+    "label": "Modern Warfare 1911",
+    "view": "front",
+    "name": "apx_preview_weapon_37"
+  },
+  {
+    "key": "weapon:38",
+    "model": "st_core_kard_worldmodel",
+    "category": "weapon",
+    "id": 38,
+    "label": "BO2 KAP-40",
+    "view": "front",
+    "name": "apx_preview_weapon_38"
+  },
+  {
+    "key": "weapon:39",
+    "model": "wm_wavegun",
+    "category": "weapon",
+    "id": 39,
+    "label": "Black Ops III Wave Gun",
+    "view": "front",
+    "name": "apx_preview_weapon_39"
+  },
+  {
+    "key": "weapon:41",
+    "model": "worldmodel_dragunov_irons",
+    "category": "weapon",
+    "id": 41,
+    "label": "Dragunov iron sight",
+    "view": "front",
+    "name": "apx_preview_weapon_41"
+  },
+  {
+    "key": "weapon:42",
+    "model": "weapon_jap_nambu_pistol",
+    "category": "weapon",
+    "id": 42,
+    "label": "CoD WaW Nambu",
+    "view": "front",
+    "name": "apx_preview_weapon_42"
+  },
+  {
+    "key": "weapon:43",
+    "model": "weapon_pps43",
+    "category": "weapon",
+    "id": 43,
+    "label": "Call of Duty 2 PPS-42",
+    "view": "front",
+    "name": "apx_preview_weapon_43"
+  },
+  {
+    "key": "weapon:44",
+    "model": "w_snip_awp",
+    "category": "weapon",
+    "id": 44,
+    "label": "CS:GO AWP (COD4)",
+    "view": "front",
+    "name": "apx_preview_weapon_44"
+  },
+  {
+    "key": "weapon:45",
+    "model": "w_pist_deagle",
+    "category": "weapon",
+    "id": 45,
+    "label": "CS:GO Desert Eagle",
+    "view": "front",
+    "name": "apx_preview_weapon_45"
+  },
+  {
+    "key": "weapon:46",
+    "model": "w_pist_fiveseven",
+    "category": "weapon",
+    "id": 46,
+    "label": "CS:GO Five-Seven",
+    "view": "front",
+    "name": "apx_preview_weapon_46"
+  },
+  {
+    "key": "weapon:47",
+    "model": "w_pist_tec9",
+    "category": "weapon",
+    "id": 47,
+    "label": "CS:GO TEC-9",
+    "view": "front",
+    "name": "apx_preview_weapon_47"
+  },
+  {
+    "key": "weapon:48",
+    "model": "w_pist_hkp2000",
+    "category": "weapon",
+    "id": 48,
+    "label": "CS:GO P2000",
+    "view": "front",
+    "name": "apx_preview_weapon_48"
+  },
+  {
+    "key": "weapon:49",
+    "model": "w_pist_223",
+    "category": "weapon",
+    "id": 49,
+    "label": "CS:GO USP-S",
+    "view": "front",
+    "name": "apx_preview_weapon_49"
+  },
+  {
+    "key": "weapon:50",
+    "model": "wm_gh_g28_ar_2017",
+    "category": "weapon",
+    "id": 50,
+    "label": "cod ghosts marksman pack",
+    "view": "front",
+    "name": "apx_preview_weapon_50"
+  },
+  {
+    "key": "weapon:51",
+    "model": "wm_gh_r5",
+    "category": "weapon",
+    "id": 51,
+    "label": "cod ghosts assault rifles pack",
+    "view": "front",
+    "name": "apx_preview_weapon_51"
+  },
+  {
+    "key": "weapon:52",
+    "model": "fnp45_world",
+    "category": "weapon",
+    "id": 52,
+    "label": "Black Ops 2 TAC-45",
+    "view": "front",
+    "name": "apx_preview_weapon_52"
+  },
+  {
+    "key": "weapon:53",
+    "model": "world_raid57",
+    "category": "weapon",
+    "id": 53,
+    "label": "Black Ops 2 Five-Seven",
+    "view": "front",
+    "name": "apx_preview_weapon_53"
+  },
+  {
+    "key": "weapon:54",
+    "model": "wea_cheytac_cheytac_blk",
+    "category": "weapon",
+    "id": 54,
+    "label": "CODOL CheyTac M200",
+    "view": "front",
+    "name": "apx_preview_weapon_54"
+  },
+  {
+    "key": "weapon:55",
+    "model": "wea_sportpistol_sportpistol_blk",
+    "category": "weapon",
+    "id": 55,
+    "label": "CODOL MK1911",
+    "view": "front",
+    "name": "apx_preview_weapon_55"
+  },
+  {
+    "key": "weapon:56",
+    "model": "worldmodel_k7",
+    "category": "weapon",
+    "id": 56,
+    "label": "Ghosts K7",
+    "view": "front",
+    "name": "apx_preview_weapon_56"
+  },
+  {
+    "key": "weapon:57",
+    "model": "worldmodel_fox_bo2_mp5",
+    "category": "weapon",
+    "id": 57,
+    "label": "BO2 MP5",
+    "view": "front",
+    "name": "apx_preview_weapon_57"
+  },
+  {
+    "key": "weapon:58",
+    "model": "worldmodel_m60_silencer",
+    "category": "weapon",
+    "id": 58,
+    "label": "Silenced LMG Pack",
+    "view": "front",
+    "name": "apx_preview_weapon_58"
+  },
+  {
+    "key": "weapon:59",
+    "model": "fc4_870_world",
+    "category": "weapon",
+    "id": 59,
+    "label": "Far Cry 4 M133",
+    "view": "front",
+    "name": "apx_preview_weapon_59"
+  },
+  {
+    "key": "weapon:60",
+    "model": "bo1_sten_world",
+    "category": "weapon",
+    "id": 60,
+    "label": "BO1 Sten",
+    "view": "front",
+    "name": "apx_preview_weapon_60"
+  },
+  {
+    "key": "weapon:61",
+    "model": "bc2_dragunov_world",
+    "category": "weapon",
+    "id": 61,
+    "label": "Bad Company 2 Vietnam Dragunov",
+    "view": "front",
+    "name": "apx_preview_weapon_61"
+  },
+  {
+    "key": "weapon:62",
+    "model": "ghosts_bizon_world",
+    "category": "weapon",
+    "id": 62,
+    "label": "Ghosts Bizon",
+    "view": "front",
+    "name": "apx_preview_weapon_62"
+  },
+  {
+    "key": "weapon:63",
+    "model": "weapon_m4_mp",
+    "category": "weapon",
+    "id": 63,
+    "label": "MW3 MK12 SPR",
+    "view": "front",
+    "name": "apx_preview_weapon_63"
+  },
+  {
+    "key": "weapon:64",
+    "model": "ghosts_lynx_world",
+    "category": "weapon",
+    "id": 64,
+    "label": "Ghosts Lynx",
+    "view": "front",
+    "name": "apx_preview_weapon_64"
+  },
+  {
+    "key": "weapon:65",
+    "model": "ghosts_usr_world",
+    "category": "weapon",
+    "id": 65,
+    "label": "Ghosts USR",
+    "view": "front",
+    "name": "apx_preview_weapon_65"
+  },
+  {
+    "key": "weapon:66",
+    "model": "weapon_ghosts_magnum",
+    "category": "weapon",
+    "id": 66,
+    "label": "GHOSTS MAGNUM final",
+    "view": "front",
+    "name": "apx_preview_weapon_66"
+  },
+  {
+    "key": "weapon:67",
+    "model": "worldmodel_rpk",
+    "category": "weapon",
+    "id": 67,
+    "label": "RPK",
+    "view": "front",
+    "name": "apx_preview_weapon_67"
+  },
+  {
+    "key": "weapon:68",
+    "model": "weapon_aw_mors",
+    "category": "weapon",
+    "id": 68,
+    "label": "AW MORS",
+    "view": "front",
+    "name": "apx_preview_weapon_68"
+  },
+  {
+    "key": "weapon:69",
+    "model": "weapon_arx_160",
+    "category": "weapon",
+    "id": 69,
+    "label": "ghost arx160 full",
+    "view": "front",
+    "name": "apx_preview_weapon_69"
+  },
+  {
+    "key": "weapon:70",
+    "model": "worldmodel_honeybadger",
+    "category": "weapon",
+    "id": 70,
+    "label": "Ghosts honeybadger",
+    "view": "front",
+    "name": "apx_preview_weapon_70"
+  },
+  {
+    "key": "weapon:71",
+    "model": "wm_bo3_ark7",
+    "category": "weapon",
+    "id": 71,
+    "label": "BO3 KN44",
+    "view": "front",
+    "name": "apx_preview_weapon_71"
+  },
+  {
+    "key": "weapon:72",
+    "model": "wm_bo3_irs27",
+    "category": "weapon",
+    "id": 72,
+    "label": "BO3 IRS27",
+    "view": "front",
+    "name": "apx_preview_weapon_72"
+  },
+  {
+    "key": "weapon:74",
+    "model": "wm_bo3_triton_2",
+    "category": "weapon",
+    "id": 74,
+    "label": "BO3 RK5",
+    "view": "front",
+    "name": "apx_preview_weapon_74"
+  },
+  {
+    "key": "weapon:75",
+    "model": "wm_bo3_vesper",
+    "category": "weapon",
+    "id": 75,
+    "label": "BO3 Vesper",
+    "view": "front",
+    "name": "apx_preview_weapon_75"
+  },
+  {
+    "key": "weapon:76",
+    "model": "wm_bo3_drakon",
+    "category": "weapon",
+    "id": 76,
+    "label": "BO3 Drakon",
+    "view": "front",
+    "name": "apx_preview_weapon_76"
+  },
+  {
+    "key": "weapon:77",
+    "model": "weapon_beretta2023r",
+    "category": "weapon",
+    "id": 77,
+    "label": "Tactical knife with beretta",
+    "view": "front",
+    "name": "apx_preview_weapon_77"
+  },
+  {
+    "key": "weapon:78",
+    "model": "weapon_ghost_chainsaw_kac",
+    "category": "weapon",
+    "id": 78,
+    "label": "GHOST KAC CHAINSAW",
+    "view": "front",
+    "name": "apx_preview_weapon_78"
+  },
+  {
+    "key": "weapon:79",
+    "model": "weapon_mwr_ak74u_mp",
+    "category": "weapon",
+    "id": 79,
+    "label": "MWR AK74u [Updated v2]",
+    "view": "front",
+    "name": "apx_preview_weapon_79"
+  },
+  {
+    "key": "weapon:81",
+    "model": "tim_mwr_m40a3_world",
+    "category": "weapon",
+    "id": 81,
+    "label": "MWR M40A3",
+    "view": "front",
+    "name": "apx_preview_weapon_81"
+  },
+  {
+    "key": "weapon:82",
+    "model": "weapon_mwr_de50_mp",
+    "category": "weapon",
+    "id": 82,
+    "label": "MWR Desert Eagle .50",
+    "view": "front",
+    "name": "apx_preview_weapon_82"
+  },
+  {
+    "key": "weapon:83",
+    "model": "weapon_mwr_r700_mp",
+    "category": "weapon",
+    "id": 83,
+    "label": "MWR Remington 700",
+    "view": "front",
+    "name": "apx_preview_weapon_83"
+  },
+  {
+    "key": "weapon:84",
+    "model": "tim_mwr_1911_world",
+    "category": "weapon",
+    "id": 84,
+    "label": "MWR M1911",
+    "view": "front",
+    "name": "apx_preview_weapon_84"
+  },
+  {
+    "key": "weapon:85",
+    "model": "bc2_m16a1_world",
+    "category": "weapon",
+    "id": 85,
+    "label": "BFBC2 Vietnam M16A1",
+    "view": "front",
+    "name": "apx_preview_weapon_85"
+  },
+  {
+    "key": "weapon:86",
+    "model": "worldmodel_bo_skorpion",
+    "category": "weapon",
+    "id": 86,
+    "label": "BO - Skorpion",
+    "view": "front",
+    "name": "apx_preview_weapon_86"
+  },
+  {
+    "key": "weapon:87",
+    "model": "worldmodel_bo_pm63",
+    "category": "weapon",
+    "id": 87,
+    "label": "BO - PM63",
+    "view": "front",
+    "name": "apx_preview_weapon_87"
+  },
+  {
+    "key": "weapon:88",
+    "model": "worldmodel_bo_makarov",
+    "category": "weapon",
+    "id": 88,
+    "label": "BO - Makarov",
+    "view": "front",
+    "name": "apx_preview_weapon_88"
+  },
+  {
+    "key": "weapon:89",
+    "model": "worldmodel_bo_ks23",
+    "category": "weapon",
+    "id": 89,
+    "label": "BO - KS23",
+    "view": "front",
+    "name": "apx_preview_weapon_89"
+  },
+  {
+    "key": "weapon:90",
+    "model": "worldmodel_bo_ithaca",
+    "category": "weapon",
+    "id": 90,
+    "label": "BO - Stakeout",
+    "view": "front",
+    "name": "apx_preview_weapon_90"
+  },
+  {
+    "key": "weapon:91",
+    "model": "worldmodel_bo_hs10",
+    "category": "weapon",
+    "id": 91,
+    "label": "BO - HS10",
+    "view": "front",
+    "name": "apx_preview_weapon_91"
+  },
+  {
+    "key": "weapon:92",
+    "model": "worldmodel_bo_asp",
+    "category": "weapon",
+    "id": 92,
+    "label": "BO - ASP",
+    "view": "front",
+    "name": "apx_preview_weapon_92"
+  },
+  {
+    "key": "weapon:93",
+    "model": "worldmodel_mw2_ak47_gl",
+    "category": "weapon",
+    "id": 93,
+    "label": "MW2_AK_PAP",
+    "view": "front",
+    "name": "apx_preview_weapon_93"
+  },
+  {
+    "key": "weapon:94",
+    "model": "worldmodel_mw3_acr",
+    "category": "weapon",
+    "id": 94,
+    "label": "MW3 ACR",
+    "view": "front",
+    "name": "apx_preview_weapon_94"
+  },
+  {
+    "key": "weapon:95",
+    "model": "worldmodel_mw3_uzi_m9",
+    "category": "weapon",
+    "id": 95,
+    "label": "MW3 Uzi m9",
+    "view": "front",
+    "name": "apx_preview_weapon_95"
+  },
+  {
+    "key": "weapon:96",
+    "model": "worldmodel_mw3_ak47",
+    "category": "weapon",
+    "id": 96,
+    "label": "MW3 AK47",
+    "view": "front",
+    "name": "apx_preview_weapon_96"
+  },
+  {
+    "key": "weapon:97",
+    "model": "worldmodel_mw3_ksg",
+    "category": "weapon",
+    "id": 97,
+    "label": "MW3 KSG",
+    "view": "front",
+    "name": "apx_preview_weapon_97"
+  },
+  {
+    "key": "weapon:98",
+    "model": "worldmodel_mw3_pecheneg",
+    "category": "weapon",
+    "id": 98,
+    "label": "MW3 PKP Pecheneg",
+    "view": "front",
+    "name": "apx_preview_weapon_98"
+  },
+  {
+    "key": "weapon:99",
+    "model": "wm_mw3_p99",
+    "category": "weapon",
+    "id": 99,
+    "label": "MW3 P99",
+    "view": "front",
+    "name": "apx_preview_weapon_99"
+  },
+  {
+    "key": "knife:0",
+    "model": "weapon_parabolic_knife",
+    "category": "knife",
+    "id": 0,
+    "label": "Standard knife",
+    "view": "front",
+    "name": "apx_preview_knife_0"
+  },
+  {
+    "key": "knife:1",
+    "model": "worldmodel_bo1_ballistic_knife",
+    "category": "knife",
+    "id": 1,
+    "label": "BO1 Ballistic Knife [melee only]",
+    "view": "front",
+    "name": "apx_preview_knife_1"
+  },
+  {
+    "key": "knife:2",
+    "model": "worldmodel_mw2_ending_knife",
+    "category": "knife",
+    "id": 2,
+    "label": "MW2 Ending Knife",
+    "view": "front",
+    "name": "apx_preview_knife_2"
+  },
+  {
+    "key": "knife:3",
+    "model": "worldmodel_mw2_ice_pick",
+    "category": "knife",
+    "id": 3,
+    "label": "MW2 Ice Pick",
+    "view": "front",
+    "name": "apx_preview_knife_3"
+  },
+  {
+    "key": "knife:4",
+    "model": "worldmodel_ghosts_knife",
+    "category": "knife",
+    "id": 4,
+    "label": "Cod Ghosts Knife",
+    "view": "front",
+    "name": "apx_preview_knife_4"
+  },
+  {
+    "key": "knife:5",
+    "model": "worldmodel_bo2_knife",
+    "category": "knife",
+    "id": 5,
+    "label": "BO2 Knife",
+    "view": "front",
+    "name": "apx_preview_knife_5"
+  },
+  {
+    "key": "knife:6",
+    "model": "ww2_bat_view",
+    "category": "knife",
+    "id": 6,
+    "label": "WW2 Homerun",
+    "view": "front",
+    "name": "apx_preview_knife_6"
+  },
+  {
+    "key": "knife:7",
+    "model": "mwr_bayonet_world",
+    "category": "knife",
+    "id": 7,
+    "label": "MWR CQB Bayonet",
+    "view": "front",
+    "name": "apx_preview_knife_7"
+  },
+  {
+    "key": "knife:8",
+    "model": "streetsign_melee",
+    "category": "knife",
+    "id": 8,
+    "label": "End of the line - Street sign weapon",
+    "view": "front",
+    "name": "apx_preview_knife_8"
+  },
+  {
+    "key": "gloves:captainamericaviewhands",
+    "model": "captainamericaviewhands",
+    "category": "gloves",
+    "id": 3,
+    "label": "captainamericaviewhands",
+    "view": "front",
+    "name": "apx_preview_gloves_3"
+  },
+  {
+    "key": "gloves:vh_iw4_udt",
+    "model": "vh_iw4_udt",
+    "category": "gloves",
+    "id": 4,
+    "label": "vh_iw4_udt",
+    "view": "front",
+    "name": "apx_preview_gloves_4"
+  },
+  {
+    "key": "gloves:viewhands_black_kit",
+    "model": "viewhands_black_kit",
+    "category": "gloves",
+    "id": 0,
+    "label": "viewhands_black_kit",
+    "view": "front",
+    "name": "apx_preview_gloves_0"
+  },
+  {
+    "key": "gloves:viewhands_bots_50cent",
+    "model": "viewhands_bots_50cent",
+    "category": "gloves",
+    "id": 5,
+    "label": "viewhands_bots_50cent",
+    "view": "front",
+    "name": "apx_preview_gloves_5"
+  },
+  {
+    "key": "gloves:viewhands_dnf_duke",
+    "model": "viewhands_dnf_duke",
+    "category": "gloves",
+    "id": 6,
+    "label": "viewhands_dnf_duke",
+    "view": "front",
+    "name": "apx_preview_gloves_6"
+  },
+  {
+    "key": "gloves:viewhands_freeman",
+    "model": "viewhands_freeman",
+    "category": "gloves",
+    "id": 7,
+    "label": "viewhands_freeman",
+    "view": "front",
+    "name": "apx_preview_gloves_7"
+  },
+  {
+    "key": "gloves:viewhands_kermit",
+    "model": "viewhands_kermit",
+    "category": "gloves",
+    "id": 8,
+    "label": "viewhands_kermit",
+    "view": "front",
+    "name": "apx_preview_gloves_8"
+  },
+  {
+    "key": "gloves:viewhands_lion",
+    "model": "viewhands_lion",
+    "category": "gloves",
+    "id": 9,
+    "label": "viewhands_lion",
+    "view": "front",
+    "name": "apx_preview_gloves_9"
+  },
+  {
+    "key": "gloves:viewhands_moh_ranger",
+    "model": "viewhands_moh_ranger",
+    "category": "gloves",
+    "id": 10,
+    "label": "viewhands_moh_ranger",
+    "view": "front",
+    "name": "apx_preview_gloves_10"
+  },
+  {
+    "key": "gloves:viewmodel_base_viewhands",
+    "model": "viewmodel_base_viewhands",
+    "category": "gloves",
+    "id": 11,
+    "label": "viewmodel_base_viewhands",
+    "view": "front",
+    "name": "apx_preview_gloves_11"
+  },
+  {
+    "key": "gloves:viewmodel_hands_50cent",
+    "model": "viewmodel_hands_50cent",
+    "category": "gloves",
+    "id": 1,
+    "label": "viewmodel_hands_50cent",
+    "view": "front",
+    "name": "apx_preview_gloves_1"
+  },
+  {
+    "key": "gloves:viewmodel_hands_zombie",
+    "model": "viewmodel_hands_zombie",
+    "category": "gloves",
+    "id": 2,
+    "label": "viewmodel_hands_zombie",
+    "view": "front",
+    "name": "apx_preview_gloves_2"
+  }
+]

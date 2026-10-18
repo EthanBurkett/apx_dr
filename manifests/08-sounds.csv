@@ -1,0 +1,9 @@
+// ApX Deathrun: sounds
+rawfile,sound/misc/ee1.wav
+rawfile,sound/misc/sprayer.wav
+rawfile,sound/misc/gib_splat.wav
+sound,braxi,,all_mp
+sound,anaconda,,all_mp
+rawfile,rumble/pistol_fire
+rawfile,rumble/defaultweapon_melee
+rawfile,rumble/apx_disabled.rmb

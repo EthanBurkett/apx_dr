@@ -1,0 +1,41 @@
+// ApX HUD composition. Components own layout; engine hints remain available.
+#include "ui_mp/hud/tokens.inc"
+#include "ui_mp/hud/apx_common.inc"
+#include "ui_mp/components/brand.inc"
+#define WEAPINFO_X -4
+#define WEAPINFO_Y -36
+#define FULL_SCREEN_MAP_WIDTH 400
+#define FULL_SCREEN_MAP_HEIGHT 400
+#define DPAD_BASE_SIZE 24
+#define DPAD_BASE_SIZE_HALF 12
+#define DPAD_ICON_Y -1
+#define DPAD_LABEL_Y 40
+#define DPAD_ICON_SPACING 60
+{
+    assetGlobalDef
+    {
+        fadeClamp 1
+        fadeCycle 1
+        fadeAmount 0.1
+    }
+    #include "ui_mp/hud/low_health.inc"
+    #include "ui_mp/hud/mantlehint.inc"
+    #include "ui_mp/hud/cursorhints.inc"
+    #include "ui_mp/hud/invalidcmdhint.inc"
+    #include "ui_mp/hud/stance.inc"
+    #include "ui_mp/hud/xpbar.inc"
+    #include "ui_mp/hud/scorebars.inc"
+    #include "ui_mp/hud/weaponinfo.inc"
+    #include "ui_mp/hud/fullscreenmap.inc"
+    #include "ui_mp/hud/dpad.inc"
+    #include "ui_mp/hud/amitalking.inc"
+    #include "ui_mp/hud/talkers.inc"
+    #include "ui_mp/hud/killcam.inc"
+    #include "ui_mp/hud/centerobituary.inc"
+    #include "ui_mp/hud/scorebar.inc"
+    #include "ui_mp/hud/gamemessages.inc"
+    #include "ui_mp/hud/boldgamemessages.inc"
+    #include "ui_mp/hud/subtitles.inc"
+    #include "ui_mp/hud/holdbreathhint.inc"
+    #include "ui_mp/hud/safeareaa.inc"
+}

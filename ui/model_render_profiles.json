@@ -1,0 +1,8 @@
+{
+  "bind_pose_models": [
+    "body_juggernaut",
+    "body_50cent",
+    "plr_terry_malice"
+  ],
+  "note": "These ported meshes use rigid hand/armor attachment bones. Preserve their authored bind pose; use standard limb posing for other rigs."
+}

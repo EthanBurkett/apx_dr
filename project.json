@@ -1,0 +1,83 @@
+{
+  "name": "apx_dr",
+  "displayName": "ApX Deathrun",
+  "runtime": "CoD4x",
+  "linkerMemoryProfile": "cod4-sdk-large-content-v1",
+  "sourceRoots": [
+    "src",
+    "assets"
+  ],
+  "manifestDirectory": "manifests",
+  "archives": [
+    {
+      "file": "apx_dr.iwd",
+      "entries": [
+        {
+          "source": "assets/images",
+          "excludeList": "ui/inactive_images.json",
+          "path": "images"
+        },
+        {
+          "source": "src/weapons",
+          "path": "weapons"
+        },
+        {
+          "source": "src/DeathRun_ReadMe.txt",
+          "path": "deathrun_readme.txt"
+        },
+        {
+          "source": "src/content_credits.txt",
+          "path": "content_credits.txt"
+        },
+        {
+          "source": "config/dr_sprays.cfg",
+          "path": "dr_sprays.cfg"
+        }
+      ]
+    },
+    {
+      "file": "apx_dr_sounds.iwd",
+      "entries": [
+        {
+          "source": "assets/sound",
+          "path": "sound"
+        },
+        {
+          "source": "config/dr_songs.cfg",
+          "path": "dr_songs.cfg"
+        }
+      ]
+    }
+  ],
+  "looseConfigs": [
+    {
+      "source": "config/server.cfg",
+      "path": "server.cfg"
+    },
+    {
+      "source": "config/deathrun.cfg",
+      "path": "deathrun.cfg"
+    },
+    {
+      "source": "config/server",
+      "path": "config/server"
+    },
+    {
+      "source": "config/deathrun",
+      "path": "config/deathrun"
+    },
+    {
+      "source": "config/private.cfg",
+      "path": "config/private.cfg",
+      "optional": true
+    },
+    {
+      "source": "config/private.example.cfg",
+      "path": "config/private.example.cfg"
+    }
+  ],
+  "obsoleteOutputs": [
+    "deathrun.iwd",
+    "deathrun_sounds.iwd"
+  ]
+}

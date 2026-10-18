@@ -1,0 +1,6 @@
+{
+  "turntable_size": 1024,
+  "preview_encoding": "DXT5",
+  "max_preview_mib": 512,
+  "world_max_dimension": 1024
+}

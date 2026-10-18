@@ -1,0 +1,51 @@
+diff --git a/src/db_load.cpp b/src/db_load.cpp
+index b3df0b9..3f969a4 100644
+--- a/src/db_load.cpp
++++ b/src/db_load.cpp
+@@ -319,13 +319,13 @@ void DB_InitPoolSize( )
+   g_poolSize[ASSET_TYPE_XMODELPIECES] = 64;
+   g_poolSize[ASSET_TYPE_PHYSPRESET] = 64;
+   g_poolSize[ASSET_TYPE_XANIMPARTS] = 4096;
+-  g_poolSize[ASSET_TYPE_XMODEL] = 1000;
+-  g_poolSize[ASSET_TYPE_MATERIAL] = 2048;
++  g_poolSize[ASSET_TYPE_XMODEL] = 2048;
++  g_poolSize[ASSET_TYPE_MATERIAL] = 4096;
+   g_poolSize[ASSET_TYPE_TECHNIQUE_SET] = 1024;
+-  g_poolSize[ASSET_TYPE_IMAGE] = 2400;
++  g_poolSize[ASSET_TYPE_IMAGE] = 4096;
+   g_poolSize[ASSET_TYPE_SOUND] = 16000;
+   g_poolSize[ASSET_TYPE_SOUND_CURVE] = 64;
+-  g_poolSize[ASSET_TYPE_LOADED_SOUND] = 1200;
++  g_poolSize[ASSET_TYPE_LOADED_SOUND] = 4096;
+   g_poolSize[ASSET_TYPE_CLIPMAP] = 1;
+   g_poolSize[ASSET_TYPE_CLIPMAP_PVS] = 1;
+   g_poolSize[ASSET_TYPE_COMWORLD] = 1;
+@@ -339,9 +339,11 @@ void DB_InitPoolSize( )
+   g_poolSize[ASSET_TYPE_MENULIST] = 128;
+   g_poolSize[ASSET_TYPE_MENU] = 640;
+   g_poolSize[ASSET_TYPE_LOCALIZE_ENTRY] = 6144;
+-  g_poolSize[ASSET_TYPE_WEAPON] = 128;
++  // ApX: database definitions include stock/map assets as well as the mod.
++  // This pool is independent of the network's precached weapon ID table.
++  g_poolSize[ASSET_TYPE_WEAPON] = 512;
+   g_poolSize[ASSET_TYPE_SNDDRIVER_GLOBALS] = 1;
+-  g_poolSize[ASSET_TYPE_FX] = 400;
++  g_poolSize[ASSET_TYPE_FX] = 1024;
+   g_poolSize[ASSET_TYPE_IMPACT_FX] = 4;
+   g_poolSize[ASSET_TYPE_AITYPE] = 0;
+   g_poolSize[ASSET_TYPE_MPTYPE] = 0;
+@@ -350,6 +352,14 @@ void DB_InitPoolSize( )
+   g_poolSize[ASSET_TYPE_RAWFILE] = 1024;
+   g_poolSize[ASSET_TYPE_STRINGTABLE] = 100;
+   memset(g_poolSizeModified, 0, sizeof(g_poolSizeModified));
++  // Publish the enlarged defaults through CoD4x's existing capacity handshake.
++  // Clients resize supported pools before loading the mod's fastfile.
++  g_poolSizeModified[ASSET_TYPE_XMODEL] = true;
++  g_poolSizeModified[ASSET_TYPE_MATERIAL] = true;
++  g_poolSizeModified[ASSET_TYPE_IMAGE] = true;
++  g_poolSizeModified[ASSET_TYPE_WEAPON] = true;
++  g_poolSizeModified[ASSET_TYPE_FX] = true;
++  g_poolSizeModified[ASSET_TYPE_LOADED_SOUND] = true;
+ }
+ 
+ void DB_InitXAssetPools( )

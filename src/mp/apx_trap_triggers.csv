@@ -1,0 +1,17 @@
+mp_deathrun_darkness,t1;t2;t3;t4;t5;t6;t7
+mp_deathrun_long,trigger1;trigger2;trigger3;trigger4;trigger5;trigger7;trigger8;trigger9;trigger10;trigger11;trigger12;trigger13
+mp_deathrun_watchit_v2,t1;t2;t3;t4;t5;t6;t7;t8;t9;t10;t11;t12;t13
+mp_deathrun_watchit_v3,t1;t2;t3;t4;t5;t6;t7;t8;t9;t10;t11;t12;t13
+mp_deathrun_takecare,trig_1;trig_2;trig_3;trig_4;trig_5;trig_6;trig_7;trig_8
+mp_deathrun_glass,trig_1;trig_2;trig_3;trig_4;trig_5;trig_6;trig_7;trig_8;trig_9
+mp_deathrun_dungeon,trig_1;trig_2;trig_3;trig_4;trig_5;trig_6;trig_7;trig_8;trig_9
+mp_deathrun_supermario,trig1;trig2;trig3;trig4;trig5;trig6;trig7;trig8;trig9
+mp_deathrun_short,t1;t2;t3;t4;t5
+mp_deathrun_short_v2,t1;t2;t3;t4;t5
+mp_deathrun_grassy,trigger1;trigger2;trigger3;trigger4;trigger5;trigger6;trigger7;trigger8
+mp_deathrun_portal,trigger1;trigger2;trigger3;trigger4;trigger5;trigger6;trigger7
+mp_dr_jurapark,t3;t1_;t4_;t5_;t6_;t7_;t8;t9_;t10_;t11_;t12_;t13_;t14_;t15_;t16_
+mp_dr_indipyramid,t1;t2;t3;t4;t5;t6;t7;t8;t9;t10;t11;t12;t13;t14;t15
+mp_deathrun_diehard,hardlevel;trigger_4squares;trigger_pusher;trigger_rollers;trigger_spikes;trigger_lifter;spintest;trap_rotatefloor
+mp_deathrun_wipeoutv2,act1;act2;act5;act7;act8;act4;act6;act3
+mp_dr_sewers,trap2_trig;trap5_trig;trap4_trig;trap3_trig;trap7_trig;trap8_trig;trap6_trig

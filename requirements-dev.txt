@@ -1,0 +1,2 @@
+# Optional Python checks and art tooling; normal builds do not need Python.
+Pillow==12.3.0

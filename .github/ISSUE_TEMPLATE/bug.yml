@@ -1,0 +1,22 @@
+name: Bug report
+description: Reproducible gameplay, interface or tooling problem
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and expected behavior
+      description: Include steps, expected result and actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Commit, map, profile, client/server build, OS and command.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted diagnostics
+      description: Never include private.cfg, passwords, player identifiers or raw server logs.

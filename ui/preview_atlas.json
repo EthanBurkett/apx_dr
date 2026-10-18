@@ -1,0 +1,1666 @@
+{
+  "apx_preview_character_0": {
+    "material": "apx_still_tall_0",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_0_back": {
+    "material": "apx_still_tall_0",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_4": {
+    "material": "apx_still_tall_0",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_4_back": {
+    "material": "apx_still_tall_0",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_5": {
+    "material": "apx_still_tall_0",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_5_back": {
+    "material": "apx_still_tall_0",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_6": {
+    "material": "apx_still_tall_0",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_6_back": {
+    "material": "apx_still_tall_0",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_7": {
+    "material": "apx_still_tall_1",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_7_back": {
+    "material": "apx_still_tall_1",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_8": {
+    "material": "apx_still_tall_1",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_8_back": {
+    "material": "apx_still_tall_1",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_10": {
+    "material": "apx_still_tall_1",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_10_back": {
+    "material": "apx_still_tall_1",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_11": {
+    "material": "apx_still_tall_1",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_11_back": {
+    "material": "apx_still_tall_1",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_12": {
+    "material": "apx_still_tall_2",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_12_back": {
+    "material": "apx_still_tall_2",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_13": {
+    "material": "apx_still_tall_2",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_13_back": {
+    "material": "apx_still_tall_2",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_14": {
+    "material": "apx_still_tall_2",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_14_back": {
+    "material": "apx_still_tall_2",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_15": {
+    "material": "apx_still_tall_2",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_15_back": {
+    "material": "apx_still_tall_2",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_16": {
+    "material": "apx_still_tall_3",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_16_back": {
+    "material": "apx_still_tall_3",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_17": {
+    "material": "apx_still_tall_3",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_17_back": {
+    "material": "apx_still_tall_3",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_18": {
+    "material": "apx_still_tall_3",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_18_back": {
+    "material": "apx_still_tall_3",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_19": {
+    "material": "apx_still_tall_3",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_19_back": {
+    "material": "apx_still_tall_3",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_20": {
+    "material": "apx_still_tall_4",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_20_back": {
+    "material": "apx_still_tall_4",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_21": {
+    "material": "apx_still_tall_4",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_21_back": {
+    "material": "apx_still_tall_4",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_22": {
+    "material": "apx_still_tall_4",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_22_back": {
+    "material": "apx_still_tall_4",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_23": {
+    "material": "apx_still_tall_4",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_23_back": {
+    "material": "apx_still_tall_4",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_25": {
+    "material": "apx_still_tall_5",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_25_back": {
+    "material": "apx_still_tall_5",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_26": {
+    "material": "apx_still_tall_5",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_26_back": {
+    "material": "apx_still_tall_5",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_27": {
+    "material": "apx_still_tall_5",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_27_back": {
+    "material": "apx_still_tall_5",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_29": {
+    "material": "apx_still_tall_5",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_29_back": {
+    "material": "apx_still_tall_5",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_30": {
+    "material": "apx_still_tall_6",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_30_back": {
+    "material": "apx_still_tall_6",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_31": {
+    "material": "apx_still_tall_6",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_31_back": {
+    "material": "apx_still_tall_6",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_33": {
+    "material": "apx_still_tall_6",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_33_back": {
+    "material": "apx_still_tall_6",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_34": {
+    "material": "apx_still_tall_6",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_34_back": {
+    "material": "apx_still_tall_6",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_35": {
+    "material": "apx_still_tall_7",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_35_back": {
+    "material": "apx_still_tall_7",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_36": {
+    "material": "apx_still_tall_7",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_36_back": {
+    "material": "apx_still_tall_7",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_37": {
+    "material": "apx_still_tall_7",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_37_back": {
+    "material": "apx_still_tall_7",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_39": {
+    "material": "apx_still_tall_7",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_39_back": {
+    "material": "apx_still_tall_7",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_41": {
+    "material": "apx_still_tall_8",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_41_back": {
+    "material": "apx_still_tall_8",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_42": {
+    "material": "apx_still_tall_8",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_42_back": {
+    "material": "apx_still_tall_8",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_43": {
+    "material": "apx_still_tall_8",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_43_back": {
+    "material": "apx_still_tall_8",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_44": {
+    "material": "apx_still_tall_8",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_44_back": {
+    "material": "apx_still_tall_8",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_45": {
+    "material": "apx_still_tall_9",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_45_back": {
+    "material": "apx_still_tall_9",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_46": {
+    "material": "apx_still_tall_9",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_46_back": {
+    "material": "apx_still_tall_9",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_47": {
+    "material": "apx_still_tall_9",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_47_back": {
+    "material": "apx_still_tall_9",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_48": {
+    "material": "apx_still_tall_9",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_48_back": {
+    "material": "apx_still_tall_9",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_50": {
+    "material": "apx_still_tall_10",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_50_back": {
+    "material": "apx_still_tall_10",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_51": {
+    "material": "apx_still_tall_10",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_51_back": {
+    "material": "apx_still_tall_10",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_52": {
+    "material": "apx_still_tall_10",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_52_back": {
+    "material": "apx_still_tall_10",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_53": {
+    "material": "apx_still_tall_10",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_53_back": {
+    "material": "apx_still_tall_10",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_54": {
+    "material": "apx_still_tall_11",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_54_back": {
+    "material": "apx_still_tall_11",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_55": {
+    "material": "apx_still_tall_11",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_55_back": {
+    "material": "apx_still_tall_11",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_56": {
+    "material": "apx_still_tall_11",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_56_back": {
+    "material": "apx_still_tall_11",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_57": {
+    "material": "apx_still_tall_11",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_57_back": {
+    "material": "apx_still_tall_11",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_58": {
+    "material": "apx_still_tall_12",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_58_back": {
+    "material": "apx_still_tall_12",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_59": {
+    "material": "apx_still_tall_12",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_59_back": {
+    "material": "apx_still_tall_12",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_62": {
+    "material": "apx_still_tall_12",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_62_back": {
+    "material": "apx_still_tall_12",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_63": {
+    "material": "apx_still_tall_12",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_63_back": {
+    "material": "apx_still_tall_12",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_64": {
+    "material": "apx_still_tall_13",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_64_back": {
+    "material": "apx_still_tall_13",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_65": {
+    "material": "apx_still_tall_13",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_65_back": {
+    "material": "apx_still_tall_13",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_66": {
+    "material": "apx_still_tall_13",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_66_back": {
+    "material": "apx_still_tall_13",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_67": {
+    "material": "apx_still_tall_13",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_67_back": {
+    "material": "apx_still_tall_13",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_68": {
+    "material": "apx_still_tall_14",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_68_back": {
+    "material": "apx_still_tall_14",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_69": {
+    "material": "apx_still_tall_14",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_69_back": {
+    "material": "apx_still_tall_14",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_70": {
+    "material": "apx_still_tall_14",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_70_back": {
+    "material": "apx_still_tall_14",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_71": {
+    "material": "apx_still_tall_14",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_71_back": {
+    "material": "apx_still_tall_14",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_72": {
+    "material": "apx_still_tall_15",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_72_back": {
+    "material": "apx_still_tall_15",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_74": {
+    "material": "apx_still_tall_15",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_74_back": {
+    "material": "apx_still_tall_15",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_75": {
+    "material": "apx_still_tall_15",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_75_back": {
+    "material": "apx_still_tall_15",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_76": {
+    "material": "apx_still_tall_15",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_76_back": {
+    "material": "apx_still_tall_15",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_77": {
+    "material": "apx_still_tall_16",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_77_back": {
+    "material": "apx_still_tall_16",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_78": {
+    "material": "apx_still_tall_16",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_78_back": {
+    "material": "apx_still_tall_16",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_79": {
+    "material": "apx_still_tall_16",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_79_back": {
+    "material": "apx_still_tall_16",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_80": {
+    "material": "apx_still_tall_16",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_80_back": {
+    "material": "apx_still_tall_16",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_81": {
+    "material": "apx_still_tall_17",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_81_back": {
+    "material": "apx_still_tall_17",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_82": {
+    "material": "apx_still_tall_17",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_82_back": {
+    "material": "apx_still_tall_17",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_83": {
+    "material": "apx_still_tall_17",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_83_back": {
+    "material": "apx_still_tall_17",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_85": {
+    "material": "apx_still_tall_17",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_85_back": {
+    "material": "apx_still_tall_17",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_86": {
+    "material": "apx_still_tall_18",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_86_back": {
+    "material": "apx_still_tall_18",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_87": {
+    "material": "apx_still_tall_18",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_87_back": {
+    "material": "apx_still_tall_18",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_88": {
+    "material": "apx_still_tall_18",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_88_back": {
+    "material": "apx_still_tall_18",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_89": {
+    "material": "apx_still_tall_18",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_89_back": {
+    "material": "apx_still_tall_18",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_90": {
+    "material": "apx_still_tall_19",
+    "cell": 0,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_90_back": {
+    "material": "apx_still_tall_19",
+    "cell": 1,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_92": {
+    "material": "apx_still_tall_19",
+    "cell": 2,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_92_back": {
+    "material": "apx_still_tall_19",
+    "cell": 3,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_94": {
+    "material": "apx_still_tall_19",
+    "cell": 4,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_94_back": {
+    "material": "apx_still_tall_19",
+    "cell": 5,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_108": {
+    "material": "apx_still_tall_19",
+    "cell": 6,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_character_108_back": {
+    "material": "apx_still_tall_19",
+    "cell": 7,
+    "size": [
+      512,
+      1024
+    ]
+  },
+  "apx_preview_weapon_0": {
+    "material": "apx_still_wide_0",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_1": {
+    "material": "apx_still_wide_0",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_2": {
+    "material": "apx_still_wide_0",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_3": {
+    "material": "apx_still_wide_0",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_4": {
+    "material": "apx_still_wide_0",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_5": {
+    "material": "apx_still_wide_0",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_6": {
+    "material": "apx_still_wide_0",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_7": {
+    "material": "apx_still_wide_0",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_10": {
+    "material": "apx_still_wide_1",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_11": {
+    "material": "apx_still_wide_1",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_12": {
+    "material": "apx_still_wide_1",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_14": {
+    "material": "apx_still_wide_1",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_15": {
+    "material": "apx_still_wide_1",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_19": {
+    "material": "apx_still_wide_1",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_22": {
+    "material": "apx_still_wide_1",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_26": {
+    "material": "apx_still_wide_1",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_28": {
+    "material": "apx_still_wide_2",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_30": {
+    "material": "apx_still_wide_2",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_31": {
+    "material": "apx_still_wide_2",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_36": {
+    "material": "apx_still_wide_2",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_39": {
+    "material": "apx_still_wide_2",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_44": {
+    "material": "apx_still_wide_2",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_54": {
+    "material": "apx_still_wide_2",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_56": {
+    "material": "apx_still_wide_2",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_60": {
+    "material": "apx_still_wide_3",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_68": {
+    "material": "apx_still_wide_3",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_71": {
+    "material": "apx_still_wide_3",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_75": {
+    "material": "apx_still_wide_3",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_78": {
+    "material": "apx_still_wide_3",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_weapon_97": {
+    "material": "apx_still_wide_3",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_0": {
+    "material": "apx_still_wide_3",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_1": {
+    "material": "apx_still_wide_3",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_2": {
+    "material": "apx_still_wide_4",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_3": {
+    "material": "apx_still_wide_4",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_4": {
+    "material": "apx_still_wide_4",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_5": {
+    "material": "apx_still_wide_4",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_6": {
+    "material": "apx_still_wide_4",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_7": {
+    "material": "apx_still_wide_4",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_knife_8": {
+    "material": "apx_still_wide_4",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_3": {
+    "material": "apx_still_wide_4",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_4": {
+    "material": "apx_still_wide_5",
+    "cell": 0,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_0": {
+    "material": "apx_still_wide_5",
+    "cell": 1,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_6": {
+    "material": "apx_still_wide_5",
+    "cell": 2,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_7": {
+    "material": "apx_still_wide_5",
+    "cell": 3,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_8": {
+    "material": "apx_still_wide_5",
+    "cell": 4,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_11": {
+    "material": "apx_still_wide_5",
+    "cell": 5,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_1": {
+    "material": "apx_still_wide_5",
+    "cell": 6,
+    "size": [
+      1024,
+      512
+    ]
+  },
+  "apx_preview_gloves_2": {
+    "material": "apx_still_wide_5",
+    "cell": 7,
+    "size": [
+      1024,
+      512
+    ]
+  }
+}

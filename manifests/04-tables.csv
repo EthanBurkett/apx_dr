@@ -1,0 +1,24 @@
+// ApX Deathrun: tables
+stringtable,mp/sprayTable.csv
+stringtable,mp/characterTable.csv
+stringtable,mp/itemTable.csv
+stringtable,mp/ranktable.csv
+stringtable,mp/abilityTable.csv
+stringtable,mp/rankicontable.csv
+stringtable,mp/playerStatsTable.csv
+stringtable,mp/challengetable.csv
+stringtable,mp/challengetable_tier1.csv
+stringtable,mp/challengetable_tier2.csv
+stringtable,mp/apx_time_triggers.csv
+stringtable,mp/apx_trap_triggers.csv
+stringtable,mp/apx_collisions.csv
+stringtable,mp/apx_prestiges.csv
+stringtable,mp/apx_menu_routes.csv
+stringtable,mp/apx_character_previews.csv
+stringtable,mp/apx_weapon_previews.csv
+stringtable,mp/apx_catalog.csv
+stringtable,mp/apx_content_unlocks.csv
+stringtable,mp/knifeTable.csv
+stringtable,mp/apx_knife_previews.csv
+stringtable,mp/gloveTable.csv
+stringtable,mp/apx_glove_previews.csv

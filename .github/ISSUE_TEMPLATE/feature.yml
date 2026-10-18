@@ -1,0 +1,15 @@
+name: Feature proposal
+description: Propose a focused Deathrun improvement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed behavior
+      description: Explain the need and intended result.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and content
+      description: Include client limits, gameplay impact and asset rights where relevant.

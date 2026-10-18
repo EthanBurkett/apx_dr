@@ -1,0 +1,11 @@
+// All native utility screens retain their SDK behavior and share ApX artwork.
+#include "ui_mp/vendor/choices_setup_common.inc"
+#include "ui_mp/components/choice_skin.inc"
+#undef CHOICE_TEXT_OFFSET_X
+#if CHOICE_TEXTALIGN == ITEM_ALIGN_MIDDLE_RIGHT || CHOICE_TEXTALIGN == ITEM_ALIGN_RIGHT
+#define CHOICE_TEXT_OFFSET_X -12
+#else
+#define CHOICE_TEXT_OFFSET_X 12
+#endif
+#undef CHOICE_TEXTSIZE
+#define CHOICE_TEXTSIZE 0.26

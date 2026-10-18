@@ -1,0 +1,12 @@
+// ApX Deathrun: maps
+// Older Long map FX calls this stock script, which its fastfile does not supply.
+rawfile,maps/createfx/mp_crash_fx.gsc
+rawfile,maps/mp/mp_deathrun_darkness.gsc
+rawfile,maps/mp/mp_deathrun_glass.gsc
+rawfile,maps/mp/mp_deathrun_long.gsc
+rawfile,maps/mp/mp_deathrun_short.gsc
+rawfile,maps/mp/mp_deathrun_short_v2.gsc
+rawfile,maps/mp/mp_deathrun_short_v3.gsc
+rawfile,maps/mp/mp_deathrun_supermario.gsc
+rawfile,maps/mp/_dynamic_foliage2.gsc
+rawfile,maps/mp/mp_dr_bananaphone.gsc

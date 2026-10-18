@@ -1,0 +1,51 @@
+#include "ui_mp/components/apx_panel.inc"
+#include "ui_mp/components/apx_scoreboard_row.inc"
+{
+	menuDef
+	{
+		name "scoreboard"
+		rect 0 0 640 480
+		fullScreen 0
+		onOpen { scriptMenuResponse "open"; }
+		onClose { scriptMenuResponse "close"; }
+		onEsc { close self; }
+		execKey "RIGHTARROW" { scriptMenuResponse "next"; }
+		execKey "LEFTARROW" { scriptMenuResponse "previous"; }
+		itemDef
+		{
+			rect 0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+			style WINDOW_STYLE_SHADER
+			background "white"
+			forecolor 0.025 0.035 0.045 0.12
+			visible 1
+			decoration
+		}
+		APX_LOGO(48,28,112,56,0 0,0.95,1)
+		APX_TEXT("population",48,71,540,dvarString("apx_sb_summary") + "   /   " + dvarString("apx_sb_map"),0.28)
+		APX_LINE(48,100,544)
+		APX_TEXT("level",49,103,30,"LV",0.24)
+		APX_TEXT("prestige",81,103,30,"P",0.24)
+		APX_TEXT("player",112,103,180,"PLAYER",0.26)
+		APX_TEXT("team",302,103,72,"TEAM",0.26)
+		APX_TEXT("state",382,103,44,"STATE",0.24)
+		APX_RIGHT_TEXT("score",426,103,76,"SCORE",0.26)
+		APX_RIGHT_TEXT("kills",508,103,34,"K",0.26)
+		APX_RIGHT_TEXT("deaths",550,103,34,"D",0.26)
+		APX_SCORE_ROW("0",128)
+		APX_SCORE_ROW("1",149)
+		APX_SCORE_ROW("2",170)
+		APX_SCORE_ROW("3",191)
+		APX_SCORE_ROW("4",212)
+		APX_SCORE_ROW("5",233)
+		APX_SCORE_ROW("6",254)
+		APX_SCORE_ROW("7",275)
+		APX_SCORE_ROW("8",296)
+		APX_SCORE_ROW("9",317)
+		APX_SCORE_ROW("10",338)
+		APX_SCORE_ROW("11",359)
+		APX_SCORE_ROW("12",380)
+		APX_SCORE_ROW("13",401)
+		APX_TEXT("hint",48,429,360,"Release score key to close",0.26)
+		APX_RIGHT_TEXT("page",370,429,214,"Left / Right   " + dvarInt("apx_sb_page") + " / " + dvarInt("apx_sb_pages"),0.26)
+	}
+}

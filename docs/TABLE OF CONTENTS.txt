@@ -1,0 +1,47 @@
+ApX Deathrun (apx_dr)
+
+README.md - build, cod4x_dedrun deployment, client launch and downloads
+docs/ARCHITECTURE.md - project boundaries and gameplay ownership
+docs/AUDIT.md - changes, validation and runtime limitations
+docs/PROGRESSION.md - levels, prestiges, artwork, Tab scoreboard and verification
+src/DeathRun_ReadMe.txt - original credits and changelog
+
+project.json - source, archive and loose configuration mappings
+manifests/ - numbered fastfile fragments
+src/braxi/ - gameplay modules and compatibility facades
+src/plugins/_plugins.gsc - active plugin loader
+src/ui_mp/components/ - shared menu macros
+src/ui_mp/hud/ - individual HUD menus
+src/ui_mp/menus/ - main and customization components
+src/mp/apx_*.csv - finish triggers, traps and collisions
+assets/ - binary assets
+
+config/server.cfg - server config entry point
+config/server/ - focused server settings
+config/deathrun.cfg - gameplay config entry point
+config/deathrun/ - focused gameplay settings
+config/private.cfg - local credentials, never package in an IWD
+config/dr_songs.cfg - song names, packaged in apx_dr_sounds.iwd
+config/dr_sprays.cfg - spray names, packaged in apx_dr.iwd
+
+tools/build.ps1 - build and check entry point
+tools/build/ - project, manifest, archive, linker and publication modules
+tools/launch.ps1 - Windows CoD4x client/server launcher
+tools/validate.py - Python source validation
+tools/test-build.ps1 - isolated SDK regression checks
+tools/test-runtime.ps1 - bounded Windows CoD4x loading/status smoke test
+tools/test-progression.ps1 - isolated real-engine bot progression assertions
+tools/generate_progression.py - editable badges, IWI assets and rank tables
+tools/generate_interface.py - editable image buttons and engine textures/materials
+art/ui/buttons/ - button SVG/PNG sources and state preview
+docs/INTERFACE.md - shared button components, packaging and regeneration
+docs/ADMINISTRATION.md - XP, setrank, setprestige and full-reset commands
+docs/HUD-AND-PRACTICE.md - EFR lifecycle, settings and gameplay HUD
+docs/SHADERS.md - native HLSL sources, compilation and packaging
+tools/test-shaders.ps1 - isolated native shader/cache assertions
+tools/download_maps.py - resumable HTTP mirror
+tests/ - source and downloader regressions
+
+dist/ - release tree; deploy its entire contents
+build/logs/ - linker diagnostics
+build/map-download/ - map manifest and completed transfer status

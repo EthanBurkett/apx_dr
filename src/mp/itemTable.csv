@@ -1,0 +1,100 @@
+1,0,1,hud_icon_m9beretta,beretta,@WEAPON_BERETTA,Semi-automatic with a high capacity.,0,1
+2,1,3,hud_icon_colt_45,colt45,@WEAPON_COLT1911,Semi-automatic with a medium power.,0,1
+3,2,6,hud_icon_usp_45,usp,@WEAPON_USP,Semi-automatic with a medium power.,0,1
+4,3,9,hud_icon_desert_eagle,deserteagle,@WEAPON_DESERTEAGLE,Semi-automatic with a high power.,0,1
+5,4,12,hud_icon_m40a3,m40a3,@WEAPON_M40A3,Bolt action sniper rifle.,0,1
+6,5,15,hud_icon_desert_eagle,deserteaglegold,@WEAPON_DESERTEAGLEGOLD,Gold plated semi-automatic with high power.,0,1
+7,6,20,hud_icon_remington700,remington700,@WEAPON_REMINGTON700,Bolt action sniper rifle. Very effective.,0,1
+8,7,24,hud_icon_44,colt44,Colt Anaconda .44,Semi-automatic with deadly .44 bullets.,0,1
+9,8,30,hud_icon_m9beretta,beretta,MWR CQ300,Community weapon / ,0,0
+10,9,30,hud_icon_m9beretta,apxc_66df53043b52f,MWR PROKOLOT FINAL,Community weapon / ,0,0
+11,10,40,weapon_m14,apxc_66c8c5374d0ce,FNC,Community weapon / mitsurugi,0,1
+12,11,7,menu_cu_ar15,apxc_66c8a83bdb451,AR15,Community weapon / mitsurugi,0,1
+13,12,7,hud_icon_colt_45,apxc_61db34772538f,ghosts mp443 grach final,Community weapon / Kortun,0,1
+14,13,70,hud_icon_desert_eagle,apxc_60c443f3b5594,aw m1irons texture,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,0
+15,14,7,hud_icon_colt_45,apxc_60a15cd11eadc,"""Echo of War""",Community weapon / Sovietmann,0,1
+16,15,7,hud_icon_colt_45,apxc_6078e0fe51d80,Infinite Warfare ONI,Community weapon / Infinity Ward ~ Mist,0,1
+17,16,15,hud_icon_m9beretta,beretta,BO1 Ballistic Knife [melee only],Community weapon / VC'Fox,0,0
+18,17,15,hud_icon_m9beretta,beretta,MW2 Ending Knife,Community weapon / VC'Fox,0,0
+19,18,15,hud_icon_colt_45,apxc_5f861d6058696,Battlefield 1 M1911,Community weapon / MrMELUSIN,0,0
+20,19,21,hud_icon_desert_eagle,apxc_5f84aad2a2e07,BO3 RIFT E9 ENERGY,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,1
+21,20,15,hud_icon_m9beretta,beretta,MW2 Ice Pick,Community weapon / VC'Fox,0,0
+22,21,15,hud_icon_m9beretta,beretta,Cod Ghosts Knife,Community weapon / VC'Fox,0,0
+23,22,21,hud_icon_colt_45,apxc_5f48eac37a863,Black Ops 3 Bloodhound,Community weapon / Treyarch / Mist,0,1
+24,23,15,hud_icon_m9beretta,beretta,BO2 Knife,Community weapon / VC'Fox,0,0
+25,24,15,hud_icon_desert_eagle,apxc_5ed7ecdf4c877,GHOSTS VBR PDW,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,0
+26,25,15,hud_icon_m40a3,apxc_5ed50071648bd,MWR S-TAC AGRESSOR,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,0
+27,26,28,hud_icon_mp44,apxc_5ed29c573d9f4,mw2019 kilo 141,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,1
+28,27,15,hud_icon_colt_45,apxc_5eacbe08ef1c1,MW2 Campaign Remastered - G18,Community weapon / Infinity Ward,0,0
+29,28,35,hud_icon_ak47,apxc_5eaaef2644d6b,Vandal Reaver from Valorant + Sounds/Worldmodel,Community weapon / Rex109,0,1
+30,29,15,hud_icon_usp_45,apxc_5e9c65832b553,WW2 1911,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,0
+31,30,35,hud_icon_desert_eagle,apxc_5e99f74da6646,IW weapon Clawsuper,Community weapon / Myself,0,1
+32,31,42,hud_icon_ak47,apxc_5e947df376828,AW SAC3,Community weapon / Kortun/SEKTOR_GAZA_XOU,0,1
+33,32,15,hud_icon_usp_45,apxc_5e53bb74c39e6,BO3 MR6,Community weapon / Kortun,0,0
+34,33,15,hud_icon_m9beretta,beretta,WW2 Homerun,Community weapon / actualmist,0,0
+35,34,15,hud_icon_m9beretta,beretta,MWR CQB Bayonet,Community weapon / Infinity Ward - actualmist,0,0
+36,35,15,hud_icon_colt_45,apxc_5dfbe6eaa1cf0,Infinite Warfare Dischord,Community weapon / Infinity Ward - actualmist,0,0
+37,36,49,weapon_benelli_m4,apxc_5ddfbed84dead,Modern Warfare 725,Community weapon / Infinity Ward - actualmist,0,1
+38,37,15,hud_icon_usp_45,apxc_5ddc0f41116c2,Modern Warfare 1911,Community weapon / Infinity Ward - actualmist,0,0
+39,38,15,hud_icon_colt_45,apxc_5d35f621114ba,BO2 KAP-40,Community weapon / Treyarch / Mist,0,0
+40,39,49,hud_icon_desert_eagle,apxc_5cf8567a2c7c7,Black Ops III Wave Gun,Community weapon / Treyarch / Mist#0001,0,1
+41,40,15,hud_icon_m9beretta,beretta,End of the line - Street sign weapon,Community weapon / Rex109,0,0
+42,41,15,hud_icon_dragunov,apxc_5cd2cf7f9ecf1,Dragunov iron sight,Community weapon / VC'Fox,0,0
+43,42,15,hud_icon_nambu,apxc_5ca9cb4202266,CoD WaW Nambu,Community weapon / Treyarch,0,0
+44,43,15,hud_pps42,apxc_5c7c59a2612b0,Call of Duty 2 PPS-42,Community weapon / Infinity Ward,0,0
+45,44,56,hud_icon_v_snip_awp,apxc_5c68080b046ed,CS:GO AWP (COD4),Community weapon / LitkuReiska,0,1
+46,45,15,hud_icon_v_pist_deagle,apxc_5c274f5cbaead,CS:GO Desert Eagle,Community weapon / LitkuReiska,0,0
+47,46,15,hud_icon_v_pist_fiveseven,apxc_5c1f9d081fe61,CS:GO Five-Seven,Community weapon / LitkuReiska,0,0
+48,47,15,hud_icon_v_pist_tec9,apxc_5c1ed14aa913c,CS:GO TEC-9,Community weapon / LitkuReiska,0,0
+49,48,15,hud_icon_v_pist_hkp2000,apxc_5c1bb39ca0eab,CS:GO P2000,Community weapon / LitkuReiska,0,0
+50,49,15,hud_icon_v_pist_223,apxc_5c1ad3fbaca3b,CS:GO USP-S,Community weapon / LitkuReiska,0,0
+51,50,15,weapon_winchester1200,apxc_5bd31dde04984,cod ghosts marksman pack,Community weapon / mitsurugi,0,0
+52,51,15,weapon_m4carbine,apxc_5bc64a3245e49,cod ghosts assault rifles pack,Community weapon / mitsurugi,0,0
+53,52,15,hud_icon_colt_45,apxc_5b290be6b086a,Black Ops 2 TAC-45,Community weapon / Mist#0001,0,0
+54,53,15,hud_icon_colt_45,apxc_5b157daa58d4a,Black Ops 2 Five-Seven,Community weapon / Mist#0001,0,0
+55,54,63,hud_icon_cheytac,apxc_5abe8404cd4b0,CODOL CheyTac M200,Community weapon / Raven Software,0,1
+56,55,15,hud_icon_sportpistol,apxc_5aad34488ac55,CODOL MK1911,Community weapon / Raven Software,0,0
+57,56,70,hud_icon_mp5,apxc_5aa9a13e1e190,Ghosts K7,Community weapon / VC' Fox,0,1
+58,57,15,hud_icon_mp5,apxc_5a84964ab166d,BO2 MP5,Community weapon / VC' Fox,0,0
+59,58,15,hud_icon_m60e4,apxc_5a71bd42211bb,Silenced LMG Pack,Community weapon / VC' Fox,0,0
+60,59,15,hud_icon_winchester_1200,apxc_5a595de642c1e,Far Cry 4 M133,Community weapon / ConvictioNDR,0,0
+61,60,70,hud_icon_mp5,apxc_5a595ae4629c3,BO1 Sten,Community weapon / ConvictioNDR,0,1
+62,61,15,hud_icon_dragunov,apxc_5a595365acf45,Bad Company 2 Vietnam Dragunov,Community weapon / ConvictioNDR,0,0
+63,62,15,hud_icon_mp5,apxc_5a5947de2b377,Ghosts Bizon,Community weapon / ConvictioNDR,0,0
+64,63,15,hud_icon_m4carbine,apxc_5a57d278e7f1e,MW3 MK12 SPR,Community weapon / ConvictioNDR,0,0
+65,64,45,hud_icon_barrett50cal,apxc_5a5598264b81a,Ghosts Lynx,Community weapon / ConvictioNDR,0,0
+66,65,45,hud_icon_m40a3,apxc_5a5594d2c71fb,Ghosts USR,Community weapon / ConvictioNDR,0,0
+67,66,45,hud_icon_desert_eagle,apxc_5a1c5c0fe646b,GHOSTS MAGNUM final,Community weapon / Kortun,0,0
+68,67,45,hud_icon_ak47,apxc_5a1aa76270a32,RPK,Community weapon / VC'  Fox,0,0
+69,68,14,hud_icon_m40a3,apxc_5a1085ddaa3c1,AW MORS,Community weapon / Kortun,0,1
+70,69,45,hud_icon_ak47,apxc_59f750920c71c,ghost arx160 full,Community weapon / Kortun,0,0
+71,70,45,hud_icon_colt_45,apxc_59f090177958f,Ghosts honeybadger,Community weapon / Fox,0,0
+72,71,21,weapon_ak47,apxc_59e39d24c742f,BO3 KN44,Community weapon / mitsurugi,0,1
+73,72,45,weapon_m4carbine,apxc_59e39a1b98d2d,BO3 IRS27,Community weapon / mitsurugi,0,0
+74,73,45,hud_icon_m9beretta,beretta,BO3 KRM262,Community weapon / mitsurugi,0,0
+75,74,45,weapon_desert_eagle,apxc_59e3001db2de6,BO3 RK5,Community weapon / mitsurugi,0,0
+76,75,28,weapon_skorpion,apxc_59e1aca782516,BO3 Vesper,Community weapon / mitsurugi,0,1
+77,76,45,weapon_m14_scoped,apxc_59e1a56413287,BO3 Drakon,Community weapon / mitsurugi,0,0
+78,77,45,hud_icon_m9beretta,apxc_59d0f02263885,Tactical knife with beretta,Community weapon / Sheep wizard,0,0
+79,78,35,hud_icon_mp44,apxc_59cb5a7521a2d,GHOST KAC CHAINSAW,Community weapon / ,0,1
+80,79,45,mtl_mwr_hud_ak74u,apxc_586e59383adab,MWR AK74u [Updated v2],Community weapon / T-Max,0,0
+81,80,45,hud_icon_m9beretta,beretta,MWR M40A3 + Assassin Kit (T-Max edition),Community weapon / T-Max,0,0
+82,81,45,hud_icon_m40a3,apxc_584c198cd0dbc,MWR M40A3,Community weapon / The dudes who made it,0,0
+83,82,45,hud_icon_desert_eagle,apxc_584bd4529432a,MWR Desert Eagle .50,Community weapon / T-Max,0,0
+84,83,45,hud_icon_remington700,apxc_58471c4c15f6b,MWR Remington 700,Community weapon / T-Max,0,0
+85,84,45,hud_icon_colt_45,apxc_5841d5292c048,MWR M1911,Community weapon / The dudes who made it,0,0
+86,85,45,hud_icon_m4carbine,apxc_57696a240a739,BFBC2 Vietnam M16A1,Community weapon / ConvictioNDR,0,0
+87,86,45,hud_icon_skorpian,apxc_5763c593e81f7,BO - Skorpion,Community weapon / tito,0,0
+88,87,45,hud_icon_mp44,apxc_5763c51ccafbe,BO - PM63,Community weapon / tito,0,0
+89,88,45,hud_icon_m9beretta,apxc_5763c4a1eb8ca,BO - Makarov,Community weapon / tito,0,0
+90,89,45,hud_icon_winchester_1200,apxc_575d59e915508,BO - KS23,Community weapon / tito,0,0
+91,90,45,hud_icon_benelli_m4,apxc_575c538252dd1,BO - Stakeout,Community weapon / tito,0,0
+92,91,45,hud_icon_hs10,apxc_575c52ef8a2d0,BO - HS10,Community weapon / tito,0,0
+93,92,45,hud_icon_desert_eagle,apxc_575c4f62af227,BO - ASP,Community weapon / tito,0,0
+94,93,45,hud_icon_ak47,apxc_573f2a066ef92,MW2_AK_PAP,Community weapon / ,0,0
+95,94,45,weapon_g36c,apxc_5736f26fd2491,MW3 ACR,Community weapon / mitsurugi,0,0
+96,95,45,weapon_mini_uzi,apxc_57320e781ff62,MW3 Uzi m9,Community weapon / mitsurugi,0,0
+97,96,45,weapon_ak47,apxc_57320dbb57670,MW3 AK47,Community weapon / mitsurugi,0,0
+98,97,63,weapon_winchester1200,apxc_572f0a87c4754,MW3 KSG,Community weapon / mitsurugi,0,1
+99,98,45,weapon_m249saw,apxc_572f09d443bd5,MW3 PKP Pecheneg,Community weapon / mitsurugi,0,0
+100,99,45,weapon_m9beretta,apxc_572e05262b1e3,MW3 P99,Community weapon / mitsurugi,0,0
