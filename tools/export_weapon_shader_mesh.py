@@ -14,6 +14,7 @@ effects={('phasewire' if key=='knife_mp' else 'rift' if key=='beretta_mp' else r
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--effect',choices=tuple(effects),default='rift')
 parser.add_argument('--all',action='store_true')
+parser.add_argument('--viewmodel',action='store_true',help='Export the actual first-person gun mesh instead of its world model.')
 args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 
 
@@ -29,7 +30,7 @@ def color_texture(name):
 
 for effect in effects if args.all else (args.effect,):
  bpy.ops.wm.read_factory_settings(use_empty=True)
- record=effects[effect];model=record['view_model'] if effect=='phasewire' else record['world_model']
+ record=effects[effect];model=record['view_model'] if effect=='phasewire' or args.viewmodel else record['world_model']
  custom=set(record.get('materials',[record['material']]))
  loader=Loader(importer=StudioImporter(str(assets)))
  loader.import_xmodel(asset_path=str(assets),file_path=str(assets/'xmodel'/model),selected_version=GAME_VERSION.CoD4,angles=(0.,0.,0.),origin=(0.,0.,0.),scale=(1.,1.,1.))
@@ -47,7 +48,7 @@ for effect in effects if args.all else (args.effect,):
     normal=(obj.matrix_world.to_3x3()@loop.normal).normalized();tex=uv[loop_index].uv
     triangles.append([*point,*normal,tex.x,1.0-tex.y if effect=='rift' else tex.y])
   batches.append(dict(first=first,count=len(triangles)-first,material=material,custom=material in custom,color_texture=color_texture(material)))
- target={'phasewire':'knife','rift':'m9'}.get(effect,effect)+'-mesh.json'
+ target={'phasewire':'knife','rift':'m9'}.get(effect,effect)+('-view-mesh.json' if args.viewmodel else '-mesh.json')
  output=root/'build/shader-lab'/target;output.parent.mkdir(parents=True,exist_ok=True)
  output.write_text(json.dumps(dict(vertices=triangles,batches=batches)))
  print('Exported',effect,model,len(triangles)//3,'triangles,',len(batches),'material batches',flush=True)

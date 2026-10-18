@@ -185,7 +185,7 @@ def render(args):
     args.output.parent.mkdir(parents=True,exist_ok=True)
     count=32 if args.turntable else args.frames
     for frame in range(count):
-        camera(-math.tau*frame/count if args.turntable else 0.0)
+        camera(-math.tau*frame/count if args.turntable else math.radians(getattr(args,'camera_angle',0.0)))
         time=args.start_time if args.turntable else frame/args.fps+args.start_time
         constant(device,94,22,[time,time,time,time])
         call(device,43,[U,P,U,U,F,U],0,None,3,0,1.0,0)
@@ -232,6 +232,7 @@ def main():
     parser.add_argument('--fps',type=float,default=24.0)
     parser.add_argument('--start-time',type=float,default=3.0)
     parser.add_argument('--turntable',action='store_true',help='32 fixed-time camera angles for the catalog.')
+    parser.add_argument('--camera-angle',type=float,default=0.0,help='Studio orbit angle in degrees for still/time-animation review; turntables use their own orbit.')
     args=parser.parse_args()
     if args.mesh is None: args.mesh=ROOT/'build/shader-lab'/({'phasewire':'knife','rift':'m9'}.get(args.effect,args.effect)+'-mesh.json')
     if os.name!='nt':parser.error('The shader preview requires Windows Direct3D 9.')

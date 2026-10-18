@@ -44,7 +44,7 @@ float2 voidParallax(Input input) {
     float inv=rsqrt(max(max(dot(T,T),dot(B,B)),.000001));
     float2 ray=float2(dot(V,T),dot(V,B))*inv/max(abs(dot(N,V)),.32);
     // Bounded at grazing angles and safe on degenerate/collapsed UV triangles.
-    return ray*(.085/(1.0+length(ray)*.35));
+    return ray*(.12/(1.0+length(ray)*.35));
 }
 float voidStars(float2 p,float density) {
     float2 cell=frac(p)-.5;
@@ -60,24 +60,27 @@ float4 ps_main(Input input) : COLOR0 {
     float2 ray=voidParallax(input);
     // Separate depths: foreground dust, nebula, distant stars and deep core.
     // With time frozen these still shift differently as the camera moves.
-    float2 nearUV=uv+ray*.25;
-    float2 cloudUV=uv+ray*.85;
-    float2 deepUV=uv+ray*1.75;
-    float2 coreUV=uv+ray*2.6;
+    // Animate in UV units before multiplying by star-grid frequency. Moving
+    // .035 grid cells/second looked frozen on the actual first-person rifle.
+    // The bright core/rings must travel too, not just the faint cloud layer.
+    float2 nearUV=uv+ray*.25+float2(-t*.012,t*.008);
+    float2 cloudUV=uv+ray*.85+float2(t*.024,-t*.013);
+    float2 deepUV=uv+ray*1.75+float2(-t*.042,t*.017);
+    float2 coreUV=uv+ray*2.6+float2(t*.038,sin(t*.31)*.055);
     float2 q=frac(coreUV*2.0)-.5;
     float radius=max(length(q),.008),angle=atan2(q.y,q.x);
     float aa=max(fwidth(radius),.0015);
-    float spiral=.5+.5*sin(angle*3.0+log(radius)*9.0-t*.55);
+    float spiral=.5+.5*sin(angle*3.0+log(radius)*9.0-t*.9);
     float disk=exp(-abs(radius-.205)*32.0)*(.3+spiral*.7);
     float photon=1.0-smoothstep(.003,.003+aa*1.5,abs(radius-.137));
     float halo=exp(-abs(radius-.25)*15.0)*.17;
     float core=smoothstep(.119,.139+aa,radius);
     // Lensing increases toward the core, independently of the shell UVs.
     float2 lens=rotate2(q,.035/(radius+.03)) - q;
-    float stars=voidStars((deepUV+lens*.28)*83.0+float2(t*.035,0),.86);
-    float dust=voidStars(nearUV*31.0-float2(t*.018,t*.012),.94);
-    float cloud=noise(cloudUV*8.0+float2(t*.025,-t*.018));
-    float wisps=noise(cloudUV*19.0-float2(t*.018,t*.009));
+    float stars=voidStars((deepUV+lens*.28)*83.0,.9);
+    float dust=voidStars(nearUV*31.0,.94);
+    float cloud=noise(cloudUV*8.0);
+    float wisps=noise(cloudUV*19.0-float2(t*.09,t*.045));
     float nebula=pow(saturate(cloud-.18),1.5)*(.45+wisps*.8);
     float3 albedo=(stock*.07+float3(.009,.015,.045)*cloud)*core;
     float3 emission=(float3(1.7,.58,.09)*disk+float3(2.0,1.25,.42)*photon*.8

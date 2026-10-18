@@ -43,6 +43,18 @@ does not supply absolute world-motion tracking. No GSC updates, new textures,
 material registrations or weapon IDs are needed. Grazing-angle offsets are
 bounded, and collapsed UV triangles safely fall back to zero parallax.
 
+The bright black-hole rings drift in UV space along with the volume. Dust,
+clouds and distant stars travel at different speeds before grid-frequency
+scaling, so the visible surface moves even with a stationary camera. The
+earlier star offset moved only a small fraction of a grid cell per second and
+left the brightest rings anchored; this made the animation hard to see on the
+first-person model. Native GPU comparisons now cover both real rifle meshes.
+
+```powershell
+blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --effect void --viewmodel
+python tools/preview_weapon_shader.py --effect void --mesh build/shader-lab/void-view-mesh.json --camera-angle 55 --frames 72 --fps 24 --frames-directory build/shader-lab/void-view-motion
+```
+
 The seven additional primaries and Activator tomahawk use ten scoped materials
 and sixteen model assets, with no new camo images. The USP body/laser housing and M40 body/scope
 housing retain separate diffuse maps. Protected lenses, sights, bullets and
