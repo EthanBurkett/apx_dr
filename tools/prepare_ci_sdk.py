@@ -34,6 +34,8 @@ def main():
     files = sdk_files(args.game_root)
     with zipfile.ZipFile(args.output, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=5) as archive:
         archive.writestr('zone_source/', b'')
+        archive.writestr('zone_source/english/assetlist/', b'')
+        archive.writestr('zone_source/english/assetinfo/', b'')
         archive.writestr('zone/english/', b'')
         for path, relative in files:
             archive.write(path, relative)

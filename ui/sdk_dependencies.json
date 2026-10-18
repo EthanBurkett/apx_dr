@@ -4,6 +4,8 @@
     "ui/menudef.h",
     "ui/safearea.menu",
     "ui_mp/common_macro.inc",
+    "ui_mp/leftside_controls.inc",
+    "ui_mp/leftside_options.inc",
     "ui_mp/menustyle.inc",
     "ui_mp/navcontrols.inc"
   ],
