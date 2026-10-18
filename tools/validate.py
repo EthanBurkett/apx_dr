@@ -20,6 +20,8 @@ def read(path):
 def inspect(root, game_root, source_only=False):
     errors = []
     project = json.loads((root / 'project.json').read_text())
+    sdk_file = root / 'ui/sdk_dependencies.json'
+    sdk = json.loads(sdk_file.read_text()) if source_only and sdk_file.is_file() else {}
     sources = {}
     for folder in project['sourceRoots']:
         base = root / folder
@@ -70,7 +72,7 @@ def inspect(root, game_root, source_only=False):
         assets.add((kind, name))
         if kind in ('rawfile', 'menufile', 'stringtable', 'xmodel'):
             relative = f'xmodel/{name}' if kind == 'xmodel' else name
-            if relative not in sources and not (game_root / 'raw' / relative).is_file() and not (source_only and kind == 'xmodel'):
+            if relative not in sources and not (game_root / 'raw' / relative).is_file() and name not in sdk.get(kind, []):
                 errors.append(f'mod.csv: missing {kind} input {name}')
         if kind == 'rawfile' and name.endswith('.gsc'):
             packaged.add(name.replace('\\', '/'))
@@ -131,7 +133,7 @@ def inspect(root, game_root, source_only=False):
             continue
         for match in re.finditer(r'#include\s+"([^"]+)"', mask(read(path), strings=False)):
             dependency = match[1].lower()
-            if dependency not in sources and not (game_root / 'raw' / dependency).is_file() and not (source_only and dependency.startswith('ui/')):
+            if dependency not in sources and not (game_root / 'raw' / dependency).is_file() and dependency not in sdk.get('include', []):
                 errors.append(f'{name}: missing UI include {dependency}')
     configs = {}
     for item in project['looseConfigs']:

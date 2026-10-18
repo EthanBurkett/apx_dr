@@ -1,0 +1,51 @@
+{
+  "include": [
+    "ui/blurredbg.inc",
+    "ui/menudef.h",
+    "ui/safearea.menu",
+    "ui_mp/common_macro.inc",
+    "ui_mp/menustyle.inc",
+    "ui_mp/navcontrols.inc"
+  ],
+  "menufile": [
+    "ui/error.menu",
+    "ui/language_restart.menu",
+    "ui/options_control_defaults.menu",
+    "ui/options_game_pc.menu",
+    "ui/options_graphics_defaults.menu",
+    "ui/options_graphics_pc.menu",
+    "ui/options_look_pc.menu",
+    "ui/options_misc_pc.menu",
+    "ui/options_move_pc.menu",
+    "ui/options_shoot_pc.menu",
+    "ui/options_sound_pc.menu",
+    "ui/playerprofile.menu",
+    "ui/snd_restart.menu",
+    "ui_mp/auto_update.menu",
+    "ui_mp/cdkey.menu",
+    "ui_mp/createfavorite.menu",
+    "ui_mp/createserver.menu",
+    "ui_mp/filter.menu",
+    "ui_mp/mods.menu",
+    "ui_mp/options_multi.menu",
+    "ui_mp/options_voice.menu",
+    "ui_mp/password.menu",
+    "ui_mp/pb_popmenus.menu",
+    "ui_mp/pc_joinchoosegamemode.menu",
+    "ui_mp/serverinfo.menu",
+    "ui_mp/vid_restart.menu"
+  ],
+  "rawfile": [
+    "maps/createfx/mp_crash_fx.gsc"
+  ],
+  "xmodel": [
+    "body_mp_sas_urban_sniper",
+    "body_mp_usmc_cqb",
+    "com_teddy_bear",
+    "german_sheperd_dog",
+    "mil_frame_charge",
+    "viewhands_black_kit",
+    "viewhands_desert_opfor",
+    "viewmodel_base_viewhands"
+  ]
+}

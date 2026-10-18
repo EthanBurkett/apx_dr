@@ -57,7 +57,7 @@ class Repository(unittest.TestCase):
                 (root / "config" / config).write_text("")
             script = root / "src/braxi/main.gsc"
             script.write_text('main() { maps\\mp\\_utility::helper(); braxi\\missing::helper(); }\n')
-            (root / "manifests/00.csv").write_text("rawfile,braxi/main.gsc\n")
+            (root / "manifests/00.csv").write_text("rawfile,braxi/main.gsc\nmenufile,ui_mp/missing_apx.menu\n")
             original = Path.read_text
             def safe_read(path, *args, **kwargs):
                 if path.name == "private.cfg":
@@ -67,6 +67,7 @@ class Repository(unittest.TestCase):
                 errors, _, _ = inspect(root, root / "no-sdk", source_only=True)
             self.assertTrue(any("braxi/missing.gsc" in error for error in errors))
             self.assertFalse(any("maps/mp/_utility.gsc" in error for error in errors))
+            self.assertTrue(any('missing_apx.menu' in error for error in errors))
 
     def test_authoring_originals_are_retained_for_every_optimized_texture(self):
         records = json.loads((ROOT / "ui/texture_optimization.json").read_text())

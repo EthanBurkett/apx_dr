@@ -14,6 +14,10 @@ A progression-driven Deathrun mod for Call of Duty 4, built on BraXi's Death Run
 
 ---
 
+## Project
+
+A lot of this project is not done, there's plenty of bugs, plenty of untouched stuff, so.... yuh.
+
 # AI DISCLAIMER
 
 literally like 95% of the UI is AI lol. dont hate on me because i dont want to work with CoD4 UI. i obviously touched a lot of the UI code where there needed to be functionality, but everything you see design wise was the great mind of Sol 6.1.
