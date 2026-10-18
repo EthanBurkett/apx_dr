@@ -1,7 +1,7 @@
 """Make an operator-only SDK archive for ephemeral Windows CI workers.
 
 This is licensed development data, never a public GitHub artifact or CDN file.
-Only SDK raw data and the five named runtime/linker files are included. Saved
+Only SDK raw data, stock texture fallbacks and named linker/runtime files are included. Saved
 configs, keys, env files, profiles, game archives and mods are absent. The SDK's
 comment-only fileSysCheck.cfg filesystem marker is the sole config exception.
 """
@@ -17,11 +17,10 @@ def sdk_files(game_root):
     files = [(game_root / 'bin' / name, 'bin/' + name) for name in binaries]
     d3dx = game_root / 'bin/d3dx9_34.dll'
     if not d3dx.exists() and os.name == 'nt':
-        d3dx = Path(os.environ['SystemRoot']) / 'SysWOW64/d3dx9_34.dll'
-    if d3dx.exists():
-        files.append((d3dx, 'bin/d3dx9_34.dll'))
-    elif os.name == 'nt':
-        raise ValueError('The 32-bit DirectX June 2007 d3dx9_34.dll runtime is required by the SDK linker')
+        installed = Path(os.environ['SystemRoot']) / 'SysWOW64/d3dx9_34.dll'
+        if installed.exists():
+            d3dx = installed
+    files.append((d3dx, 'bin/d3dx9_34.dll'))
     for path in sorted((game_root / 'raw').rglob('*')):
         if not path.is_file() or path.is_symlink():
             continue
@@ -71,6 +70,9 @@ def main():
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     files = sdk_files(args.game_root)
+    missing = [name for path, name in files if not path.is_file()]
+    if missing:
+        raise ValueError('Missing SDK/runtime inputs: ' + ', '.join(missing))
     with zipfile.ZipFile(args.output, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=5) as archive:
         archive.writestr('zone_source/', b'')
         archive.writestr('zone_source/english/assetlist/', b'')
