@@ -32,24 +32,59 @@ float3 finish(Input input,float3 albedo,float3 emission,float polish) {
     return lerp(fogColor.rgb,surface,input.viewFog.w);
 }
 
-// EVENT HORIZON / warped starfield and spiraling accretion around dark cores.
+// EVENT HORIZON / a recessed cosmic volume under a stationary metallic shell.
+// Derive a UV tangent frame from the real mesh. A world/view XY offset alone
+// slides incorrectly across curved surfaces and mirrored weapon UV islands.
+float2 voidParallax(Input input) {
+    float3 N=normalize(input.normalTime.xyz),V=normalize(input.viewFog.xyz);
+    float3 dx=ddx(-input.viewFog.xyz),dy=ddy(-input.viewFog.xyz);
+    float2 tx=ddx(input.uv),ty=ddy(input.uv);
+    float3 px=cross(dy,N),py=cross(N,dx);
+    float3 T=px*tx.x+py*ty.x,B=px*tx.y+py*ty.y;
+    float inv=rsqrt(max(max(dot(T,T),dot(B,B)),.000001));
+    float2 ray=float2(dot(V,T),dot(V,B))*inv/max(abs(dot(N,V)),.32);
+    // Bounded at grazing angles and safe on degenerate/collapsed UV triangles.
+    return ray*(.085/(1.0+length(ray)*.35));
+}
+float voidStars(float2 p,float density) {
+    float2 cell=frac(p)-.5;
+    float radius=length(cell);
+    float aa=max(length(fwidth(p))*.65,.025);
+    float starPoint=1.0-smoothstep(.035,.035+aa,radius);
+    float glow=exp(-radius*15.0)*.22;
+    return (starPoint+glow)*step(density,hash21(floor(p)));
+}
 float4 ps_main(Input input) : COLOR0 {
     float2 uv=input.uv;float t=input.normalTime.w;
     float3 stock=tex2D(colorMapSampler,uv).rgb;
-    float2 q=frac(uv*2.0)-.5;
-    q+=normalize(input.viewFog.xyz).xy*.025;
+    float2 ray=voidParallax(input);
+    // Separate depths: foreground dust, nebula, distant stars and deep core.
+    // With time frozen these still shift differently as the camera moves.
+    float2 nearUV=uv+ray*.25;
+    float2 cloudUV=uv+ray*.85;
+    float2 deepUV=uv+ray*1.75;
+    float2 coreUV=uv+ray*2.6;
+    float2 q=frac(coreUV*2.0)-.5;
     float radius=max(length(q),.008),angle=atan2(q.y,q.x);
-    float spiral=.5+.5*sin(angle*3.0+log(radius)*9.0-t*.7);
-    float disk=exp(-abs(radius-.21)*35.0)*( .25+spiral*.75);
-    float halo=exp(-abs(radius-.25)*15.0)*.13;
-    float2 warped=rotate2(q,.035/(radius+.03)+t*.025)*70.0;
-    float2 starCell=frac(warped)-.5;
-    float star=pow(saturate(1.0-length(starCell)*3.5),5.0)*step(.81,hash21(floor(warped)));
-    float cloud=noise(uv*8.0+float2(t*.025,-t*.018));
-    float core=smoothstep(.12,.17,radius);
-    float3 albedo=(stock*.12+float3(.018,.04,.15)*cloud)*core;
-    float nebula=pow(saturate(cloud-.25),1.5);
-    float3 emission=(float3(1.7,.58,.09)*disk+float3(.06,.23,.8)*halo+float3(.8,1.1,1.6)*star
-                    +lerp(float3(.08,.02,.32),float3(.015,.27,.48),spiral)*nebula)*core;
-    return float4(finish(input,albedo,emission,.4),1.0);
+    float aa=max(fwidth(radius),.0015);
+    float spiral=.5+.5*sin(angle*3.0+log(radius)*9.0-t*.55);
+    float disk=exp(-abs(radius-.205)*32.0)*(.3+spiral*.7);
+    float photon=1.0-smoothstep(.003,.003+aa*1.5,abs(radius-.137));
+    float halo=exp(-abs(radius-.25)*15.0)*.17;
+    float core=smoothstep(.119,.139+aa,radius);
+    // Lensing increases toward the core, independently of the shell UVs.
+    float2 lens=rotate2(q,.035/(radius+.03)) - q;
+    float stars=voidStars((deepUV+lens*.28)*83.0+float2(t*.035,0),.86);
+    float dust=voidStars(nearUV*31.0-float2(t*.018,t*.012),.94);
+    float cloud=noise(cloudUV*8.0+float2(t*.025,-t*.018));
+    float wisps=noise(cloudUV*19.0-float2(t*.018,t*.009));
+    float nebula=pow(saturate(cloud-.18),1.5)*(.45+wisps*.8);
+    float3 albedo=(stock*.07+float3(.009,.015,.045)*cloud)*core;
+    float3 emission=(float3(1.7,.58,.09)*disk+float3(2.0,1.25,.42)*photon*.8
+                    +float3(.06,.23,.8)*halo+float3(.65,.95,1.5)*stars
+                    +lerp(float3(.12,.015,.40),float3(.012,.34,.48),wisps)*nebula)*core;
+    // Sparse foreground flecks cross the deeper volume; the shell's subtle
+    // Fresnel stays surface-bound, giving the moving interior a fixed reference.
+    emission+=float3(.25,.45,.7)*dust*.4+float3(.025,.08,.13)*fresnel(input);
+    return float4(finish(input,albedo,emission,.16),1.0);
 }

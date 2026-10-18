@@ -17,7 +17,7 @@ have separate treatments, and the default knife uses **PHASEWIRE**.
 | Desert Eagle | SOLARFORGE | Molten rivers, coal crust and solar shock rings |
 | M40A3 | ABSOLUTE ZERO | Ice facets, sixfold frost stars and freezing fronts |
 | Gold Desert Eagle | MIDAS PARADOX | Counter-rotating gold clockwork on black enamel |
-| Remington 700 | EVENT HORIZON | Warped stars, black cores and accretion spirals |
+| Remington 700 | EVENT HORIZON | Deep parallax starfields, recessed black cores and lensed accretion disks |
 | Colt Anaconda .44 | STORMCOIL | Branching electrical arcs and moving charge packets |
 
 These are separate pixel programs with different procedural structures, not
@@ -25,6 +25,23 @@ palette variants. The collection generator retains all original weapon fields
 except the two scoped view/world model references. Damage, ammo, animations,
 hands, melee, scope lenses, reticles and progression IDs are preserved.
 Community primaries keep their existing materials.
+
+### EVENT HORIZON depth
+
+The Remington 700 treats its surface like a window into a cosmic volume.
+Foreground dust, nebula clouds, distant stars and the black-hole core occupy
+different simulated depths. A tangent frame derived from mesh/UV derivatives
+offsets each layer according to the viewing direction, including mirrored UV
+islands. The metallic shell stays surface-bound while the interior shifts.
+The accretion disk bends the distant starfield around a dark recessed core;
+antialiased stars and a photon ring keep small details readable in motion.
+
+This is view-dependent layered parallax, not displaced geometry or a ray-marched
+volume. It remains active with time frozen. First-person sway, ADS and reloads
+change the gun's relative viewing angle; turning the camera and gun together
+does not supply absolute world-motion tracking. No GSC updates, new textures,
+material registrations or weapon IDs are needed. Grazing-angle offsets are
+bounded, and collapsed UV triangles safely fall back to zero parallax.
 
 The seven additional primaries and Activator tomahawk use ten scoped materials
 and sixteen model assets, with no new camo images. The USP body/laser housing and M40 body/scope
