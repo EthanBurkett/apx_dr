@@ -13,7 +13,9 @@ python tools/check.py
 Core validates local references, table IDs, public configs, documentation links,
 tool coverage and script decision tests. It skips image decoding, binary-material
 assertions and SDK-owned references. LFS can remain unhydrated. Private configs
-are excluded before reading.
+are excluded before reading. SDK-owned manifest/include inputs are explicitly
+listed in ui/sdk_dependencies.json. Add verified stock dependencies there when
+needed; missing local project files still fail.
 
 The build suite uses a fake SDK/linker to test publication, restoration, rollback,
 locking, cache invalidation and deterministic IWD behavior. It needs Windows and

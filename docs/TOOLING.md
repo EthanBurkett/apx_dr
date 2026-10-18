@@ -17,7 +17,7 @@ download content, import packs or regenerate artwork.
 | `tools/launch.ps1` | Game, built mod; `-Mode Client\|Server`, `-Address`, `-Map`, `-Port`, `-Dedicated`, `-Executable`, `-ServerConfig`, `-ModDirectory`, `-GameRoot` | Starts official client or matching ApX server |
 | `tools/check.py` | Python/Pillow; `--suite core\|full`, optional `--game-root` | Repository audit, validator and selected Python tests |
 | `tools/repo_audit.py` | Git checkout; optional `--assets` | Index paths, redacted public-credential checks, docs links, tool coverage and optional LFS hydration |
-| `tools/validate.py` | Scripts/tables/configs; `--root`, `--game-root`, `--source-only` | Static references/packaging diagnostics; never opens private.cfg |
+| `tools/validate.py` | Scripts/tables/configs; `--root`, `--game-root`, `--source-only` | Static references/packaging diagnostics; SDK inventory in ui/sdk_dependencies.json; never opens private.cfg |
 | `tools/build-server.ps1` | Git, NASM, Windows tar, network for pinned source/compiler; `-GameRoot`, `-Install` | Server EXE, build record and full source ZIP under server; cache/logs in build |
 | `tools/download_maps.py` | `--url`, `--destination`, `--state-directory`, `--workers` 1–8 | Explicit mirror download; resumable parts, length checks, atomic replacement and previous-file backups |
 

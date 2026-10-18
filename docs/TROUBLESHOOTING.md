@@ -6,6 +6,14 @@ LFS payloads are missing. Run `git lfs pull`, `git lfs fsck` and
 `python tools/repo_audit.py --assets`. Source-only CI leaves pointers deliberately.
 Source ZIP downloads may contain pointers too.
 
+## GitHub rejects the push with an LFS budget error
+
+If GitHub reports “This repository exceeded its LFS budget,” the account owner
+must restore available LFS storage/transfer budget through GitHub's account
+settings. The Git and LFS commits remain safe locally. Once access is restored,
+retry `git push -u origin main`; the LFS pre-push hook resumes required uploads.
+Do not bypass the hook or replace the full asset history with missing pointers.
+
 ## Linker stream assertion in db_stream_save.cpp
 
 The SDK content stream can overflow before writing a fastfile. Use the maintained
