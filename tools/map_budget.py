@@ -21,6 +21,7 @@ def source_signature(root):
         # not invalidate measurements for identical resource references.
         if path.relative_to(root).parts[0] in ('manifests','src'):
             payload=payload.replace(b'\r\n',b'\n')
+            payload=b'\n'.join(line.rstrip(b' \t') for line in payload.split(b'\n'))
         digest.update(hashlib.sha256(payload).digest())
     return digest.hexdigest()
 

@@ -91,6 +91,7 @@ tests exercise script decisions and assets; they do not emulate the game.
 | I want toâ€¦                                 | Read                                                                               |
 | -------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Install, configure and run a server          | [Getting started](docs/GETTING-STARTED.md)                                         |
+| Deploy the public server from main          | [Public deployment](docs/DEPLOYMENT.md)                                           |
 | Understand every tool and its inputs/outputs | [Tool reference](docs/TOOLING.md)                                                  |
 | Change content, unlocks or model previews    | [Content workflow](docs/CONTENT-WORKFLOW.md)                                       |
 | Work on menus, HUD or shaders                | [Menus](docs/MENUS.md), [interface](docs/INTERFACE.md), [shaders](docs/SHADERS.md) |

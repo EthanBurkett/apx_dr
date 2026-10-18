@@ -45,7 +45,7 @@ def image(x,y,w,h,material):
 
 def nav(active,offline=False):
     out=''
-    entries=SPEC['navigation'] if not offline else [('main_options','Settings','public'),('main_controls','Controls','public'),('apx_audio_offline','Audio / input','public'),('apx_graphics_offline','Graphics','public'),('single_popmenu','About / credits','public'),('main_text','Main menu','public')]
+    entries=SPEC['navigation'] if not offline else [('apx_main_options','Settings','public'),('apx_main_controls','Controls','public'),('apx_audio_offline','Audio / input','public'),('apx_graphics_offline','Graphics','public'),('single_popmenu','About / credits','public'),('main_text','Main menu','public')]
     for i,(destination,label,access) in enumerate(entries):
         condition='1' if access=='public' else f'dvarInt("apx_access_{access}")'
         y=116+i*29
@@ -68,9 +68,9 @@ def shell(title,active,offline=False):
 
 def menu(name,title,body,active='team_select',onopen='',access='public',escape='close self; open team_select;',shell_on=True):
     ROUTES[name]=access
-    offline=name.startswith('main_') or name in ('apx_audio_offline','apx_graphics_offline','single_popmenu')
+    offline=name.startswith(('main_','apx_main_')) or name in ('apx_audio_offline','apx_graphics_offline','single_popmenu')
     if offline:
-        mapping={'dr_options':'main_options','controls_multi':'main_controls','apx_audio':'apx_audio_offline','apx_graphics':'apx_graphics_offline','team_select':'main_text','dr_help':'single_popmenu'}
+        mapping={'dr_options':'apx_main_options','apx_controls':'apx_main_controls','apx_audio':'apx_audio_offline','apx_graphics':'apx_graphics_offline','team_select':'main_text','dr_help':'single_popmenu'}
         active=mapping.get(active,active)
         for source,destination in mapping.items(): body=body.replace('open '+source+';', 'open '+destination+';')
         escape='open quit_popmenu;' if name=='main_text' else 'close self;'
@@ -137,7 +137,7 @@ def preference_action(key,stat,value,offline=False):
 
 
 def settings(name='dr_options'):
-    offline=name.startswith('main_')
+    offline=name.startswith('apx_main_')
     current='(dvarFloat("cg_fovScale") * 80)' if offline else 'dvarInt("apx_pref_fov")'
     body=text('fov',180,114,424,'"FIELD OF VIEW   " + '+current,.28,True)
     for i,fov in enumerate([65,70,75,80,90,100,110,120]):
@@ -146,14 +146,15 @@ def settings(name='dr_options'):
     body+=preference_button('fps',2403,233,'FPS counter',offline)
     body+=preference_button('minimal',2404,272,'Minimal HUD',offline)
     body+=preference_button('thirdperson',988,311,'Third-person camera',offline)
-    body+=text('saved',180,355,424,'Local display settings save to your game profile.' if offline else 'FOV and display preferences persist across reconnects.',.22)
+    body+=button('stock_settings',180,351,206,'Classic settings','open main_options;')
+    body+=button('stock_controls',398,351,206,'Classic controls','open main_controls;')
     reset='execNow "seta cg_fov 80;seta cg_fovScale 1.125;seta r_fullbright 0;seta cg_drawFPS 0;seta apx_minimal_hud 0";' if offline else 'scriptMenuResponse "preferences_reset";'
     body+=button('reset',180,391,206,'Restore display defaults',reset)
     body+=button('graphics',398,391,206,'Audio / input','close self; open apx_audio;')
     return menu(name,'Your view. Your setup.',body,'dr_options')
 
 
-def controls(name='controls_multi'):
+def controls(name='apx_controls'):
     pages=[('Movement',[('Forward','+forward'),('Back','+back'),('Strafe left','+moveleft'),('Strafe right','+moveright'),('Jump','+gostand'),('Crouch','+gocrouch'),('Sprint','+sprint')]),
            ('Combat',[('Fire','+attack'),('Aim down sights','+speed_throw'),('Reload','+reload'),('Melee','+melee'),('Use / interact','+activate'),('Grenade','+frag'),('Special grenade','+smoke')]),
            ('Deathrun',[('Scoreboard','+scores'),('Voice chat','+talk'),('Chat','chatmodepublic'),('Third person','openscriptmenu quickstuff 3rdperson'),('Suicide','openscriptmenu quickstuff suicide')]),
@@ -198,8 +199,10 @@ visible when(localVarInt(apx_control_page)=={p})
 onFocus {{ setLocalVarInt ui_highlight 0; }}
 }}
 '''
+    body+=button('stock_controls',180,378,206,'Classic controls','open main_controls;')
+    body+=button('stock_settings',398,378,206,'Classic settings','open main_options;')
     body+=text('help',180,410,424,'Click a binding, press a key. ESC cancels rebinding.',.21)
-    return menu(name,'Controls',body,'controls_multi',onopen='setLocalVarInt apx_control_page 0;')
+    return menu(name,'Controls',body,'apx_controls',onopen='setLocalVarInt apx_control_page 0;')
 
 
 def build_progression():
@@ -338,13 +341,15 @@ def build_admin():
 
 def build_main():
     body='APX_UI_BACKDROP("apx_menu_background")\nAPX_UI_RECT(16,20,250,440,0.045 0.06 0.069 1)\nAPX_LOGO(38,35,160,80,0 0,1,1)\n'
-    actions=[('Join a server','open pc_join_unranked;'),('Start a server','open createserver;'),('Select profile','setdvar ui_playerProfileAlreadyChosen 0; open player_profile;'),('Settings','open main_options;'),('Controls','open main_controls;'),('About / credits','open single_popmenu;'),('Mods','open mods_menu;'),('Quit','open quit_popmenu;')]
+    actions=[('Join a server','open pc_join_unranked;'),('Start a server','open createserver;'),('Select profile','setdvar ui_playerProfileAlreadyChosen 0; open player_profile;'),('Settings','open apx_main_options;'),('Controls','open apx_main_controls;'),('About / credits','open single_popmenu;'),('Mods','open mods_menu;'),('Quit','open quit_popmenu;')]
     for i,(label,action) in enumerate(actions): body+=button('main'+str(i),38,140+i*35,206,label,action)
     body+='APX_UI_RECT(292,108,324,216,0.027 0.038 0.046 0.85)\n'
     body+=text('welcome',308,130,286,'RUN. ADAPT. REPEAT.',.42)
     body+=text('lead',308,184,286,'One course. One Activator.',.28)
     body+=text('lead2',308,212,286,'Every round is a new chance.',.26)
     body+=text('levels',308,279,286,f'70 LEVELS  /  {MAX_PRESTIGE} PRESTIGES',.27)
+    body+=button('classic_settings',304,351,142,'Classic settings','open main_options;')
+    body+=button('classic_controls',454,351,142,'Classic controls','open main_controls;')
     body+=text('credits',304,445,286,'Built for the next run. Built by our community.',.2)
     main='menuDef { name "main" rect 0 0 640 480 0 0 fullScreen 1 onOpen { setdvar cg_scoreboardWidth 500; setdvar cg_scoreboardBannerHeight 35; setdvar cg_scoreboardHeight 435; setdvar cg_scoreboardItemHeight 18; setdvar ui_showEndOfGame 0; setdvar apx_access_admin 0; setdvar apx_access_vip 0; open main_text; uiScript addPlayerProfiles; uiScript openMenuOnDvar com_playerProfile "" player_profile; uiScript openMenuOnDvarNot ui_playerProfileCount 1 player_profile; uiScript stopRefresh; } }\n'
     main+=menu('main_text','',body,shell_on=False,escape='open quit_popmenu;')
@@ -353,8 +358,8 @@ def build_main():
     save('ui_mp/main.menu',main)
     save('ui/quit.menu',confirmation('quit_popmenu','Quit the game?','Your saved progression stays in your profile.', 'Quit game','uiScript quit;'))
     save('ui_mp/scriptmenus/popup_leavegame.menu',confirmation('popup_endgame','Leave this server?','Your saved progression and display settings are kept.', 'Leave server','close self; exec "disconnect";')+confirmation('popup_leavegame','Leave this server?','Your saved progression and display settings are kept.', 'Leave server','close self; exec "disconnect";'))
-    # Native entry names route to the same custom controls/settings surfaces.
-    save('ui_mp/options.menu',settings('main_options')+controls('main_controls'))
+    # Keep native main_options/main_controls/controls_multi available separately.
+    save('ui_mp/apx_options.menu',settings('apx_main_options')+controls('apx_main_controls'))
 
 
 def build_help_audio():
@@ -420,7 +425,21 @@ decoration
     for i,(label,destination) in enumerate([('1  Commands','quickcommands'),('2  Statements','quickstatements'),('3  Responses','quickresponses'),('4  Player actions','quickstuff')]):
         body+=button('quick'+str(i),180,140+i*40,424,label,f'close self; open {destination};')
         body+=f'execKey "{i+1}" {{ close self; open {destination}; }}\n'
-    save('ui_mp/wm_quickmessage.menu',menu('quickmessage','Quick messages',body,escape='close self;'))
+    content=menu('quickmessage','Quick messages',body,escape='close self;')
+    quick_pages=[
+        ('quickcommands','Commands',['Follow me','Move in','Fall back','Suppressing fire','Attack left flank','Attack right flank','Hold this position','Regroup']),
+        ('quickstatements','Statements',['Enemy spotted','Enemies spotted',"I am in position",'Area secure','Watch your six','Sniper','Need reinforcements']),
+        ('quickresponses','Responses',['Yes sir','No sir',"I am on my way",'Sorry','Great shot','Come on']),
+    ]
+    for name,title,labels in quick_pages:
+        body=''
+        for number,label in enumerate(labels,1):
+            action=f'scriptMenuResponse "{number}"; close self;'
+            body+=button('message'+str(number),180,116+(number-1)*34,424,f'{number}  {label}',action)
+            body+=f'execKey "{number}" {{ {action} }}\n'
+        body+=button('back',180,402,424,'Back to quick messages','close self; open quickmessage;')
+        content+=menu(name,title,body,escape='close self; open quickmessage;')
+    save('ui_mp/wm_quickmessage.menu',content)
     # Compatibility paths retain the new shell, rather than the retired UI.
     save('ui_mp/scriptmenus/dr_welcome.menu',menu('dr_welcome','Welcome to the run',text('welcome',180,140,424,'Jumpers survive. The Activator sets the pace.',.28)))
 
@@ -430,7 +449,7 @@ def main():
     build_catalog_data()
     build_catalogs(); build_home(); build_progression(); build_admin(); build_main(); build_help_audio(); build_connect_quick()
     save('ui_mp/scriptmenus/dr_options.menu',settings())
-    save('ui_mp/controls_multi.menu',controls())
+    save('ui_mp/apx_controls.menu',controls())
     for path,source in MENUS.items():
         dest=ROOT/'src'/path; dest.parent.mkdir(parents=True,exist_ok=True)
         dest.write_text(source,encoding='ascii')

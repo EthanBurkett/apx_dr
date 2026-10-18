@@ -1,0 +1,71 @@
+name: Deploy production
+on:
+  workflow_run:
+    workflows: [Checks]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: apx-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: windows-latest
+    timeout-minutes: 35
+    environment: production
+    env:
+      RELEASE_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+      APX_SDK_SHA256: ${{ vars.APX_SDK_SHA256 }}
+      APX_SSH_KNOWN_HOSTS: ${{ vars.APX_SSH_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ env.RELEASE_SHA }}
+          lfs: true
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - name: Check hydrated build inputs
+        run: |
+          git lfs fsck
+          python tools/repo_audit.py --assets
+      - name: Fetch private licensed SDK
+        env:
+          APX_DEPLOY_KEY: ${{ secrets.APX_DEPLOY_KEY }}
+        run: python tools/deploy.py fetch-sdk
+      - name: Run complete Python suite
+        shell: powershell
+        run: |
+          python -m zipfile -e build/ci-sdk.zip build/ci-sdk/game
+          if ($LASTEXITCODE -ne 0) { throw 'SDK extraction failed.' }
+          Remove-Item -LiteralPath build/ci-sdk.zip
+          python tools/check.py --suite full --game-root build/ci-sdk/game
+      - name: Build fastfile and public archives
+        shell: powershell
+        run: .\tools\ci_build.ps1 -ExpandedSdk
+      - name: Ignore superseded main revisions
+        id: current
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: powershell
+        run: |
+          $head = gh api "repos/$env:GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha'
+          if ($LASTEXITCODE -ne 0) { throw 'Could not check current main revision.' }
+          "deploy=$($head.Trim() -eq $env:RELEASE_SHA)".ToLowerInvariant() | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+      - name: Upload, smoke test and activate production release
+        if: steps.current.outputs.deploy == 'true'
+        env:
+          APX_DEPLOY_KEY: ${{ secrets.APX_DEPLOY_KEY }}
+        run: python tools/deploy.py deploy --revision $env:RELEASE_SHA

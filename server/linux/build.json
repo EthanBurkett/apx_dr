@@ -1,0 +1,10 @@
+{
+  "upstream": "https://github.com/callofduty4x/CoD4x_Server",
+  "revision": "ddd65fce1a1093017bad2dbb6840d75d11c0d56f",
+  "platform": "Linux i686",
+  "compiler": "GCC 14.2.0",
+  "patchSHA256": "7cb39edde8256cfce698ee6fa923b5a6fe279840ccf0360684255175c088710d",
+  "executableSHA256": "3574542eec0d4d2bfa1e177fbf358314b8615d70e802e908c294daeba1ecf36b",
+  "sourceBundle": "server/apx-cod4x-source.zip",
+  "sourceSHA256": "462df9b1a0880b1e986410bdc6b89483462574c0de74823456ab67dd42395f1f"
+}

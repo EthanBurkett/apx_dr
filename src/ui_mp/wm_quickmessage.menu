@@ -19,7 +19,7 @@ APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open charac
 APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
 APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
 APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
-APX_UI_BUTTON("nav_controls_multi",28,261,122,"Controls",close self; open controls_multi;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
 APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
 APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
 APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
@@ -35,6 +35,135 @@ APX_UI_BUTTON("quick2",180,220,424,"3  Responses",close self; open quickresponse
 execKey "3" { close self; open quickresponses; }
 APX_UI_BUTTON("quick3",180,260,424,"4  Player actions",close self; open quickstuff;,1)
 execKey "4" { close self; open quickstuff; }
+
+}
+menuDef
+{
+name "quickcommands"
+rect 0 0 640 480 0 0
+fullScreen 0
+focuscolor 0.89 0.78 0.53 1
+onOpen { scriptMenuResponse "ui:quickcommands:apx_open";  }
+onEsc { close self; open quickmessage; }
+APX_UI_RECT(0,0,640,480,0.027 0.038 0.046 0.96)
+APX_UI_RECT(16,20,144,440,0.045 0.06 0.069 1)
+APX_LOGO(28,30,112,56,0 0,1,1)
+APX_UI_TEXT("navigation",40,88,110,"DEATHRUN",0.17)
+APX_UI_BUTTON("nav_team_select",28,116,122,"Overview",close self; open team_select;,1)
+APX_UI_RECT(40,141,98,1,0.8 0.69 0.45 0.9)
+APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open character_stuff;,1)
+APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
+APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
+APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
+APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
+APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
+APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
+APX_UI_TEXT("section",180,32,420,"APX / OPERATIONS",0.17)
+APX_UI_TEXT("title",180,59,420,"Commands",0.48)
+APX_UI_RECT(180,96,424,1,0.3 0.36 0.38 0.5)
+APX_UI_TEXT("footer",180,436,424,"ESC  Back     /     Selections save automatically",0.18)
+APX_UI_BUTTON("message1",180,116,424,"1  Follow me",scriptMenuResponse "ui:quickcommands:1"; close self;,1)
+execKey "1" { scriptMenuResponse "ui:quickcommands:1"; close self; }
+APX_UI_BUTTON("message2",180,150,424,"2  Move in",scriptMenuResponse "ui:quickcommands:2"; close self;,1)
+execKey "2" { scriptMenuResponse "ui:quickcommands:2"; close self; }
+APX_UI_BUTTON("message3",180,184,424,"3  Fall back",scriptMenuResponse "ui:quickcommands:3"; close self;,1)
+execKey "3" { scriptMenuResponse "ui:quickcommands:3"; close self; }
+APX_UI_BUTTON("message4",180,218,424,"4  Suppressing fire",scriptMenuResponse "ui:quickcommands:4"; close self;,1)
+execKey "4" { scriptMenuResponse "ui:quickcommands:4"; close self; }
+APX_UI_BUTTON("message5",180,252,424,"5  Attack left flank",scriptMenuResponse "ui:quickcommands:5"; close self;,1)
+execKey "5" { scriptMenuResponse "ui:quickcommands:5"; close self; }
+APX_UI_BUTTON("message6",180,286,424,"6  Attack right flank",scriptMenuResponse "ui:quickcommands:6"; close self;,1)
+execKey "6" { scriptMenuResponse "ui:quickcommands:6"; close self; }
+APX_UI_BUTTON("message7",180,320,424,"7  Hold this position",scriptMenuResponse "ui:quickcommands:7"; close self;,1)
+execKey "7" { scriptMenuResponse "ui:quickcommands:7"; close self; }
+APX_UI_BUTTON("message8",180,354,424,"8  Regroup",scriptMenuResponse "ui:quickcommands:8"; close self;,1)
+execKey "8" { scriptMenuResponse "ui:quickcommands:8"; close self; }
+APX_UI_BUTTON("back",180,402,424,"Back to quick messages",close self; open quickmessage;,1)
+
+}
+menuDef
+{
+name "quickstatements"
+rect 0 0 640 480 0 0
+fullScreen 0
+focuscolor 0.89 0.78 0.53 1
+onOpen { scriptMenuResponse "ui:quickstatements:apx_open";  }
+onEsc { close self; open quickmessage; }
+APX_UI_RECT(0,0,640,480,0.027 0.038 0.046 0.96)
+APX_UI_RECT(16,20,144,440,0.045 0.06 0.069 1)
+APX_LOGO(28,30,112,56,0 0,1,1)
+APX_UI_TEXT("navigation",40,88,110,"DEATHRUN",0.17)
+APX_UI_BUTTON("nav_team_select",28,116,122,"Overview",close self; open team_select;,1)
+APX_UI_RECT(40,141,98,1,0.8 0.69 0.45 0.9)
+APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open character_stuff;,1)
+APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
+APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
+APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
+APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
+APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
+APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
+APX_UI_TEXT("section",180,32,420,"APX / OPERATIONS",0.17)
+APX_UI_TEXT("title",180,59,420,"Statements",0.48)
+APX_UI_RECT(180,96,424,1,0.3 0.36 0.38 0.5)
+APX_UI_TEXT("footer",180,436,424,"ESC  Back     /     Selections save automatically",0.18)
+APX_UI_BUTTON("message1",180,116,424,"1  Enemy spotted",scriptMenuResponse "ui:quickstatements:1"; close self;,1)
+execKey "1" { scriptMenuResponse "ui:quickstatements:1"; close self; }
+APX_UI_BUTTON("message2",180,150,424,"2  Enemies spotted",scriptMenuResponse "ui:quickstatements:2"; close self;,1)
+execKey "2" { scriptMenuResponse "ui:quickstatements:2"; close self; }
+APX_UI_BUTTON("message3",180,184,424,"3  I am in position",scriptMenuResponse "ui:quickstatements:3"; close self;,1)
+execKey "3" { scriptMenuResponse "ui:quickstatements:3"; close self; }
+APX_UI_BUTTON("message4",180,218,424,"4  Area secure",scriptMenuResponse "ui:quickstatements:4"; close self;,1)
+execKey "4" { scriptMenuResponse "ui:quickstatements:4"; close self; }
+APX_UI_BUTTON("message5",180,252,424,"5  Watch your six",scriptMenuResponse "ui:quickstatements:5"; close self;,1)
+execKey "5" { scriptMenuResponse "ui:quickstatements:5"; close self; }
+APX_UI_BUTTON("message6",180,286,424,"6  Sniper",scriptMenuResponse "ui:quickstatements:6"; close self;,1)
+execKey "6" { scriptMenuResponse "ui:quickstatements:6"; close self; }
+APX_UI_BUTTON("message7",180,320,424,"7  Need reinforcements",scriptMenuResponse "ui:quickstatements:7"; close self;,1)
+execKey "7" { scriptMenuResponse "ui:quickstatements:7"; close self; }
+APX_UI_BUTTON("back",180,402,424,"Back to quick messages",close self; open quickmessage;,1)
+
+}
+menuDef
+{
+name "quickresponses"
+rect 0 0 640 480 0 0
+fullScreen 0
+focuscolor 0.89 0.78 0.53 1
+onOpen { scriptMenuResponse "ui:quickresponses:apx_open";  }
+onEsc { close self; open quickmessage; }
+APX_UI_RECT(0,0,640,480,0.027 0.038 0.046 0.96)
+APX_UI_RECT(16,20,144,440,0.045 0.06 0.069 1)
+APX_LOGO(28,30,112,56,0 0,1,1)
+APX_UI_TEXT("navigation",40,88,110,"DEATHRUN",0.17)
+APX_UI_BUTTON("nav_team_select",28,116,122,"Overview",close self; open team_select;,1)
+APX_UI_RECT(40,141,98,1,0.8 0.69 0.45 0.9)
+APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open character_stuff;,1)
+APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
+APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
+APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
+APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
+APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
+APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
+APX_UI_TEXT("section",180,32,420,"APX / OPERATIONS",0.17)
+APX_UI_TEXT("title",180,59,420,"Responses",0.48)
+APX_UI_RECT(180,96,424,1,0.3 0.36 0.38 0.5)
+APX_UI_TEXT("footer",180,436,424,"ESC  Back     /     Selections save automatically",0.18)
+APX_UI_BUTTON("message1",180,116,424,"1  Yes sir",scriptMenuResponse "ui:quickresponses:1"; close self;,1)
+execKey "1" { scriptMenuResponse "ui:quickresponses:1"; close self; }
+APX_UI_BUTTON("message2",180,150,424,"2  No sir",scriptMenuResponse "ui:quickresponses:2"; close self;,1)
+execKey "2" { scriptMenuResponse "ui:quickresponses:2"; close self; }
+APX_UI_BUTTON("message3",180,184,424,"3  I am on my way",scriptMenuResponse "ui:quickresponses:3"; close self;,1)
+execKey "3" { scriptMenuResponse "ui:quickresponses:3"; close self; }
+APX_UI_BUTTON("message4",180,218,424,"4  Sorry",scriptMenuResponse "ui:quickresponses:4"; close self;,1)
+execKey "4" { scriptMenuResponse "ui:quickresponses:4"; close self; }
+APX_UI_BUTTON("message5",180,252,424,"5  Great shot",scriptMenuResponse "ui:quickresponses:5"; close self;,1)
+execKey "5" { scriptMenuResponse "ui:quickresponses:5"; close self; }
+APX_UI_BUTTON("message6",180,286,424,"6  Come on",scriptMenuResponse "ui:quickresponses:6"; close self;,1)
+execKey "6" { scriptMenuResponse "ui:quickresponses:6"; close self; }
+APX_UI_BUTTON("back",180,402,424,"Back to quick messages",close self; open quickmessage;,1)
 
 }
 }

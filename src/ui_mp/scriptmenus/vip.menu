@@ -18,7 +18,7 @@ APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open charac
 APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
 APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
 APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
-APX_UI_BUTTON("nav_controls_multi",28,261,122,"Controls",close self; open controls_multi;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
 APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
 APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
 APX_UI_RECT(40,344,98,1,0.8 0.69 0.45 0.9)
