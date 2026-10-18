@@ -23,8 +23,10 @@ class Deployment(unittest.TestCase):
             (root / 'raw/ui_mp').mkdir(parents=True)
             for name in ['password.menu', 'private.cfg', 'bunny.env', '.env.production', 'id_ed25519']:
                 (root / 'raw/ui_mp' / name).write_text('test')
+            (root / 'raw/fileSysCheck.cfg').write_text('// filesystem marker')
             names = {name for _, name in sdk_files(root)}
             self.assertIn('raw/ui_mp/password.menu', names)
+            self.assertIn('raw/fileSysCheck.cfg', names)
             self.assertFalse(names.intersection({'raw/ui_mp/' + name for name in ['private.cfg', 'bunny.env', '.env.production', 'id_ed25519']}))
 
     def test_release_paths_cannot_write_code_keys_or_escape(self):

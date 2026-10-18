@@ -1,8 +1,9 @@
 """Make an operator-only SDK archive for ephemeral Windows CI workers.
 
 This is licensed development data, never a public GitHub artifact or CDN file.
-Only SDK raw data and the five named runtime/linker files are included. Configs,
-keys, env files, profiles, game archives and installed mod directories are absent.
+Only SDK raw data and the five named runtime/linker files are included. Saved
+configs, keys, env files, profiles, game archives and mods are absent. The SDK's
+comment-only fileSysCheck.cfg filesystem marker is the sole config exception.
 """
 import argparse
 import hashlib
@@ -18,7 +19,7 @@ def sdk_files(game_root):
             continue
         relative = path.relative_to(game_root).as_posix()
         name = path.name.lower()
-        if (path.suffix.lower() in {'.cfg', '.env', '.pem', '.key'}
+        if (path.suffix.lower() in {'.cfg', '.env', '.pem', '.key'} and relative.lower() != 'raw/filesyscheck.cfg'
                 or name.startswith(('.env', 'private.')) or name in ('id_rsa', 'id_ed25519')):
             continue
         files.append((path, relative))
