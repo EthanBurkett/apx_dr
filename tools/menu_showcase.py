@@ -1,13 +1,13 @@
 """Dedicated native model-showcase layouts. All coordinates use 640x480."""
 
 
-def model(u,x,y,w,h,material,condition='1',cell=None):
+def model(u,x,y,w,h,material,condition='1',cell=None,cells=8):
     condition=condition.replace('localVarInt(apx_rotate)==0','(localVarInt(apx_rotate)==0 || dvarString("r_rendererInUse")=="Shader model 2.0")').replace('localVarInt(apx_rotate)==1','(localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")')
     result=[]
     # CoD4 expressions expose alpha but not RGB. Eight mutually exclusive
     # quads provide constant red cell codes while preserving normal UI alpha.
-    for index in range(8) if cell is not None else [None]:
-        color='1 1 1 1' if index is None else f'{(index+.5)/8} 1 1 1'
+    for index in range(cells) if cell is not None else [None]:
+        color='1 1 1 1' if index is None else f'{(index+.5)/cells} 1 1 1'
         shown=condition if index is None else f'({condition}) && (({cell})=={index})'
         result.append(f'''itemDef
 {{
@@ -114,7 +114,7 @@ visible 1
     body+=u.text('requirement',292,122,308,'dvarString("apx_browse_requirement")',.18,True)
     x,y,w,h=(382,146,118,236) if category=='character' else ((282,158,328,164) if category in ('weapon','knife','gloves') else (378,163,128,128))
     body+=model(u,x,y,w,h,'dvarString("apx_browse_preview")','dvarInt("apx_browse_exists") && localVarInt(apx_rotate)==0',cell='dvarInt("apx_browse_cell")' if category in ('weapon','character','knife','gloves') else None)
-    body+=model(u,x,y,w,h,'dvarString("apx_browse_turn")','dvarInt("apx_browse_exists") && localVarInt(apx_rotate)==1')
+    body+=model(u,x,y,w,h,'dvarString("apx_browse_turn")','dvarInt("apx_browse_exists") && localVarInt(apx_rotate)==1',cell='dvarInt("apx_browse_turn_cell")',cells=16)
     if category!='character': body+=u.text('detail',292,347,308,'dvarString("apx_browse_description")',.21,True)
     body+=u.button('previous_item',276,416,76,'Previous',f'scriptMenuResponse "browse:{category}:step:-1";')
     body+=u.button('next_item',358,416,68,'Next',f'scriptMenuResponse "browse:{category}:step:1";')

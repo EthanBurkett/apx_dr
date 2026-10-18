@@ -56,7 +56,7 @@ python tools/apply_content_profile.py
 python tools/content_report.py
 ```
 
-The profile must fill ten prestiges × ten ranks: 7, 14, 21, 28, 35, 42, 49, 56,
+The profile must fill five prestiges × ten ranks: 7, 14, 21, 28, 35, 42, 49, 56,
 63 and 70. Earlier prestige content stays available. Arms access derives from
 unlocked active operators using that model.
 
@@ -100,6 +100,7 @@ Optional rotation samples pre-rendered angles in HLSL, not live 3D geometry.
 ```powershell
 python tools/check.py --suite full
 .\tools\build.ps1
+.\tools\build-client-audit.ps1
 .\tools\test-runtime.ps1 -Map mp_backlot -Duration 20 -AssetUsage -ClientBudget
 .\tools\test-progression.ps1 -Suite Content
 .\tools\test-progression.ps1 -Suite Equipment

@@ -33,7 +33,7 @@ APX_UI_BUTTON("level35",398,166,206,"Set level 35",scriptMenuResponse "ui:apx_ad
 APX_UI_BUTTON("level55",180,201,206,"Set level 55",scriptMenuResponse "ui:apx_admin_progression:progression:setrank:55";,dvarInt("apx_admin_p"))
 APX_UI_BUTTON("level70",398,201,206,"Set level 70",scriptMenuResponse "ui:apx_admin_progression:progression:setrank:70";,dvarInt("apx_admin_p"))
 APX_UI_BUTTON("xp",180,250,206,"Grant 10,000 XP",scriptMenuResponse "ui:apx_admin_progression:progression:xp:10000";,dvarInt("apx_admin_p"))
-APX_UI_BUTTON("prestige",398,250,206,"Set prestige 10",scriptMenuResponse "ui:apx_admin_progression:progression:setprestige:10";,dvarInt("apx_admin_p"))
+APX_UI_BUTTON("prestige",398,250,206,"Set prestige 5",scriptMenuResponse "ui:apx_admin_progression:progression:setprestige:5";,dvarInt("apx_admin_p"))
 APX_UI_BUTTON("reset",180,321,424,"Full profile reset...",scriptMenuResponse "ui:apx_admin_progression:reset_confirm_open";,dvarInt("apx_admin_p"))
 
 }

@@ -9,6 +9,9 @@ float2 cell(float frame,float2 uv)
 }
 float4 ps_main(Input input) : COLOR0
 {
-    float4 view=tex2D(colorMapSampler,cell(floor(input.phase+0.5),input.uv));
-    return view*input.color;
+    float selection=min(15.0,floor(input.color.r*16.0));
+    float2 tile=float2(fmod(selection,4.0),floor(selection/4.0));
+    float2 uv=(tile+cell(floor(input.phase+0.5),input.uv))/4.0;
+    float4 view=tex2D(colorMapSampler,uv);
+    return view*float4(1.0,input.color.g,input.color.b,input.color.a);
 }

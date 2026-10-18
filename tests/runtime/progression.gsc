@@ -8,7 +8,7 @@ run()
 	check( isDefined( bot.pers["prestige"] ), "test client profile initialized" );
 	wait 0.2;
 	cap = braxi\_rank_tables::getRankInfoMaxXP( level.maxRank );
-	check( level.maxRank == 69 && level.maxPrestige == 10, "table caps" );
+	check( level.maxRank == 69 && level.maxPrestige == 5, "table caps" );
 	for( rank = 0; rank <= 69; rank++ )
 		check( braxi\_rank_progression::getRankForXp( braxi\_rank_tables::getRankInfoMinXP( rank ) ) == rank, "rank threshold " + rank );
 	bot setStat( 2303, 321 );
@@ -47,7 +47,7 @@ run()
 	bot braxi\_scoreboard_panel::update( braxi\_scoreboard_panel::getRows() );
 	check( bot.apxScorePage == 0 && bot.apxScoreCache[13] == "empty", "page shrink clears stale rows" );
 	testAdminCommands( bot );
-	println( "APX_PROGRESSION_RUNTIME_PASS: 70 levels, 10 prestige transitions, retained stats, duplicate/cap guards, scoreboard sender, admin progression commands" );
+	println( "APX_PROGRESSION_RUNTIME_PASS: 70 levels, 5 prestige transitions, retained stats, duplicate/cap guards, scoreboard sender, admin progression commands" );
 }
 
 testAdminCommands( bot )

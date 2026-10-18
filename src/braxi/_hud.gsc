@@ -41,7 +41,7 @@ addTextHud( who, x, y, alpha, alignX, alignY, fontScale )
 	hud.alpha = alpha;
 	hud.alignX = alignX;
 	hud.alignY = alignY;
-	hud.fontScale = fontScale;
+	hud.fontScale = braxi\_presentation::fontScale( fontScale );
 	return hud;
 }
 
@@ -110,7 +110,7 @@ statusText( x, y, size )
     hud.horzAlign = "right";
     hud.vertAlign = "top";
     hud.font = "objective";
-    hud.fontScale = size;
+    hud.fontScale = braxi\_presentation::fontScale( size );
     hud.color = (0.88,0.91,0.92);
     hud.glowAlpha = 0;
     hud.hideWhenInMenu = true;

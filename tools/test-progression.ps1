@@ -58,6 +58,8 @@ try {
     Add-Content -LiteralPath (Join-Path $fixture 'manifests\00-scripts.csv') -Value "rawfile,braxi/_progression_runtime_test.gsc`nrawfile,maps/mp/gametypes/apx_progression_test.gsc"
     & $powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $fixture 'tools\build.ps1') -GameRoot $GameRoot
     if ($LASTEXITCODE -ne 0) { throw "Test fixture build failed: $fixture" }
-    & $powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $root 'tools\test-runtime.ps1') -GameRoot $GameRoot -Executable $Executable -ModDirectory (Join-Path $fixture 'dist') -GameType apx_progression_test -Map mp_backlot -Duration $duration -RequiredMarker $marker
+    $transition = @{}
+    if ($Suite -eq 'Presentation') { $transition.ExpectedNextMap = 'mp_dr_lithium' }
+    & $powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $root 'tools\test-runtime.ps1') -GameRoot $GameRoot -Executable $Executable -ModDirectory (Join-Path $fixture 'dist') -GameType apx_progression_test -Map mp_backlot -Duration $duration -RequiredMarker $marker @transition
     exit $LASTEXITCODE
 } catch { Write-Host $_.Exception.Message -ForegroundColor Red; exit 1 }

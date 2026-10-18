@@ -1,0 +1,298 @@
+{
+  "apx_turn_character_0": {
+    "material": "apx_rotation_tall_0",
+    "cell": 0
+  },
+  "apx_turn_character_4": {
+    "material": "apx_rotation_tall_0",
+    "cell": 1
+  },
+  "apx_turn_character_5": {
+    "material": "apx_rotation_tall_0",
+    "cell": 2
+  },
+  "apx_turn_character_6": {
+    "material": "apx_rotation_tall_0",
+    "cell": 3
+  },
+  "apx_turn_character_7": {
+    "material": "apx_rotation_tall_0",
+    "cell": 4
+  },
+  "apx_turn_character_8": {
+    "material": "apx_rotation_tall_0",
+    "cell": 5
+  },
+  "apx_turn_character_10": {
+    "material": "apx_rotation_tall_0",
+    "cell": 6
+  },
+  "apx_turn_character_11": {
+    "material": "apx_rotation_tall_0",
+    "cell": 7
+  },
+  "apx_turn_character_13": {
+    "material": "apx_rotation_tall_0",
+    "cell": 8
+  },
+  "apx_turn_character_15": {
+    "material": "apx_rotation_tall_0",
+    "cell": 9
+  },
+  "apx_turn_character_16": {
+    "material": "apx_rotation_tall_0",
+    "cell": 10
+  },
+  "apx_turn_character_17": {
+    "material": "apx_rotation_tall_0",
+    "cell": 11
+  },
+  "apx_turn_character_18": {
+    "material": "apx_rotation_tall_0",
+    "cell": 12
+  },
+  "apx_turn_character_20": {
+    "material": "apx_rotation_tall_0",
+    "cell": 13
+  },
+  "apx_turn_character_23": {
+    "material": "apx_rotation_tall_0",
+    "cell": 14
+  },
+  "apx_turn_character_25": {
+    "material": "apx_rotation_tall_0",
+    "cell": 15
+  },
+  "apx_turn_character_27": {
+    "material": "apx_rotation_tall_1",
+    "cell": 0
+  },
+  "apx_turn_character_29": {
+    "material": "apx_rotation_tall_1",
+    "cell": 1
+  },
+  "apx_turn_character_30": {
+    "material": "apx_rotation_tall_1",
+    "cell": 2
+  },
+  "apx_turn_character_31": {
+    "material": "apx_rotation_tall_1",
+    "cell": 3
+  },
+  "apx_turn_character_35": {
+    "material": "apx_rotation_tall_1",
+    "cell": 4
+  },
+  "apx_turn_character_39": {
+    "material": "apx_rotation_tall_1",
+    "cell": 5
+  },
+  "apx_turn_character_41": {
+    "material": "apx_rotation_tall_1",
+    "cell": 6
+  },
+  "apx_turn_character_42": {
+    "material": "apx_rotation_tall_1",
+    "cell": 7
+  },
+  "apx_turn_character_44": {
+    "material": "apx_rotation_tall_1",
+    "cell": 8
+  },
+  "apx_turn_character_47": {
+    "material": "apx_rotation_tall_1",
+    "cell": 9
+  },
+  "apx_turn_character_48": {
+    "material": "apx_rotation_tall_1",
+    "cell": 10
+  },
+  "apx_turn_character_50": {
+    "material": "apx_rotation_tall_1",
+    "cell": 11
+  },
+  "apx_turn_character_51": {
+    "material": "apx_rotation_tall_1",
+    "cell": 12
+  },
+  "apx_turn_character_52": {
+    "material": "apx_rotation_tall_1",
+    "cell": 13
+  },
+  "apx_turn_character_53": {
+    "material": "apx_rotation_tall_1",
+    "cell": 14
+  },
+  "apx_turn_character_55": {
+    "material": "apx_rotation_tall_1",
+    "cell": 15
+  },
+  "apx_turn_character_57": {
+    "material": "apx_rotation_tall_2",
+    "cell": 0
+  },
+  "apx_turn_character_62": {
+    "material": "apx_rotation_tall_2",
+    "cell": 1
+  },
+  "apx_turn_character_64": {
+    "material": "apx_rotation_tall_2",
+    "cell": 2
+  },
+  "apx_turn_character_65": {
+    "material": "apx_rotation_tall_2",
+    "cell": 3
+  },
+  "apx_turn_character_66": {
+    "material": "apx_rotation_tall_2",
+    "cell": 4
+  },
+  "apx_turn_character_72": {
+    "material": "apx_rotation_tall_2",
+    "cell": 5
+  },
+  "apx_turn_character_74": {
+    "material": "apx_rotation_tall_2",
+    "cell": 6
+  },
+  "apx_turn_character_75": {
+    "material": "apx_rotation_tall_2",
+    "cell": 7
+  },
+  "apx_turn_character_76": {
+    "material": "apx_rotation_tall_2",
+    "cell": 8
+  },
+  "apx_turn_character_90": {
+    "material": "apx_rotation_tall_2",
+    "cell": 9
+  },
+  "apx_turn_weapon_0": {
+    "material": "apx_rotation_wide_0",
+    "cell": 0
+  },
+  "apx_turn_weapon_1": {
+    "material": "apx_rotation_wide_0",
+    "cell": 1
+  },
+  "apx_turn_weapon_2": {
+    "material": "apx_rotation_wide_0",
+    "cell": 2
+  },
+  "apx_turn_weapon_3": {
+    "material": "apx_rotation_wide_0",
+    "cell": 3
+  },
+  "apx_turn_weapon_4": {
+    "material": "apx_rotation_wide_0",
+    "cell": 4
+  },
+  "apx_turn_weapon_5": {
+    "material": "apx_rotation_wide_0",
+    "cell": 5
+  },
+  "apx_turn_weapon_6": {
+    "material": "apx_rotation_wide_0",
+    "cell": 6
+  },
+  "apx_turn_weapon_7": {
+    "material": "apx_rotation_wide_0",
+    "cell": 7
+  },
+  "apx_turn_weapon_10": {
+    "material": "apx_rotation_wide_0",
+    "cell": 8
+  },
+  "apx_turn_weapon_12": {
+    "material": "apx_rotation_wide_0",
+    "cell": 9
+  },
+  "apx_turn_weapon_15": {
+    "material": "apx_rotation_wide_0",
+    "cell": 10
+  },
+  "apx_turn_weapon_22": {
+    "material": "apx_rotation_wide_0",
+    "cell": 11
+  },
+  "apx_turn_weapon_28": {
+    "material": "apx_rotation_wide_0",
+    "cell": 12
+  },
+  "apx_turn_weapon_30": {
+    "material": "apx_rotation_wide_0",
+    "cell": 13
+  },
+  "apx_turn_weapon_36": {
+    "material": "apx_rotation_wide_0",
+    "cell": 14
+  },
+  "apx_turn_weapon_39": {
+    "material": "apx_rotation_wide_0",
+    "cell": 15
+  },
+  "apx_turn_weapon_44": {
+    "material": "apx_rotation_wide_1",
+    "cell": 0
+  },
+  "apx_turn_weapon_60": {
+    "material": "apx_rotation_wide_1",
+    "cell": 1
+  },
+  "apx_turn_knife_0": {
+    "material": "apx_rotation_wide_1",
+    "cell": 2
+  },
+  "apx_turn_knife_1": {
+    "material": "apx_rotation_wide_1",
+    "cell": 3
+  },
+  "apx_turn_knife_2": {
+    "material": "apx_rotation_wide_1",
+    "cell": 4
+  },
+  "apx_turn_knife_3": {
+    "material": "apx_rotation_wide_1",
+    "cell": 5
+  },
+  "apx_turn_knife_4": {
+    "material": "apx_rotation_wide_1",
+    "cell": 6
+  },
+  "apx_turn_knife_5": {
+    "material": "apx_rotation_wide_1",
+    "cell": 7
+  },
+  "apx_turn_knife_6": {
+    "material": "apx_rotation_wide_1",
+    "cell": 8
+  },
+  "apx_turn_knife_7": {
+    "material": "apx_rotation_wide_1",
+    "cell": 9
+  },
+  "apx_turn_knife_8": {
+    "material": "apx_rotation_wide_1",
+    "cell": 10
+  },
+  "apx_turn_gloves_0": {
+    "material": "apx_rotation_wide_1",
+    "cell": 11
+  },
+  "apx_turn_gloves_8": {
+    "material": "apx_rotation_wide_1",
+    "cell": 12
+  },
+  "apx_turn_gloves_11": {
+    "material": "apx_rotation_wide_1",
+    "cell": 13
+  },
+  "apx_turn_gloves_1": {
+    "material": "apx_rotation_wide_1",
+    "cell": 14
+  },
+  "apx_turn_gloves_2": {
+    "material": "apx_rotation_wide_1",
+    "cell": 15
+  }
+}

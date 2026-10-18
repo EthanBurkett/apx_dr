@@ -30,7 +30,7 @@ authenticity; retain trusted source/checksum records for distributed maps.
 | --- | --- | --- |
 | `tools/test-build.ps1` | SDK transactions, rollback, archives and cache | Windows/.NET Framework C# compiler; fake SDK in build; no real SDK |
 | `tools/test-shaders.ps1` | HLSL compile/cache/errors and SM2 contracts | Windows D3D compiler, hydrated inputs; fixtures in build |
-| `tools/test-runtime.ps1` | Real-server startup, marker and optional pool budgets | Built mod/server/map; `-Map`, `-Duration` 10–120, `-Port`, `-GameType`, `-RequiredMarker`, `-AssetUsage`, `-ClientBudget`, `-ModDirectory`, `-GameRoot`, `-Executable` |
+| `tools/test-runtime.ps1` | Real-server startup, marker and optional pool budgets | Built mod/server/map; `-Map`, `-Duration` 10–120, `-Port`, `-GameType`, `-RequiredMarker`, `-ExpectedNextMap`, `-AssetUsage`, `-ClientBudget`, `-ModDirectory`, `-GameRoot`, `-Executable` |
 | `tools/test-progression.ps1` | Bot progression, EFR, HUD, menus, content, traffic, equipment or presentation | SDK/server/assets; `-Suite Progression\|Efr\|Hud\|Menus\|Content\|Traffic\|Equipment\|Presentation`; isolated fixture in build; never copies private.cfg |
 
 Native tests use loopback, their own homepath and an owned child process.
@@ -110,9 +110,15 @@ data too. Repair tools are not automatically run after release-build failure.
 | --- | --- |
 | `tools/gsc.py` | Import-only lexer/masking and function extraction |
 | `tools/menu_catalog_data.py` | Catalog metadata, stable arms labels and browser data |
+| `tools/pack_turntable_atlases.py` | Packs sixteen 1024-square runtime turntables into one 4096 atlas material; retains all original authoring renders and updates preview bindings |
+| `tools/build-client-audit.ps1` | Builds an isolated diagnostic server with the client's additional startup zones; restores native source and leaves the playable server untouched |
+| `tools/audit_map_assets.py` | Measures installed maps using the diagnostic executable, isolated configs/logs and up to four workers; records client-zone pool counts and the measured fastfile hash |
+| `tools/windows_process.py` | Import-only owned-process wrapper; places native map-audit windows and crash dialogs on a private desktop that is never shown or switched to |
+| `tools/NativeTestProcess.cs` | PowerShell native-smoke-test process lifetime; private desktop, handle-based termination and cleanup keep server dialogs off the user's desktop |
+| `tools/map_budget.py` | Import-only client pool policy, source-input fingerprint and public audit-report sanitizer used by rotation generation |
 | `tools/menu_showcase.py` | Generated loadout/catalog layouts |
 | `tools/menu_intermission.py` | Native match report, map ballot and shared credits layouts from `ui/credits.json`; imported by the menu generator |
-| `tools/sync_map_rotation.py` | Reads installed `usermaps` FF/arena metadata; writes `config/server/rotation.cfg` and `ui/map_inventory.json`; `--usermaps` overrides the local directory |
+| `tools/sync_map_rotation.py` | Reads installed `usermaps` FF/arena metadata and measured client budgets; writes rotation, inventory and sanitized public measurements; `--asset-report` + `--fastfile` imports a native audit, `--usermaps` selects another installation |
 | `tools/build/Project.ps1` | Project paths/source mappings |
 | `tools/build/Manifest.ps1` | Manifest plan/input validation |
 | `tools/build/Archives.ps1` | Deterministic archives and loose configs |

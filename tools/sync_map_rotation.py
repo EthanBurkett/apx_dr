@@ -9,6 +9,8 @@ import json
 from pathlib import Path
 import re
 import zipfile
+import hashlib
+from map_budget import compatible, public_report, source_signature
 
 ROOT=Path(__file__).resolve().parents[1]
 PREFIXES=('mp_dr_','mp_deathrun_','mp_drrun_')
@@ -70,16 +72,32 @@ def rotation(names):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--usermaps',type=Path,default=ROOT.parent.parent/'usermaps')
+    parser.add_argument('--asset-report',type=Path,default=ROOT/'ui/map_asset_budget.json')
+    parser.add_argument('--fastfile',type=Path,help='Measured FF; required when importing a raw native audit report')
     args=parser.parse_args()
     if not args.usermaps.is_dir():parser.error('usermaps directory does not exist')
     maps=[inspect_map(p) for p in sorted(args.usermaps.iterdir(),key=lambda p:p.name.lower()) if p.is_dir()]
-    names=[row['map'] for row in maps if row['deathrun']]
+    if not args.asset_report.is_file():parser.error('Run audit_map_assets.py first, then pass its report with --asset-report and --fastfile')
+    budget=json.loads(args.asset_report.read_text())
+    limits=json.loads((ROOT/'ui/content_profile.json').read_text())['max_usage']
+    if 'source_signature' not in budget:
+        if not args.fastfile or hashlib.sha256(args.fastfile.read_bytes()).hexdigest()!=budget.get('mod_sha256'):
+            parser.error('Raw audit report does not match --fastfile')
+        budget=public_report(budget,ROOT,limits)
+    if budget['source_signature']!=source_signature(ROOT):parser.error('Asset inputs changed; rerun the native map audit before changing the rotation')
+    measured={row['map']:row for row in budget['maps']}
+    for row in maps:
+        allowed,reason=compatible(measured.get(row['map']),limits)
+        row['rotation']=row['deathrun'] and allowed
+        if row['deathrun']:row['asset_budget']=reason
+    names=[row['map'] for row in maps if row['rotation']]
     # Familiar starting map, followed by stable alphabetical order.
     if 'mp_deathrun_supermario' in names:
         names.remove('mp_deathrun_supermario');names.insert(0,'mp_deathrun_supermario')
     (ROOT/'config/server/rotation.cfg').write_text(rotation(names),encoding='ascii')
+    (ROOT/'ui/map_asset_budget.json').write_text(json.dumps(budget,indent=2)+'\n',encoding='ascii')
     report={'installed_directories':len(maps),'rotation_maps':len(names),'pages':len(chunks(names)),
-            'classification':'Arena metadata or established Deathrun filename prefix; runtime compatibility is map-specific.',
+            'classification':'Deathrun prefix/arena support, plus measured client-zone asset budgets and a successful native load.',
             'maps':maps}
     (ROOT/'ui/map_inventory.json').write_text(json.dumps(report,indent=2)+'\n',encoding='ascii')
     print(f'Inventoried {len(maps)} usermaps: {len(names)} Deathrun maps in {report["pages"]} bounded rotation pages; {len(maps)-len(names)} excluded.')

@@ -91,8 +91,143 @@ itemDef
 rect 378 163 128 128 0 0
 style WINDOW_STYLE_SHADER
 exp material(dvarString("apx_browse_turn"))
-forecolor 1 1 1 1
-visible when(dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0"))
+forecolor 0.03125 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==0))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.09375 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==1))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.15625 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==2))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.21875 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==3))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.28125 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==4))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.34375 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==5))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.40625 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==6))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.46875 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==7))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.53125 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==8))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.59375 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==9))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.65625 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==10))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.71875 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==11))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.78125 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==12))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.84375 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==13))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.90625 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==14))
+decoration
+}
+itemDef
+{
+rect 378 163 128 128 0 0
+style WINDOW_STYLE_SHADER
+exp material(dvarString("apx_browse_turn"))
+forecolor 0.96875 1 1 1
+visible when((dvarInt("apx_browse_exists") && (localVarInt(apx_rotate)==1 && dvarString("r_rendererInUse")!="Shader model 2.0")) && ((dvarInt("apx_browse_turn_cell"))==15))
 decoration
 }
 APX_UI_TEXT("detail",292,347,308,dvarString("apx_browse_description"),0.21)

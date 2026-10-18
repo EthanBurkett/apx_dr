@@ -10,89 +10,89 @@
 10,9,19,character_sas,body_mp_sas_urban_sniper,viewhands_black_kit,Marine,Fallback for a retired character.,0
 11,10,22,character_alice,body_alice,viewmodel_hands_zombie,Alice,Alice Murray is the mission coordinator for T.W.O.,1
 12,11,25,character_50cent,body_50cent,viewmodel_hands_50cent,50 Cent,Alice Murray is the mission coordinator for T.W.O.,1
-13,12,7,character_sas,mp_body_iw4_seal_udt_ghost,vh_iw4_udt,COD MW2 Seal UDT Ghost,Community model / Infinity Ward - Sloth,1
+13,12,7,character_sas,mp_body_iw4_seal_udt_ghost,vh_iw4_udt,COD MW2 Seal UDT Ghost,Community model / Infinity Ward - Sloth,0
 14,13,70,character_sas,playermodel_mandalorian,viewmodel_base_viewhands,The Mandalorian,Community model / VC'Fox,1
-15,14,7,character_sas,plr_mrh_hermione,viewmodel_base_viewhands,Hermione,Community model / MrHeyLey,1
+15,14,7,character_sas,plr_mrh_hermione,viewmodel_base_viewhands,Hermione,Community model / MrHeyLey,0
 16,15,7,character_sas,plr_mrheyley_venom,viewmodel_base_viewhands,Venom,Community model / MrHeyLey,1
 17,16,7,character_sas,plr_mrh_sedtp,viewmodel_base_viewhands,Sed,Community model / MrHeyLey,1
 18,17,7,character_sas,plr_mrh_djskully,viewmodel_base_viewhands,DJ Scully,Community model / MrHeyLey,1
 19,18,14,character_sas,playermodel_iron_spider,viewmodel_base_viewhands,Iron Spider,Community model / ,1
-20,19,14,character_sas,brigitte,viewmodel_base_viewhands,Brigitte,Community model / Rex109,1
+20,19,14,character_sas,brigitte,viewmodel_base_viewhands,Brigitte,Community model / Rex109,0
 21,20,14,character_sas,alucard,viewmodel_base_viewhands,Alucard,Community model / Rex109,1
-22,21,14,character_sas,plr_serious_sam,viewmodel_base_viewhands,Serious Sam,Community model / Snakey,1
-23,22,21,character_sas,freeman,viewhands_freeman,Gordon Freeman,Community model / Rex109,1
+22,21,14,character_sas,plr_serious_sam,viewmodel_base_viewhands,Serious Sam,Community model / Snakey,0
+23,22,21,character_sas,freeman,viewhands_freeman,Gordon Freeman,Community model / Rex109,0
 24,23,21,character_sas,rick_model,viewmodel_base_viewhands,Rick Sanchez Model,Community model / Rampage199731,1
 25,24,30,character_sas,lion,viewhands_lion,Lion,Community model / Rex109,0
 26,25,28,character_sas,plr_terry_elfgirl,viewmodel_base_viewhands,Elf Girl,Community model / Terry,1
-27,26,28,character_sas,plr_terry_dragonwarrior,viewmodel_base_viewhands,Dragon Warrior,Community model / Terry,1
+27,26,28,character_sas,plr_terry_dragonwarrior,viewmodel_base_viewhands,Dragon Warrior,Community model / Terry,0
 28,27,28,character_sas,plr_terry_steve,viewmodel_base_viewhands,Steve(Minecraft),"Community model / Terry, Mojang",1
 29,28,30,character_sas,plr_terry_maven,viewmodel_base_viewhands,Maven,"Community model / Terry, Epic Games",0
 30,29,35,character_sas,plr_terry_hulk,viewmodel_base_viewhands,Hulk,Community model / Terry,1
 31,30,35,character_sas,plr_terry_johnwick,viewmodel_base_viewhands,John Wick,"Community model / Terry, Epic Games",1
 32,31,35,character_sas,plr_terry_helldemon,viewmodel_base_viewhands,Hell Demon,Community model / Terry,1
 33,32,30,character_sas,plr_terry_police,viewmodel_base_viewhands,Police Officer,Community model / Terry,0
-34,33,42,character_sas,plr_terry_malice,viewmodel_base_viewhands,Malice,"Community model / Terry, Epic Games",1
-35,34,42,character_sas,plr_terry_motoko,viewmodel_base_viewhands,Motoko Kusanagi,Community model / Terry,1
+34,33,42,character_sas,plr_terry_malice,viewmodel_base_viewhands,Malice,"Community model / Terry, Epic Games",0
+35,34,42,character_sas,plr_terry_motoko,viewmodel_base_viewhands,Motoko Kusanagi,Community model / Terry,0
 36,35,42,character_sas,plr_terry_lynx,viewmodel_base_viewhands,Lynx,"Community model / Terry, Epic Games",1
-37,36,42,character_sas,plr_terry_purpleheart,viewmodel_base_viewhands,Purple Heart,Community model / Terry,1
-38,37,49,character_sas,plr_terry_domino,viewmodel_base_viewhands,Domino,Community model / Terry,1
+37,36,42,character_sas,plr_terry_purpleheart,viewmodel_base_viewhands,Purple Heart,Community model / Terry,0
+38,37,49,character_sas,plr_terry_domino,viewmodel_base_viewhands,Domino,Community model / Terry,0
 39,38,30,character_sas,plr_terry_scifiheroine,viewmodel_base_viewhands,Sci-Fi Heroine,Community model / Terry,0
-40,39,49,character_sas,plr_terry_naruto,viewmodel_base_viewhands,Naruto,Community model / Terry,1
+40,39,42,character_sas,plr_terry_naruto,viewmodel_base_viewhands,Naruto,Community model / Terry,1
 41,40,30,character_sas,plr_terry_scififemale,viewmodel_base_viewhands,Sci-Fi Female,Community model / Terry,0
 42,41,49,character_sas,plr_terry_peely,viewmodel_base_viewhands,Peely,"Community model / Terry, Epic Games",1
 43,42,49,character_sas,plr_terry_blackpanther,viewmodel_base_viewhands,Black Panther,Community model / Terry,1
-44,43,56,character_sas,plr_terry_sylvanas,viewmodel_base_viewhands,Sylvanas,"Community model / Terry, Blizzard",1
+44,43,56,character_sas,plr_terry_sylvanas,viewmodel_base_viewhands,Sylvanas,"Community model / Terry, Blizzard",0
 45,44,56,character_sas,plr_terry_thanos,viewmodel_base_viewhands,Thanos,"Community model / Terry, Epic Games",1
-46,45,56,character_sas,plr_terry_teknique,viewmodel_base_viewhands,Teknique,"Community model / Terry, Epic Games",1
-47,46,56,character_sas,plr_john_marston,viewmodel_base_viewhands,John Marston,Community model / Snakey,1
+46,45,56,character_sas,plr_terry_teknique,viewmodel_base_viewhands,Teknique,"Community model / Terry, Epic Games",0
+47,46,56,character_sas,plr_john_marston,viewmodel_base_viewhands,John Marston,Community model / Snakey,0
 48,47,56,character_sas,plr_terry_scorpion,viewmodel_base_viewhands,Scorpion,"Community model / Terry, Mortal Kombat",1
 49,48,56,character_sas,plr_terry_ursegor,viewmodel_base_viewhands,Ursegor,"Community model / Terry, Piranha Bytes(RISEN)",1
 50,49,30,character_sas,plr_terry_valora,viewmodel_base_viewhands,Valora,"Community model / Terry, Epic Games",0
-51,50,63,character_sas,plr_terry_necris,viewmodel_base_viewhands,Necris,Community model / Terry,1
+51,50,56,character_sas,plr_terry_necris,viewmodel_base_viewhands,Necris,Community model / Terry,1
 52,51,63,character_sas,plr_terry_paladin,viewmodel_base_viewhands,Paladin,Community model / Terry,1
 53,52,63,character_sas,space_robot_kyle,viewmodel_base_viewhands,Space Robot Kyle,Community model / Snakey,1
 54,53,63,character_sas,plr_terry_blackwidow,viewmodel_base_viewhands,Black Widow,Community model / Terry,1
-55,54,63,character_sas,plr_hitman,viewmodel_base_viewhands,Hitman,Community model / Snakey,1
+55,54,63,character_sas,plr_hitman,viewmodel_base_viewhands,Hitman,Community model / Snakey,0
 56,55,63,character_sas,plr_terry_zombie,viewmodel_base_viewhands,WW2 Zombie,Community model / Terry,1
-57,56,63,character_sas,plr_terry_laracroft,viewmodel_base_viewhands,Lara Croft (Tomb Raider),Community model / Terry,1
+57,56,63,character_sas,plr_terry_laracroft,viewmodel_base_viewhands,Lara Croft (Tomb Raider),Community model / Terry,0
 58,57,63,character_sas,plr_terry_chucky,viewmodel_base_viewhands,Chucky,Community model / Terry,1
-59,58,70,character_sas,plr_terry_harley,viewmodel_base_viewhands,Harley Quinn,Community model / Terry,1
-60,59,70,character_sas,plr_far_cry_3_vaas,viewmodel_base_viewhands,Vaas Montenegro,Community model / Sanya,1
+59,58,70,character_sas,plr_terry_harley,viewmodel_base_viewhands,Harley Quinn,Community model / Terry,0
+60,59,70,character_sas,plr_far_cry_3_vaas,viewmodel_base_viewhands,Vaas Montenegro,Community model / Sanya,0
 61,60,30,character_sas,plr_adolf_hitler,viewmodel_base_viewhands,Adolf Hitler,Community model / Sanya,0
 62,61,30,character_sas,plr_terry_hitler,viewmodel_base_viewhands,Hitler,Community model / Terry,0
 63,62,70,character_sas,plr_terry_em208,viewmodel_base_viewhands,EM208(Robocop),Community model / Terry,1
-64,63,70,character_sas,plr_terry_youngfemale,viewmodel_base_viewhands,Young Female,Community model / Terry,1
+64,63,70,character_sas,plr_terry_youngfemale,viewmodel_base_viewhands,Young Female,Community model / Terry,0
 65,64,70,character_sas,plr_terry_ironman,viewmodel_base_viewhands,IRON MAN,Community model / Terry,1
 66,65,70,character_sas,plr_terry_shrek,viewmodel_base_viewhands,Shrek,Community model / Terry,1
 67,66,70,character_sas,plr_big_smoke,viewmodel_base_viewhands,Big smoke,Community model / Snakey,1
-68,67,7,character_sas,fullbody_bountyhunter,viewmodel_base_viewhands,Bountyhunter,Community model / Blood,1
-69,68,14,character_sas,plr_carl_johnson,viewmodel_base_viewhands,Carl Johnson,Community model / Snakey,1
-70,69,14,character_sas,plr_counter_terrorists_gign,viewmodel_base_viewhands,Counter Terrorists Gign,Community model / Snakey,1
-71,70,14,character_sas,plr_terrorist_arctic_avenger,viewmodel_base_viewhands,Terrorist Arctic Avenger,Community model / Snakey,1
-72,71,21,character_sas,plr_bo_zom_mil_police,viewmodel_base_viewhands,Black Ops  Zombie Military police,Community model / Sanya,1
-73,72,21,character_sas,plr_john_cena,viewmodel_base_viewhands,JohnCena,Community model / Snakey,1
+68,67,7,character_sas,fullbody_bountyhunter,viewmodel_base_viewhands,Bountyhunter,Community model / Blood,0
+69,68,14,character_sas,plr_carl_johnson,viewmodel_base_viewhands,Carl Johnson,Community model / Snakey,0
+70,69,14,character_sas,plr_counter_terrorists_gign,viewmodel_base_viewhands,Counter Terrorists Gign,Community model / Snakey,0
+71,70,14,character_sas,plr_terrorist_arctic_avenger,viewmodel_base_viewhands,Terrorist Arctic Avenger,Community model / Snakey,0
+72,71,21,character_sas,plr_bo_zom_mil_police,viewmodel_base_viewhands,Black Ops  Zombie Military police,Community model / Sanya,0
+73,72,14,character_sas,plr_john_cena,viewmodel_base_viewhands,JohnCena,Community model / Snakey,1
 74,73,60,character_sas,plr_aloneboy,viewmodel_base_viewhands,AloneBoy,Community model / Snakey,0
 75,74,21,character_sas,plr_tommy_vercetti,viewmodel_base_viewhands,Tommy Vercetti,Community model / Snakey,1
 76,75,28,character_sas,plr_chicken,viewmodel_base_viewhands,Chicken_,Community model / Hitbox,1
 77,76,28,character_sas,playermodel_kermit_the_frog,viewhands_kermit,kermit the frog,Community model / VC' Fox,1
-78,77,28,character_sas,playermodel_vcfox_spiderman,viewmodel_base_viewhands,Spiderman,Community model / VC' Fox,1
-79,78,28,character_sas,fox_batgirl,viewmodel_base_viewhands,BatGirl,Community model / VC' Fox,1
-80,79,35,character_sas,sonic,viewmodel_base_viewhands,Original Sonic,Community model / Night,1
-81,80,35,character_sas,playermodel_fox_fortnite_ramirez,viewmodel_base_viewhands,Fortnite Rameriz,Community model / VC' Fox,1
-82,81,35,character_sas,fox_chiller,viewmodel_base_viewhands,Chiller,Community model / ,1
-83,82,35,character_sas,sonic_metal_model,viewmodel_base_viewhands,METAL_SONIC_MODEL,Community model / BUSH1DO,1
-84,83,42,character_sas,mirage,viewmodel_base_viewhands,Xenia-Gaming Transformer Model Release,Community model / Wuzziefuzzy,1
+78,77,28,character_sas,playermodel_vcfox_spiderman,viewmodel_base_viewhands,Spiderman,Community model / VC' Fox,0
+79,78,28,character_sas,fox_batgirl,viewmodel_base_viewhands,BatGirl,Community model / VC' Fox,0
+80,79,35,character_sas,sonic,viewmodel_base_viewhands,Original Sonic,Community model / Night,0
+81,80,35,character_sas,playermodel_fox_fortnite_ramirez,viewmodel_base_viewhands,Fortnite Rameriz,Community model / VC' Fox,0
+82,81,35,character_sas,fox_chiller,viewmodel_base_viewhands,Chiller,Community model / ,0
+83,82,35,character_sas,sonic_metal_model,viewmodel_base_viewhands,METAL_SONIC_MODEL,Community model / BUSH1DO,0
+84,83,42,character_sas,mirage,viewmodel_base_viewhands,Xenia-Gaming Transformer Model Release,Community model / Wuzziefuzzy,0
 85,84,60,character_sas,wraith,viewmodel_base_viewhands,Xenia-Gaming Ghost Model Release,Community model / Wuzziefuzzy,0
-86,85,42,character_sas,captainamerica,captainamericaviewhands,Captain America V2,Community model / Lenny,1
-87,86,42,character_sas,shadow,viewmodel_base_viewhands,Shadow the Hedgehog,Community model / Lenny,1
-88,87,49,character_sas,ratchet,viewmodel_base_viewhands,Ratchet and Clank,Community model / Lenny,1
-89,88,49,character_sas,deadpool,viewmodel_base_viewhands,Deadpool,Community model / Lenny,1
-90,89,49,character_sas,playermodel_vin_diesel,viewmodel_base_viewhands,Vin Diesel,Community model / Sanya,1
+86,85,42,character_sas,captainamerica,captainamericaviewhands,Captain America V2,Community model / Lenny,0
+87,86,42,character_sas,shadow,viewmodel_base_viewhands,Shadow the Hedgehog,Community model / Lenny,0
+88,87,49,character_sas,ratchet,viewmodel_base_viewhands,Ratchet and Clank,Community model / Lenny,0
+89,88,49,character_sas,deadpool,viewmodel_base_viewhands,Deadpool,Community model / Lenny,0
+90,89,49,character_sas,playermodel_vin_diesel,viewmodel_base_viewhands,Vin Diesel,Community model / Sanya,0
 91,90,49,character_sas,playermodel_terminator,viewmodel_base_viewhands,Terminator,Community model / Sanya,1
 92,91,60,character_sas,playermodel_gta_iv_nico,viewmodel_base_viewhands,Gta Iv Nico,Community model / Sanya,0
-93,92,56,character_sas,playermodel_ghost_recon,viewmodel_base_viewhands,Ghost Recon,Community model / Sanya,1
+93,92,56,character_sas,playermodel_ghost_recon,viewmodel_base_viewhands,Ghost Recon,Community model / Sanya,0
 94,93,60,character_sas,body_mp_sas_urban_sniper,viewhands_black_kit,Fifty Cent,Community model / Sanya,0
-95,94,56,character_sas,playermodel_css_badass_terrorist,viewmodel_base_viewhands,Css Badass Terrorist,Community model / Sanya,1
+95,94,56,character_sas,playermodel_css_badass_terrorist,viewmodel_base_viewhands,Css Badass Terrorist,Community model / Sanya,0
 96,95,60,character_sas,masterchief_halo3,viewmodel_base_viewhands,Masterchief,Community model / Bungie/Hacker22,0
 97,96,60,character_sas,yuusha_2,viewmodel_base_viewhands,Yuusha 2,Community model / Hacker22,0
 98,97,60,character_sas,yuusha,viewmodel_base_viewhands,Yuusha,Community model / Hacker22,0
@@ -106,4 +106,4 @@
 106,105,60,character_sas,playermodel_mw2_usmc_shotgun_a,viewhands_moh_ranger,Mw2 Usmc Shotgun A,Community model / Sanya,0
 107,106,60,character_sas,playermodel_mw2_usmc_smg_a,viewhands_moh_ranger,Mw2 Usmc Smg A,Community model / Sanya,0
 108,107,60,character_sas,playermodel_mw2_usmc_sniper,viewhands_moh_ranger,Mw2 Usmc Sniper,Community model / Sanya,0
-109,108,70,character_sas,playermodel_dnf_duke,viewhands_dnf_duke,Duke nukem Model,Community model / Sanya,1
+109,108,70,character_sas,playermodel_dnf_duke,viewhands_dnf_duke,Duke nukem Model,Community model / Sanya,0

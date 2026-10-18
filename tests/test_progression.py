@@ -44,7 +44,7 @@ class Progression(unittest.TestCase):
         self.assertEqual(self.runtime().call('getRankForXp',-999),0)
         self.assertEqual(self.runtime().call('getRankForXp',2**31-1),69)
 
-    def test_prestige_requires_full_final_level_and_stops_at_ten(self):
+    def test_prestige_requires_full_final_level_and_stops_at_configured_cap(self):
         for rank,xp,prestige,expected in [(68,CAP,0,False),(69,CAP-1,0,False),(69,CAP,0,True),(69,CAP,MAX_PRESTIGE-1,True),(69,CAP,MAX_PRESTIGE,False)]:
             self.assertEqual(self.runtime().call('canEnter',receiver=self.player(prestige,xp,rank)),expected)
 

@@ -45,7 +45,7 @@ forecolor 1 1 1 1
 visible 1
 decoration
 }
-APX_UI_TEXT("rank",180,230,424,"LEVEL " + (stat(252)+1) + " / 70     PRESTIGE " + stat(2326) + " / 10",0.29)
+APX_UI_TEXT("rank",180,230,424,"LEVEL " + (stat(252)+1) + " / 70     PRESTIGE " + stat(2326) + " / 5",0.29)
 APX_UI_TEXT("xp",180,269,424,"TOTAL XP   " + stat(2301),0.25)
 APX_UI_TEXT("kept",180,307,424,"Prestige resets level / XP. Earlier content tiers stay.",0.24)
 APX_UI_TEXT("ready",180,327,424,"Reach level 70 and fill its XP bar to advance.",0.23)

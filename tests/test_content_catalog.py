@@ -29,7 +29,9 @@ class ContentCatalog(unittest.TestCase):
             self.assertIn(e['moved_to'],self.catalog)
             knife=knives[int(e['moved_to'].split(':')[1])]
             self.assertEqual(knife[4]+'_mp',e['weapon'])
-            self.assertEqual(self.catalog[e['moved_to']][7],'apx_turn_knife_'+knife[1])
+            slot=json.loads((ROOT/'ui/turntable_atlas.json').read_text())['apx_turn_knife_'+knife[1]]
+            self.assertEqual(self.catalog[e['moved_to']][7],slot['material'])
+            self.assertEqual(int(self.catalog[e['moved_to']][9]),slot['cell'])
         for e in self.spec['entries']:
             if e['category']!='weapon' or e.get('moved_to') or e.get('quarantined'): continue
             parts=(ROOT/'src/weapons/mp'/e['weapon']).read_text(encoding='latin1').split('\\')
@@ -46,7 +48,7 @@ class ContentCatalog(unittest.TestCase):
             self.assertTrue(e['page'].startswith('https://cfgfactory.com/skins/show/'))
             self.assertIn('author',e) # Some archive records leave credit blank.
             self.assertEqual(len(e['sha256']),64)
-        for tier in range(1,11):
+        for tier in range(1,6):
             rewards=[e for e in active if e['prestige']==tier]
             self.assertEqual(len(rewards),10,tier)
             self.assertEqual(sorted(e['level'] for e in rewards),list(range(7,71,7)),tier)
@@ -58,7 +60,7 @@ class ContentCatalog(unittest.TestCase):
             self.assertNotIn(e['category']+':'+str(e['id']),self.catalog)
             if e['category']=='weapon': self.assertNotIn('weapon,mp/'+e['weapon'],manifest)
         profile=json.loads((ROOT/'ui/content_profile.json').read_text())
-        self.assertEqual(profile['prestiges'],10)
+        self.assertEqual(profile['prestiges'],5)
         for category,ids in profile['active'].items():
             self.assertEqual({int(row[2]) for row in self.catalog.values() if row[1]==category},set(ids))
 

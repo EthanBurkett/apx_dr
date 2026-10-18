@@ -146,14 +146,12 @@ processChallenge( baseName, progressInc )
 		self setStat( level.challengeInfo[refString]["stateid"], missionStatus );
 		self braxi\_rank::giveRankXP( "challenge", level.challengeInfo[refString]["reward"] );
 
-		// hacks everywhere...
-		if( self tierCheck( level.challengeInfo[refString]["id"] ) )
+		// Challenge metadata stores the tier, not an "id" field.
+		tier = level.challengeInfo[refString]["tier"];
+		if( tier == 1 && self tierCheck( tier ) )
 		{
-			if( level.challengeInfo[refString]["id"] == 1 )
-			{
-				self thread unlockChallenge( "tier_2" );
-				self braxi\_challenge_data::updateChallenges();
-			}
+			self unlockChallenge( "tier_2" );
+			self braxi\_challenge_data::updateChallenges();
 		}
 
 		if( level.challengeInfo[refString]["ability"] != "" )
@@ -163,6 +161,7 @@ processChallenge( baseName, progressInc )
 
 tierCheck( tierID )
 {
+	if( !isDefined( tierID ) || tierID < 1 || tierID > level.numChallengeTiers ) return false;
 	challengeNames = getArrayKeys( level.challengeInfo );
 	for ( index = 0; index < challengeNames.size; index++ )
 	{

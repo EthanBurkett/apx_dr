@@ -163,7 +163,7 @@ addTextHud( who, x, y, alpha, alignX, alignY, fontScale )
 	hud.alpha = alpha;
 	hud.alignX = alignX;
 	hud.alignY = alignY;
-	hud.fontScale = fontScale;
+	hud.fontScale = braxi\_presentation::fontScale( fontScale );
 	return hud;
 }
 configureClients()

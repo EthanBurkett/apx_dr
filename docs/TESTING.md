@@ -47,6 +47,7 @@ Build first, install the matching server and use an installed map:
 
 ```powershell
 .\tools\build.ps1
+.\tools\build-client-audit.ps1
 .\tools\test-runtime.ps1 -Map mp_backlot -Duration 20 -AssetUsage -ClientBudget
 .\tools\test-progression.ps1 -Suite Progression
 .\tools\test-progression.ps1 -Suite Equipment

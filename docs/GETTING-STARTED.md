@@ -101,6 +101,7 @@ official client. It does not patch a client DLL.
 For automated startup validation:
 
 ```powershell
+.\tools\build-client-audit.ps1
 .\tools\test-runtime.ps1 -Map mp_backlot -Duration 20 -AssetUsage -ClientBudget
 ```
 

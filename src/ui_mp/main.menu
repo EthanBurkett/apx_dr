@@ -25,7 +25,7 @@ APX_UI_RECT(292,108,324,216,0.027 0.038 0.046 0.85)
 APX_UI_TEXT("welcome",308,130,286,"RUN. ADAPT. REPEAT.",0.42)
 APX_UI_TEXT("lead",308,184,286,"One course. One Activator.",0.28)
 APX_UI_TEXT("lead2",308,212,286,"Every round is a new chance.",0.26)
-APX_UI_TEXT("levels",308,279,286,"70 LEVELS  /  10 PRESTIGES",0.27)
+APX_UI_TEXT("levels",308,279,286,"70 LEVELS  /  5 PRESTIGES",0.27)
 APX_UI_TEXT("credits",304,445,286,"Built for the next run. Built by our community.",0.2)
 
 }

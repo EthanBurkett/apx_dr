@@ -100,6 +100,7 @@ publish()
     preview = "white";
     turn = "white";
     cell = 0;
+    turnCell = 0;
     unlocked = false;
     equipped = false;
     requirement = "";
@@ -111,12 +112,14 @@ publish()
         preview = tableLookup( "mp/apx_catalog.csv", 0, key, 5 );
         turn = tableLookup( "mp/apx_catalog.csv", 0, key, 7 );
         cell = int( tableLookup( "mp/apx_catalog.csv", 0, key, 8 ) );
+        turnCell = int( tableLookup( "mp/apx_catalog.csv", 0, key, 9 ) );
         if( turn == "" ) turn = preview;
         if( state.category == "gloves" && state.selected == 0 )
         {
             preview = tableLookup( "mp/apx_character_previews.csv", 0, self getStat( 980 ), 3 );
             turn = tableLookup( "mp/apx_character_previews.csv", 0, self getStat( 980 ), 4 );
             cell = int( tableLookup( "mp/apx_character_previews.csv", 0, self getStat( 980 ), 8 ) );
+            turnCell = int( tableLookup( "mp/apx_character_previews.csv", 0, self getStat( 980 ), 9 ) );
         }
         unlocked = self isUnlocked( state.category, state.selected );
         rank = int( tableLookup( "mp/apx_catalog.csv", 0, key, 6 ) )-1;
@@ -135,7 +138,8 @@ publish()
     self setClientDvars( "apx_browse_name", name, "apx_browse_description", description,
         "apx_browse_preview", preview, "apx_browse_turn", turn, "apx_browse_cell", cell );
     self setClientDvars( "apx_browse_exists", exists, "apx_browse_unlocked", unlocked,
-        "apx_browse_equipped", equipped, "apx_browse_requirement", requirement );
+        "apx_browse_equipped", equipped, "apx_browse_requirement", requirement,
+        "apx_browse_turn_cell", turnCell );
 }
 
 handle( args )

@@ -33,8 +33,9 @@ def main():
         write_material(name,size,size,techset='apx_turntable_'+('tall' if tall else 'wide'))
     (ROOT/'manifests/15-turntables.csv').write_text('\n'.join(manifest)+'\n')
     if (ROOT/'ui/content_profile.json').exists():
-        from apply_content_profile import filter_previews
-        filter_previews()
+        from pack_turntable_atlases import main as share_materials
+        # Still-atlas bindings are finalized later by the render pipeline.
+        share_materials(update_bindings=False)
     print(f'Packaged {len(jobs)} turntables, 32 real views each.')
 
 if __name__=='__main__': main()

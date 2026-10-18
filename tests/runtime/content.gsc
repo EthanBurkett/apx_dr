@@ -52,7 +52,7 @@ run()
         wait 0.03;
     }
     characters = 0;
-    check( weapons == 30, "only enabled primaries are precached/equippable" );
+    check( weapons == 18, "only enabled primaries are precached/equippable" );
     for( id = 0; id < level.numCharacters; id++ )
     {
         if( !level.characterInfo[id]["enabled"] ) continue;
@@ -69,7 +69,7 @@ run()
         bot braxi\_content_unlocks::publishRewards( tier );
         check( bot.apxRewardTier == tier, "reward tier "+tier );
     }
-    check( characters == 80 && knives == 9, "official client catalog counts" );
+    check( characters == 42 && knives == 9, "official client catalog counts" );
     bot.pers["prestige"] = level.maxPrestige; bot.pers["rank"] = 0;
     check( bot braxi\_rank::isItemUnlocked( 7 ), "earlier tier retained" );
     println( "APX_CONTENT_RUNTIME_PASS: "+weapons+" primaries; "+knives+" knives; "+characters+" characters; all prestige reward pages" );

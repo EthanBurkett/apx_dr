@@ -12,6 +12,18 @@ def rows(path):
     return [row for row in csv.reader((ROOT/path).read_text().splitlines()) if row]
 
 class MenuAssets(unittest.TestCase):
+    def test_shipped_rotation_uses_current_measured_asset_inputs(self):
+        from map_budget import source_signature, compatible
+        report=json.loads((ROOT/'ui/map_asset_budget.json').read_text())
+        limits=json.loads((ROOT/'ui/content_profile.json').read_text())['max_usage']
+        self.assertEqual(report['source_signature'],source_signature(ROOT))
+        self.assertEqual(report['limits'],limits)
+        inventory=json.loads((ROOT/'ui/map_inventory.json').read_text())
+        measurements={r['map']:r for r in report['maps']}
+        for row in inventory['maps']:
+            if row.get('rotation'):
+                self.assertTrue(compatible(measurements.get(row['map']),limits)[0],row['map'])
+
     def test_every_equipment_choice_has_real_packaged_render(self):
         characters={r[0]:r for r in rows('src/mp/apx_character_previews.csv')}
         weapons={r[0]:r for r in rows('src/mp/apx_weapon_previews.csv')}
@@ -23,7 +35,8 @@ class MenuAssets(unittest.TestCase):
             self.assertIn(row[1],weapons)
             self.assertIn('material,'+weapons[row[1]][1],materials)
         for row in rows('src/mp/knifeTable.csv'):
-            self.assertIn('material,apx_turn_knife_'+row[1],materials)
+            slot=json.loads((ROOT/'ui/turntable_atlas.json').read_text())['apx_turn_knife_'+row[1]]
+            self.assertIn('material,'+slot['material'],materials)
             knife={r[0]:r for r in rows('src/mp/apx_knife_previews.csv')}
             self.assertIn('material,'+knife[row[1]][1],materials)
         atlas=json.loads((ROOT/'ui/preview_atlas.json').read_text())
@@ -80,11 +93,27 @@ class MenuAssets(unittest.TestCase):
 
     def test_rotating_atlases_are_complete_and_packaged(self):
         manifest=(ROOT/'manifests/15-turntables.csv').read_text().splitlines()
+        packed=json.loads((ROOT/'ui/turntable_atlas.json').read_text())
+        from package_preview_atlases import selected_names
+        expected={name.replace('apx_preview_','apx_turn_').removesuffix('_back') for names in selected_names().values() for name in names}
+        self.assertEqual(set(packed),expected)
+        self.assertLessEqual(len({v['material'] for v in packed.values()}),8)
+        for material in {v['material'] for v in packed.values()}:
+            self.assertIn('material,'+material,manifest)
+            with Image.open(ROOT/'art/ui/models/rotation-atlases'/(material+'.png')) as atlas:
+                for name,slot in packed.items():
+                    if slot['material']!=material:continue
+                    cell=slot['cell'];x=cell%4*1024;y=cell//4*1024
+                    with Image.open(ROOT/'art/ui/models/turntables'/(name+'.png')) as source:
+                        tile=source.convert('RGBA').resize((1024,1024),Image.Resampling.LANCZOS)
+                        self.assertEqual(atlas.crop((x,y,x+1024,y+1024)).tobytes(),tile.tobytes(),name)
+                    self.assertEqual(int(round((cell+.5)/16*255)/255*16),cell)
+            header=(ROOT/'assets/images'/(material+'.iwi')).read_bytes()[:28]
+            self.assertEqual(struct.unpack_from('<2H',header,6),(4096,4096))
         jobs={row['key']:row for row in json.loads((ROOT/'art/ui/models/catalog.json').read_text())}
         for job in jobs.values():
             name='apx_turn_'+job['category']+'_'+str(job['id'])
-            if 'material,'+name not in manifest: continue
-            self.assertIn('material,'+name,manifest)
+            if name not in packed: continue
             with Image.open(ROOT/'art/ui/models/turntables'/(name+'.png')) as atlas:
                 self.assertEqual(atlas.size,(2048,2048))
                 tall=job['category']=='character'

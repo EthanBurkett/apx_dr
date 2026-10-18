@@ -32,7 +32,7 @@ run()
         sets++;
         wait 0.05;
     }
-    check( sets == 9, "nine active arms sets" );
+    check( sets == 5, "five active arms sets" );
     bot setStat( 2406, 0 ); bot braxi\_teams::setPlayerModel();
     check( bot getViewModel() == level.characterInfo[bot getStat( 980 )]["handsModel"], "automatic arms" );
     bot.pers["prestige"] = 0; bot.pers["rank"] = 0;
@@ -60,7 +60,7 @@ run()
     }
     bot notify( "menuresponse", "-1", "ui:apx_gloves:browse:gloves:open" );
     wait 0.2;
-    check( bot.apxBrowser.category == "gloves" && bot.apxBrowser.ids.size == 10, "arms selection browser" );
+    check( bot.apxBrowser.category == "gloves" && bot.apxBrowser.ids.size == 6, "arms selection browser" );
     bot notify( "menuresponse", "-1", "ui:apx_rewards:content:open" ); wait 0.2;
     check( bot.apxRewardTier == 0, "reward menu opens" );
     bot notify( "menuresponse", "-1", "ui:apx_rewards:content:next" ); wait 0.2;
@@ -92,7 +92,7 @@ run()
         check( bot getCurrentWeapon() == primary, "switch back to primary "+id );
         previous = knife;
     }
-    println( "APX_EQUIPMENT_RUNTIME_PASS: all nine knife pairs, native selection commands, respawns, nine arms sets, unlock validation, dog/round rules and menu/reward navigation" );
+    println( "APX_EQUIPMENT_RUNTIME_PASS: all nine knife pairs, native selection commands, respawns, five arms sets, unlock validation, dog/round rules and menu/reward navigation" );
 }
 
 waitForWeapon( weapon )

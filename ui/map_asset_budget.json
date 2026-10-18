@@ -1,0 +1,6034 @@
+{
+  "source_signature": "2703dd22724f6e7cd8b476fac8e64077bd81a39eca4ea7b0c4b51d5e2ca7adba",
+  "mod_sha256": "23e588272a000e9659c7960887b07a11a2ad8997cfeba8b5037da9dfd41830a7",
+  "client_zones": [
+    "ui_mp",
+    "localized_common_mp"
+  ],
+  "limits": {
+    "weapon": 156,
+    "material": 2000,
+    "image": 3500,
+    "fx": 896,
+    "xmodel": 1700,
+    "loaded_sound": 3500
+  },
+  "maps": [
+    {
+      "map": "mp_deathrun_abandoned",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1534,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_airstruck",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1583,
+        "image": 1528,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_amazon",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1652,
+        "image": 1678,
+        "fx": 372,
+        "xmodel": 766,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_deathrun_annihilation",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1785,
+        "image": 2027,
+        "fx": 368,
+        "xmodel": 876,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_apollo",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1614,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_arbase",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1639,
+        "image": 1670,
+        "fx": 364,
+        "xmodel": 763,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_asd",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1542,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_azteca",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1616,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_backlot",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1952,
+        "image": 2351,
+        "fx": 367,
+        "xmodel": 1011,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_beauty_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1584,
+        "image": 1534,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_bland",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1588,
+        "image": 1541,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_boss",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1586,
+        "image": 1538,
+        "fx": 364,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_boss_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1588,
+        "image": 1544,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_bounce_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1584,
+        "image": 1537,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_bricky",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1632,
+        "image": 1672,
+        "fx": 367,
+        "xmodel": 767,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_bunker",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1766,
+        "image": 1995,
+        "fx": 365,
+        "xmodel": 811,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_cage",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1585,
+        "fx": 363,
+        "xmodel": 737,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_castle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1617,
+        "image": 1638,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_chamber01",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1815,
+        "image": 2068,
+        "fx": 374,
+        "xmodel": 858,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_cherry",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1620,
+        "image": 1633,
+        "fx": 363,
+        "xmodel": 739,
+        "loaded_sound": 778
+      }
+    },
+    {
+      "map": "mp_deathrun_chunk",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1620,
+        "image": 1641,
+        "fx": 365,
+        "xmodel": 751,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_city",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1730,
+        "image": 1887,
+        "fx": 365,
+        "xmodel": 801,
+        "loaded_sound": 841
+      }
+    },
+    {
+      "map": "mp_deathrun_clockwork",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1568,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_control",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1636,
+        "fx": 368,
+        "xmodel": 763,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_cookie",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1636,
+        "fx": 363,
+        "xmodel": 758,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_cosmic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1542,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_coyote",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1653,
+        "image": 1671,
+        "fx": 363,
+        "xmodel": 760,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_coyote_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1671,
+        "image": 1722,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_creepy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1589,
+        "image": 1534,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_crystal",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1657,
+        "fx": 364,
+        "xmodel": 752,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_crystal_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1633,
+        "fx": 366,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_curt",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1580,
+        "fx": 364,
+        "xmodel": 741,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_deathrun_cyber",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1535,
+        "fx": 373,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_darkness",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1537,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_diehard",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1643,
+        "fx": 363,
+        "xmodel": 754,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_dragonball",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1643,
+        "image": 1667,
+        "fx": 375,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_dudu_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1613,
+        "image": 1584,
+        "fx": 364,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_dungeon",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1628,
+        "fx": 364,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_ebc",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1644,
+        "image": 1717,
+        "fx": 363,
+        "xmodel": 765,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_electory",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1702,
+        "image": 1803,
+        "fx": 369,
+        "xmodel": 782,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_empire",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1632,
+        "fx": 364,
+        "xmodel": 754,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_epicfail",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1673,
+        "image": 1849,
+        "fx": 368,
+        "xmodel": 794,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_familyguy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1679,
+        "image": 1698,
+        "fx": 376,
+        "xmodel": 747,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_fearful",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_deathrun_flow",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1718,
+        "image": 1797,
+        "fx": 392,
+        "xmodel": 785,
+        "loaded_sound": 812
+      }
+    },
+    {
+      "map": "mp_deathrun_fluxx",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1600,
+        "image": 1559,
+        "fx": 371,
+        "xmodel": 738,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_forest",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1630,
+        "image": 1626,
+        "fx": 367,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_forgoten",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1850,
+        "image": 2123,
+        "fx": 380,
+        "xmodel": 913,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_framey_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1645,
+        "image": 1689,
+        "fx": 363,
+        "xmodel": 757,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_framey_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1626,
+        "image": 1642,
+        "fx": 366,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_freefall",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1604,
+        "image": 1612,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_fusion",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1784,
+        "image": 1942,
+        "fx": 373,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_galaxy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1632,
+        "image": 1634,
+        "fx": 363,
+        "xmodel": 742,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_glow",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1556,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_godfather",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1809,
+        "image": 2021,
+        "fx": 369,
+        "xmodel": 807,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_godfather2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1773,
+        "image": 1938,
+        "fx": 365,
+        "xmodel": 781,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_gold",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1603,
+        "image": 1583,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_grassy_v4",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1827,
+        "image": 2052,
+        "fx": 386,
+        "xmodel": 849,
+        "loaded_sound": 814
+      }
+    },
+    {
+      "map": "mp_deathrun_haunted",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1746,
+        "image": 1918,
+        "fx": 368,
+        "xmodel": 803,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_deathrun_highrise",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1649,
+        "image": 1703,
+        "fx": 365,
+        "xmodel": 774,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_hop",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1620,
+        "image": 1637,
+        "fx": 363,
+        "xmodel": 759,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_horror",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1631,
+        "image": 1655,
+        "fx": 365,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_hotel",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1691,
+        "image": 1804,
+        "fx": 363,
+        "xmodel": 772,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_iceops",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_deathrun_industry",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1629,
+        "image": 1668,
+        "fx": 364,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_industryv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1679,
+        "image": 1739,
+        "fx": 369,
+        "xmodel": 778,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_inferno",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1653,
+        "fx": 366,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_islands",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1649,
+        "image": 1662,
+        "fx": 365,
+        "xmodel": 752,
+        "loaded_sound": 783
+      }
+    },
+    {
+      "map": "mp_deathrun_jailhouse",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1648,
+        "image": 1693,
+        "fx": 365,
+        "xmodel": 770,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_jam",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1632,
+        "image": 1676,
+        "fx": 363,
+        "xmodel": 756,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_lalamx_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1542,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_legend",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1636,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_liferun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1636,
+        "image": 1681,
+        "fx": 364,
+        "xmodel": 773,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_long",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1637,
+        "image": 1677,
+        "fx": 372,
+        "xmodel": 770,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_max",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1627,
+        "image": 1632,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_mbox",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1580,
+        "image": 1521,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_mc_class",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1592,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_deathrun_mecha",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1589,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_mine",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1620,
+        "image": 1567,
+        "fx": 365,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_minecraft",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1629,
+        "image": 1616,
+        "fx": 369,
+        "xmodel": 755,
+        "loaded_sound": 812
+      }
+    },
+    {
+      "map": "mp_deathrun_mirroredge",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1673,
+        "image": 1747,
+        "fx": 364,
+        "xmodel": 743,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_night",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1651,
+        "image": 1718,
+        "fx": 363,
+        "xmodel": 766,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_nightrun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1616,
+        "image": 1610,
+        "fx": 363,
+        "xmodel": 747,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_nukebase",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1852,
+        "image": 2155,
+        "fx": 369,
+        "xmodel": 853,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_oss",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1643,
+        "image": 1711,
+        "fx": 368,
+        "xmodel": 765,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_palm",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1602,
+        "fx": 364,
+        "xmodel": 759,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_ponies",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1638,
+        "image": 1675,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_poolv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1543,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_portal_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1665,
+        "image": 1671,
+        "fx": 376,
+        "xmodel": 777,
+        "loaded_sound": 815
+      }
+    },
+    {
+      "map": "mp_deathrun_qube",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1600,
+        "image": 1558,
+        "fx": 366,
+        "xmodel": 736,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_rainy_v2",
+      "compatible": false,
+      "reason": "material uses 2031 / budget 2000",
+      "usage": {
+        "weapon": 140,
+        "material": 2031,
+        "image": 2521,
+        "fx": 393,
+        "xmodel": 966,
+        "loaded_sound": 812
+      }
+    },
+    {
+      "map": "mp_deathrun_red",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1566,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_revolution",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 146,
+        "material": 1601,
+        "image": 1592,
+        "fx": 363,
+        "xmodel": 750,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_rocky",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1600,
+        "image": 1590,
+        "fx": 366,
+        "xmodel": 740,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_rvs",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1676,
+        "image": 1727,
+        "fx": 363,
+        "xmodel": 779,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_sanctuary",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1684,
+        "image": 1772,
+        "fx": 374,
+        "xmodel": 782,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_sao",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1634,
+        "image": 1679,
+        "fx": 371,
+        "xmodel": 756,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_sapphire",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1613,
+        "image": 1642,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_saw",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1591,
+        "image": 1543,
+        "fx": 363,
+        "xmodel": 735,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_scary",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1570,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_scoria",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1590,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_semtex",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1715,
+        "image": 1846,
+        "fx": 364,
+        "xmodel": 788,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_shadow",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1592,
+        "fx": 365,
+        "xmodel": 748,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_short_v5",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_deathrun_sick_v2",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_deathrun_sky_town",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1598,
+        "image": 1569,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_skypillar",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1769,
+        "image": 1975,
+        "fx": 364,
+        "xmodel": 817,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_slow",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1583,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_sm_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1619,
+        "image": 1605,
+        "fx": 366,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_smooth",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1597,
+        "fx": 364,
+        "xmodel": 737,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_snowic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1621,
+        "image": 1592,
+        "fx": 392,
+        "xmodel": 747,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_sonic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1595,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_spaceball",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1595,
+        "image": 1548,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_stagesv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1633,
+        "image": 1696,
+        "fx": 364,
+        "xmodel": 759,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_star",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1555,
+        "fx": 364,
+        "xmodel": 736,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_storm",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1651,
+        "image": 1697,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_supermario",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1631,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_thechoice",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1661,
+        "image": 1740,
+        "fx": 363,
+        "xmodel": 762,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_trans",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1663,
+        "image": 1796,
+        "fx": 374,
+        "xmodel": 762,
+        "loaded_sound": 817
+      }
+    },
+    {
+      "map": "mp_deathrun_tropic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1651,
+        "image": 1649,
+        "fx": 367,
+        "xmodel": 760,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_uncharted",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1681,
+        "image": 1737,
+        "fx": 367,
+        "xmodel": 796,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_deathrun_underworld",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1698,
+        "image": 1786,
+        "fx": 371,
+        "xmodel": 797,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_village",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1999,
+        "image": 2515,
+        "fx": 385,
+        "xmodel": 983,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_water",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1672,
+        "image": 1695,
+        "fx": 387,
+        "xmodel": 759,
+        "loaded_sound": 783
+      }
+    },
+    {
+      "map": "mp_deathrun_waterwork",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1629,
+        "image": 1634,
+        "fx": 363,
+        "xmodel": 762,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_waterworld",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1712,
+        "image": 1819,
+        "fx": 372,
+        "xmodel": 812,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_deathrun_wicked2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1620,
+        "fx": 377,
+        "xmodel": 742,
+        "loaded_sound": 780
+      }
+    },
+    {
+      "map": "mp_deathrun_winter",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1753,
+        "image": 1917,
+        "fx": 364,
+        "xmodel": 829,
+        "loaded_sound": 795
+      }
+    },
+    {
+      "map": "mp_deathrun_wipeout",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1595,
+        "image": 1559,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_wipeout_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1551,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_wood",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1610,
+        "image": 1602,
+        "fx": 363,
+        "xmodel": 757,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_deathrun_zero",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1630,
+        "image": 1641,
+        "fx": 384,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_1",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_2towers",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1627,
+        "image": 1619,
+        "fx": 367,
+        "xmodel": 755,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_420",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1598,
+        "image": 1550,
+        "fx": 365,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_ab_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1615,
+        "image": 1609,
+        "fx": 363,
+        "xmodel": 742,
+        "loaded_sound": 815
+      }
+    },
+    {
+      "map": "mp_dr_adamx_hell",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1647,
+        "image": 1658,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_airforce",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1646,
+        "fx": 363,
+        "xmodel": 754,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_alley",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1688,
+        "image": 1752,
+        "fx": 363,
+        "xmodel": 745,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_android",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1578,
+        "image": 1555,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_anime_world",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1638,
+        "fx": 369,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_anotherworld",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1686,
+        "image": 1749,
+        "fx": 367,
+        "xmodel": 750,
+        "loaded_sound": 827
+      }
+    },
+    {
+      "map": "mp_dr_antichamber",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1554,
+        "fx": 366,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_anubis",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1598,
+        "fx": 369,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_aperture",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1628,
+        "image": 1612,
+        "fx": 366,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_apocalypse",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1714,
+        "image": 1910,
+        "fx": 369,
+        "xmodel": 808,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_apocalypse_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1722,
+        "image": 1918,
+        "fx": 369,
+        "xmodel": 807,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_archetype",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1632,
+        "image": 1642,
+        "fx": 392,
+        "xmodel": 766,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_arctic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1632,
+        "image": 1702,
+        "fx": 382,
+        "xmodel": 736,
+        "loaded_sound": 826
+      }
+    },
+    {
+      "map": "mp_dr_around",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1579,
+        "image": 1523,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_asylum",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_atlantis",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1671,
+        "image": 1695,
+        "fx": 367,
+        "xmodel": 752,
+        "loaded_sound": 781
+      }
+    },
+    {
+      "map": "mp_dr_away",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1735,
+        "image": 1878,
+        "fx": 363,
+        "xmodel": 830,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_ax",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1586,
+        "image": 1580,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_bananaphone",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1608,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_bananaphone_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1614,
+        "fx": 363,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_beach",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1638,
+        "image": 1635,
+        "fx": 370,
+        "xmodel": 743,
+        "loaded_sound": 781
+      }
+    },
+    {
+      "map": "mp_dr_beat",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1631,
+        "image": 1664,
+        "fx": 365,
+        "xmodel": 739,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_bhop",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1626,
+        "image": 1659,
+        "fx": 363,
+        "xmodel": 735,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_bigfall",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1590,
+        "image": 1575,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 814
+      }
+    },
+    {
+      "map": "mp_dr_biohazard",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_blackandwhite2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1583,
+        "image": 1592,
+        "fx": 364,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_blacknight",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_blacknight2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1583,
+        "image": 1521,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_blade",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1601,
+        "fx": 363,
+        "xmodel": 739,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_bladev2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1538,
+        "fx": 366,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_blue",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1529,
+        "fx": 379,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_bounce",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1596,
+        "image": 1563,
+        "fx": 364,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_bouncev2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1533,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_boy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1624,
+        "image": 1634,
+        "fx": 365,
+        "xmodel": 753,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_brainfuck",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1614,
+        "fx": 369,
+        "xmodel": 742,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_dr_break",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1997,
+        "image": 2515,
+        "fx": 381,
+        "xmodel": 1011,
+        "loaded_sound": 818
+      }
+    },
+    {
+      "map": "mp_dr_brix",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1588,
+        "image": 1594,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_bro",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_broken2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1801,
+        "image": 1938,
+        "fx": 372,
+        "xmodel": 829,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_building_escape",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1660,
+        "image": 1698,
+        "fx": 363,
+        "xmodel": 762,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_caelum",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1715,
+        "image": 1860,
+        "fx": 373,
+        "xmodel": 835,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_catherine",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1597,
+        "fx": 367,
+        "xmodel": 742,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_censored",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1681,
+        "image": 1779,
+        "fx": 376,
+        "xmodel": 797,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_cliffjumper",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1597,
+        "image": 1567,
+        "fx": 364,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_clifside",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1646,
+        "image": 1665,
+        "fx": 369,
+        "xmodel": 774,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_climb",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1667,
+        "image": 1684,
+        "fx": 363,
+        "xmodel": 772,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_cloudeye",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1642,
+        "image": 1652,
+        "fx": 385,
+        "xmodel": 769,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_coffin",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1632,
+        "image": 1674,
+        "fx": 367,
+        "xmodel": 754,
+        "loaded_sound": 814
+      }
+    },
+    {
+      "map": "mp_dr_communism",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 147,
+        "material": 1649,
+        "image": 1675,
+        "fx": 367,
+        "xmodel": 753,
+        "loaded_sound": 818
+      }
+    },
+    {
+      "map": "mp_dr_concrete",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1586,
+        "image": 1551,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_conox",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1571,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_construct",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 147,
+        "material": 1681,
+        "image": 1739,
+        "fx": 364,
+        "xmodel": 788,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_corner",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1559,
+        "fx": 367,
+        "xmodel": 735,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_courtesy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1776,
+        "image": 1955,
+        "fx": 363,
+        "xmodel": 813,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_crackshot",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1597,
+        "image": 1576,
+        "fx": 363,
+        "xmodel": 738,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_creek",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1630,
+        "image": 1623,
+        "fx": 377,
+        "xmodel": 757,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_creepy2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1597,
+        "image": 1576,
+        "fx": 366,
+        "xmodel": 741,
+        "loaded_sound": 782
+      }
+    },
+    {
+      "map": "mp_dr_crosscode",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1630,
+        "image": 1584,
+        "fx": 366,
+        "xmodel": 740,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_cyber",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1609,
+        "image": 1576,
+        "fx": 366,
+        "xmodel": 737,
+        "loaded_sound": 778
+      }
+    },
+    {
+      "map": "mp_dr_daiized",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1555,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_daiized_v1",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1555,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_dangerous",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1619,
+        "image": 1610,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_darmuhv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1614,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_dawn",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1601,
+        "image": 1558,
+        "fx": 366,
+        "xmodel": 732,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_deadzone",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1576,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_deathstyle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1629,
+        "image": 1629,
+        "fx": 364,
+        "xmodel": 748,
+        "loaded_sound": 819
+      }
+    },
+    {
+      "map": "mp_dr_deepwind",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1576,
+        "fx": 364,
+        "xmodel": 736,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_digital",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1532,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_digitalworld_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1606,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_disco",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1724,
+        "image": 1821,
+        "fx": 365,
+        "xmodel": 827,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_discovery",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1620,
+        "image": 1608,
+        "fx": 368,
+        "xmodel": 766,
+        "loaded_sound": 819
+      }
+    },
+    {
+      "map": "mp_dr_dova",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1602,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_dragoon11frx8",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1533,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_droid",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_easy_hard",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1543,
+        "fx": 372,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_easy_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1613,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_ebenezer",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1558,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_edgeville",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1641,
+        "image": 1680,
+        "fx": 365,
+        "xmodel": 756,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_edgeville_dungeon",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_ephemeral",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1701,
+        "image": 1800,
+        "fx": 363,
+        "xmodel": 785,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_evangelion",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1745,
+        "image": 1958,
+        "fx": 372,
+        "xmodel": 805,
+        "loaded_sound": 812
+      }
+    },
+    {
+      "map": "mp_dr_everglow",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_experts",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1598,
+        "fx": 367,
+        "xmodel": 754,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_fallguys",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1640,
+        "image": 1597,
+        "fx": 364,
+        "xmodel": 752,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_dr_fallrun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1563,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_famous",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1647,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_fireball_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1610,
+        "fx": 363,
+        "xmodel": 756,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_fireball_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1613,
+        "fx": 365,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_fjord",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1698,
+        "image": 1790,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_fnrp_ab_v4",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1623,
+        "image": 1613,
+        "fx": 363,
+        "xmodel": 746,
+        "loaded_sound": 814
+      }
+    },
+    {
+      "map": "mp_dr_fnrp_dimensions",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1646,
+        "image": 1596,
+        "fx": 363,
+        "xmodel": 740,
+        "loaded_sound": 814
+      }
+    },
+    {
+      "map": "mp_dr_foggy",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_forward",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_framey_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1646,
+        "image": 1663,
+        "fx": 374,
+        "xmodel": 761,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_freakyland",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1597,
+        "image": 1562,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_free",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1902,
+        "image": 2325,
+        "fx": 369,
+        "xmodel": 893,
+        "loaded_sound": 783
+      }
+    },
+    {
+      "map": "mp_dr_frost",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1647,
+        "image": 1642,
+        "fx": 367,
+        "xmodel": 759,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_frzl",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1710,
+        "image": 1794,
+        "fx": 367,
+        "xmodel": 821,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_dr_future",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_gasline",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1703,
+        "image": 1771,
+        "fx": 368,
+        "xmodel": 780,
+        "loaded_sound": 818
+      }
+    },
+    {
+      "map": "mp_dr_geno",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1571,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_glass2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1689,
+        "image": 1784,
+        "fx": 366,
+        "xmodel": 779,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_goat",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1600,
+        "fx": 363,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_gooby",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1634,
+        "image": 1593,
+        "fx": 363,
+        "xmodel": 741,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_guest_list",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1555,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_h2o",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1626,
+        "image": 1638,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_hardest_game",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1539,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_hardstyle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1601,
+        "image": 1572,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_harrypotter",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1594,
+        "image": 1593,
+        "fx": 364,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_hazard",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1625,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_headdy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1590,
+        "image": 1540,
+        "fx": 363,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_headdyv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1555,
+        "fx": 363,
+        "xmodel": 737,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_heaven",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1628,
+        "image": 1655,
+        "fx": 363,
+        "xmodel": 765,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_heavyweight_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1601,
+        "image": 1600,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_hilly_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1646,
+        "image": 1681,
+        "fx": 365,
+        "xmodel": 753,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_holyshiet",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1546,
+        "fx": 365,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_holyshiet_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1569,
+        "fx": 371,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_iceworld",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1624,
+        "image": 1647,
+        "fx": 368,
+        "xmodel": 739,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_idk",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1595,
+        "fx": 371,
+        "xmodel": 739,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_imaginary",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1601,
+        "image": 1554,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_impossibru",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1601,
+        "fx": 363,
+        "xmodel": 738,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_india",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1606,
+        "image": 1586,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_indipyramid",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1636,
+        "image": 1637,
+        "fx": 365,
+        "xmodel": 764,
+        "loaded_sound": 841
+      }
+    },
+    {
+      "map": "mp_dr_indoor",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1546,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_industrial",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1869,
+        "image": 2119,
+        "fx": 392,
+        "xmodel": 870,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_inside",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1578,
+        "image": 1516,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_jump",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1584,
+        "image": 1531,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_jump_hard",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1613,
+        "image": 1602,
+        "fx": 366,
+        "xmodel": 736,
+        "loaded_sound": 792
+      }
+    },
+    {
+      "map": "mp_dr_jumpv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1604,
+        "image": 1630,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_jungletemple",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1629,
+        "image": 1618,
+        "fx": 377,
+        "xmodel": 749,
+        "loaded_sound": 812
+      }
+    },
+    {
+      "map": "mp_dr_jurapark",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1709,
+        "image": 1781,
+        "fx": 365,
+        "xmodel": 812,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_king_sixz",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1642,
+        "image": 1653,
+        "fx": 366,
+        "xmodel": 739,
+        "loaded_sound": 781
+      }
+    },
+    {
+      "map": "mp_dr_kiti",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1638,
+        "image": 1620,
+        "fx": 363,
+        "xmodel": 740,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_knight",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1549,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_kris",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1623,
+        "image": 1617,
+        "fx": 363,
+        "xmodel": 742,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_kris_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1704,
+        "image": 1802,
+        "fx": 365,
+        "xmodel": 798,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_laboratory",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1613,
+        "fx": 376,
+        "xmodel": 744,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lateax",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1603,
+        "image": 1571,
+        "fx": 366,
+        "xmodel": 735,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lava_world",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1642,
+        "fx": 363,
+        "xmodel": 746,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_lazycave",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1596,
+        "image": 1568,
+        "fx": 363,
+        "xmodel": 735,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lazyriver",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1600,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_legacy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1595,
+        "image": 1570,
+        "fx": 368,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_legion",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1606,
+        "image": 1597,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lentava_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1690,
+        "image": 1790,
+        "fx": 363,
+        "xmodel": 787,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_levels",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1585,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lifes",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1583,
+        "image": 1569,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_liserd",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1629,
+        "image": 1641,
+        "fx": 364,
+        "xmodel": 750,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lithium",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1570,
+        "fx": 364,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_littlemap",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1534,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_lolz",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_lovelyplanet",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1605,
+        "image": 1551,
+        "fx": 369,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_lucidskyv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1630,
+        "image": 1656,
+        "fx": 363,
+        "xmodel": 803,
+        "loaded_sound": 815
+      }
+    },
+    {
+      "map": "mp_dr_lxury",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1637,
+        "image": 1673,
+        "fx": 363,
+        "xmodel": 757,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_madoka",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1545,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_magical",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1614,
+        "image": 1601,
+        "fx": 365,
+        "xmodel": 757,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_mario_land",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1621,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_meatboy",
+      "compatible": false,
+      "reason": "material uses 2014 / budget 2000",
+      "usage": {
+        "weapon": 140,
+        "material": 2014,
+        "image": 2571,
+        "fx": 376,
+        "xmodel": 1008,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_mech",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1584,
+        "image": 1538,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_merry_xmas",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1640,
+        "image": 1651,
+        "fx": 365,
+        "xmodel": 769,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_mew",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1600,
+        "image": 1579,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 813
+      }
+    },
+    {
+      "map": "mp_dr_minerun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1647,
+        "image": 1669,
+        "fx": 363,
+        "xmodel": 777,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_mirrors_edge",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1773,
+        "image": 1855,
+        "fx": 390,
+        "xmodel": 826,
+        "loaded_sound": 791
+      }
+    },
+    {
+      "map": "mp_dr_misty",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1694,
+        "image": 1788,
+        "fx": 367,
+        "xmodel": 782,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_monino",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1630,
+        "image": 1644,
+        "fx": 363,
+        "xmodel": 766,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_moonsday",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1689,
+        "image": 1838,
+        "fx": 364,
+        "xmodel": 780,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_moonsday_r",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1730,
+        "image": 1840,
+        "fx": 370,
+        "xmodel": 789,
+        "loaded_sound": 781
+      }
+    },
+    {
+      "map": "mp_dr_mors",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_mountain_escape",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1608,
+        "image": 1579,
+        "fx": 363,
+        "xmodel": 738,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_mycastle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1645,
+        "image": 1654,
+        "fx": 364,
+        "xmodel": 745,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nebula",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1673,
+        "image": 1716,
+        "fx": 363,
+        "xmodel": 782,
+        "loaded_sound": 776
+      }
+    },
+    {
+      "map": "mp_dr_neon",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1648,
+        "image": 1722,
+        "fx": 363,
+        "xmodel": 770,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_neondesert",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1617,
+        "image": 1595,
+        "fx": 380,
+        "xmodel": 754,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_neuschwanstein",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1683,
+        "image": 1731,
+        "fx": 366,
+        "xmodel": 776,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nightlight",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1608,
+        "image": 1586,
+        "fx": 364,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nighty",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1648,
+        "image": 1668,
+        "fx": 374,
+        "xmodel": 739,
+        "loaded_sound": 827
+      }
+    },
+    {
+      "map": "mp_dr_nimble",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1589,
+        "image": 1554,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_nitro",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1587,
+        "fx": 363,
+        "xmodel": 735,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_noob",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1540,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nuka2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1617,
+        "image": 1604,
+        "fx": 363,
+        "xmodel": 741,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nxs_jump",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1586,
+        "image": 1546,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_nxs_road",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1652,
+        "image": 1691,
+        "fx": 363,
+        "xmodel": 745,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_offshore",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1670,
+        "image": 1706,
+        "fx": 369,
+        "xmodel": 813,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_old_factory",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1712,
+        "image": 1729,
+        "fx": 363,
+        "xmodel": 787,
+        "loaded_sound": 821
+      }
+    },
+    {
+      "map": "mp_dr_old_fucktory",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1707,
+        "image": 1771,
+        "fx": 367,
+        "xmodel": 799,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_oldschool",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1622,
+        "image": 1666,
+        "fx": 369,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_omar2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1550,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_omar3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1540,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_omg",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_onsea",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1623,
+        "image": 1642,
+        "fx": 365,
+        "xmodel": 747,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_orbit",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_outside",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1667,
+        "image": 1722,
+        "fx": 363,
+        "xmodel": 763,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_overgrown",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1637,
+        "image": 1658,
+        "fx": 366,
+        "xmodel": 772,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_owl",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1603,
+        "image": 1575,
+        "fx": 363,
+        "xmodel": 745,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pacman",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1589,
+        "fx": 363,
+        "xmodel": 750,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pacrun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1624,
+        "image": 1654,
+        "fx": 364,
+        "xmodel": 754,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_pakistan",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_pancake",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1601,
+        "image": 1578,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pandemonium",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1602,
+        "image": 1547,
+        "fx": 377,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_paradise",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1594,
+        "image": 1556,
+        "fx": 363,
+        "xmodel": 739,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pendulum",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1677,
+        "image": 1704,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 856
+      }
+    },
+    {
+      "map": "mp_dr_periglo",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1598,
+        "image": 1568,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_petrichor",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1651,
+        "image": 1662,
+        "fx": 368,
+        "xmodel": 770,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_phantasy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1634,
+        "fx": 366,
+        "xmodel": 771,
+        "loaded_sound": 843
+      }
+    },
+    {
+      "map": "mp_dr_pillars",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1551,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pipe",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1800,
+        "image": 1989,
+        "fx": 368,
+        "xmodel": 865,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_pool",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1625,
+        "image": 1621,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_poolv3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1597,
+        "image": 1570,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_porque",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1636,
+        "image": 1610,
+        "fx": 363,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_poseidon",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_prison_escape",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1571,
+        "fx": 365,
+        "xmodel": 739,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_pro",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1599,
+        "image": 1709,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_pro_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1613,
+        "image": 1608,
+        "fx": 382,
+        "xmodel": 736,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_progression",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1617,
+        "image": 1580,
+        "fx": 367,
+        "xmodel": 737,
+        "loaded_sound": 818
+      }
+    },
+    {
+      "map": "mp_dr_prototype",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1615,
+        "image": 1584,
+        "fx": 370,
+        "xmodel": 765,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_pure_strafe",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1578,
+        "image": 1520,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_pure_strafe_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1588,
+        "image": 1541,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_purple_world",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1593,
+        "image": 1541,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_purple_worldv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1602,
+        "image": 1560,
+        "fx": 364,
+        "xmodel": 737,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_quack",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1595,
+        "image": 1544,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_quarry",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1825,
+        "image": 2073,
+        "fx": 364,
+        "xmodel": 866,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_qube_evolved",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1600,
+        "image": 1576,
+        "fx": 368,
+        "xmodel": 737,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_quick",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1612,
+        "image": 1601,
+        "fx": 363,
+        "xmodel": 755,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_race",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1604,
+        "image": 1580,
+        "fx": 363,
+        "xmodel": 737,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_rage",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1554,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_rainbow",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1608,
+        "image": 1584,
+        "fx": 363,
+        "xmodel": 745,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_raky",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1599,
+        "image": 1571,
+        "fx": 364,
+        "xmodel": 737,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_rakyfaggot",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1539,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 777
+      }
+    },
+    {
+      "map": "mp_dr_rakyv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1589,
+        "fx": 366,
+        "xmodel": 737,
+        "loaded_sound": 777
+      }
+    },
+    {
+      "map": "mp_dr_ravine",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1612,
+        "fx": 366,
+        "xmodel": 738,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_red",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1530,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_rock",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1608,
+        "image": 1599,
+        "fx": 370,
+        "xmodel": 737,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_royals",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1592,
+        "image": 1542,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_rubyshore",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1651,
+        "image": 1688,
+        "fx": 385,
+        "xmodel": 778,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_run",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1599,
+        "image": 1574,
+        "fx": 363,
+        "xmodel": 738,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_runner",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1608,
+        "image": 1598,
+        "fx": 363,
+        "xmodel": 736,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_running",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1581,
+        "image": 1526,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_running_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1582,
+        "image": 1529,
+        "fx": 364,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_runo",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1598,
+        "image": 1564,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_rushoween",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1655,
+        "image": 1699,
+        "fx": 366,
+        "xmodel": 788,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_samsara",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1653,
+        "image": 1663,
+        "fx": 392,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_sand",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1667,
+        "image": 1714,
+        "fx": 375,
+        "xmodel": 796,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_seasons",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1658,
+        "image": 1687,
+        "fx": 363,
+        "xmodel": 779,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_serioussam",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1904,
+        "image": 2142,
+        "fx": 415,
+        "xmodel": 919,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_shawty",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1602,
+        "image": 1577,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_shipment",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1735,
+        "image": 1841,
+        "fx": 366,
+        "xmodel": 786,
+        "loaded_sound": 817
+      }
+    },
+    {
+      "map": "mp_dr_simple",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1628,
+        "fx": 363,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_simpsons",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1627,
+        "image": 1614,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_skii",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1596,
+        "image": 1588,
+        "fx": 365,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_skydeath",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1675,
+        "image": 1710,
+        "fx": 366,
+        "xmodel": 769,
+        "loaded_sound": 782
+      }
+    },
+    {
+      "map": "mp_dr_skypower",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1595,
+        "image": 1563,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_slay",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1596,
+        "image": 1573,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_slayv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1613,
+        "image": 1650,
+        "fx": 363,
+        "xmodel": 738,
+        "loaded_sound": 819
+      }
+    },
+    {
+      "map": "mp_dr_sm64",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1671,
+        "image": 1649,
+        "fx": 373,
+        "xmodel": 742,
+        "loaded_sound": 776
+      }
+    },
+    {
+      "map": "mp_dr_sm_world",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1775,
+        "image": 1808,
+        "fx": 372,
+        "xmodel": 755,
+        "loaded_sound": 806
+      }
+    },
+    {
+      "map": "mp_dr_snip",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1688,
+        "image": 1778,
+        "fx": 365,
+        "xmodel": 773,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_snowyhills",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1619,
+        "image": 1600,
+        "fx": 365,
+        "xmodel": 746,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_something",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1619,
+        "image": 1605,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_sonic",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1542,
+        "fx": 364,
+        "xmodel": 734,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_spaceball_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1615,
+        "image": 1628,
+        "fx": 366,
+        "xmodel": 758,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_spacelab",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 146,
+        "material": 1676,
+        "image": 1723,
+        "fx": 368,
+        "xmodel": 768,
+        "loaded_sound": 780
+      }
+    },
+    {
+      "map": "mp_dr_spacetrip",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_spacetunnel",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1622,
+        "image": 1609,
+        "fx": 373,
+        "xmodel": 747,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_spedex",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1623,
+        "image": 1635,
+        "fx": 363,
+        "xmodel": 744,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_speedsky",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1567,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_squidy",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1589,
+        "image": 1549,
+        "fx": 363,
+        "xmodel": 730,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_steelv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1653,
+        "image": 1699,
+        "fx": 366,
+        "xmodel": 739,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_step_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1692,
+        "image": 1779,
+        "fx": 364,
+        "xmodel": 764,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_stonerun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1632,
+        "image": 1677,
+        "fx": 363,
+        "xmodel": 747,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_stormyascent",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1612,
+        "image": 1580,
+        "fx": 372,
+        "xmodel": 743,
+        "loaded_sound": 818
+      }
+    },
+    {
+      "map": "mp_dr_storyhouse",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1633,
+        "fx": 363,
+        "xmodel": 742,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_stronghold",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1649,
+        "image": 1710,
+        "fx": 383,
+        "xmodel": 750,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_style",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1642,
+        "image": 1663,
+        "fx": 369,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_sub",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1669,
+        "image": 1737,
+        "fx": 382,
+        "xmodel": 772,
+        "loaded_sound": 789
+      }
+    },
+    {
+      "map": "mp_dr_sucatraps",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1632,
+        "image": 1640,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_sunset",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1550,
+        "fx": 363,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_sunset2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1577,
+        "fx": 364,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_sunset3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1633,
+        "image": 1630,
+        "fx": 366,
+        "xmodel": 748,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_sunset4",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1584,
+        "fx": 363,
+        "xmodel": 739,
+        "loaded_sound": 777
+      }
+    },
+    {
+      "map": "mp_dr_takeshi",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1576,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_templerun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1605,
+        "fx": 375,
+        "xmodel": 741,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_terror",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1604,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_theshack",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1609,
+        "image": 1623,
+        "fx": 364,
+        "xmodel": 737,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_theship",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1606,
+        "image": 1579,
+        "fx": 363,
+        "xmodel": 736,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_thewar",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1618,
+        "image": 1638,
+        "fx": 364,
+        "xmodel": 754,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_timetravel",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1635,
+        "image": 1681,
+        "fx": 368,
+        "xmodel": 753,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_tower",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1669,
+        "image": 1668,
+        "fx": 382,
+        "xmodel": 782,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_trapntrance",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1604,
+        "image": 1567,
+        "fx": 374,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_trapntrance_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1603,
+        "image": 1558,
+        "fx": 368,
+        "xmodel": 734,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_trapz",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1598,
+        "fx": 363,
+        "xmodel": 751,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_trikx",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1637,
+        "image": 1695,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_tron",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1603,
+        "image": 1573,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_tropical",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1653,
+        "image": 1668,
+        "fx": 366,
+        "xmodel": 756,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_turnabout",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1585,
+        "image": 1524,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_un_named",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1600,
+        "image": 1567,
+        "fx": 363,
+        "xmodel": 746,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_underground",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1745,
+        "image": 1880,
+        "fx": 373,
+        "xmodel": 800,
+        "loaded_sound": 783
+      }
+    },
+    {
+      "map": "mp_dr_undertale",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1597,
+        "image": 1571,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_underwater",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1646,
+        "image": 1709,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_unique",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1685,
+        "image": 1655,
+        "fx": 365,
+        "xmodel": 746,
+        "loaded_sound": 783
+      }
+    },
+    {
+      "map": "mp_dr_universe",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1650,
+        "image": 1684,
+        "fx": 367,
+        "xmodel": 757,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_unreal",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_up",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1607,
+        "image": 1627,
+        "fx": 369,
+        "xmodel": 730,
+        "loaded_sound": 811
+      }
+    },
+    {
+      "map": "mp_dr_upt",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1681,
+        "image": 1754,
+        "fx": 363,
+        "xmodel": 771,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_upt2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1641,
+        "image": 1661,
+        "fx": 363,
+        "xmodel": 770,
+        "loaded_sound": 843
+      }
+    },
+    {
+      "map": "mp_dr_uptrooney",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1621,
+        "image": 1623,
+        "fx": 363,
+        "xmodel": 734,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_urban",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1662,
+        "image": 1681,
+        "fx": 366,
+        "xmodel": 766,
+        "loaded_sound": 777
+      }
+    },
+    {
+      "map": "mp_dr_v9x7",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1591,
+        "image": 1544,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_vector",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1682,
+        "fx": 376,
+        "xmodel": 733,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_vistic_castle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1665,
+        "image": 1682,
+        "fx": 365,
+        "xmodel": 764,
+        "loaded_sound": 784
+      }
+    },
+    {
+      "map": "mp_dr_vistic_castle_w",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1680,
+        "image": 1709,
+        "fx": 366,
+        "xmodel": 764,
+        "loaded_sound": 784
+      }
+    },
+    {
+      "map": "mp_dr_volpe",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1687,
+        "image": 1600,
+        "fx": 366,
+        "xmodel": 739,
+        "loaded_sound": 821
+      }
+    },
+    {
+      "map": "mp_dr_volpe2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 143,
+        "material": 1631,
+        "image": 1606,
+        "fx": 364,
+        "xmodel": 750,
+        "loaded_sound": 787
+      }
+    },
+    {
+      "map": "mp_dr_volpe3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 142,
+        "material": 1611,
+        "image": 1586,
+        "fx": 363,
+        "xmodel": 744,
+        "loaded_sound": 779
+      }
+    },
+    {
+      "map": "mp_dr_volpe4",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_watercity",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1630,
+        "image": 1633,
+        "fx": 363,
+        "xmodel": 743,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_wayout",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_western",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_wicked",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1599,
+        "image": 1577,
+        "fx": 372,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_windwaker",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1663,
+        "image": 1631,
+        "fx": 365,
+        "xmodel": 748,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_winter_wipeout",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1582,
+        "fx": 366,
+        "xmodel": 749,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_wipeout",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1642,
+        "image": 1652,
+        "fx": 363,
+        "xmodel": 758,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_workplease",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_worldofmetal",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1635,
+        "fx": 363,
+        "xmodel": 756,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_wtf",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1556,
+        "fx": 363,
+        "xmodel": 732,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xd",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1620,
+        "image": 1604,
+        "fx": 363,
+        "xmodel": 753,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_xm",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1627,
+        "fx": 364,
+        "xmodel": 752,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_xm2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1616,
+        "image": 1633,
+        "fx": 364,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xm3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1594,
+        "image": 1553,
+        "fx": 365,
+        "xmodel": 732,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_xmdc",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_xmfamily",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 145,
+        "material": 1670,
+        "image": 1662,
+        "fx": 365,
+        "xmodel": 756,
+        "loaded_sound": 824
+      }
+    },
+    {
+      "map": "mp_dr_xmfun",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1601,
+        "image": 1569,
+        "fx": 363,
+        "xmodel": 742,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xmfun_v2",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_xmfun_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1606,
+        "image": 1580,
+        "fx": 363,
+        "xmodel": 754,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xmfunv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1587,
+        "image": 1536,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xmgalaxy",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_xmnephy_v2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1590,
+        "image": 1544,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xmsky",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_xmspaceship",
+      "compatible": false,
+      "reason": "Native map load failed; repair and retest",
+      "error": "Native map load failed"
+    },
+    {
+      "map": "mp_dr_xmstyle",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 141,
+        "material": 1618,
+        "image": 1613,
+        "fx": 367,
+        "xmodel": 739,
+        "loaded_sound": 780
+      }
+    },
+    {
+      "map": "mp_dr_xmv2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1610,
+        "image": 1622,
+        "fx": 365,
+        "xmodel": 752,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xmworld",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1586,
+        "image": 1532,
+        "fx": 363,
+        "xmodel": 731,
+        "loaded_sound": 810
+      }
+    },
+    {
+      "map": "mp_dr_xplosive",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1611,
+        "image": 1603,
+        "fx": 363,
+        "xmodel": 752,
+        "loaded_sound": 775
+      }
+    },
+    {
+      "map": "mp_dr_zvr_dimension2",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1666,
+        "image": 1696,
+        "fx": 363,
+        "xmodel": 747,
+        "loaded_sound": 823
+      }
+    },
+    {
+      "map": "mp_dr_zvr_dimension2_w",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 144,
+        "material": 1675,
+        "image": 1731,
+        "fx": 364,
+        "xmodel": 759,
+        "loaded_sound": 823
+      }
+    },
+    {
+      "map": "mp_drrun_step3_v3",
+      "compatible": true,
+      "reason": "Measured within client-zone asset budgets",
+      "usage": {
+        "weapon": 140,
+        "material": 1698,
+        "image": 1776,
+        "fx": 363,
+        "xmodel": 748,
+        "loaded_sound": 775
+      }
+    }
+  ]
+}

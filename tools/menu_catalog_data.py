@@ -33,6 +33,8 @@ NAMES = {
 def build():
     result = []
     atlas=json.loads((ROOT/'ui/preview_atlas.json').read_text())
+    path=ROOT/'ui/turntable_atlas.json'
+    rotations=json.loads(path.read_text()) if path.exists() else {}
     for category, table, nc, dc, ic in [
         ('weapon', 'itemTable', 5, 6, 3), ('character', 'characterTable', 6, 7, 3),
         ('knife', 'knifeTable', 5, 6, 3),
@@ -48,8 +50,9 @@ def build():
                 slot=atlas['apx_preview_'+category+'_'+id]
                 material=slot['material'];cell=slot['cell']
             turn = 'apx_turn_'+category+'_'+id if category in ('weapon', 'character','knife') else material
+            turn_slot=rotations.get(turn,{'material':turn,'cell':0})
             result.append([category+':'+id, category, id, NAMES.get(row[nc], row[nc]),
-                           NAMES.get(row[dc], row[dc]), material, row[2] if category != 'ability' else '0', turn,cell])
+                           NAMES.get(row[dc], row[dc]), material, row[2] if category != 'ability' else '0', turn_slot['material'],cell,turn_slot['cell']])
     # Zero follows the operator. Explicit IDs are permanent registry IDs + 1.
     characters=list(csv.reader((ROOT/'src/mp/characterTable.csv').read_text().splitlines()))
     active_hands={r[5] for r in characters if r and r[8]!='0'}
@@ -64,12 +67,13 @@ def build():
         glove_rows.append([str(id+1),str(id),model,name,'Unlock an operator using these arms.',str(int(enabled))])
         if not enabled: continue
         slot=atlas['apx_preview_gloves_'+str(index)]
-        previews.append([id,slot['material'],slot['cell'],'apx_turn_gloves_'+str(index)])
+        turn_slot=rotations.get('apx_turn_gloves_'+str(index),{'material':'apx_turn_gloves_'+str(index),'cell':0})
+        previews.append([id,slot['material'],slot['cell'],turn_slot['material'],turn_slot['cell']])
         result.append(['gloves:'+str(id),'gloves',id,name,'First-person arms / independent of your operator.',
-                       slot['material'],1,'apx_turn_gloves_'+str(index),slot['cell']])
+                       slot['material'],1,turn_slot['material'],slot['cell'],turn_slot['cell']])
     base=next(r for r in previews if r[0]==registry[characters[0][5]]+1)
     previews.insert(0,[0]+base[1:])
-    result.append(['gloves:0','gloves',0,'Operator arms','Follow your selected operator.',base[1],1,base[3],base[2]])
+    result.append(['gloves:0','gloves',0,'Operator arms','Follow your selected operator.',base[1],1,base[3],base[2],base[4]])
     for name,data in [('gloveTable.csv',glove_rows),('apx_glove_previews.csv',previews),('apx_catalog.csv',result)]:
         with (ROOT/'src/mp'/name).open('w',newline='') as handle:
             csv.writer(handle,lineterminator='\n').writerows(data)

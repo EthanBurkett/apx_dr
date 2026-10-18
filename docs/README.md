@@ -22,7 +22,7 @@ build and a local server. Commands are run from the repository root unless noted
 | Guide | What it covers |
 | --- | --- |
 | [Administration](ADMINISTRATION.md) | Access controls, XP/rank/prestige and reset |
-| [Progression](PROGRESSION.md) | XP tables, 70 levels, 10 prestiges and saved stats |
+| [Progression](PROGRESSION.md) | XP tables, 70 levels, 5 prestiges and saved stats |
 | [Content](CONTENT.md) | Active collection, equipment rules and asset constraints |
 | [Content credits](CONTENT_CREDITS.md) | Generated community provenance; not a license grant |
 | [Menus](MENUS.md) | Routes, catalogs, equipment, preferences and model previews |

@@ -1,163 +1,109 @@
-weapon:0,weapon,0,Beretta M9,Semi-automatic with a high capacity.,apx_still_wide_0,1,apx_turn_weapon_0,0
-weapon:1,weapon,1,Colt M1911,Semi-automatic with a medium power.,apx_still_wide_0,3,apx_turn_weapon_1,1
-weapon:2,weapon,2,USP .45,Semi-automatic with a medium power.,apx_still_wide_0,6,apx_turn_weapon_2,2
-weapon:3,weapon,3,Desert Eagle,Semi-automatic with a high power.,apx_still_wide_0,9,apx_turn_weapon_3,3
-weapon:4,weapon,4,M40A3,Bolt action sniper rifle.,apx_still_wide_0,12,apx_turn_weapon_4,4
-weapon:5,weapon,5,Gold Desert Eagle,Gold plated semi-automatic with high power.,apx_still_wide_0,15,apx_turn_weapon_5,5
-weapon:6,weapon,6,Remington 700,Bolt action sniper rifle. Very effective.,apx_still_wide_0,20,apx_turn_weapon_6,6
-weapon:7,weapon,7,Colt Anaconda .44,Semi-automatic with deadly .44 bullets.,apx_still_wide_0,24,apx_turn_weapon_7,7
-weapon:10,weapon,10,FNC,Community weapon / mitsurugi,apx_still_wide_1,40,apx_turn_weapon_10,0
-weapon:11,weapon,11,AR15,Community weapon / mitsurugi,apx_still_wide_1,7,apx_turn_weapon_11,1
-weapon:12,weapon,12,ghosts mp443 grach final,Community weapon / Kortun,apx_still_wide_1,7,apx_turn_weapon_12,2
-weapon:14,weapon,14,"""Echo of War""",Community weapon / Sovietmann,apx_still_wide_1,7,apx_turn_weapon_14,3
-weapon:15,weapon,15,Infinite Warfare ONI,Community weapon / Infinity Ward ~ Mist,apx_still_wide_1,7,apx_turn_weapon_15,4
-weapon:19,weapon,19,BO3 RIFT E9 ENERGY,Community weapon / Kortun/SEKTOR_GAZA_XOU,apx_still_wide_1,21,apx_turn_weapon_19,5
-weapon:22,weapon,22,Black Ops 3 Bloodhound,Community weapon / Treyarch / Mist,apx_still_wide_1,21,apx_turn_weapon_22,6
-weapon:26,weapon,26,mw2019 kilo 141,Community weapon / Kortun/SEKTOR_GAZA_XOU,apx_still_wide_1,28,apx_turn_weapon_26,7
-weapon:28,weapon,28,Vandal Reaver from Valorant + Sounds/Worldmodel,Community weapon / Rex109,apx_still_wide_2,35,apx_turn_weapon_28,0
-weapon:30,weapon,30,IW weapon Clawsuper,Community weapon / Myself,apx_still_wide_2,35,apx_turn_weapon_30,1
-weapon:31,weapon,31,AW SAC3,Community weapon / Kortun/SEKTOR_GAZA_XOU,apx_still_wide_2,42,apx_turn_weapon_31,2
-weapon:36,weapon,36,Modern Warfare 725,Community weapon / Infinity Ward - actualmist,apx_still_wide_2,49,apx_turn_weapon_36,3
-weapon:39,weapon,39,Black Ops III Wave Gun,Community weapon / Treyarch / Mist#0001,apx_still_wide_2,49,apx_turn_weapon_39,4
-weapon:44,weapon,44,CS:GO AWP (COD4),Community weapon / LitkuReiska,apx_still_wide_2,56,apx_turn_weapon_44,5
-weapon:54,weapon,54,CODOL CheyTac M200,Community weapon / Raven Software,apx_still_wide_2,63,apx_turn_weapon_54,6
-weapon:56,weapon,56,Ghosts K7,Community weapon / VC' Fox,apx_still_wide_2,70,apx_turn_weapon_56,7
-weapon:60,weapon,60,BO1 Sten,Community weapon / ConvictioNDR,apx_still_wide_3,70,apx_turn_weapon_60,0
-weapon:68,weapon,68,AW MORS,Community weapon / Kortun,apx_still_wide_3,14,apx_turn_weapon_68,1
-weapon:71,weapon,71,BO3 KN44,Community weapon / mitsurugi,apx_still_wide_3,21,apx_turn_weapon_71,2
-weapon:75,weapon,75,BO3 Vesper,Community weapon / mitsurugi,apx_still_wide_3,28,apx_turn_weapon_75,3
-weapon:78,weapon,78,GHOST KAC CHAINSAW,Community weapon / ,apx_still_wide_3,35,apx_turn_weapon_78,4
-weapon:97,weapon,97,MW3 KSG,Community weapon / mitsurugi,apx_still_wide_3,63,apx_turn_weapon_97,5
-character:0,character,0,Marine,English SAS Marine.,apx_still_tall_0,1,apx_turn_character_0,0
-character:4,character,4,Zoey,Zoey survived zombie apocalypse.,apx_still_tall_0,9,apx_turn_character_4,2
-character:5,character,5,General Shepherd,Shepherd betrayed and killed Ghost.,apx_still_tall_0,11,apx_turn_character_5,4
-character:6,character,6,Masterchief,Masterchief is a soldier from future.,apx_still_tall_0,13,apx_turn_character_6,6
-character:7,character,7,Makarov,Very bad character.,apx_still_tall_1,15,apx_turn_character_7,0
-character:8,character,8,Juggernaut,Come at me bro!,apx_still_tall_1,17,apx_turn_character_8,2
-character:10,character,10,Alice,Alice Murray is the mission coordinator for T.W.O.,apx_still_tall_1,22,apx_turn_character_10,4
-character:11,character,11,50 Cent,Alice Murray is the mission coordinator for T.W.O.,apx_still_tall_1,25,apx_turn_character_11,6
-character:12,character,12,COD MW2 Seal UDT Ghost,Community model / Infinity Ward - Sloth,apx_still_tall_2,7,apx_turn_character_12,0
-character:13,character,13,The Mandalorian,Community model / VC'Fox,apx_still_tall_2,70,apx_turn_character_13,2
-character:14,character,14,Hermione,Community model / MrHeyLey,apx_still_tall_2,7,apx_turn_character_14,4
-character:15,character,15,Venom,Community model / MrHeyLey,apx_still_tall_2,7,apx_turn_character_15,6
-character:16,character,16,Sed,Community model / MrHeyLey,apx_still_tall_3,7,apx_turn_character_16,0
-character:17,character,17,DJ Scully,Community model / MrHeyLey,apx_still_tall_3,7,apx_turn_character_17,2
-character:18,character,18,Iron Spider,Community model / ,apx_still_tall_3,14,apx_turn_character_18,4
-character:19,character,19,Brigitte,Community model / Rex109,apx_still_tall_3,14,apx_turn_character_19,6
-character:20,character,20,Alucard,Community model / Rex109,apx_still_tall_4,14,apx_turn_character_20,0
-character:21,character,21,Serious Sam,Community model / Snakey,apx_still_tall_4,14,apx_turn_character_21,2
-character:22,character,22,Gordon Freeman,Community model / Rex109,apx_still_tall_4,21,apx_turn_character_22,4
-character:23,character,23,Rick Sanchez Model,Community model / Rampage199731,apx_still_tall_4,21,apx_turn_character_23,6
-character:25,character,25,Elf Girl,Community model / Terry,apx_still_tall_5,28,apx_turn_character_25,0
-character:26,character,26,Dragon Warrior,Community model / Terry,apx_still_tall_5,28,apx_turn_character_26,2
-character:27,character,27,Steve(Minecraft),"Community model / Terry, Mojang",apx_still_tall_5,28,apx_turn_character_27,4
-character:29,character,29,Hulk,Community model / Terry,apx_still_tall_5,35,apx_turn_character_29,6
-character:30,character,30,John Wick,"Community model / Terry, Epic Games",apx_still_tall_6,35,apx_turn_character_30,0
-character:31,character,31,Hell Demon,Community model / Terry,apx_still_tall_6,35,apx_turn_character_31,2
-character:33,character,33,Malice,"Community model / Terry, Epic Games",apx_still_tall_6,42,apx_turn_character_33,4
-character:34,character,34,Motoko Kusanagi,Community model / Terry,apx_still_tall_6,42,apx_turn_character_34,6
-character:35,character,35,Lynx,"Community model / Terry, Epic Games",apx_still_tall_7,42,apx_turn_character_35,0
-character:36,character,36,Purple Heart,Community model / Terry,apx_still_tall_7,42,apx_turn_character_36,2
-character:37,character,37,Domino,Community model / Terry,apx_still_tall_7,49,apx_turn_character_37,4
-character:39,character,39,Naruto,Community model / Terry,apx_still_tall_7,49,apx_turn_character_39,6
-character:41,character,41,Peely,"Community model / Terry, Epic Games",apx_still_tall_8,49,apx_turn_character_41,0
-character:42,character,42,Black Panther,Community model / Terry,apx_still_tall_8,49,apx_turn_character_42,2
-character:43,character,43,Sylvanas,"Community model / Terry, Blizzard",apx_still_tall_8,56,apx_turn_character_43,4
-character:44,character,44,Thanos,"Community model / Terry, Epic Games",apx_still_tall_8,56,apx_turn_character_44,6
-character:45,character,45,Teknique,"Community model / Terry, Epic Games",apx_still_tall_9,56,apx_turn_character_45,0
-character:46,character,46,John Marston,Community model / Snakey,apx_still_tall_9,56,apx_turn_character_46,2
-character:47,character,47,Scorpion,"Community model / Terry, Mortal Kombat",apx_still_tall_9,56,apx_turn_character_47,4
-character:48,character,48,Ursegor,"Community model / Terry, Piranha Bytes(RISEN)",apx_still_tall_9,56,apx_turn_character_48,6
-character:50,character,50,Necris,Community model / Terry,apx_still_tall_10,63,apx_turn_character_50,0
-character:51,character,51,Paladin,Community model / Terry,apx_still_tall_10,63,apx_turn_character_51,2
-character:52,character,52,Space Robot Kyle,Community model / Snakey,apx_still_tall_10,63,apx_turn_character_52,4
-character:53,character,53,Black Widow,Community model / Terry,apx_still_tall_10,63,apx_turn_character_53,6
-character:54,character,54,Hitman,Community model / Snakey,apx_still_tall_11,63,apx_turn_character_54,0
-character:55,character,55,WW2 Zombie,Community model / Terry,apx_still_tall_11,63,apx_turn_character_55,2
-character:56,character,56,Lara Croft (Tomb Raider),Community model / Terry,apx_still_tall_11,63,apx_turn_character_56,4
-character:57,character,57,Chucky,Community model / Terry,apx_still_tall_11,63,apx_turn_character_57,6
-character:58,character,58,Harley Quinn,Community model / Terry,apx_still_tall_12,70,apx_turn_character_58,0
-character:59,character,59,Vaas Montenegro,Community model / Sanya,apx_still_tall_12,70,apx_turn_character_59,2
-character:62,character,62,EM208(Robocop),Community model / Terry,apx_still_tall_12,70,apx_turn_character_62,4
-character:63,character,63,Young Female,Community model / Terry,apx_still_tall_12,70,apx_turn_character_63,6
-character:64,character,64,IRON MAN,Community model / Terry,apx_still_tall_13,70,apx_turn_character_64,0
-character:65,character,65,Shrek,Community model / Terry,apx_still_tall_13,70,apx_turn_character_65,2
-character:66,character,66,Big smoke,Community model / Snakey,apx_still_tall_13,70,apx_turn_character_66,4
-character:67,character,67,Bountyhunter,Community model / Blood,apx_still_tall_13,7,apx_turn_character_67,6
-character:68,character,68,Carl Johnson,Community model / Snakey,apx_still_tall_14,14,apx_turn_character_68,0
-character:69,character,69,Counter Terrorists Gign,Community model / Snakey,apx_still_tall_14,14,apx_turn_character_69,2
-character:70,character,70,Terrorist Arctic Avenger,Community model / Snakey,apx_still_tall_14,14,apx_turn_character_70,4
-character:71,character,71,Black Ops  Zombie Military police,Community model / Sanya,apx_still_tall_14,21,apx_turn_character_71,6
-character:72,character,72,JohnCena,Community model / Snakey,apx_still_tall_15,21,apx_turn_character_72,0
-character:74,character,74,Tommy Vercetti,Community model / Snakey,apx_still_tall_15,21,apx_turn_character_74,2
-character:75,character,75,Chicken_,Community model / Hitbox,apx_still_tall_15,28,apx_turn_character_75,4
-character:76,character,76,kermit the frog,Community model / VC' Fox,apx_still_tall_15,28,apx_turn_character_76,6
-character:77,character,77,Spiderman,Community model / VC' Fox,apx_still_tall_16,28,apx_turn_character_77,0
-character:78,character,78,BatGirl,Community model / VC' Fox,apx_still_tall_16,28,apx_turn_character_78,2
-character:79,character,79,Original Sonic,Community model / Night,apx_still_tall_16,35,apx_turn_character_79,4
-character:80,character,80,Fortnite Rameriz,Community model / VC' Fox,apx_still_tall_16,35,apx_turn_character_80,6
-character:81,character,81,Chiller,Community model / ,apx_still_tall_17,35,apx_turn_character_81,0
-character:82,character,82,METAL_SONIC_MODEL,Community model / BUSH1DO,apx_still_tall_17,35,apx_turn_character_82,2
-character:83,character,83,Xenia-Gaming Transformer Model Release,Community model / Wuzziefuzzy,apx_still_tall_17,42,apx_turn_character_83,4
-character:85,character,85,Captain America V2,Community model / Lenny,apx_still_tall_17,42,apx_turn_character_85,6
-character:86,character,86,Shadow the Hedgehog,Community model / Lenny,apx_still_tall_18,42,apx_turn_character_86,0
-character:87,character,87,Ratchet and Clank,Community model / Lenny,apx_still_tall_18,49,apx_turn_character_87,2
-character:88,character,88,Deadpool,Community model / Lenny,apx_still_tall_18,49,apx_turn_character_88,4
-character:89,character,89,Vin Diesel,Community model / Sanya,apx_still_tall_18,49,apx_turn_character_89,6
-character:90,character,90,Terminator,Community model / Sanya,apx_still_tall_19,49,apx_turn_character_90,0
-character:92,character,92,Ghost Recon,Community model / Sanya,apx_still_tall_19,56,apx_turn_character_92,2
-character:94,character,94,Css Badass Terrorist,Community model / Sanya,apx_still_tall_19,56,apx_turn_character_94,4
-character:108,character,108,Duke nukem Model,Community model / Sanya,apx_still_tall_19,70,apx_turn_character_108,6
-knife:0,knife,0,Standard knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_3,1,apx_turn_knife_0,6
-knife:1,knife,1,BO1 Ballistic Knife [melee only],Carried alongside your primary. Use your melee attack while held.,apx_still_wide_3,14,apx_turn_knife_1,7
-knife:2,knife,2,MW2 Ending Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,14,apx_turn_knife_2,0
-knife:3,knife,3,MW2 Ice Pick,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,21,apx_turn_knife_3,1
-knife:4,knife,4,Cod Ghosts Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,21,apx_turn_knife_4,2
-knife:5,knife,5,BO2 Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,28,apx_turn_knife_5,3
-knife:6,knife,6,WW2 Homerun,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,42,apx_turn_knife_6,4
-knife:7,knife,7,MWR CQB Bayonet,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,42,apx_turn_knife_7,5
-knife:8,knife,8,End of the line - Street sign weapon,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_4,56,apx_turn_knife_8,6
-ability:0,ability,0,None,None,specialty_null,0,specialty_null,0
-ability:1,ability,1,Extreme Conditioning,Sprint for longer distances.,specialty_longersprint,0,specialty_longersprint,0
-ability:2,ability,2,Iron Lungs,Hold your breath longer for steadier aim.,specialty_holdbreath,0,specialty_holdbreath,0
-ability:3,ability,3,Stopping Power,Increased bullet damage.,specialty_bulletdamage,0,specialty_bulletdamage,0
-ability:4,ability,4,Steady Aim,Improved hipfire accuracy.,specialty_bulletaccuracy,0,specialty_bulletaccuracy,0
-ability:5,ability,5,Double Tap,Increased rate of fire.,specialty_rof,0,specialty_rof,0
-ability:6,ability,6,Sleight of Hand,Faster reloads.,specialty_fastreload,0,specialty_fastreload,0
-ability:7,ability,7,Juggernaut,Increased maximum health.,specialty_armorvest,0,specialty_armorvest,0
-spray:0,spray,0,Spray 1,Unlocked by level progression.,spray0_menu,1,spray0_menu,0
-spray:1,spray,1,Spray 2,Unlocked by level progression.,spray1_menu,2,spray1_menu,0
-spray:2,spray,2,Spray 3,Unlocked by level progression.,spray2_menu,3,spray2_menu,0
-spray:3,spray,3,Spray 4,Unlocked by level progression.,spray3_menu,4,spray3_menu,0
-spray:4,spray,4,Spray 5,Unlocked by level progression.,spray4_menu,5,spray4_menu,0
-spray:5,spray,5,Spray 6,Unlocked by level progression.,spray5_menu,6,spray5_menu,0
-spray:6,spray,6,Spray 7,Unlocked by level progression.,spray6_menu,7,spray6_menu,0
-spray:7,spray,7,Spray 8,Unlocked by level progression.,spray7_menu,8,spray7_menu,0
-spray:8,spray,8,Spray 9,Unlocked by level progression.,spray8_menu,9,spray8_menu,0
-spray:9,spray,9,Spray 10,Unlocked by level progression.,spray9_menu,10,spray9_menu,0
-spray:10,spray,10,Spray 11,Unlocked by level progression.,spray10_menu,11,spray10_menu,0
-spray:11,spray,11,Spray 12,Unlocked by level progression.,spray11_menu,12,spray11_menu,0
-spray:12,spray,12,Spray 13,Unlocked by level progression.,spray12_menu,13,spray12_menu,0
-spray:13,spray,13,Spray 14,Unlocked by level progression.,spray13_menu,14,spray13_menu,0
-spray:14,spray,14,Spray 15,Unlocked by level progression.,spray14_menu,15,spray14_menu,0
-spray:15,spray,15,Spray 16,Unlocked by level progression.,spray15_menu,16,spray15_menu,0
-spray:16,spray,16,Spray 17,Unlocked by level progression.,spray16_menu,17,spray16_menu,0
-spray:17,spray,17,Spray 18,Unlocked by level progression.,spray17_menu,18,spray17_menu,0
-spray:18,spray,18,Spray 19,Unlocked by level progression.,spray18_menu,19,spray18_menu,0
-spray:19,spray,19,Spray 20,Unlocked by level progression.,spray19_menu,20,spray19_menu,0
-spray:20,spray,20,Spray 21,Unlocked by level progression.,spray20_menu,21,spray20_menu,0
-spray:21,spray,21,Spray 22,Unlocked by level progression.,spray21_menu,22,spray21_menu,0
-spray:22,spray,22,Spray 23,Unlocked by level progression.,spray22_menu,23,spray22_menu,0
-spray:23,spray,23,Spray 24,Unlocked by level progression.,spray23_menu,24,spray23_menu,0
-spray:24,spray,24,Spray 25,Unlocked by level progression.,spray24_menu,25,spray24_menu,0
-spray:25,spray,25,Spray 26,Unlocked by level progression.,spray25_menu,26,spray25_menu,0
-gloves:1,gloves,1,Black tactical gloves,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_0,1
-gloves:2,gloves,2,50 Cent arms,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_1,6
-gloves:3,gloves,3,Zombie arms,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_2,7
-gloves:4,gloves,4,Captain America arms,First-person arms / independent of your operator.,apx_still_wide_4,1,apx_turn_gloves_3,7
-gloves:5,gloves,5,Seal UDT gloves,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_4,0
-gloves:7,gloves,7,Duke Nukem arms,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_6,2
-gloves:8,gloves,8,Gordon Freeman arms,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_7,3
-gloves:9,gloves,9,Kermit arms,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_8,4
-gloves:12,gloves,12,Classic combat gloves,First-person arms / independent of your operator.,apx_still_wide_5,1,apx_turn_gloves_11,5
-gloves:0,gloves,0,Operator arms,Follow your selected operator.,apx_still_wide_5,1,apx_turn_gloves_0,1
+weapon:0,weapon,0,Beretta M9,Semi-automatic with a high capacity.,apx_still_wide_0,1,apx_rotation_wide_0,0,0
+weapon:1,weapon,1,Colt M1911,Semi-automatic with a medium power.,apx_still_wide_0,3,apx_rotation_wide_0,1,1
+weapon:2,weapon,2,USP .45,Semi-automatic with a medium power.,apx_still_wide_0,6,apx_rotation_wide_0,2,2
+weapon:3,weapon,3,Desert Eagle,Semi-automatic with a high power.,apx_still_wide_0,9,apx_rotation_wide_0,3,3
+weapon:4,weapon,4,M40A3,Bolt action sniper rifle.,apx_still_wide_0,12,apx_rotation_wide_0,4,4
+weapon:5,weapon,5,Gold Desert Eagle,Gold plated semi-automatic with high power.,apx_still_wide_0,15,apx_rotation_wide_0,5,5
+weapon:6,weapon,6,Remington 700,Bolt action sniper rifle. Very effective.,apx_still_wide_0,20,apx_rotation_wide_0,6,6
+weapon:7,weapon,7,Colt Anaconda .44,Semi-automatic with deadly .44 bullets.,apx_still_wide_0,24,apx_rotation_wide_0,7,7
+weapon:10,weapon,10,FNC,Community weapon / mitsurugi,apx_still_wide_1,40,apx_rotation_wide_0,0,8
+weapon:12,weapon,12,ghosts mp443 grach final,Community weapon / Kortun,apx_still_wide_1,7,apx_rotation_wide_0,1,9
+weapon:15,weapon,15,Infinite Warfare ONI,Community weapon / Infinity Ward ~ Mist,apx_still_wide_1,7,apx_rotation_wide_0,2,10
+weapon:22,weapon,22,Black Ops 3 Bloodhound,Community weapon / Treyarch / Mist,apx_still_wide_1,21,apx_rotation_wide_0,3,11
+weapon:28,weapon,28,Vandal Reaver from Valorant + Sounds/Worldmodel,Community weapon / Rex109,apx_still_wide_1,35,apx_rotation_wide_0,4,12
+weapon:30,weapon,30,IW weapon Clawsuper,Community weapon / Myself,apx_still_wide_1,35,apx_rotation_wide_0,5,13
+weapon:36,weapon,36,Modern Warfare 725,Community weapon / Infinity Ward - actualmist,apx_still_wide_1,42,apx_rotation_wide_0,6,14
+weapon:39,weapon,39,Black Ops III Wave Gun,Community weapon / Treyarch / Mist#0001,apx_still_wide_1,49,apx_rotation_wide_0,7,15
+weapon:44,weapon,44,CS:GO AWP (COD4),Community weapon / LitkuReiska,apx_still_wide_2,56,apx_rotation_wide_1,0,0
+weapon:60,weapon,60,BO1 Sten,Community weapon / ConvictioNDR,apx_still_wide_2,70,apx_rotation_wide_1,1,1
+character:0,character,0,Marine,English SAS Marine.,apx_still_tall_0,1,apx_rotation_tall_0,0,0
+character:4,character,4,Zoey,Zoey survived zombie apocalypse.,apx_still_tall_0,9,apx_rotation_tall_0,2,1
+character:5,character,5,General Shepherd,Shepherd betrayed and killed Ghost.,apx_still_tall_0,11,apx_rotation_tall_0,4,2
+character:6,character,6,Masterchief,Masterchief is a soldier from future.,apx_still_tall_0,13,apx_rotation_tall_0,6,3
+character:7,character,7,Makarov,Very bad character.,apx_still_tall_1,15,apx_rotation_tall_0,0,4
+character:8,character,8,Juggernaut,Come at me bro!,apx_still_tall_1,17,apx_rotation_tall_0,2,5
+character:10,character,10,Alice,Alice Murray is the mission coordinator for T.W.O.,apx_still_tall_1,22,apx_rotation_tall_0,4,6
+character:11,character,11,50 Cent,Alice Murray is the mission coordinator for T.W.O.,apx_still_tall_1,25,apx_rotation_tall_0,6,7
+character:13,character,13,The Mandalorian,Community model / VC'Fox,apx_still_tall_2,70,apx_rotation_tall_0,0,8
+character:15,character,15,Venom,Community model / MrHeyLey,apx_still_tall_2,7,apx_rotation_tall_0,2,9
+character:16,character,16,Sed,Community model / MrHeyLey,apx_still_tall_2,7,apx_rotation_tall_0,4,10
+character:17,character,17,DJ Scully,Community model / MrHeyLey,apx_still_tall_2,7,apx_rotation_tall_0,6,11
+character:18,character,18,Iron Spider,Community model / ,apx_still_tall_3,14,apx_rotation_tall_0,0,12
+character:20,character,20,Alucard,Community model / Rex109,apx_still_tall_3,14,apx_rotation_tall_0,2,13
+character:23,character,23,Rick Sanchez Model,Community model / Rampage199731,apx_still_tall_3,21,apx_rotation_tall_0,4,14
+character:25,character,25,Elf Girl,Community model / Terry,apx_still_tall_3,28,apx_rotation_tall_0,6,15
+character:27,character,27,Steve(Minecraft),"Community model / Terry, Mojang",apx_still_tall_4,28,apx_rotation_tall_1,0,0
+character:29,character,29,Hulk,Community model / Terry,apx_still_tall_4,35,apx_rotation_tall_1,2,1
+character:30,character,30,John Wick,"Community model / Terry, Epic Games",apx_still_tall_4,35,apx_rotation_tall_1,4,2
+character:31,character,31,Hell Demon,Community model / Terry,apx_still_tall_4,35,apx_rotation_tall_1,6,3
+character:35,character,35,Lynx,"Community model / Terry, Epic Games",apx_still_tall_5,42,apx_rotation_tall_1,0,4
+character:39,character,39,Naruto,Community model / Terry,apx_still_tall_5,42,apx_rotation_tall_1,2,5
+character:41,character,41,Peely,"Community model / Terry, Epic Games",apx_still_tall_5,49,apx_rotation_tall_1,4,6
+character:42,character,42,Black Panther,Community model / Terry,apx_still_tall_5,49,apx_rotation_tall_1,6,7
+character:44,character,44,Thanos,"Community model / Terry, Epic Games",apx_still_tall_6,56,apx_rotation_tall_1,0,8
+character:47,character,47,Scorpion,"Community model / Terry, Mortal Kombat",apx_still_tall_6,56,apx_rotation_tall_1,2,9
+character:48,character,48,Ursegor,"Community model / Terry, Piranha Bytes(RISEN)",apx_still_tall_6,56,apx_rotation_tall_1,4,10
+character:50,character,50,Necris,Community model / Terry,apx_still_tall_6,56,apx_rotation_tall_1,6,11
+character:51,character,51,Paladin,Community model / Terry,apx_still_tall_7,63,apx_rotation_tall_1,0,12
+character:52,character,52,Space Robot Kyle,Community model / Snakey,apx_still_tall_7,63,apx_rotation_tall_1,2,13
+character:53,character,53,Black Widow,Community model / Terry,apx_still_tall_7,63,apx_rotation_tall_1,4,14
+character:55,character,55,WW2 Zombie,Community model / Terry,apx_still_tall_7,63,apx_rotation_tall_1,6,15
+character:57,character,57,Chucky,Community model / Terry,apx_still_tall_8,63,apx_rotation_tall_2,0,0
+character:62,character,62,EM208(Robocop),Community model / Terry,apx_still_tall_8,70,apx_rotation_tall_2,2,1
+character:64,character,64,IRON MAN,Community model / Terry,apx_still_tall_8,70,apx_rotation_tall_2,4,2
+character:65,character,65,Shrek,Community model / Terry,apx_still_tall_8,70,apx_rotation_tall_2,6,3
+character:66,character,66,Big smoke,Community model / Snakey,apx_still_tall_9,70,apx_rotation_tall_2,0,4
+character:72,character,72,JohnCena,Community model / Snakey,apx_still_tall_9,14,apx_rotation_tall_2,2,5
+character:74,character,74,Tommy Vercetti,Community model / Snakey,apx_still_tall_9,21,apx_rotation_tall_2,4,6
+character:75,character,75,Chicken_,Community model / Hitbox,apx_still_tall_9,28,apx_rotation_tall_2,6,7
+character:76,character,76,kermit the frog,Community model / VC' Fox,apx_still_tall_10,28,apx_rotation_tall_2,0,8
+character:90,character,90,Terminator,Community model / Sanya,apx_still_tall_10,49,apx_rotation_tall_2,2,9
+knife:0,knife,0,Standard knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,1,apx_rotation_wide_1,2,2
+knife:1,knife,1,BO1 Ballistic Knife [melee only],Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,14,apx_rotation_wide_1,3,3
+knife:2,knife,2,MW2 Ending Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,14,apx_rotation_wide_1,4,4
+knife:3,knife,3,MW2 Ice Pick,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,21,apx_rotation_wide_1,5,5
+knife:4,knife,4,Cod Ghosts Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,21,apx_rotation_wide_1,6,6
+knife:5,knife,5,BO2 Knife,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_2,28,apx_rotation_wide_1,7,7
+knife:6,knife,6,WW2 Homerun,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_3,42,apx_rotation_wide_1,0,8
+knife:7,knife,7,MWR CQB Bayonet,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_3,42,apx_rotation_wide_1,1,9
+knife:8,knife,8,End of the line - Street sign weapon,Carried alongside your primary. Use your melee attack while held.,apx_still_wide_3,49,apx_rotation_wide_1,2,10
+ability:0,ability,0,None,None,specialty_null,0,specialty_null,0,0
+ability:1,ability,1,Extreme Conditioning,Sprint for longer distances.,specialty_longersprint,0,specialty_longersprint,0,0
+ability:2,ability,2,Iron Lungs,Hold your breath longer for steadier aim.,specialty_holdbreath,0,specialty_holdbreath,0,0
+ability:3,ability,3,Stopping Power,Increased bullet damage.,specialty_bulletdamage,0,specialty_bulletdamage,0,0
+ability:4,ability,4,Steady Aim,Improved hipfire accuracy.,specialty_bulletaccuracy,0,specialty_bulletaccuracy,0,0
+ability:5,ability,5,Double Tap,Increased rate of fire.,specialty_rof,0,specialty_rof,0,0
+ability:6,ability,6,Sleight of Hand,Faster reloads.,specialty_fastreload,0,specialty_fastreload,0,0
+ability:7,ability,7,Juggernaut,Increased maximum health.,specialty_armorvest,0,specialty_armorvest,0,0
+spray:0,spray,0,Spray 1,Unlocked by level progression.,spray0_menu,1,spray0_menu,0,0
+spray:1,spray,1,Spray 2,Unlocked by level progression.,spray1_menu,2,spray1_menu,0,0
+spray:2,spray,2,Spray 3,Unlocked by level progression.,spray2_menu,3,spray2_menu,0,0
+spray:3,spray,3,Spray 4,Unlocked by level progression.,spray3_menu,4,spray3_menu,0,0
+spray:4,spray,4,Spray 5,Unlocked by level progression.,spray4_menu,5,spray4_menu,0,0
+spray:5,spray,5,Spray 6,Unlocked by level progression.,spray5_menu,6,spray5_menu,0,0
+spray:6,spray,6,Spray 7,Unlocked by level progression.,spray6_menu,7,spray6_menu,0,0
+spray:7,spray,7,Spray 8,Unlocked by level progression.,spray7_menu,8,spray7_menu,0,0
+spray:8,spray,8,Spray 9,Unlocked by level progression.,spray8_menu,9,spray8_menu,0,0
+spray:9,spray,9,Spray 10,Unlocked by level progression.,spray9_menu,10,spray9_menu,0,0
+spray:10,spray,10,Spray 11,Unlocked by level progression.,spray10_menu,11,spray10_menu,0,0
+spray:11,spray,11,Spray 12,Unlocked by level progression.,spray11_menu,12,spray11_menu,0,0
+spray:12,spray,12,Spray 13,Unlocked by level progression.,spray12_menu,13,spray12_menu,0,0
+spray:13,spray,13,Spray 14,Unlocked by level progression.,spray13_menu,14,spray13_menu,0,0
+spray:14,spray,14,Spray 15,Unlocked by level progression.,spray14_menu,15,spray14_menu,0,0
+spray:15,spray,15,Spray 16,Unlocked by level progression.,spray15_menu,16,spray15_menu,0,0
+spray:16,spray,16,Spray 17,Unlocked by level progression.,spray16_menu,17,spray16_menu,0,0
+spray:17,spray,17,Spray 18,Unlocked by level progression.,spray17_menu,18,spray17_menu,0,0
+spray:18,spray,18,Spray 19,Unlocked by level progression.,spray18_menu,19,spray18_menu,0,0
+spray:19,spray,19,Spray 20,Unlocked by level progression.,spray19_menu,20,spray19_menu,0,0
+spray:20,spray,20,Spray 21,Unlocked by level progression.,spray20_menu,21,spray20_menu,0,0
+spray:21,spray,21,Spray 22,Unlocked by level progression.,spray21_menu,22,spray21_menu,0,0
+spray:22,spray,22,Spray 23,Unlocked by level progression.,spray22_menu,23,spray22_menu,0,0
+spray:23,spray,23,Spray 24,Unlocked by level progression.,spray23_menu,24,spray23_menu,0,0
+spray:24,spray,24,Spray 25,Unlocked by level progression.,spray24_menu,25,spray24_menu,0,0
+spray:25,spray,25,Spray 26,Unlocked by level progression.,spray25_menu,26,spray25_menu,0,0
+gloves:1,gloves,1,Black tactical gloves,First-person arms / independent of your operator.,apx_still_wide_3,1,apx_rotation_wide_1,3,11
+gloves:2,gloves,2,50 Cent arms,First-person arms / independent of your operator.,apx_still_wide_3,1,apx_rotation_wide_1,6,14
+gloves:3,gloves,3,Zombie arms,First-person arms / independent of your operator.,apx_still_wide_3,1,apx_rotation_wide_1,7,15
+gloves:9,gloves,9,Kermit arms,First-person arms / independent of your operator.,apx_still_wide_3,1,apx_rotation_wide_1,4,12
+gloves:12,gloves,12,Classic combat gloves,First-person arms / independent of your operator.,apx_still_wide_3,1,apx_rotation_wide_1,5,13
+gloves:0,gloves,0,Operator arms,Follow your selected operator.,apx_still_wide_3,1,apx_rotation_wide_1,3,11

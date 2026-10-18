@@ -2,17 +2,17 @@
 
 ## Progression rules
 
-Displayed levels are 1–70; internal rank IDs are 0–69. Prestiges are 0–10,
+Displayed levels are 1–70; internal rank IDs are 0–69. Prestiges are 0–5,
 where 0 means not prestiged. Level N begins at `200 * (N-1) * N` XP and its
 XP bar spans `400 * N` XP. This preserves the original early-level curve.
 Level 70 begins at 966,000 XP; completing its bar takes 994,000 XP.
 
-Prestige requires a complete level-70 bar and prestige below 10. The server
+Prestige requires a complete level-70 bar and prestige below 5. The server
 issues a 30-second confirmation and consumes it before changing state. Repeated,
 stale or forged confirmation responses cannot apply a reset without eligibility.
 After prestige, rank/XP become 0/0 and prestige increments once. Lifetime counters,
 completed challenges and ability flags are retained. Level-gated customization
-is validated again; earned abilities remain unlocked. At prestige 10, players
+is validated again; earned abilities remain unlocked. At prestige 5, players
 can reach level 70 and keep playing without exceeding the XP cap.
 
 Community primaries, melee and operators use prestige plus level requirements.
@@ -20,13 +20,13 @@ Earlier tiers remain unlocked after prestiging. Every prestige has ten
 rank milestones, at levels 7, 14, 21, 28, 35, 42, 49, 56, 63 and 70; the in-game reward browser reads the same tables as equipment
 validation. See [CONTENT.md](CONTENT.md) for the complete catalog and credits.
 
-Old profiles retain their XP and lifetime statistics. Saved test prestiges above 10 normalize to the new cap on load. Integrity mirrors are checked before the expanded
+Old profiles retain their XP and lifetime statistics. Saved test prestiges above 5 normalize to the new cap on load. Integrity mirrors are checked before the expanded
 rank table normalizes the profile, then refreshed. The original stat IDs remain:
 
 | Stat | Meaning |
 | --- | --- |
 | 2301 | Current-cycle rank XP |
-| 2326 | Prestige 0–10 |
+| 2326 | Prestige 0–5 |
 | 2350 | Internal rank 0–69 |
 | 251, 252 | Menu rank mirrors |
 | 2351, 2352 | Current level minimum/maximum XP |
@@ -40,18 +40,18 @@ the saved prestige instead of forcing it to zero. All rank changes call native
 ## Tables and artwork
 
 `rankTable.csv` contains 70 contiguous ranks and `maxrank,69`.
-`rankIconTable.csv` contains each level badge for all 11 prestige columns, plus
-both caps. `apx_prestiges.csv` maps 1–10 to prestige materials, with a nonempty
+`rankIconTable.csv` contains each level badge for all 6 prestige columns, plus
+both caps. `apx_prestiges.csv` maps 1–5 to prestige materials, with a nonempty
 white sentinel for hidden prestige 0. Explicit integer/string lookup keys avoid
 ambiguous script conversions. APXRANK localization supplies every level label.
 
-The 70 level shields and 10 active ApX prestige emblems are custom vector geometry.
+The 70 level shields and 5 active ApX prestige emblems are custom vector geometry.
 `art/progression/` contains SVGs, PNG previews and a contact sheet. Engine assets
 are 512x512 lossless BGRA IWI textures with full mip chains and 2D materials.
 Artwork renders at 1024x1024 before downsampling. The no-picmip flag keeps client
 world-texture quality settings from reducing UI resolution. Lossless pixels avoid
-DXT block/color artifacts around fine gold lines and numbers. The 80 active mip chains
-total about 107 MiB uncompressed; the IWD compresses them for transfer. The generator
+DXT block/color artifacts around fine gold lines and numbers. The 75 active mip chains
+total about 100 MiB uncompressed; the IWD compresses them for transfer. The generator
 uses the existing stock rank material layout. Regenerate with Python and Pillow:
 
 ```powershell

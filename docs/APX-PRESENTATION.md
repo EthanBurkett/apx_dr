@@ -44,20 +44,23 @@ They are layout proofs, not screenshots of the CoD4 client.
 ## Installed map rotation
 
 ```powershell
+.\tools\build-client-audit.ps1
+python tools/audit_map_assets.py --mod dist/apx-presentation
+python tools/sync_map_rotation.py --asset-report build/map-assets/report.json --fastfile dist/apx-presentation/mod.ff
+# Regenerate using the checked-in measurements when asset inputs are unchanged:
 python tools/sync_map_rotation.py
-# Optional alternative installation:
-python tools/sync_map_rotation.py --usermaps D:\CoD4\usermaps
 ```
 
-The current inventory contains 626 folders: 480 included Deathrun maps and 146
-excluded regular multiplayer/survival, incomplete or unrecognized entries. A
+The current inventory contains 626 folders: 480 Deathrun candidates and 146
+regular multiplayer/survival, incomplete or unrecognized entries. Of the candidates,
+446 passed native load and asset-budget checks; 32 failed to load in fresh servers
+and two exceeded the material safety budget. A
 playable matching `.ff` is required. Arena metadata declaring Deathrun or the
 established `mp_dr_`, `mp_deathrun_`, `mp_drrun_` prefixes identify candidates.
-This is an installation/metadata inventory, not certification that every map's
-script, triggers or asset pools work with this mod. Review individual failures
-before enabling a map on a public server.
+Native loading and pool measurements do not certify every gameplay trigger.
+Review individual failures before enabling an excluded map on a public server.
 
-The generated config stores all 480 maps in 13 `apx_rotation_<n>` dvars. Each
+The generated config stores the 446 admitted maps in 12 `apx_rotation_<n>` dvars. Each
 command is below 1024 bytes. `_vote_maps.gsc` reads every page, deduplicates it
 and uses the same collection for voting and end-of-match progression.
 `sv_mapRotation` contains the first page for engine startup/fallback; manual
@@ -115,5 +118,16 @@ python tools/check.py --suite full
 
 The presentation suite uses an isolated native server and bot. It checks the
 unfinished-time sentinel, fractional records, paged rotation, ballot replacement,
-clear/expired/invalid ballots, and opening all three phases. Interactive mouse,
+clear/expired/invalid ballots, and the real report → vote → credits → next-map
+transition. Interactive mouse,
 keyboard focus and widescreen presentation still need a real client check.
+
+Round-end notices keep the map's normal vision and the player's camera setting;
+the round controller clears blur without forcing third person. Shared GSC HUD
+text clamps font scales to 1.4–4.5: the engine encodes the value relative to 1.4
+in five bits, so smaller values wrap into oversized text on a network client.
+The native suite verifies that encoding boundary and completes Rising Star,
+including its actual tier metadata, without the former match-end error cascade.
+The match report opens after a quarter-second HUD fade instead of a three-second
+blank transition. Native map audits include the two client-only startup zones;
+see [CONTENT.md](CONTENT.md) for the corresponding diagnostic tooling.

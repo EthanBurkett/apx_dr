@@ -8,7 +8,7 @@ A progression-driven Deathrun mod for Call of Duty 4, built on BraXi's Death Run
 
 [Start here](docs/GETTING-STARTED.md) Â· [Documentation](docs/README.md) Â· [Tooling](docs/TOOLING.md) Â· [Build & test](docs/TESTING.md)
 
-**70 levels** / **10 prestiges** / **100 prestige milestones** / **Official CoD4x client**
+**70 levels** / **5 prestiges** / **50 prestige milestones** / **Official CoD4x client**
 
 </div>
 
@@ -42,9 +42,9 @@ has enough players for a round.
 
 | Progression                              | Equipment                                 | Interface                                     |
 | ---------------------------------------- | ----------------------------------------- | --------------------------------------------- |
-| 70 levels and 10 prestiges               | 30 active primaries and 9 knives          | Dedicated loadout and catalog menus           |
-| Ten rank-gated rewards per prestige      | 80 active operators                       | Actual-model stills and optional turntables   |
-| Lifetime stats, challenges and abilities | 9 arms sets, plus automatic operator arms | Compact HUD, smooth XP and custom scoreboard  |
+| 70 levels and 5 prestiges                | 18 active primaries and 9 knives          | Dedicated loadout and catalog menus           |
+| Ten rank-gated rewards per prestige      | 42 active operators                       | Actual-model stills and optional turntables   |
+| Lifetime stats, challenges and abilities | 5 arms sets, plus automatic operator arms | Compact HUD, smooth XP and custom scoreboard  |
 | Admin XP, rank, prestige and full reset  | Primary + knife carried as secondary      | Saved FOV, Fullbright and display preferences |
 
 The full imported asset library is retained here. The

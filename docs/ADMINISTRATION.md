@@ -53,7 +53,7 @@ Use your existing RCON authentication. Do not put passwords in client archives.
 | --- | --- |
 | `xp:<target>[:amount]` | Add rank XP, default 4,000; explicit amount 1–994,000. Current-cycle XP stops at 994,000. |
 | `setrank:<target>:<level>` | Set displayed level 1–70. Levels 1–69 start at their minimum XP; level 70 fills its final bar for a prestige test. |
-| `setprestige:<target>:<prestige>` | Set prestige 0–10 while retaining current level and XP. |
+| `setprestige:<target>:<prestige>` | Set prestige 0–5 while retaining current level and XP. |
 | `reset:<target>` | Full progression reset: level 1, XP 0, prestige 0, lifetime counters, challenge progress, earned abilities and selected equipment reset. |
 
 Commands work on connected players while alive, dead or spectating, including

@@ -1,4 +1,12 @@
 // Shared, restrained ApX gameplay notices. No pulsing stock announcement HUD.
+// HUD font scales are encoded in five bits starting at 1.4. Smaller values
+// wrap on the wire and become huge text on the client, even if accepted locally.
+fontScale( value )
+{
+    if( !isDefined( value ) ) return 1.4;
+    return max( 1.4, min( 4.5, value ) );
+}
+
 text( x, y, value, size )
 {
     hud = newHudElem();
@@ -9,7 +17,7 @@ text( x, y, value, size )
     hud.x = x;
     hud.y = y;
     hud.font = "objective";
-    hud.fontScale = size;
+    hud.fontScale = fontScale( size );
     hud.color = (.88,.91,.90);
     hud.glowAlpha = 0;
     hud.hideWhenInMenu = true;
@@ -44,9 +52,9 @@ notice( title, detail )
     panel.hideWhenInMenu = true;
     panel setShader( "white", 340, 45 );
     level.apxNotice[0] = panel;
-    level.apxNotice[1] = text( -154, 88, title, 1.25 );
+    level.apxNotice[1] = text( -154, 88, title, 1.6 );
     level.apxNotice[1].color = (.88,.77,.53);
-    level.apxNotice[2] = text( -154, 108, detail, 1.0 );
+    level.apxNotice[2] = text( -154, 108, detail, 1.4 );
     wait 2.8;
     for( i = 0; i < level.apxNotice.size; i++ )
     {

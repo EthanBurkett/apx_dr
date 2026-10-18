@@ -38,7 +38,7 @@ class MenuTraffic(unittest.TestCase):
     def test_browser_publishes_one_page_even_with_ten_thousand_choices(self):
         commands=[]
         def lookup(table,keycol,key,col):
-            return {3:'Example '+str(key),4:'Example description',5:'white',6:'1',7:'white',8:'0'}.get(col,'')
+            return {3:'Example '+str(key),4:'Example description',5:'white',6:'1',7:'white',8:'0',9:'0'}.get(col,'')
         runtime=Runtime(natives={'tableLookup':lookup,'max':max,'min':min,
             'isUnlocked':lambda *args:True,'braxi\\_content_unlocks::requirement':lambda *args:'Level 1',
             'setClientDvars':lambda player,*pairs:commands.append(pairs)})

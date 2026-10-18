@@ -31,12 +31,18 @@ def filter_previews():
         still.append('apx_preview_gloves_'+str(gloves[hand]))
         turn.append('apx_turn_gloves_'+str(gloves[hand]))
     atlas=json.loads((ROOT/'ui/preview_atlas.json').read_text())
+    rotation_path=ROOT/'ui/turntable_atlas.json'
+    rotations=json.loads(rotation_path.read_text()) if rotation_path.exists() else {}
+    if rotations and set(turn)-set(rotations):
+        raise ValueError('Repack shared turntables for the updated profile before finalizing preview bindings')
+    def rotation(name):return rotations.get(name,{'material':name,'cell':0})['material']
     for name in still:
         if name not in atlas: raise ValueError('Repackage still atlases for the new profile: '+name)
     packed=sorted({atlas[name]['material'] for name in still})
-    for name in packed+turn:
+    turn_materials=sorted({rotation(name) for name in turn})
+    for name in packed+turn_materials:
         if not (ROOT/'assets/images'/(name+'.iwi')).is_file(): raise FileNotFoundError(name)
-    for filename,names in [('14-model-previews.csv',packed),('15-turntables.csv',turn)]:
+    for filename,names in [('14-model-previews.csv',packed),('15-turntables.csv',turn_materials)]:
         (ROOT/'manifests'/filename).write_text('// Active content profile; inactive source art is retained.\n'+'\n'.join('material,'+name for name in names)+'\n')
     previews=[]
     base_hand=tables['character'][0][5]
@@ -46,7 +52,8 @@ def filter_previews():
         glove=str(gloves[hand])
         front=atlas['apx_preview_character_'+id];back=atlas['apx_preview_character_'+id+'_back'];arms=atlas['apx_preview_gloves_'+glove]
         previews.append([row[1],front['material'],back['material'],arms['material'],
-                         'apx_turn_gloves_'+glove,'apx_turn_character_'+id,front['cell'],back['cell'],arms['cell']])
+                         rotation('apx_turn_gloves_'+glove),rotation('apx_turn_character_'+id),front['cell'],back['cell'],arms['cell'],
+                         rotations.get('apx_turn_gloves_'+glove,{}).get('cell',0)])
     with (ROOT/'src/mp/apx_character_previews.csv').open('w',newline='') as handle:
         csv.writer(handle,lineterminator='\n').writerows(previews)
     for kind in ('weapon','knife'):
@@ -59,9 +66,9 @@ def filter_previews():
     table_manifest=ROOT/'manifests/04-tables.csv';lines=table_manifest.read_text().splitlines()
     if 'stringtable,mp/apx_knife_previews.csv' not in lines: lines.append('stringtable,mp/apx_knife_previews.csv')
     table_manifest.write_text('\n'.join(lines)+'\n')
-    keep={name+'.iwi' for name in packed+turn}
+    keep={name+'.iwi' for name in packed+turn_materials}
     inactive=[p.name for p in (ROOT/'assets/images').glob('*.iwi')
-              if (p.name.startswith(('apx_preview_','apx_still_','apx_turn_')) and p.name not in keep)
+              if (p.name.startswith(('apx_preview_','apx_still_','apx_turn_','apx_rotation_')) and p.name not in keep)
               or (p.name.startswith('apx_prestige_') and int(p.stem.rsplit('_',1)[1])>json.loads((ROOT/'ui/content_profile.json').read_text())['prestiges'])]
     (ROOT/'ui/inactive_images.json').write_text(json.dumps(sorted(inactive),indent=2)+'\n')
 
@@ -120,6 +127,8 @@ def main():
     progression_tables()
     badges=[f'apx_rank_{i:02}' for i in range(1,71)]+[f'apx_prestige_{i:02}' for i in range(1,tiers+1)]
     (ROOT/'manifests/12-progression.csv').write_text('// Active progression badge set; other original art is retained.\n'+'\n'.join('material,'+name for name in badges)+'\n')
+    from pack_turntable_atlases import main as package_rotations
+    package_rotations(update_bindings=False)
     from package_preview_atlases import selected_names,main as package_stills
     planned={name for group in selected_names().values() for name in group}
     lookup_path=ROOT/'ui/preview_atlas.json'

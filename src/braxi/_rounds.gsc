@@ -51,17 +51,12 @@ endRound( reasonText, team )
 	players = getAllPlayers();
 	for( i = 0; i < players.size; i++ )
 	{
-		players[i] setClientDvars( "cg_thirdperson", 1, "r_blur", 2.0, "show_hud", "false" );
+		// Keep the player's camera preference and the map's normal lighting.
+		players[i] setClientDvars( "r_blur", 0, "show_hud", "false" );
 	}
 
-	if( team == "jumpers" )
+	if( team != "jumpers" )
 	{
-		visionSetNaked( "jumpers", 4 );
-	}
-	else
-	{
-		visionSetNaked( "activators", 4 );
-		
 		if( isDefined( level.activ ) && isPlayer( level.activ ) ) 
 			level.activ braxi\_rank::giveRankXp( "activator" );
 	}
@@ -97,7 +92,9 @@ gameLogic()
 
 	level.allowSpawn = true;
 	warning = false;
-	if( plugins\_efr::runWarmup() ) return;
+	warmup = plugins\_efr::runWarmup();
+	// An intermission can cancel the warmup thread without a return value.
+	if( !isDefined( warmup ) || warmup ) return;
 
 	visionSetNaked( "mpIntro", 0 );
 	if( isDefined( level.matchStartText ) )
@@ -281,10 +278,13 @@ endMap( winningteam )
 	if( isDefined( level.hud_jumpers ) )
 		level.hud_jumpers destroy();
 
-	level.hud_round fadeOverTime( 2.6 );
-	level.hud_round.alpha = 0;
-	wait 3;
-	level.hud_round destroy();
+	if( isDefined( level.hud_round ) )
+	{
+		level.hud_round fadeOverTime( .25 );
+		level.hud_round.alpha = 0;
+		wait .25;
+		level.hud_round destroy();
+	}
 	
 	//thread saveMapScores();
 
@@ -366,7 +366,7 @@ freeRunChoice()
 	self.hud_freeround.alignY = "middle";
 	self.hud_freeround.alpha = 1;
 	self.hud_freeround.font = "default";
-	self.hud_freeround.fontScale = 1.25;
+	self.hud_freeround.fontScale = 1.4;
 	self.hud_freeround.color = (.88,.77,.53);
 	self.hud_freeround.sort = 0;
 	self.hud_freeround.foreground = true;
@@ -383,7 +383,7 @@ freeRunChoice()
 	self.hud_freeround_time.alignY = "middle";
 	self.hud_freeround_time.alpha = 1;
 	self.hud_freeround_time.font = "default";
-	self.hud_freeround_time.fontScale = 1.15;
+	self.hud_freeround_time.fontScale = 1.4;
 	self.hud_freeround_time.sort = 0;
 	self.hud_freeround_time.foreground = true;
 	self.hud_freeround_time setTimer( level.dvar["freeRunChoiceTime"] );

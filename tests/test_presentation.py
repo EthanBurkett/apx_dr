@@ -7,11 +7,47 @@ import unittest
 import zipfile
 from gsc_runtime import Runtime
 from sync_map_rotation import chunks,rotation,inspect_map
+from map_budget import compatible
 
 ROOT=Path(__file__).resolve().parents[1]
 
 
 class Presentation(unittest.TestCase):
+    def test_rotation_rejects_missing_failed_and_over_budget_maps(self):
+        limits={'material':2000,'weapon':156}
+        self.assertFalse(compatible(None,limits)[0])
+        self.assertFalse(compatible({'error':'script compile error'},limits)[0])
+        self.assertFalse(compatible({'usage':{'material':1000}},limits)[0])
+        self.assertTrue(compatible({'usage':{'material':1999,'weapon':140}},limits)[0])
+        self.assertFalse(compatible({'usage':{'material':2031,'weapon':140}},limits)[0])
+        self.assertFalse(compatible({'usage':{'material':1500,'weapon':169}},limits)[0])
+
+    def test_hud_scales_never_underflow_network_quantization(self):
+        runtime=Runtime(natives={'min':min,'max':max})
+        runtime.load(ROOT/'src/braxi/_presentation.gsc',{'fontScale'})
+        for requested in (None,0,.95,1.0,1.25,1.4,1.6,4.5,4.6,10):
+            value=runtime.call('fontScale',requested)
+            self.assertGreaterEqual(value,1.4)
+            self.assertLessEqual(value,4.5)
+            # The engine transmits (fontScale - 1.4) * 10 in five bits.
+            encoded=round((value-1.4)*10)&31
+            self.assertAlmostEqual(1.4+encoded*.1,value,places=5)
+
+    def test_challenge_tier_completion_uses_real_metadata(self):
+        level={'numChallengeTiers':2,'challengeInfo':{
+            'first':{'tier':1,'level':1},'first2':{'tier':1,'level':2},
+            'second':{'tier':1,'level':1},'advanced':{'tier':2,'level':1}}}
+        player={'challengeData':{'first':255,'second':1}}
+        runtime=Runtime({'level':level},natives={'getArrayKeys':lambda value:list(value)})
+        runtime.load(ROOT/'src/braxi/_challenge_progress.gsc',{'tierCheck'})
+        for invalid in (None,0,3):self.assertFalse(runtime.call('tierCheck',invalid,receiver=player))
+        self.assertFalse(runtime.call('tierCheck',1,receiver=player))
+        player['challengeData']['second']=255
+        self.assertTrue(runtime.call('tierCheck',1,receiver=player))
+        self.assertFalse(runtime.call('tierCheck',2,receiver=player))
+        source=(ROOT/'src/braxi/_challenge_progress.gsc').read_text()
+        self.assertNotIn('["id"]',source)
+
     def test_unfinished_run_is_never_a_record_or_match_leader(self):
         runtime=Runtime()
         runtime.load(ROOT/'src/braxi/_intermission.gsc',{'validResult','betterResult','valueLabel'})
@@ -82,7 +118,7 @@ class Presentation(unittest.TestCase):
 
     def test_checked_in_rotation_matches_inventory_and_native_menu_routes(self):
         report=json.loads((ROOT/'ui/map_inventory.json').read_text())
-        names={row['map'] for row in report['maps'] if row['deathrun']}
+        names={row['map'] for row in report['maps'] if row.get('rotation',row['deathrun'])}
         source=(ROOT/'config/server/rotation.cfg').read_text()
         pages=re.findall(r'^set apx_rotation_\d+ "([^"]*)"',source,re.M)
         actual=re.findall(r'map (mp_\w+)',' '.join(pages))

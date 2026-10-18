@@ -11,13 +11,13 @@
       "page": "https://cfgfactory.com/skins/show/66a064fe16252.html",
       "author": "Infinity Ward - Sloth",
       "sha256": "e49e9cdefd4f695e787527ec99aecccd884167679069b2fe95e5c55acb0accca",
-      "prestige": 1,
-      "level": 7,
+      "prestige": 0,
+      "level": 30,
       "original_unlock": {
         "prestige": 0,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -47,13 +47,13 @@
       "page": "https://cfgfactory.com/skins/show/5f2a961f720cf.html",
       "author": "MrHeyLey",
       "sha256": "cfd462a2928dd54bc6e701f803766efa2e2c23810cd068bbd294511308152dcc",
-      "prestige": 2,
-      "level": 7,
+      "prestige": 0,
+      "level": 50,
       "original_unlock": {
         "prestige": 0,
         "level": 50
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -65,7 +65,7 @@
       "page": "https://cfgfactory.com/skins/show/5f1c4869e2f1d.html",
       "author": "MrHeyLey",
       "sha256": "8c37c0650e1fafa0628eb72fb01ac2f29120d246731197d42f8487a81512760e",
-      "prestige": 4,
+      "prestige": 1,
       "level": 7,
       "original_unlock": {
         "prestige": 0,
@@ -83,7 +83,7 @@
       "page": "https://cfgfactory.com/skins/show/5f019ffb3fba0.html",
       "author": "MrHeyLey",
       "sha256": "11e73a2c643424f7faad6590f59a53b0b99a563f1d389815887459cc47d24cfd",
-      "prestige": 6,
+      "prestige": 3,
       "level": 7,
       "original_unlock": {
         "prestige": 0,
@@ -101,7 +101,7 @@
       "page": "https://cfgfactory.com/skins/show/5efb828155a73.html",
       "author": "MrHeyLey",
       "sha256": "6b1f9aec78d2610e1ad33d86162638d5f3055ce4c1093fc22f9bcbbe020f3132",
-      "prestige": 8,
+      "prestige": 4,
       "level": 7,
       "original_unlock": {
         "prestige": 1,
@@ -137,13 +137,13 @@
       "page": "https://cfgfactory.com/skins/show/5e8b6902bef74.html",
       "author": "Rex109",
       "sha256": "9c461372dd0a12778772a20e9d662cd55a7a1060532febaf26e5bea60ba3eafc",
-      "prestige": 4,
-      "level": 14,
+      "prestige": 3,
+      "level": 30,
       "original_unlock": {
         "prestige": 3,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -155,7 +155,7 @@
       "page": "https://cfgfactory.com/skins/show/5e75f3d567c62.html",
       "author": "Rex109",
       "sha256": "644a999dcd437cfdea45a2c3c8a8974d6a461cb029aa5ab8f0ad072a63d884ca",
-      "prestige": 7,
+      "prestige": 4,
       "level": 14,
       "original_unlock": {
         "prestige": 4,
@@ -173,13 +173,13 @@
       "page": "https://cfgfactory.com/skins/show/5d1cc109d8ddf.html",
       "author": "Snakey",
       "sha256": "df2e57f4a897d781d9599d12bbd4e1eb33da598109fdfd92975e9f0f41829168",
-      "prestige": 9,
-      "level": 14,
+      "prestige": 5,
+      "level": 30,
       "original_unlock": {
         "prestige": 5,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -191,13 +191,13 @@
       "page": "https://cfgfactory.com/skins/show/5d05329df1ee9.html",
       "author": "Rex109",
       "sha256": "953acff47ae467394fcba3bf1ae4f745b16e59e6ba167e8921b3501c313c5377",
-      "prestige": 3,
-      "level": 21,
+      "prestige": 6,
+      "level": 30,
       "original_unlock": {
         "prestige": 6,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -209,7 +209,7 @@
       "page": "https://cfgfactory.com/skins/show/5cec707e77e12.html",
       "author": "Rampage199731",
       "sha256": "49888db553fe11e1b533061886011d6f1429394c161087fe16559ae271329b6b",
-      "prestige": 6,
+      "prestige": 2,
       "level": 21,
       "original_unlock": {
         "prestige": 7,
@@ -263,13 +263,13 @@
       "page": "https://cfgfactory.com/skins/show/5ce2d260b3e9f.html",
       "author": "Terry",
       "sha256": "8a174ddedfb4148f08991a35a96b99a7392d3f41b4d6d99f4e227852cd6cc144",
-      "prestige": 4,
-      "level": 28,
+      "prestige": 10,
+      "level": 30,
       "original_unlock": {
         "prestige": 10,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -281,7 +281,7 @@
       "page": "https://cfgfactory.com/skins/show/5ce25d24d2fba.html",
       "author": "Terry, Mojang",
       "sha256": "ea4a0ec231b7fc86fa252ae42d94b0c784f5509a440c3e5637ef113ee54f4fa0",
-      "prestige": 6,
+      "prestige": 5,
       "level": 28,
       "original_unlock": {
         "prestige": 11,
@@ -335,7 +335,7 @@
       "page": "https://cfgfactory.com/skins/show/5cdfd935112ce.html",
       "author": "Terry, Epic Games",
       "sha256": "d9fd6e790335be488647238049f0a728a1dac455574eb25b164d164a2a344770",
-      "prestige": 3,
+      "prestige": 2,
       "level": 35,
       "original_unlock": {
         "prestige": 14,
@@ -353,7 +353,7 @@
       "page": "https://cfgfactory.com/skins/show/5cdd341264680.html",
       "author": "Terry",
       "sha256": "a65258fa170036335391dc05e6b1f34b03752fb94e8650c6aec1a8580728de7d",
-      "prestige": 7,
+      "prestige": 4,
       "level": 35,
       "original_unlock": {
         "prestige": 15,
@@ -389,13 +389,13 @@
       "page": "https://cfgfactory.com/skins/show/5cdab35d66f0a.html",
       "author": "Terry, Epic Games",
       "sha256": "7da09443f9425534a7d84c4865275a55c849eac5d9cc89cab0a8dca3f7111f25",
-      "prestige": 1,
-      "level": 42,
+      "prestige": 17,
+      "level": 30,
       "original_unlock": {
         "prestige": 17,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -407,13 +407,13 @@
       "page": "https://cfgfactory.com/skins/show/5cda2e134b7b4.html",
       "author": "Terry",
       "sha256": "ceb57300237fc22e8ad87c0b79ee5b6d740ce5ab2407a3caeb3cca80ca0c6416",
-      "prestige": 4,
-      "level": 42,
+      "prestige": 18,
+      "level": 30,
       "original_unlock": {
         "prestige": 18,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -425,7 +425,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd9825a52ed5.html",
       "author": "Terry, Epic Games",
       "sha256": "514c1993f22fdddf936a895bb5085f80e728e66d2fef2656d863468903ac0a03",
-      "prestige": 5,
+      "prestige": 1,
       "level": 42,
       "original_unlock": {
         "prestige": 19,
@@ -443,13 +443,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd93bda38f53.html",
       "author": "Terry",
       "sha256": "322d26b10f53fa36b97dd1204e7d6efe9640853a3fee846da8e7fbe8e9abc828",
-      "prestige": 8,
-      "level": 42,
+      "prestige": 20,
+      "level": 30,
       "original_unlock": {
         "prestige": 20,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -461,13 +461,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd8c89c3af77.html",
       "author": "Terry",
       "sha256": "46a32a6e3c1a966939c0e0e25e37a4175921770b0d44482e718d34399b97a97e",
-      "prestige": 1,
-      "level": 49,
+      "prestige": 21,
+      "level": 30,
       "original_unlock": {
         "prestige": 21,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -498,7 +498,7 @@
       "author": "Terry",
       "sha256": "3ddeaa7625ebc95a59e3854d3821bc67dcacaecd9d5d383e2a6abc51cfdd77db",
       "prestige": 5,
-      "level": 49,
+      "level": 42,
       "original_unlock": {
         "prestige": 23,
         "level": 30
@@ -533,7 +533,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd71fd8817f0.html",
       "author": "Terry, Epic Games",
       "sha256": "b8b22a58535cdd639b0929b58609392b2eae12d2aed8b0eacc3b146b5bf3039e",
-      "prestige": 8,
+      "prestige": 2,
       "level": 49,
       "original_unlock": {
         "prestige": 25,
@@ -551,7 +551,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd68aabd7015.html",
       "author": "Terry",
       "sha256": "3159e4f7675bfcdd9ccc855ba1a536584f8c6ca2191e8d738eeea33ba09506a5",
-      "prestige": 10,
+      "prestige": 4,
       "level": 49,
       "original_unlock": {
         "prestige": 26,
@@ -569,13 +569,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd646ba90396.html",
       "author": "Terry, Blizzard",
       "sha256": "304dff7594779b766fb0c5ebb929cd92327f858af10f6bbe955369aabf0315b9",
-      "prestige": 3,
-      "level": 56,
+      "prestige": 27,
+      "level": 30,
       "original_unlock": {
         "prestige": 27,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -587,7 +587,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd3b79f52de6.html",
       "author": "Terry, Epic Games",
       "sha256": "831968c478d745d7295b9b2a6210418c33141de80abe41740d911d2c9902a9f0",
-      "prestige": 5,
+      "prestige": 1,
       "level": 56,
       "original_unlock": {
         "prestige": 28,
@@ -605,13 +605,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd2fb0dbd89d.html",
       "author": "Terry, Epic Games",
       "sha256": "2d1cfa2f6def35d9f3781848f6a20cdcabd3da379918b8b8e20ddded9f77028b",
-      "prestige": 6,
-      "level": 56,
+      "prestige": 29,
+      "level": 30,
       "original_unlock": {
         "prestige": 29,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -623,13 +623,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd258b4b7a11.html",
       "author": "Snakey",
       "sha256": "8c99fc78ad3d5a9b38bf703005ce77712fce4a74927e47ab4c7dc31720f79cb6",
-      "prestige": 7,
-      "level": 56,
+      "prestige": 30,
+      "level": 30,
       "original_unlock": {
         "prestige": 30,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -641,7 +641,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd1d77b8ff55.html",
       "author": "Terry, Mortal Kombat",
       "sha256": "c106adbaf1c5b9482baea678459850183a14cc9dfffbf8cea5fc644c06787d1a",
-      "prestige": 9,
+      "prestige": 3,
       "level": 56,
       "original_unlock": {
         "prestige": 31,
@@ -659,7 +659,7 @@
       "page": "https://cfgfactory.com/skins/show/5cd1110f645c7.html",
       "author": "Terry, Piranha Bytes(RISEN)",
       "sha256": "859ff0868fc9628a394c33d64d42be0d9f9ad5d62359810994b6ce47d8d1ebbd",
-      "prestige": 10,
+      "prestige": 4,
       "level": 56,
       "original_unlock": {
         "prestige": 32,
@@ -695,8 +695,8 @@
       "page": "https://cfgfactory.com/skins/show/5cd07aac2d1bf.html",
       "author": "Terry",
       "sha256": "72c647130325437712ef4304add9f5194f19460e493745cbde70e29a5a4e7b7c",
-      "prestige": 2,
-      "level": 63,
+      "prestige": 5,
+      "level": 56,
       "original_unlock": {
         "prestige": 34,
         "level": 30
@@ -713,7 +713,7 @@
       "page": "https://cfgfactory.com/skins/show/5ccf6c2f49860.html",
       "author": "Terry",
       "sha256": "7c72a6f6463839ce47ad3235c8f6b2bdb1074f5727aa0c2310a4ed1f4f101c1a",
-      "prestige": 3,
+      "prestige": 1,
       "level": 63,
       "original_unlock": {
         "prestige": 35,
@@ -731,7 +731,7 @@
       "page": "https://cfgfactory.com/skins/show/5ccefb0053274.html",
       "author": "Snakey",
       "sha256": "ea04d68cb89061d3aa9299c1cb07d31742d487b508c61e6973fe182b57a39810",
-      "prestige": 4,
+      "prestige": 2,
       "level": 63,
       "original_unlock": {
         "prestige": 36,
@@ -749,7 +749,7 @@
       "page": "https://cfgfactory.com/skins/show/5ccefa31288fb.html",
       "author": "Terry",
       "sha256": "2ad3d3c69acfd0be22119e0af8862bb11baec37bc1e79819a0a0efe7d5b16b0a",
-      "prestige": 5,
+      "prestige": 3,
       "level": 63,
       "original_unlock": {
         "prestige": 37,
@@ -767,13 +767,13 @@
       "page": "https://cfgfactory.com/skins/show/5cccb00a11299.html",
       "author": "Snakey",
       "sha256": "caf7a613736be8f0d4377eaec0c820c2be633568ea8f4c12daa88a265984ab66",
-      "prestige": 6,
-      "level": 63,
+      "prestige": 38,
+      "level": 30,
       "original_unlock": {
         "prestige": 38,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -785,7 +785,7 @@
       "page": "https://cfgfactory.com/skins/show/5ccca1ce890f3.html",
       "author": "Terry",
       "sha256": "48d48095abeede618a3419d8908738aab9705fceeb5df9aa57cd024a459d4b25",
-      "prestige": 7,
+      "prestige": 4,
       "level": 63,
       "original_unlock": {
         "prestige": 39,
@@ -803,13 +803,13 @@
       "page": "https://cfgfactory.com/skins/show/5ccbe6cd3ce4c.html",
       "author": "Terry",
       "sha256": "d6a111b7b933a1f65ef4dce115b820f7d4f19d187bad0bb03cf9795f3bcca374",
-      "prestige": 8,
-      "level": 63,
+      "prestige": 40,
+      "level": 30,
       "original_unlock": {
         "prestige": 40,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -821,7 +821,7 @@
       "page": "https://cfgfactory.com/skins/show/5ccb3b4e1f11a.html",
       "author": "Terry",
       "sha256": "cf121460e75476f2d0b878c7f0d78b433546bee70735fffa6f41dee59e96c734",
-      "prestige": 10,
+      "prestige": 5,
       "level": 63,
       "original_unlock": {
         "prestige": 41,
@@ -839,13 +839,13 @@
       "page": "https://cfgfactory.com/skins/show/5ccb20c253a67.html",
       "author": "Terry",
       "sha256": "d1074b7f585bdc700eaf02b90cbf0c8bfd6fc4a90928d210b18cc801eb30ef5e",
-      "prestige": 2,
-      "level": 70,
+      "prestige": 42,
+      "level": 30,
       "original_unlock": {
         "prestige": 42,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -857,13 +857,13 @@
       "page": "https://cfgfactory.com/skins/show/5cca1bbf89414.html",
       "author": "Sanya",
       "sha256": "54794d44bd95047dd9fe27d1a89f220f64ab7c8dcb77073e91d0a79fc61ace3c",
-      "prestige": 4,
-      "level": 70,
+      "prestige": 43,
+      "level": 30,
       "original_unlock": {
         "prestige": 43,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -911,7 +911,7 @@
       "page": "https://cfgfactory.com/skins/show/5cc7df39e8475.html",
       "author": "Terry",
       "sha256": "d6b036eafd35b6f02ebfb926ffaa3a92176235e5d49b18d6fd8fbd5eaf272577",
-      "prestige": 5,
+      "prestige": 1,
       "level": 70,
       "original_unlock": {
         "prestige": 46,
@@ -929,13 +929,13 @@
       "page": "https://cfgfactory.com/skins/show/5cc7b792aa097.html",
       "author": "Terry",
       "sha256": "40c5020b7ac7557cfb7d301569e04e8131b8b522f01492abf9665e6d16949353",
-      "prestige": 7,
-      "level": 70,
+      "prestige": 47,
+      "level": 30,
       "original_unlock": {
         "prestige": 47,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -947,7 +947,7 @@
       "page": "https://cfgfactory.com/skins/show/5cc657f59aa4c.html",
       "author": "Terry",
       "sha256": "05304b2d3c15465fc53e6d3f6e691c86778d375696c0f589ec2b38685936cb33",
-      "prestige": 8,
+      "prestige": 3,
       "level": 70,
       "original_unlock": {
         "prestige": 48,
@@ -965,7 +965,7 @@
       "page": "https://cfgfactory.com/skins/show/5cc561c9c0daf.html",
       "author": "Terry",
       "sha256": "e0e38f10ce15b91a25ec1513320c15ee5f7d035b408eacc84e88593d7e576067",
-      "prestige": 9,
+      "prestige": 4,
       "level": 70,
       "original_unlock": {
         "prestige": 49,
@@ -983,7 +983,7 @@
       "page": "https://cfgfactory.com/skins/show/5cc4ac448e843.html",
       "author": "Snakey",
       "sha256": "e3774e8e18cc775a81a81612244b572fbe7ed5909af2826bd06e53db19eb4adf",
-      "prestige": 10,
+      "prestige": 5,
       "level": 70,
       "original_unlock": {
         "prestige": 50,
@@ -1001,13 +1001,13 @@
       "page": "https://cfgfactory.com/skins/show/5cc46c286e1a8.html",
       "author": "Blood",
       "sha256": "8e9428e8ee4c998eb2e3166c709b9ef2da2c26792e9cc18f13f17e06e0d0e541",
-      "prestige": 9,
-      "level": 7,
+      "prestige": 1,
+      "level": 60,
       "original_unlock": {
         "prestige": 1,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1020,12 +1020,12 @@
       "author": "Snakey",
       "sha256": "d7fe44997fd53bcd00423593ea4667b1a4b65af57edcc27b2d0a39f3207648bb",
       "prestige": 2,
-      "level": 14,
+      "level": 60,
       "original_unlock": {
         "prestige": 2,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1037,13 +1037,13 @@
       "page": "https://cfgfactory.com/skins/show/5cb7a0536328f.html",
       "author": "Snakey",
       "sha256": "5cedfbff5ea20128f0d5984cb90a1f73dd5e592df1936d9afac876927202ea09",
-      "prestige": 5,
-      "level": 14,
+      "prestige": 3,
+      "level": 60,
       "original_unlock": {
         "prestige": 3,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1055,13 +1055,13 @@
       "page": "https://cfgfactory.com/skins/show/5cb7698a4482c.html",
       "author": "Snakey",
       "sha256": "238cf7575458591d68b3543dfa1408ce662dbbbf6253eeed091823127c4066e6",
-      "prestige": 8,
-      "level": 14,
+      "prestige": 4,
+      "level": 60,
       "original_unlock": {
         "prestige": 4,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1073,13 +1073,13 @@
       "page": "https://cfgfactory.com/skins/show/5cb1c2b558d96.html",
       "author": "Sanya",
       "sha256": "a4c1503f9e523591470455eaba796311788366007b6bcef1c2db99f4a3637a79",
-      "prestige": 1,
-      "level": 21,
+      "prestige": 5,
+      "level": 60,
       "original_unlock": {
         "prestige": 5,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1091,8 +1091,8 @@
       "page": "https://cfgfactory.com/skins/show/5cb1b37295130.html",
       "author": "Snakey",
       "sha256": "b6c4aa21affbaeb0e63ab66f8693f4582b6a2675c4078fd3d61af9c9d6d4dd5b",
-      "prestige": 4,
-      "level": 21,
+      "prestige": 5,
+      "level": 14,
       "original_unlock": {
         "prestige": 6,
         "level": 60
@@ -1127,7 +1127,7 @@
       "page": "https://cfgfactory.com/skins/show/5ca96d1ddb751.html",
       "author": "Snakey",
       "sha256": "84d9a846dd42a0e8f699fb210d80bb1253960e3761f654c89667310ebecbbe02",
-      "prestige": 9,
+      "prestige": 4,
       "level": 21,
       "original_unlock": {
         "prestige": 8,
@@ -1163,7 +1163,7 @@
       "page": "https://cfgfactory.com/skins/show/5c8f90bbaca6b.html",
       "author": "VC' Fox",
       "sha256": "e349235765acb0f9934ec5eb09e78df3b2863d946f9a76d82f735e5b637f3dff",
-      "prestige": 5,
+      "prestige": 4,
       "level": 28,
       "original_unlock": {
         "prestige": 10,
@@ -1181,13 +1181,13 @@
       "page": "https://cfgfactory.com/skins/show/5c2b5ed8b5309.html",
       "author": "VC' Fox",
       "sha256": "6f284bb014f9b439b66acd1b3c8bb507af3ad06766ad752bdf1cb2c54f60bef5",
-      "prestige": 8,
-      "level": 28,
+      "prestige": 11,
+      "level": 60,
       "original_unlock": {
         "prestige": 11,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1199,13 +1199,13 @@
       "page": "https://cfgfactory.com/skins/show/5bbe831b9da2c.html",
       "author": "VC' Fox",
       "sha256": "971bebd78d575cb236e90be67d6e5ad8697dc485789464e12e52bd2b244f62d9",
-      "prestige": 9,
-      "level": 28,
+      "prestige": 12,
+      "level": 60,
       "original_unlock": {
         "prestige": 12,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1217,13 +1217,13 @@
       "page": "https://cfgfactory.com/skins/show/5b2662cba23f6.html",
       "author": "Night",
       "sha256": "84c978268797d42c069aee8deabcdf295d84d3a9e1b600dc06b5795b5b2be764",
-      "prestige": 2,
-      "level": 35,
+      "prestige": 13,
+      "level": 60,
       "original_unlock": {
         "prestige": 13,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1235,13 +1235,13 @@
       "page": "https://cfgfactory.com/skins/show/5b1d755fe3870.html",
       "author": "VC' Fox",
       "sha256": "e957a56d9ea6dc71875e6e97b24af98e402a722175e070f45a29ccdacc3a0c80",
-      "prestige": 5,
-      "level": 35,
+      "prestige": 14,
+      "level": 60,
       "original_unlock": {
         "prestige": 14,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1253,13 +1253,13 @@
       "page": "https://cfgfactory.com/skins/show/59e399e3dfe12.html",
       "author": "",
       "sha256": "bfe74f292b99e57d5991c27974b75ce81268f8a1485182347b014350d22159f7",
-      "prestige": 8,
-      "level": 35,
+      "prestige": 15,
+      "level": 60,
       "original_unlock": {
         "prestige": 15,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1271,13 +1271,13 @@
       "page": "https://cfgfactory.com/skins/show/5825dade2e138.html",
       "author": "BUSH1DO",
       "sha256": "8fd28c3e2a19283b16b5ad0eb7f5528b294917b9c3b615735313722624ed9549",
-      "prestige": 9,
-      "level": 35,
+      "prestige": 16,
+      "level": 60,
       "original_unlock": {
         "prestige": 16,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1289,13 +1289,13 @@
       "page": "https://cfgfactory.com/skins/show/569debfe6b388.html",
       "author": "Wuzziefuzzy",
       "sha256": "87887a515351695011e80ae5dafb0e5eae3ac1c31252830ac124a49004641c9a",
-      "prestige": 2,
-      "level": 42,
+      "prestige": 17,
+      "level": 60,
       "original_unlock": {
         "prestige": 17,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1325,13 +1325,13 @@
       "page": "https://cfgfactory.com/skins/show/5548d0a626cf6.html",
       "author": "Lenny",
       "sha256": "e0b60a195b423a1d11c403b9ab455dc63a164fa3dd944ca56df5d56ebc5822e7",
-      "prestige": 6,
-      "level": 42,
+      "prestige": 19,
+      "level": 60,
       "original_unlock": {
         "prestige": 19,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1343,13 +1343,13 @@
       "page": "https://cfgfactory.com/skins/show/5532c12b07177.html",
       "author": "Lenny",
       "sha256": "9c6ccb1cbd23274615daec360a8df4ca7ee12054ce4275bd359a57295c0334b2",
-      "prestige": 9,
-      "level": 42,
+      "prestige": 20,
+      "level": 60,
       "original_unlock": {
         "prestige": 20,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1361,13 +1361,13 @@
       "page": "https://cfgfactory.com/skins/show/5532be389370e.html",
       "author": "Lenny",
       "sha256": "15dc59211a324e46fc2b299e3fce8e4dcce82b2de8ce7cbe910a1768e956837f",
-      "prestige": 2,
-      "level": 49,
+      "prestige": 21,
+      "level": 60,
       "original_unlock": {
         "prestige": 21,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1379,13 +1379,13 @@
       "page": "https://cfgfactory.com/skins/show/5532bd4341d8d.html",
       "author": "Lenny",
       "sha256": "0ffe91328488b707aed922786cc72e52daff78afa0be1723e09d46b5145eabd4",
-      "prestige": 3,
-      "level": 49,
+      "prestige": 22,
+      "level": 60,
       "original_unlock": {
         "prestige": 22,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1397,13 +1397,13 @@
       "page": "https://cfgfactory.com/skins/show/54bf8168a4bb2.html",
       "author": "Sanya",
       "sha256": "415f2d986a9ebd58432beeb8b2fc44a1ceea92ab4bcd82a9b5949772b0a6ba15",
-      "prestige": 6,
-      "level": 49,
+      "prestige": 23,
+      "level": 60,
       "original_unlock": {
         "prestige": 23,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1415,7 +1415,7 @@
       "page": "https://cfgfactory.com/skins/show/54bf8168a4bb2.html",
       "author": "Sanya",
       "sha256": "415f2d986a9ebd58432beeb8b2fc44a1ceea92ab4bcd82a9b5949772b0a6ba15",
-      "prestige": 7,
+      "prestige": 1,
       "level": 49,
       "original_unlock": {
         "prestige": 24,
@@ -1451,13 +1451,13 @@
       "page": "https://cfgfactory.com/skins/show/54bf8168a4bb2.html",
       "author": "Sanya",
       "sha256": "415f2d986a9ebd58432beeb8b2fc44a1ceea92ab4bcd82a9b5949772b0a6ba15",
-      "prestige": 1,
-      "level": 56,
+      "prestige": 26,
+      "level": 60,
       "original_unlock": {
         "prestige": 26,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1483,13 +1483,13 @@
       "page": "https://cfgfactory.com/skins/show/54bf8168a4bb2.html",
       "author": "Sanya",
       "sha256": "415f2d986a9ebd58432beeb8b2fc44a1ceea92ab4bcd82a9b5949772b0a6ba15",
-      "prestige": 4,
-      "level": 56,
+      "prestige": 27,
+      "level": 60,
       "original_unlock": {
         "prestige": 27,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1735,13 +1735,13 @@
       "page": "https://cfgfactory.com/skins/show/4e63d3c0e2c27.html",
       "author": "Sanya",
       "sha256": "18bde5848e32753079d05e5f878624645388055c0c2e0bfafdc8f0c1e76b8868",
-      "prestige": 1,
-      "level": 70,
+      "prestige": 41,
+      "level": 60,
       "original_unlock": {
         "prestige": 41,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -1803,13 +1803,13 @@
       "page": "https://cfgfactory.com/skins/show/66c8a83bdb451.html",
       "author": "mitsurugi",
       "sha256": "91334b54defb316a7e3cff2db53fb652e4003c47136986b7b0874e06bbb0a2d1",
-      "prestige": 3,
-      "level": 7,
+      "prestige": 0,
+      "level": 50,
       "original_unlock": {
         "prestige": 0,
         "level": 50
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -1821,7 +1821,7 @@
       "page": "https://cfgfactory.com/skins/show/61db34772538f.html",
       "author": "Kortun",
       "sha256": "075ae71dbb9f4ed59c31300eed97280367c9068c69700efd3a8b955dcc454643",
-      "prestige": 5,
+      "prestige": 2,
       "level": 7,
       "original_unlock": {
         "prestige": 0,
@@ -1857,13 +1857,13 @@
       "page": "https://cfgfactory.com/skins/show/60a15cd11eadc.html",
       "author": "Sovietmann",
       "sha256": "d82fd26bc3236d1b414a651a24fd02901ff041e18ec08094e5fc92dc1afab68b",
-      "prestige": 7,
-      "level": 7,
+      "prestige": 1,
+      "level": 15,
       "original_unlock": {
         "prestige": 1,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -1875,7 +1875,7 @@
       "page": "https://cfgfactory.com/skins/show/6078e0fe51d80.html",
       "author": "Infinity Ward ~ Mist",
       "sha256": "fcf6adef94849c2f3db11512b74eb4f9d87e98ec5dc08a7f01375c92d26e2a99",
-      "prestige": 10,
+      "prestige": 5,
       "level": 7,
       "original_unlock": {
         "prestige": 2,
@@ -1939,13 +1939,13 @@
       "page": "https://cfgfactory.com/skins/show/5f84aad2a2e07.html",
       "author": "Kortun/SEKTOR_GAZA_XOU",
       "sha256": "7ce8ef7474ba01d7cc2d82812843444990cab14246988fc01d2aff9fe59835dd",
-      "prestige": 2,
-      "level": 21,
+      "prestige": 6,
+      "level": 15,
       "original_unlock": {
         "prestige": 6,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -1985,7 +1985,7 @@
       "page": "https://cfgfactory.com/skins/show/5f48eac37a863.html",
       "author": "Treyarch / Mist",
       "sha256": "495105d5f457578ef1447a7efe2ca35a862af26bd473fbd92533e064fba149f4",
-      "prestige": 10,
+      "prestige": 5,
       "level": 21,
       "original_unlock": {
         "prestige": 9,
@@ -2053,13 +2053,13 @@
       "page": "https://cfgfactory.com/skins/show/5ed29c573d9f4.html",
       "author": "Kortun/SEKTOR_GAZA_XOU",
       "sha256": "d8a306a423bade3a2d8ef15f5866f8fd7294b8e0bffc2eee8835e9b1c7ebf2d5",
-      "prestige": 10,
-      "level": 28,
+      "prestige": 13,
+      "level": 15,
       "original_unlock": {
         "prestige": 13,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2089,7 +2089,7 @@
       "page": "https://cfgfactory.com/skins/show/5eaaef2644d6b.html",
       "author": "Rex109",
       "sha256": "ac52f173f1dab346cfb44f79a5b75eef5b287d5903926a6e8d57db1dd3403526",
-      "prestige": 6,
+      "prestige": 3,
       "level": 35,
       "original_unlock": {
         "prestige": 15,
@@ -2125,7 +2125,7 @@
       "page": "https://cfgfactory.com/skins/show/5e99f74da6646.html",
       "author": "Myself",
       "sha256": "32d202bd6e45760c64be3600b689994877fa22f936191b198df2e92c3ef0c33e",
-      "prestige": 10,
+      "prestige": 5,
       "level": 35,
       "original_unlock": {
         "prestige": 17,
@@ -2143,13 +2143,13 @@
       "page": "https://cfgfactory.com/skins/show/5e947df376828.html",
       "author": "Kortun/SEKTOR_GAZA_XOU",
       "sha256": "cb0bfaa202138b730f41a7f97818bae0b4bd77169142686a99a738ee79f7a200",
-      "prestige": 3,
-      "level": 42,
+      "prestige": 18,
+      "level": 15,
       "original_unlock": {
         "prestige": 18,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2226,7 +2226,7 @@
       "author": "Infinity Ward - actualmist",
       "sha256": "2f3e9bfd2577395ea3573d14e79c8e3c38bdd761f1aac80f98a9969e9a26faef",
       "prestige": 4,
-      "level": 49,
+      "level": 42,
       "original_unlock": {
         "prestige": 23,
         "level": 15
@@ -2279,7 +2279,7 @@
       "page": "https://cfgfactory.com/skins/show/5cf8567a2c7c7.html",
       "author": "Treyarch / Mist#0001",
       "sha256": "8742307276dbd41f957571125c740fc74a27c0a7b3124d19296b07f1f3b37dbb",
-      "prestige": 9,
+      "prestige": 3,
       "level": 49,
       "original_unlock": {
         "prestige": 26,
@@ -2365,7 +2365,7 @@
       "page": "https://cfgfactory.com/skins/show/5c68080b046ed.html",
       "author": "LitkuReiska",
       "sha256": "4c5a343f0be14f58b0fd9d4fb5b69e4886260ec3c52d1af9c75c92ee0b55b9c2",
-      "prestige": 8,
+      "prestige": 2,
       "level": 56,
       "original_unlock": {
         "prestige": 31,
@@ -2545,13 +2545,13 @@
       "page": "https://cfgfactory.com/skins/show/5abe8404cd4b0.html",
       "author": "Raven Software",
       "sha256": "cd5319ab51f6f7f03c2f48de6df662efb80c71ff86a32688dffe430c4eada045",
-      "prestige": 9,
-      "level": 63,
+      "prestige": 41,
+      "level": 15,
       "original_unlock": {
         "prestige": 41,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2581,13 +2581,13 @@
       "page": "https://cfgfactory.com/skins/show/5aa9a13e1e190.html",
       "author": "VC' Fox",
       "sha256": "966ae3a51255bcd5a9fac18a63cda69b03daef081ce26f5d346348ff602c6651",
-      "prestige": 3,
-      "level": 70,
+      "prestige": 43,
+      "level": 15,
       "original_unlock": {
         "prestige": 43,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2653,7 +2653,7 @@
       "page": "https://cfgfactory.com/skins/show/5a595ae4629c3.html",
       "author": "ConvictioNDR",
       "sha256": "240fa0dba08a9764e5205bbfd50c7915df5f77d834d2b9d0d29561a0ab730a77",
-      "prestige": 6,
+      "prestige": 2,
       "level": 70,
       "original_unlock": {
         "prestige": 47,
@@ -2797,13 +2797,13 @@
       "page": "https://cfgfactory.com/skins/show/5a1085ddaa3c1.html",
       "author": "Kortun",
       "sha256": "1c3b2e88bc72bd36b2a61c3918117399f111451aad8b53df757e6a4fadeaeac1",
-      "prestige": 10,
-      "level": 14,
+      "prestige": 5,
+      "level": 45,
       "original_unlock": {
         "prestige": 5,
         "level": 45
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2852,12 +2852,12 @@
       "author": "mitsurugi",
       "sha256": "0d7c7461c4b57ef01da89a9776853d9a9c7fe49c1aff7f258c2fb926372cbe59",
       "prestige": 8,
-      "level": 21,
+      "level": 45,
       "original_unlock": {
         "prestige": 8,
         "level": 45
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2919,13 +2919,13 @@
       "page": "https://cfgfactory.com/skins/show/59e1aca782516.html",
       "author": "mitsurugi",
       "sha256": "13834782a695f2e15992f9f5829960a1a17f506edfa98a490f2911e5a3e17dea",
-      "prestige": 7,
-      "level": 28,
+      "prestige": 11,
+      "level": 45,
       "original_unlock": {
         "prestige": 11,
         "level": 45
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2973,13 +2973,13 @@
       "page": "https://cfgfactory.com/skins/show/59cb5a7521a2d.html",
       "author": "",
       "sha256": "abab38e755f34355ec4e4f816611cce4ec8280ff784c31dd4cc6fc7b334082e0",
-      "prestige": 4,
-      "level": 35,
+      "prestige": 14,
+      "level": 45,
       "original_unlock": {
         "prestige": 14,
         "level": 45
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -3311,13 +3311,13 @@
       "page": "https://cfgfactory.com/skins/show/572f0a87c4754.html",
       "author": "mitsurugi",
       "sha256": "fbb72a048ee5e0390e7e201a69a9f7a375ce2f6a60e3a9e8b7980f90c7cef1c5",
-      "prestige": 1,
-      "level": 63,
+      "prestige": 32,
+      "level": 45,
       "original_unlock": {
         "prestige": 32,
         "level": 45
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -3365,7 +3365,7 @@
       "page": "https://cfgfactory.com/skins/show/5fa8040686593.html",
       "author": "VC'Fox",
       "sha256": "d546d8317d43bb1e6f766e3dcd3a1a0c131b58932ba37cc84e2c55c45653fb49",
-      "prestige": 3,
+      "prestige": 2,
       "level": 14,
       "source_weapon_id": 16,
       "original_unlock": {
@@ -3384,7 +3384,7 @@
       "page": "https://cfgfactory.com/skins/show/5f874cac80200.html",
       "author": "VC'Fox",
       "sha256": "f70f69243954cf8723c8d23c87358783c630acde5fc04dd8a0ae62b14ac762c5",
-      "prestige": 6,
+      "prestige": 3,
       "level": 14,
       "source_weapon_id": 17,
       "original_unlock": {
@@ -3403,7 +3403,7 @@
       "page": "https://cfgfactory.com/skins/show/5f7074b3d4479.html",
       "author": "VC'Fox",
       "sha256": "b13a4ccac77b90608854ae1b7d04274938a49abb2f5f7c4c2fe91c0d3348be29",
-      "prestige": 5,
+      "prestige": 1,
       "level": 21,
       "source_weapon_id": 20,
       "original_unlock": {
@@ -3422,7 +3422,7 @@
       "page": "https://cfgfactory.com/skins/show/5f5cbc21e8e88.html",
       "author": "VC'Fox",
       "sha256": "84839656bef87d818184b67331e201e97bbde9e618406076032e5c3e14927aa3",
-      "prestige": 7,
+      "prestige": 3,
       "level": 21,
       "source_weapon_id": 21,
       "original_unlock": {
@@ -3460,7 +3460,7 @@
       "page": "https://cfgfactory.com/skins/show/5e0179981ee63.html",
       "author": "actualmist",
       "sha256": "a5bcb1b3485c0f58dddbf0bd55b60961e8381c6a454cc4d8d6a1a50727da846d",
-      "prestige": 7,
+      "prestige": 2,
       "level": 42,
       "source_weapon_id": 33,
       "original_unlock": {
@@ -3479,7 +3479,7 @@
       "page": "https://cfgfactory.com/skins/show/5dffe926d1e40.html",
       "author": "Infinity Ward - actualmist",
       "sha256": "0b12abf5bf530be7257abdc39662fc4f3f3fa44918a46052115b3f9f487d1cff",
-      "prestige": 10,
+      "prestige": 3,
       "level": 42,
       "source_weapon_id": 34,
       "original_unlock": {
@@ -3498,8 +3498,8 @@
       "page": "https://cfgfactory.com/skins/show/5ce168acf3d63.html",
       "author": "Rex109",
       "sha256": "65c76ffb844651ba06a5e428ac7c0046edb4c3ce455456002efa0e704d70fe41",
-      "prestige": 2,
-      "level": 56,
+      "prestige": 5,
+      "level": 49,
       "source_weapon_id": 40,
       "original_unlock": {
         "prestige": 27,

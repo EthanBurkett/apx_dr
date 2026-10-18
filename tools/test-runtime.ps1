@@ -13,6 +13,7 @@ param(
     [string]$ModDirectory,
     [ValidatePattern('^[a-zA-Z0-9_]+$')][string]$GameType = 'deathrun',
     [string]$RequiredMarker,
+    [ValidatePattern('^mp_[a-zA-Z0-9_]+$')][string]$ExpectedNextMap,
     [switch]$AssetUsage,
     [switch]$ClientBudget,
     [string]$Executable = 'apx_cod4x_dedrun.exe',
@@ -25,6 +26,15 @@ $ErrorActionPreference = 'Stop'
 $modRoot = [IO.Path]::GetFullPath((Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Path) '..'))
 if (!$GameRoot) { $GameRoot = Join-Path $modRoot '..\..' }
 $GameRoot = [IO.Path]::GetFullPath($GameRoot)
+if ($ClientBudget) {
+    # Normal dedicated startup skips ui_mp/localized_common_mp and undercounts
+    # client materials. Budget checks must include the diagnostic startup zones.
+    $Executable = Join-Path $modRoot 'build\client-audit\apx_poolaudit.exe'
+    if (!(Test-Path -LiteralPath $Executable -PathType Leaf)) {
+        throw 'Build the diagnostic executable first: tools/build-client-audit.ps1'
+    }
+}
+$executablePath = if ([IO.Path]::IsPathRooted($Executable)) { [IO.Path]::GetFullPath($Executable) } else { Join-Path $GameRoot $Executable }
 if (!$ModDirectory) { $ModDirectory = Join-Path $modRoot 'dist' }
 $output = [IO.Path]::GetFullPath($ModDirectory)
 $process = $null
@@ -33,7 +43,7 @@ $exitCode = 1
 $smoke = Join-Path $modRoot ('build\runtime-tests\' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff') + '-' + $Map)
 try {
     if (!$output.StartsWith($GameRoot + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'The build must be inside the game root.' }
-    foreach ($path in @((Join-Path $GameRoot $Executable), (Join-Path $output 'mod.ff'))) {
+    foreach ($path in @($executablePath, (Join-Path $output 'mod.ff'))) {
         if (!(Test-Path -LiteralPath $path -PathType Leaf)) { throw "Required file missing: $path" }
     }
     if ($smoke.Contains('"')) { throw 'The test log path cannot contain a quote.' }
@@ -49,19 +59,13 @@ try {
     $runtimeConfig = Join-Path (Join-Path $smoke $modPath) 'apx_runtime.cfg'
     New-Item -ItemType Directory -Path (Split-Path $runtimeConfig) -Force | Out-Null
     [IO.File]::WriteAllText($runtimeConfig, "set g_gametype $GameType`nset g_bots 0`n")
-    $arguments = '+set dedicated 1 +set fs_homepath "' + $smoke + '" +set fs_game ' + $modPath +
+    $arguments = '+set dedicated 1 +set fs_basepath "' + $GameRoot + '" +set fs_homepath "' + $smoke + '" +set fs_game ' + $modPath +
         ' +set developer 1 +set developer_script 1 +set logfile 2 +set g_gametype deathrun' +
         ' +exec deathrun.cfg +exec dr_songs.cfg +exec apx_runtime.cfg' +
         ' +set net_ip 127.0.0.1 +set net_port ' + $Port + ' +map ' + $Map
     if ($AssetUsage -or $ClientBudget) { $arguments += ' +XAssetUsage' }
-    $process = [Diagnostics.Process]::new()
-    $process.StartInfo.FileName = Join-Path $GameRoot $Executable
-    $process.StartInfo.WorkingDirectory = $GameRoot
-    $process.StartInfo.Arguments = $arguments
-    $process.StartInfo.UseShellExecute = $false
-    $process.StartInfo.CreateNoWindow = $true
-    $process.StartInfo.WindowStyle = [Diagnostics.ProcessWindowStyle]::Hidden
-    [void]$process.Start()
+    if (!('ApXNativeTestProcess' -as [type])) { Add-Type -Path (Join-Path $modRoot 'tools\NativeTestProcess.cs') }
+    $process = [ApXNativeTestProcess]::new($executablePath, $arguments, $GameRoot)
     $socket = [Net.Sockets.UdpClient]::new()
     $socket.Client.ReceiveTimeout = 250
     $socket.Connect('127.0.0.1', $Port)
@@ -69,6 +73,7 @@ try {
     $timer = [Diagnostics.Stopwatch]::StartNew()
     $log = Join-Path $smoke 'main\qconsole.log'
     $ready = $false
+    $nextMapReady = !$ExpectedNextMap
     $initialized = $false
     $markerFound = !$RequiredMarker
     while ($timer.Elapsed.TotalSeconds -lt $Duration) {
@@ -90,12 +95,14 @@ try {
             $remote = [Net.IPEndPoint]::new([Net.IPAddress]::Any, 0)
             $reply = [Text.Encoding]::ASCII.GetString($socket.Receive([ref]$remote))
             if (($reply.Contains('\g_gametype\' + $GameType + '\') -or $reply.Contains('\g_gametype\deathrun\')) -and $reply.Contains('\mapname\' + $Map + '\')) { $ready = $true }
+            if ($ExpectedNextMap -and $reply.Contains('\mapname\' + $ExpectedNextMap + '\')) { $nextMapReady = $true }
         } catch [Net.Sockets.SocketException] { }
         Start-Sleep -Milliseconds 250
     }
     if (!$ready) { throw "No Deathrun status reply received. See $log" }
     if (!$initialized) { throw "Initialization did not complete. See $log" }
     if (!$markerFound) { throw "Required runtime assertion marker missing: $RequiredMarker. See $log" }
+    if (!$nextMapReady) { throw "Expected map transition did not answer status: $ExpectedNextMap. See $log" }
     if ($ClientBudget) {
         $profile = Get-Content -LiteralPath (Join-Path $modRoot 'ui\content_profile.json') -Raw | ConvertFrom-Json
         $usage = @{}
@@ -116,7 +123,7 @@ try {
 } finally {
     if ($socket) { $socket.Dispose() }
     if ($process) {
-        if (!$process.HasExited) { Stop-Process -Id $process.Id -Force; $process.WaitForExit() }
+        if (!$process.HasExited) { $process.Kill(); $process.WaitForExit() }
         $process.Dispose()
     }
 }

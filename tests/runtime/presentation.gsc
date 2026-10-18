@@ -16,13 +16,25 @@ run()
         check(managed.size==2,"test players survive preserving restart without duplicates");
         check(managed[0].apxBotRunSerial==game["apxTestBotRun"] && managed[1].apxBotRunSerial==game["apxTestBotRun"],"bot lifecycle reattached after restart");
         setDvar("g_bots",0);
-        println("APX_PRESENTATION_RUNTIME_PASS: records, rotation, ballots, native menu phases and bot restart lifecycle");
+        finishMatch();
         return;
     }
     bot = addTestClient();
     check( isDefined(bot), "create bot" );
     for(i=0;i<100 && !isDefined(bot.pers["rank"]);i++) wait .05;
     check(isDefined(bot.pers["rank"]),"profile initialized");
+    hud=braxi\_presentation::text(0,0,"Network scale regression",1.0);
+    check(hud.fontScale>=1.4 && hud.fontScale<=1.5,"notice font stays inside network encoding range");
+    hud destroy();
+    check(!bot braxi\_challenge_progress::tierCheck(undefined),"undefined challenge tier rejected");
+    bot setStat(501,1);
+    bot setStat(2501,0);
+    bot braxi\_challenge_data::updateChallenges();
+    practice=level.efrActive;
+    level.efrActive=false;
+    bot braxi\_challenge_progress::processChallenge("ch_risingstar");
+    level.efrActive=practice;
+    check(bot getStat(501)==255 && bot getStat(2501)==1,"end-match Rising Star completes without undefined tier errors");
     setDvar("g_bots",2);
     managed=[];
     for(i=0;i<40;i++)
@@ -90,6 +102,45 @@ run()
     check(managed.size==2,"test players ready for preserving restart");
     game["apxPresentationRestart"]=true;
     map_restart(true);
+}
+
+finishMatch()
+{
+    managed=[];
+    for(i=0;i<40;i++)
+    {
+        managed=braxi\_test_bots::managedPlayers();
+        if(!managed.size) break;
+        wait .1;
+    }
+    players=getEntArray("player","classname");
+    bot=undefined;
+    for(i=0;i<players.size;i++)
+        if(!isDefined(players[i].pers["apxTestBot"]) || !players[i].pers["apxTestBot"]) bot=players[i];
+    check(isDefined(bot),"original test player survives restart");
+    setDvar("apx_rotation_page_count",1);
+    setDvar("apx_rotation_0","map mp_dr_lithium");
+    level.efrActive=false;
+    level.dvar["displayBestPlayers"]=true;
+    level.dvar["mapvote"]=true;
+    level.dvar["mapvote_time"]=3;
+    level.dvar["round_limit"]=1;
+    game["roundsplayed"]=1;
+    game["roundStarted"]=true;
+    game["state"]="playing";
+    bot.pers["score"]=100;
+    bot setStat(501,1);
+    bot setStat(2501,0);
+    bot braxi\_challenge_data::updateChallenges();
+    level thread braxi\_rounds::endRound("Round complete","jumpers");
+    for(phase=0;phase<3;phase++)
+    {
+        deadline=getTime()+12000;
+        while((!isDefined(level.apxPostPhase) || level.apxPostPhase!=phase) && getTime()<deadline) wait .05;
+        check(isDefined(level.apxPostPhase) && level.apxPostPhase==phase,"real end-map phase "+phase);
+    }
+    check(bot getStat(501)==255,"intermission event completes Rising Star without a hitch-producing error cascade");
+    println("APX_PRESENTATION_RUNTIME_PASS: records, ballots, bot restart and real report/vote/credits transition");
 }
 
 check(condition,message)
