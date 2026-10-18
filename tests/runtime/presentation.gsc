@@ -2,6 +2,23 @@
 run()
 {
     wait 1;
+    if(isDefined(game["apxPresentationRestart"]))
+    {
+        managed=[];
+        for(i=0;i<40;i++)
+        {
+            managed=braxi\_test_bots::managedPlayers();
+            if(managed.size==2 && game["apxTestBotRun"]>=2 &&
+                isDefined(managed[0].apxBotRunSerial) && managed[0].apxBotRunSerial==game["apxTestBotRun"] &&
+                isDefined(managed[1].apxBotRunSerial) && managed[1].apxBotRunSerial==game["apxTestBotRun"]) break;
+            wait .25;
+        }
+        check(managed.size==2,"test players survive preserving restart without duplicates");
+        check(managed[0].apxBotRunSerial==game["apxTestBotRun"] && managed[1].apxBotRunSerial==game["apxTestBotRun"],"bot lifecycle reattached after restart");
+        setDvar("g_bots",0);
+        println("APX_PRESENTATION_RUNTIME_PASS: records, rotation, ballots, native menu phases and bot restart lifecycle");
+        return;
+    }
     bot = addTestClient();
     check( isDefined(bot), "create bot" );
     for(i=0;i<100 && !isDefined(bot.pers["rank"]);i++) wait .05;
@@ -63,7 +80,16 @@ run()
     check(!bot braxi\_vote_players::cast("1"),"expired vote rejected");
     braxi\_intermission::present(2,1);
     braxi\_intermission::close();
-    println("APX_PRESENTATION_RUNTIME_PASS: records, rotation pages, validated ballots and all three menu phases");
+    setDvar("g_bots",2);
+    for(i=0;i<40;i++)
+    {
+        managed=braxi\_test_bots::managedPlayers();
+        if(managed.size==2) break;
+        wait .25;
+    }
+    check(managed.size==2,"test players ready for preserving restart");
+    game["apxPresentationRestart"]=true;
+    map_restart(true);
 }
 
 check(condition,message)

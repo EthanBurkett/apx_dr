@@ -98,6 +98,9 @@ Jumpers, count toward practice readiness and expire after 20 seconds outside
 practice so rounds can progress. They respawn with the normal round flow and
 may be selected as Activator. Isolated test runners force `g_bots 0` before
 startup, then explicitly enable the controller when testing it.
+The controller reattaches its lifecycle to surviving managed players after a
+preserving map restart, without changing an already assigned team or spawning
+duplicate test clients. The native presentation suite exercises this restart.
 
 ## Editing and verification
 

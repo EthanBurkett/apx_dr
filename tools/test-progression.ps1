@@ -50,7 +50,7 @@ try {
     if ($Suite -eq 'Content') { $testSource = 'tests\runtime\content.gsc'; $marker = 'APX_CONTENT_RUNTIME_PASS'; $duration = 60 }
     if ($Suite -eq 'Traffic') { $testSource = 'tests\runtime\menu_traffic.gsc'; $marker = 'APX_MENU_TRAFFIC_RUNTIME_PASS'; $duration = 20 }
     if ($Suite -eq 'Equipment') { $testSource = 'tests\runtime\equipment.gsc'; $marker = 'APX_EQUIPMENT_RUNTIME_PASS'; $duration = 60 }
-    if ($Suite -eq 'Presentation') { $testSource = 'tests\runtime\presentation.gsc'; $marker = 'APX_PRESENTATION_RUNTIME_PASS'; $duration = 30 }
+    if ($Suite -eq 'Presentation') { $testSource = 'tests\runtime\presentation.gsc'; $marker = 'APX_PRESENTATION_RUNTIME_PASS'; $duration = 60 }
     Copy-Item -LiteralPath (Join-Path $root $testSource) -Destination $driver
     $gametype = [IO.File]::ReadAllText((Join-Path $root 'src\maps\mp\gametypes\deathrun.gsc'))
     $gametype = $gametype.Replace('braxi\_mod::main();', 'braxi\_mod::main(); thread braxi\_progression_runtime_test::run();')

@@ -18,6 +18,12 @@ managedPlayers()
 run()
 {
     wait 3;
+    if(!isDefined(game["apxTestBotRun"])) game["apxTestBotRun"]=0;
+    game["apxTestBotRun"]++;
+    // map_restart(true) preserves client pers data but terminates old threads.
+    // Reattach the lifecycle to surviving test players once per new controller.
+    existing=managedPlayers();
+    for(i=0;i<existing.size;i++) existing[i] thread setup();
     for(;;)
     {
         target=int(braxi\_prestige::clamp(getDvarInt("g_bots"),0,8));
@@ -42,8 +48,9 @@ setup()
     for(i=0;i<100 && (!isDefined(self.pers["team"]) || !isDefined(self.pers["rank"]));i++) wait .05;
     if(!isDefined(self.pers["rank"])) return;
     self.pers["apxTestBot"]=true;
-    self braxi\_teams::setTeam("allies");
-    self braxi\_player::spawnPlayer();
+    self.apxBotRunSerial=game["apxTestBotRun"];
+    if(self.pers["team"]!="allies" && self.pers["team"]!="axis") self braxi\_teams::setTeam("allies");
+    if(self.sessionstate!="playing") self braxi\_player::spawnPlayer();
     for(;;)
     {
         if(self.sessionstate=="playing") self thread expire();
