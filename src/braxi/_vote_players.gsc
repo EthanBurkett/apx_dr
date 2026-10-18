@@ -1,172 +1,58 @@
-///////////////////////////////////////////////////////////////
-////|         |///|        |///|       |/\  \/////  ///|  |////
-////|  |////  |///|  |//|  |///|  |/|  |//\  \///  ////|__|////
-////|  |////  |///|  |//|  |///|  |/|  |///\  \/  /////////////
-////|          |//|  |//|  |///|       |////\    //////|  |////
-////|  |////|  |//|         |//|  |/|  |/////    \/////|  |////
-////|  |////|  |//|  |///|  |//|  |/|  |////  /\  \////|  |////
-////|  |////|  |//|  | //|  |//|  |/|  |///  ///\  \///|  |////
-////|__________|//|__|///|__|//|__|/|__|//__/////\__\//|__|////
-///////////////////////////////////////////////////////////////
-/*
-	BraXi's Death Run Mod
-	(c) 2010-2020 Paulina Sokołowska
-
-	https://www.moddb.com/mods/braxs-death-run-mod
-
-	Twitter: https://twitter.com/TheBraXi
-	GitHub: https://github.com/BraXi/
-
-	E-mail: paulinabraxi somewhere at gmail.com
-*/
-
-/*********** MAPVOTING ***********
-
-	Name: DMS
-	Author: Bipo
-	Design: Mr-X
-	Desc: Dynamic Mapvoting Script
-	Date: Feb. 2011
-	
-All rights reserved � iNext Gaming
-**********************************/
-
-
+// ApX native-menu ballots. Original DMS: Bipo / Mr-X / iNext Gaming.
 #include braxi\_common;
 
-// ApX: vote players implementation.
-
-playerVote() {
-	level endon("post_mapvote");
-	self endon("disconnect");
-
-	self.voteindex = -1;
-	
-	if ( issubstr(self.name, "bot") )
-		return;
-	
-	self.changingVote = false;
-	
-	self braxi\_vote_hud::playerVisuals();
-	self thread playerUpdateVotes();
-	self playerStartVoting();
-	
-	//BraX
-	self closeMenu();
-	self closeInGameMenu();
-	//<--
-
-	abp = false;
-	ads = self adsbuttonpressed();
-	while(1) {
-		if (ads != self adsbuttonpressed()) {
-			ads = self adsbuttonpressed();
-			self.changingVote = true;
-			self decVote();
-			wait level.voteswitchtime;
-			self.changingVote = false;
-		}
-		if (!abp) {
-			if (self attackbuttonpressed()) {
-				abp = true;
-			}
-		} else {
-			self.changingVote = true;
-			self incVote();
-			wait level.voteswitchtime;
-			self.changingVote = false;
-			if (!self attackbuttonpressed()) {
-				abp = false;
-			}
-		}
-		wait 0.05;
-	}
+cast( requested )
+{
+    if( !isDefined( level.apxPostPhase ) || level.apxPostPhase != 1 || !level.mapvote ||
+        getTime() >= level.apxPostEnds ) return false;
+    if( requested == "clear" ) index = -1;
+    else
+    {
+        if( requested.size != 1 || !isSubStr( "012345", requested ) ) return false;
+        index = int(requested);
+        if( index+"" != requested || index < 0 || index >= level.maps.size ) return false;
+    }
+    self.voteindex = index;
+    recount();
+    self braxi\_intermission::publishBallot();
+    return true;
 }
 
-playerUpdateVotes() {
-	level endon("post_mapvote");
-	self endon("disconnect");
-	while (1) {
-		if (!self.changingVote)
-		braxi\_vote_hud::updateVotes();
-		wait 0.5;
-	}
+recount()
+{
+    // Count connected players so disconnects/repeated requests cannot leak votes.
+    for( i = 0; i < level.maps.size; i++ ) level.maps[i].votes = 0;
+    level.apxVoteTotal = 0;
+    players = getAllPlayers();
+    for( i = 0; i < players.size; i++ )
+    {
+        index = players[i].voteindex;
+        if( !isDefined( index ) || index < 0 || index >= level.maps.size ) continue;
+        level.maps[index].votes++;
+        level.apxVoteTotal++;
+    }
 }
 
-playerStartVoting() {
-	level endon("post_mapvote");
-	self endon("disconnect");
+playerVote() { self braxi\_intermission::open(); }
+playerStartVoting() { self braxi\_intermission::open(); }
+playerUpdateVotes() { self braxi\_intermission::publishBallot(); }
 
-	self.startvote = newClientHudElem(self);
-	self.startvote.x = braxi\_vote_hud::getX(level.voteavg);
-	self.startvote.y = -80;
-	self.startvote.elemType = "font";
-	self.startvote.alignX = "center";
-	self.startvote.alignY = "middle";
-	self.startvote.horzAlign = "center";
-	self.startvote.vertAlign = "bottom";
-	self.startvote.color = (1, 1, 1);
-	self.startvote.alpha = 1;
-	self.startvote.sort = 0;
-	self.startvote.font = "default";
-	self.startvote.fontScale = 3;
-	self.startvote.foreground = true;
-	self.startvote.label = &"MAPVOTE_PRESSFIRE";
-	
-	while(!self attackbuttonpressed()) {
-		wait 0.05;
-	}
-	
-	self.voteindex = 0;
-	changeVotes(0,1);
-	braxi\_vote_hud::updateVotes();
-	
-	self.startvote FadeOverTime(1);
-	self.startvote.alpha = 0;
-	
-	wait 1;
-	
-	self.startvote destroy();
-
+incVote()
+{
+    index = 0;
+    if( isDefined( self.voteindex ) ) index = (self.voteindex+1)%level.maps.size;
+    self cast( index+"" );
 }
 
-incVote() {
-	changeVotes(self.voteindex, -1);
-	
-	self.voteindex++;
-	if (self.voteindex>=level.maps.size)
-	self.voteindex = 0;
-	
-	changeVotes(self.voteindex, 1);
-	
-	braxi\_vote_hud::updateVotes();
-	
-	for (i=0; i<=level.mapitems; i++ ) {
-	self.voteitem[i] braxi\_vote_hud::nextIndex();
-	}
+decVote()
+{
+    index = 0;
+    if( isDefined( self.voteindex ) ) index = (self.voteindex+level.maps.size-1)%level.maps.size;
+    self cast( index+"" );
 }
 
-decVote() {
-	changeVotes(self.voteindex, -1);
-	
-	self.voteindex-=1;
-	if (self.voteindex<0)
-	self.voteindex = level.maps.size-1;
-	
-	changeVotes(self.voteindex, 1);
-	
-	wait 0.05;
-	
-	braxi\_vote_hud::updateVotes();
-	
-	for (i=0; i<=level.mapitems; i++ ) {
-	self.voteitem[i] braxi\_vote_hud::prevIndex();
-	}
-}
-
-changeVotes(index, dif) {
-	if( index < 0 || index >= level.maps.size ) return;
-	
-	level.maps[index].votes += dif;
-	if( level.maps[index].votes < 0 ) level.maps[index].votes = 0;
+changeVotes( index, difference )
+{
+    if( difference > 0 ) self cast( index+"" );
+    else self cast( "clear" );
 }

@@ -301,7 +301,15 @@ def build_admin():
         body+=button('action'+str(i),180+(i%2)*218,220+(i//2)*35,206,label,f'scriptMenuResponse "{response}";',f'dvarInt("apx_admin_{permission}")')
     body+=button('moderation',180,372,206,'Moderation / match','close self; open apx_moderation;')
     body+=button('progression',398,372,206,'Progression tools','close self; open apx_admin_progression;','dvarInt("apx_admin_p")')
+    body+=button('testing',180,407,424,'Testing / bots','close self; open apx_testing;','dvarInt("apx_admin_n")')
     save('ui_mp/scriptmenus/dr_admin.menu',menu('dr_admin','Administration',body,'dr_admin',access='admin'))
+    testing=text('testing_count',180,125,424,'"TEST JUMPERS / TARGET  " + dvarInt("apx_test_bot_target")',.3,True)
+    testing+=text('testing_help',180,176,424,'Test players fill the server so rounds can start.',.24)
+    testing+=text('testing_help2',180,205,424,'They expire after 20 seconds in live rounds.',.24)
+    testing+=text('testing_help3',180,234,424,'They are test clients, not AI that completes courses.',.23)
+    testing+=button('add_test_bots',180,291,424,'Add 2 test Jumpers','scriptMenuResponse "bots:2";','dvarInt("apx_admin_n")')
+    testing+=button('remove_test_bots',180,332,424,'Remove test Jumpers','scriptMenuResponse "bots:0";','dvarInt("apx_admin_n")')
+    save('ui_mp/scriptmenus/apx_testing.menu',menu('apx_testing','Round testing',testing,'dr_admin',access='admin'))
     body=text('target',180,115,424,'dvarString("dr_admin_p_n")',.31,True)
     actions=[('Kick selected player','admin_kick','g'),('Ban selected player','admin_ban','h'),('Restart round','admin_restart_1','n'),('Restart map','admin_restart','n'),('Finish round','admin_finish_1','o'),('Finish map','admin_finish','o')]
     for i,(label,response,permission) in enumerate(actions):
@@ -337,11 +345,11 @@ def build_main():
     body+=text('lead',308,184,286,'One course. One Activator.',.28)
     body+=text('lead2',308,212,286,'Every round is a new chance.',.26)
     body+=text('levels',308,279,286,f'70 LEVELS  /  {MAX_PRESTIGE} PRESTIGES',.27)
-    body+=text('credits',304,445,286,'Built on BraXi\'s Death Run mod.',.2)
+    body+=text('credits',304,445,286,'Built for the next run. Built by our community.',.2)
     main='menuDef { name "main" rect 0 0 640 480 0 0 fullScreen 1 onOpen { setdvar cg_scoreboardWidth 500; setdvar cg_scoreboardBannerHeight 35; setdvar cg_scoreboardHeight 435; setdvar cg_scoreboardItemHeight 18; setdvar ui_showEndOfGame 0; setdvar apx_access_admin 0; setdvar apx_access_vip 0; open main_text; uiScript addPlayerProfiles; uiScript openMenuOnDvar com_playerProfile "" player_profile; uiScript openMenuOnDvarNot ui_playerProfileCount 1 player_profile; uiScript stopRefresh; } }\n'
     main+=menu('main_text','',body,shell_on=False,escape='open quit_popmenu;')
-    about=text('credits',180,125,424,'ORIGINAL MOD   BraXi',.28)+text('apx',180,170,424,'ApX Deathrun / CoD4x edition',.29)+text('thanks',180,218,424,'Original map, asset and plugin credits remain in the readme.',.23)
-    main+=menu('single_popmenu','About the mod',about,'dr_help',escape='close self;')
+    from menu_intermission import build as build_intermission
+    main+=build_intermission(sys.modules[__name__])
     save('ui_mp/main.menu',main)
     save('ui/quit.menu',confirmation('quit_popmenu','Quit the game?','Your saved progression stays in your profile.', 'Quit game','uiScript quit;'))
     save('ui_mp/scriptmenus/popup_leavegame.menu',confirmation('popup_endgame','Leave this server?','Your saved progression and display settings are kept.', 'Leave server','close self; exec "disconnect";')+confirmation('popup_leavegame','Leave this server?','Your saved progression and display settings are kept.', 'Leave server','close self; exec "disconnect";'))
@@ -429,7 +437,7 @@ def main():
     # Enrich the engine table with readable spray labels for dynamic previews.
     spray_rows=catalog('sprayTable.csv')
     (ROOT/'src/mp/sprayTable.csv').write_text('\n'.join(','.join(row) for row in spray_rows)+'\n',encoding='ascii')
-    server_open={'team_select','character_stuff','dr_options','quickstuff','dr_help','dr_characters','dr_weapons','dr_abilities','dr_sprays','apx_prestige','apx_prestige_confirm','apx_rewards','apx_knife','apx_gloves','dr_admin','apx_reset_confirm','vip'}
+    server_open={'team_select','character_stuff','dr_options','quickstuff','dr_help','dr_characters','dr_weapons','dr_abilities','dr_sprays','apx_prestige','apx_prestige_confirm','apx_rewards','apx_knife','apx_gloves','dr_admin','apx_reset_confirm','vip','apx_intermission'}
     route_rows=[f'{name},{access},{i},{int(name in server_open)}' for i,(name,access) in enumerate(ROUTES.items(),1)]
     (ROOT/'src/mp/apx_menu_routes.csv').write_text('\n'.join(route_rows)+'\n',encoding='ascii')
     manifest=ROOT/'manifests/07-menus.csv'

@@ -56,6 +56,18 @@ handle( menu, response )
 {
     args = strTok( response, ":" );
     if( !args.size ) return false;
+    if( args[0] == "bots" )
+    {
+        if( args.size != 2 || !self allowed("admin") || !self braxi\_admin_auth::hasPermission("n") ) return true;
+        if( args[1] == "2" || args[1] == "0" ) setDvar("g_bots",int(args[1]));
+        self setClientDvar("apx_test_bot_target",getDvarInt("g_bots"));
+        return true;
+    }
+    if( menu == "apx_intermission" )
+    {
+        if( args[0] == "vote" && args.size == 2 ) self braxi\_vote_players::cast( args[1] );
+        return true;
+    }
     if( args[0] == "browse" )
     {
         self braxi\_menu_browser::handle( args );
@@ -87,6 +99,7 @@ handle( menu, response )
     }
     if( response == "apx_open" )
     {
+        if( menu == "apx_testing" ) self setClientDvar("apx_test_bot_target",getDvarInt("g_bots"));
         access = tableLookup( "mp/apx_menu_routes.csv", 0, menu, 1 );
         if( access != "" && !self allowed( access ) ) self closeMenu();
         else self braxi\_menu_catalog::refresh();

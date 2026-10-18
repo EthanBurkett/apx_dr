@@ -80,7 +80,6 @@ precache()
 	precacheString( &"TIME  &&1" );
 	precacheString( &"JUMPERS &&1" );
 
-	level.fx["falling_teddys"] = loadFx( "deathrun/falling_teddys" );
 	level.fx["gib_splat"] = loadFx( "deathrun/gib_splat" );
 	level.fx["light_blink"] = loadFx( "misc/light_c4_blink" );
 }

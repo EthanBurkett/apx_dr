@@ -47,16 +47,7 @@ addTextHud( who, x, y, alpha, alignX, alignY, fontScale )
 
 endRoundAnnoucement( text, color )
 {
-	notifyData = spawnStruct();
-	notifyData.titleText = text;
-	notifyData.notifyText = ("Starting round ^3" + game["roundsplayed"] + "^7 out of ^3" + level.dvar["round_limit"] );
-	//notifyData.iconName = "logo_brax";
-	notifyData.glowColor = color;
-	notifyData.duration = 8.8;
-
-	players = getAllPlayers();
-	for( i = 0; i < players.size; i++ )
-		players[i] thread maps\mp\gametypes\_hud_message::notifyMessage( notifyData );
+	braxi\_presentation::notice( text, "NEXT ROUND  " + game["roundsplayed"] + " / " + level.dvar["round_limit"] );
 }
 
 roundStartTimer()
@@ -188,18 +179,8 @@ new_ending_hud( align, fade_in_time, x_off, y_off )
 
 drawInformation( start_offset, movetime, mult, text )
 {
-	start_offset *= mult;
-	hud = new_ending_hud( "center", 0.1, start_offset, 90 );
-	hud setText( text );
-	hud moveOverTime( movetime );
-	hud.x = 0;
-	wait( movetime );
-	wait( 3 );
-	hud moveOverTime( movetime );
-	hud.x = start_offset * -1;
-
-	wait movetime;
-	hud destroy();
+	if( mult < 0 ) return; // Old callers requested duplicate left/right fly-ins.
+	braxi\_presentation::notice( text, "The run continues. Stay sharp." );
 }
 
 showAbility()
@@ -212,10 +193,14 @@ showAbility()
 		self.abilityHud destroy();
 
 	self.abilityHud = newClientHudElem( self );
-	self.abilityHud.x = 299.5;
-	self.abilityHud.y = 370;
+	self.abilityHud.x = -22;
+	self.abilityHud.y = -134;
+	self.abilityHud.horzAlign = "right";
+	self.abilityHud.vertAlign = "bottom";
+	self.abilityHud.alignX = "right";
+	self.abilityHud.hideWhenInMenu = true;
 	self.abilityHud.alpha = 0.3;
-	self.abilityHud setShader( self.pers["ability"], 55, 48 );
+	self.abilityHud setShader( self.pers["ability"], 32, 28 );
 	self.abilityHud.sort = 985;
 	
 	self.abilityHud fadeOverTime( 0.3 );

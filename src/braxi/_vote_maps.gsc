@@ -87,7 +87,13 @@ getMaprotation()
 {
 	rotation = [];
 	seen = [];
-	tokens = strTok( getDvar( "sv_mapRotation" ), " " );
+	pages = getDvarInt( "apx_rotation_page_count" );
+	if( pages < 1 || pages > 128 ) pages = 1;
+	for( page = 0; page < pages; page++ )
+	{
+	source = getDvar( "sv_mapRotation" );
+	if( getDvarInt( "apx_rotation_page_count" ) > 0 ) source = getDvar( "apx_rotation_"+page );
+	tokens = strTok( source, " " );
 	for( i = 0; i + 1 < tokens.size; i++ )
 	{
 		if( toLower(tokens[i]) != "map" ) continue;
@@ -97,7 +103,17 @@ getMaprotation()
 		seen[name] = true;
 		rotation[rotation.size] = addMapItem( name, "deathrun" );
 	}
+	}
 	return rotation;
+}
+
+nextMap()
+{
+	rotation = getMaprotation();
+	if( !rotation.size ) return addMapItem( getDvar("mapname"), "deathrun" );
+	for( i = 0; i < rotation.size; i++ )
+		if( rotation[i].mapname == toLower(getDvar("mapname")) ) return rotation[(i+1)%rotation.size];
+	return rotation[0];
 }
 
 addMapItem(mapname, gametype) {
@@ -128,5 +144,6 @@ getWinningMap() {
 		lastindex = i;
 		}
 	}
+	if( mostvotes == 0 ) return nextMap();
 	return level.maps[lastindex];
 }

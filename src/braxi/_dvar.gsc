@@ -94,7 +94,7 @@ setupDvars()
 
 	addDvar( "messages_enable", "dr_messages_enable", 1, 0, 1, "int" );
 	addDvar( "messages_delay", "dr_messages_delay", 25, 5, 999, "int" );
-	addDvar( "messages", "dr_messages", "Welcome to ApX Deathrun;Based on BraXi's original Death Run mod", "", "", "string" );
+	addDvar( "messages", "dr_messages", "Welcome to ApX Deathrun;Open Loadout to customize your run;FOV and Fullbright save in Settings", "", "", "string" );
 	addDvar( "lastmessage", "dr_lastmessage", "Thanks for playing ApX Deathrun", "", "", "string" );
 	//addDvar( "rules", "dr_rules", "test\\ntest2\\nsds", "", "", "string" );
 	//makeDvarServerInfo( "ui_rules", level.dvar["rules"] );

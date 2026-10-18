@@ -51,7 +51,7 @@ startMapvote()
 
 	level notify("pre_mapvote");
 	mapList = braxi\_vote_maps::retrieveMaps(1); //these are all maps available for mapvoting
-	level.maps = braxi\_vote_maps::getRandomSelection(mapList, 5, getdvar("mapname")); //size can be 0!
+	level.maps = braxi\_vote_maps::getRandomSelection(mapList, 6, getdvar("mapname"));
 	//level.maps[level.maps.size] = addMapItem(getdvar("mapname"), "Replay this map");
 	if( !level.maps.size )
 	{
@@ -60,12 +60,16 @@ startMapvote()
 	}
 	level.mapvote = 1;
 	level notify("mapvote");
-	level.mapitems = 3;
-	if( level.maps.size <= level.mapitems ) level.mapitems = level.maps.size - 1;
-	beginVoting( level.dvar["mapvote_time"] ); //BraX
+	level.votingplayers = getAllPlayers();
+	for( i = 0; i < level.votingplayers.size; i++ )
+	{
+		level.votingplayers[i].voteindex = -1;
+		level.votingplayers[i].apxBallotCache = undefined;
+	}
+	beginVoting( level.dvar["mapvote_time"] );
 	level notify("post_mapvote");
-	wait 1;
-	braxi\_vote_hud::delVisuals();
+	braxi\_vote_players::recount();
+	level.mapvote = 0;
 }
 
 changeMap( map )
@@ -99,22 +103,7 @@ addMapItem( mapname, gametype )
 }
 
 beginVoting(time) {
-	level.alphaintensity = .5;
-	level.voteswitchtime = .5;
-	level.voteavg = int((level.mapitems+1)/2);
-	level.votesup = level.mapitems - level.voteavg;
-	
-	braxi\_vote_hud::createVisuals();
-	level.votingplayers = getAllPlayers();
-	//level.maps[0].votes = level.votingplayers.size;
-	for (i=0; i<level.votingplayers.size; i++) {
-		level.votingplayers[i] thread braxi\_vote_players::playerVote();
-	}
-	
-//	level thread neon(int(time/5)-1); //BraX
-	level thread braxi\_vote_hud::updateWinningMap();
-	
-	wait time;
+	braxi\_intermission::present( 1, time );
 }
 
 playerVote()

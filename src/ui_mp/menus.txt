@@ -76,4 +76,8 @@
 	loadMenu { "ui_mp/scriptmenus/dr_options.menu" }
 
 	loadMenu { "ui_mp/scriptmenus/apx_rewards.menu" }
+
+	loadMenu { "ui_mp/scriptmenus/apx_intermission.menu" }
+
+	loadMenu { "ui_mp/scriptmenus/apx_testing.menu" }
 }

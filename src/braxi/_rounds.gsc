@@ -269,6 +269,10 @@ checkTimeLimit()
 endMap( winningteam )
 {
 	game["state"] = "endmap";
+	level notify( "apx_notice" );
+	braxi\_presentation::clearNotice();
+	level notify( "new emblem" );
+	braxi\_playercard::destroyPlayerCard();
 	level notify( "intermission" );
 	level notify( "game over" );
 
@@ -314,6 +318,8 @@ endMap( winningteam )
 		players[i] allowSpectateTeam( "none", true );
 	}
 
+	// Records update even when the optional match-report phase is disabled.
+	braxi\_intermission::prepareResults();
 	if( level.dvar["displayBestPlayers"] )
 		braxi\_scoreboard::showBestStats();
 
@@ -321,10 +327,6 @@ endMap( winningteam )
 	braxi\_records::saveAllScores();
 
 	wait 0.5;
-
-	teddysOrigin = level.spawn["spectator"].origin + vector_scale( anglesToForward( level.spawn["spectator"].angles ), 120 ) + vector_scale( anglesToUp( level.spawn["spectator"].angles ), 180 );
-	playFx( level.fx["falling_teddys"], teddysOrigin );
-	playFx( level.fx["falling_teddys"], level.spawn["spectator"].origin + (0,0,100) );
 
 	braxi\_mapvoting::startMapVote();
 	braxi\_credits::main();
@@ -335,10 +337,10 @@ endMap( winningteam )
 		players[i] braxi\_player::spawnSpectator( level.spawn["spectator"].origin, level.spawn["spectator"].angles );
 		players[i].sessionstate = "intermission";
 	}
-	wait 5;
+	braxi\_intermission::close();
 	
 	if( !level.dvar["mapvote"] )
-		exitLevel( false );
+		braxi\_vote_maps::changeMap( braxi\_vote_maps::nextMap() );
 	else
 		braxi\_mapvoting::changeMap( braxi\_mapvoting::getWinningMap() );
 }
@@ -355,26 +357,33 @@ freeRunChoice()
 
 	self.hud_freeround = newClientHudElem( self );
 	self.hud_freeround.elemType = "font";
-	self.hud_freeround.x = 320;
-	self.hud_freeround.y = 370;
+	self.hud_freeround.x = 0;
+	self.hud_freeround.y = -124;
+	self.hud_freeround.horzAlign = "center";
+	self.hud_freeround.vertAlign = "bottom";
+	self.hud_freeround.hideWhenInMenu = true;
 	self.hud_freeround.alignX = "center";
 	self.hud_freeround.alignY = "middle";
 	self.hud_freeround.alpha = 1;
 	self.hud_freeround.font = "default";
-	self.hud_freeround.fontScale = 1.8;
+	self.hud_freeround.fontScale = 1.25;
+	self.hud_freeround.color = (.88,.77,.53);
 	self.hud_freeround.sort = 0;
 	self.hud_freeround.foreground = true;
 	self.hud_freeround.label = level.text["call_freeround"];
 
 	self.hud_freeround_time = newClientHudElem( self );
 	self.hud_freeround_time.elemType = "font";
-	self.hud_freeround_time.x = 320;
-	self.hud_freeround_time.y = 390;
+	self.hud_freeround_time.x = 0;
+	self.hud_freeround_time.y = -105;
+	self.hud_freeround_time.horzAlign = "center";
+	self.hud_freeround_time.vertAlign = "bottom";
+	self.hud_freeround_time.hideWhenInMenu = true;
 	self.hud_freeround_time.alignX = "center";
 	self.hud_freeround_time.alignY = "middle";
 	self.hud_freeround_time.alpha = 1;
 	self.hud_freeround_time.font = "default";
-	self.hud_freeround_time.fontScale = 1.8;
+	self.hud_freeround_time.fontScale = 1.15;
 	self.hud_freeround_time.sort = 0;
 	self.hud_freeround_time.foreground = true;
 	self.hud_freeround_time setTimer( level.dvar["freeRunChoiceTime"] );

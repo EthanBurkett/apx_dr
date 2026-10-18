@@ -29,13 +29,13 @@ REFERENCE           MODNAME
 LANG_ENGLISH        "^3ApX ^7Deathrun"
 
 REFERENCE           MOTD
-LANG_ENGLISH        "Visit ^2www.moddb.com/mods/braxs-death-run-mod^7."
+LANG_ENGLISH        "Customize your run. Explore Loadout, Progression and Settings."
 
 REFERENCE           NOTICE
 LANG_ENGLISH        "Notice"
 
 REFERENCE           GAME_EXPERIENCE_CHANGED
-LANG_ENGLISH        "Based on BraXi's Death Run Mod"
+LANG_ENGLISH        "ApX Deathrun / community edition"
 
 REFERENCE           ABOUT
 LANG_ENGLISH        "About the mod"
@@ -71,7 +71,7 @@ REFERENCE           CHARACTER_MAKAROV
 LANG_ENGLISH        "Makarov"
 
 REFERENCE           CALL_FREEROUND
-LANG_ENGLISH        "Press ^3[FIRE] ^7to select ^2FREE RUN ^7round."
+LANG_ENGLISH        "[FIRE]  Choose a free run"
 
 REFERENCE           ALIVE_JUMPERS
 LANG_ENGLISH        "Jumpers Left:^3 &&1"

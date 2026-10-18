@@ -41,6 +41,7 @@ APX_UI_BUTTON("action6",180,325,206,"Teleport to spawn",scriptMenuResponse "ui:d
 APX_UI_BUTTON("action7",398,325,206,"Teleport to me",scriptMenuResponse "ui:dr_admin:admin_teleport2";,dvarInt("apx_admin_m"))
 APX_UI_BUTTON("moderation",180,372,206,"Moderation / match",close self; open apx_moderation;,1)
 APX_UI_BUTTON("progression",398,372,206,"Progression tools",close self; open apx_admin_progression;,dvarInt("apx_admin_p"))
+APX_UI_BUTTON("testing",180,407,424,"Testing / bots",close self; open apx_testing;,dvarInt("apx_admin_n"))
 
 }
 }

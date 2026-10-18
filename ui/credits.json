@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {"title": "ApX", "roles": [
+      ["PROJECT / DESIGN / DEVELOPMENT", "Ethan Burkett / hype"],
+      ["GAME FOUNDATION", "CoD4 / Infinity Ward"],
+      ["CLIENT / SERVER PLATFORM", "CoD4x contributors"],
+      ["THE PEOPLE WHO MAKE IT A RUN", "Our players, testers and community"]
+    ]},
+    {"title": "Foundation", "roles": [
+      ["ORIGINAL DEATH RUN MOD", "Paulina Sokolowska / BraXi"],
+      ["ORIGINAL CHARACTER RIGGING", "|MACOM|Hacker / _INSANE_ / Etheross"],
+      ["ORIGINAL MAPPING TEAM", "BraXi / Viking / Mr-X / FearZ"],
+      ["ORIGINAL MAPPING TEAM", "Harry / Rednose"],
+      ["ORIGINAL CREDITS / VOTING / SUPPORT", "Bipo / Mr-X / DuffMan / iNext Gaming"]
+    ]},
+    {"title": "Community", "roles": [
+      ["MAPS / MODELS / WEAPONS / AUDIO", "The authors credited with each asset"],
+      ["COMMUNITY ARCHIVE", "CFGFactory and its contributors"],
+      ["IMPORT / BUILD / OPEN TOOLS", "Tool authors listed in the repository"],
+      ["COMPLETE ATTRIBUTION / RIGHTS", "content_credits.txt / docs/LICENSING.md"]
+    ]}
+  ],
+  "notice": "Original creators retain their rights. Full source and asset notices are preserved."
+}

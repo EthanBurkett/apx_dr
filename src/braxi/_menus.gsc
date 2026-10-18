@@ -53,6 +53,7 @@ init()
 	precacheMenu( "apx_prestige_confirm" );
 	precacheMenu( "apx_reset_confirm" );
 	precacheMenu( "vip" );
+	precacheMenu( "apx_intermission" );
 
 	precacheString( &"MP_HOST_ENDED_GAME" );
 	precacheString( &"MP_HOST_ENDGAME_RESPONSE" );

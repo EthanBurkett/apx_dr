@@ -26,7 +26,7 @@ APX_UI_TEXT("welcome",308,130,286,"RUN. ADAPT. REPEAT.",0.42)
 APX_UI_TEXT("lead",308,184,286,"One course. One Activator.",0.28)
 APX_UI_TEXT("lead2",308,212,286,"Every round is a new chance.",0.26)
 APX_UI_TEXT("levels",308,279,286,"70 LEVELS  /  10 PRESTIGES",0.27)
-APX_UI_TEXT("credits",304,445,286,"Built on BraXi's Death Run mod.",0.2)
+APX_UI_TEXT("credits",304,445,286,"Built for the next run. Built by our community.",0.2)
 
 }
 menuDef
@@ -35,26 +35,156 @@ name "single_popmenu"
 rect 0 0 640 480 0 0
 fullScreen 0
 focuscolor 0.89 0.78 0.53 1
-onOpen {   }
+onOpen {  setLocalVarInt apx_credit_page 0; }
 onEsc { close self; }
-APX_UI_RECT(0,0,640,480,0.027 0.038 0.046 0.96)
-APX_UI_RECT(16,20,144,440,0.045 0.06 0.069 1)
-APX_LOGO(28,30,112,56,0 0,1,1)
-APX_UI_TEXT("navigation",40,88,110,"DEATHRUN",0.17)
-APX_UI_BUTTON("nav_main_options",28,116,122,"Settings",close self; open main_options;,1)
-APX_UI_BUTTON("nav_main_controls",28,145,122,"Controls",close self; open main_controls;,1)
-APX_UI_BUTTON("nav_apx_audio_offline",28,174,122,"Audio / input",close self; open apx_audio_offline;,1)
-APX_UI_BUTTON("nav_apx_graphics_offline",28,203,122,"Graphics",close self; open apx_graphics_offline;,1)
-APX_UI_BUTTON("nav_single_popmenu",28,232,122,"About / credits",close self; open single_popmenu;,1)
-APX_UI_RECT(40,257,98,1,0.8 0.69 0.45 0.9)
-APX_UI_BUTTON("nav_main_text",28,261,122,"Main menu",close self; open main_text;,1)
-APX_UI_TEXT("section",180,32,420,"APX / OPERATIONS",0.17)
-APX_UI_TEXT("title",180,59,420,"About the mod",0.48)
-APX_UI_RECT(180,96,424,1,0.3 0.36 0.38 0.5)
-APX_UI_TEXT("footer",180,436,424,"ESC  Back     /     Selections save automatically",0.18)
-APX_UI_TEXT("credits",180,125,424,"ORIGINAL MOD   BraXi",0.28)
-APX_UI_TEXT("apx",180,170,424,"ApX Deathrun / CoD4x edition",0.29)
-APX_UI_TEXT("thanks",180,218,424,"Original map, asset and plugin credits remain in the readme.",0.23)
+APX_UI_BACKDROP("apx_menu_background")
+itemDef { rect 16 20 608 440 0 0 style WINDOW_STYLE_SHADER background "white"
+forecolor 0.027 0.038 0.046 0.97 visible when(1) decoration }
+APX_LOGO(30,27,120,60,0 0,1,1)
+itemDef { name "about_title" rect 172 48 424 22 0 0
+exp text("THE PEOPLE BEHIND THE RUN") textfont UI_FONT_NORMAL textscale 0.37
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when(1) decoration }
+itemDef { rect 32 101 576 1 0 0 style WINDOW_STYLE_SHADER background "white"
+forecolor 0.4 0.45 0.46 0.55 visible when(1) decoration }
+itemDef { name "keep" rect 32 169 255 22 0 0
+exp text("KEEP") textfont UI_FONT_NORMAL textscale 0.72
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when(1) decoration }
+itemDef { name "running" rect 32 207 255 22 0 0
+exp text("RUNNING.") textfont UI_FONT_NORMAL textscale 0.72
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.77 0.53 1
+visible when(1) decoration }
+itemDef { name "community" rect 34 273 245 22 0 0
+exp text("One course. Countless contributors.") textfont UI_FONT_NORMAL textscale 0.23
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when(1) decoration }
+itemDef { name "gratitude" rect 34 296 245 22 0 0
+exp text("Thanks for making this place yours.") textfont UI_FONT_NORMAL textscale 0.23
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when(1) decoration }
+itemDef { name "rights" rect 34 373 242 22 0 0
+exp text("Built together. Credited properly.") textfont UI_FONT_NORMAL textscale 0.19
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.57 0.65 0.66 1
+visible when(1) decoration }
+APX_UI_BUTTON("credit_page_0",306,164,92,"ApX",setLocalVarInt apx_credit_page 0;,1)
+itemDef { rect 318 190 68 1 0 0 style WINDOW_STYLE_SHADER background "white"
+forecolor 0.8 0.69 0.45 0.9 visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "role_0_0" rect 308 204 296 22 0 0
+exp text("PROJECT / DESIGN / DEVELOPMENT") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "person_0_0" rect 308 218 296 22 0 0
+exp text("Ethan Burkett / hype") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "role_0_1" rect 308 240 296 22 0 0
+exp text("GAME FOUNDATION") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "person_0_1" rect 308 254 296 22 0 0
+exp text("CoD4 / Infinity Ward") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "role_0_2" rect 308 276 296 22 0 0
+exp text("CLIENT / SERVER PLATFORM") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "person_0_2" rect 308 290 296 22 0 0
+exp text("CoD4x contributors") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "role_0_3" rect 308 312 296 22 0 0
+exp text("THE PEOPLE WHO MAKE IT A RUN") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+itemDef { name "person_0_3" rect 308 326 296 22 0 0
+exp text("Our players, testers and community") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==0) decoration }
+APX_UI_BUTTON("credit_page_1",404,164,92,"Foundation",setLocalVarInt apx_credit_page 1;,1)
+itemDef { rect 416 190 68 1 0 0 style WINDOW_STYLE_SHADER background "white"
+forecolor 0.8 0.69 0.45 0.9 visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "role_1_0" rect 308 204 296 22 0 0
+exp text("ORIGINAL DEATH RUN MOD") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "person_1_0" rect 308 218 296 22 0 0
+exp text("Paulina Sokolowska / BraXi") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "role_1_1" rect 308 240 296 22 0 0
+exp text("ORIGINAL CHARACTER RIGGING") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "person_1_1" rect 308 254 296 22 0 0
+exp text("|MACOM|Hacker / _INSANE_ / Etheross") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "role_1_2" rect 308 276 296 22 0 0
+exp text("ORIGINAL MAPPING TEAM") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "person_1_2" rect 308 290 296 22 0 0
+exp text("BraXi / Viking / Mr-X / FearZ") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "role_1_3" rect 308 312 296 22 0 0
+exp text("ORIGINAL MAPPING TEAM") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "person_1_3" rect 308 326 296 22 0 0
+exp text("Harry / Rednose") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "role_1_4" rect 308 348 296 22 0 0
+exp text("ORIGINAL CREDITS / VOTING / SUPPORT") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+itemDef { name "person_1_4" rect 308 362 296 22 0 0
+exp text("Bipo / Mr-X / DuffMan / iNext Gaming") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==1) decoration }
+APX_UI_BUTTON("credit_page_2",502,164,92,"Community",setLocalVarInt apx_credit_page 2;,1)
+itemDef { rect 514 190 68 1 0 0 style WINDOW_STYLE_SHADER background "white"
+forecolor 0.8 0.69 0.45 0.9 visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "role_2_0" rect 308 204 296 22 0 0
+exp text("MAPS / MODELS / WEAPONS / AUDIO") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "person_2_0" rect 308 218 296 22 0 0
+exp text("The authors credited with each asset") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "role_2_1" rect 308 240 296 22 0 0
+exp text("COMMUNITY ARCHIVE") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "person_2_1" rect 308 254 296 22 0 0
+exp text("CFGFactory and its contributors") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "role_2_2" rect 308 276 296 22 0 0
+exp text("IMPORT / BUILD / OPEN TOOLS") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "person_2_2" rect 308 290 296 22 0 0
+exp text("Tool authors listed in the repository") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "role_2_3" rect 308 312 296 22 0 0
+exp text("COMPLETE ATTRIBUTION / RIGHTS") textfont UI_FONT_NORMAL textscale 0.155
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.75 0.65 0.45 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "person_2_3" rect 308 326 296 22 0 0
+exp text("content_credits.txt / docs/LICENSING.md") textfont UI_FONT_NORMAL textscale 0.205
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.88 0.91 0.9 1
+visible when((1) && localVarInt(apx_credit_page)==2) decoration }
+itemDef { name "notice" rect 32 413 576 22 0 0
+exp text("Original creators retain their rights. Full source and asset notices are preserved.") textfont UI_FONT_NORMAL textscale 0.16
+textalign ITEM_ALIGN_LEFT textaligny 16 textstyle ITEM_TEXTSTYLE_SHADOWED forecolor 0.57 0.65 0.66 1
+visible when(1) decoration }
+APX_UI_BUTTON("back_to_main",32,112,176,"Back",close self;,1)
 
 }
 }

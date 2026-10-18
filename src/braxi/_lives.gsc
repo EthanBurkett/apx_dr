@@ -70,16 +70,16 @@ giveLife()
 	hud = self.hud_lifes[ self.pers["lifes"]-1 ];
 	hud showLifeIcon();
 
-	hud SetPulseFX( 30, 100000, 700 );
+	hud.glowAlpha = 0;
 	//self iprintlnBold( "You earned additional life" );
 }
 
 showLifeIcon()
 {
-	self fadeOverTime( 1 );
+	self fadeOverTime( .2 );
 	self.alpha = 1;
-	self.glowAlpha = 1;
-	self.color = level.color_cool_green;
+	self.glowAlpha = 0;
+	self.color = (.88,.77,.53);
 }
 
 useLife()
@@ -96,9 +96,9 @@ useLife()
 	self.pers["lifes"]--;
 
 	if( !self.pers["lifes"] )
-		self iPrintlnBold( "This was your last life, don't waste it" );
+		self iPrintln( "^3LIVES ^7/ Final extra life used." );
 	else
-		self iprintlnBold( "You used one of your additional lifes" );
+		self iPrintln( "^3LIVES ^7/ Extra life used. " + self.pers["lifes"] + " remaining." );
 
 	if( level.dvar["insertion"] && isDefined( self.insertion ) )
 	{

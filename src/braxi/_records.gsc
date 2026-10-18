@@ -68,7 +68,7 @@ endTimer()
 	//self.hud_time reset();
 	self.hud_time setText( "TIME  " + time );
 
-	self iPrintlnBold( "You've finished map in ^2" + time + " ^7seconds" );
+	self iPrintln( "^3FINISH ^7/ " + braxi\_intermission::valueLabel( "time", time ) );
 
 	if( (!isDefined( level.efrActive ) || !level.efrActive) && time < self.pers["time"] )
 		self.pers["time"] = time;
@@ -146,7 +146,9 @@ bestMapScores()
 		{
 			if( level.bestScores[x]["name"] == stat[0] )
 			{
-				level.bestScores[x]["value"] = stat[1];
+				value = float(stat[1]);
+				if( !braxi\_intermission::validResult( stat[0], value ) ) value = 0;
+				level.bestScores[x]["value"] = value;
 				level.bestScores[x]["guid"] = stat[2];
 				level.bestScores[x]["player"] = stat[3];
 				//iprintln( "stat " + stat[0] );

@@ -118,7 +118,7 @@ playerConnect()
 		logPrint("J;" + self.guid + ";" + self.number + ";" + self.name + "\n");
 	}
 
-	self setClientDvars( "cg_drawSpectatorMessages", 1, "ui_hud_hardcore", 1, "player_sprintTime", 4, "ui_uav_client", 0, "g_scriptMainMenu", game["menu_team"] );
+	self setClientDvars( "cg_drawSpectatorMessages", 1, "ui_hud_hardcore", 1, "player_sprintTime", 4, "ui_uav_client", 0, "g_scriptMainMenu", game["menu_team"], "apx_post_active", 0 );
 }
 
 playerDisconnect()
@@ -322,7 +322,7 @@ antiAFK()
 	self endon( "joined_spectators" );
 	self endon( "kill afk monitor" );
 
-	if( !level.dvar["afk"] || self.pers["team"] == "axis" )
+	if( !level.dvar["afk"] || self.pers["team"] == "axis" || braxi\_test_bots::isTestPlayer(self) )
 		return;
 
 	time = 0;

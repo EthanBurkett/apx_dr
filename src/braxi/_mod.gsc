@@ -37,7 +37,7 @@ main()
 	braxi\_assets::precache();
 	braxi\_assets::init_spawns();
 	braxi\_cod4stuff::main(); // setup vanilla cod4 variables
-	//thread braxi\_bots::addTestClients();
+	thread braxi\_test_bots::run();
 
 	game["DeathRunVersion"] = 12; //DO NOT MODIFY! PLUGINS MIGHT REQUIRE THIS VERSION OR HIGHER
 	level.mapName = toLower( getDvar( "mapname" ) );
@@ -92,8 +92,8 @@ main()
 	setDvar( "jump_slowdownEnable", 0 );
 	setDvar( "bullet_penetrationEnabled", 0 );
 	//setDvar( "g_playerCollisionEjectSpeed", 1 );
-	setDvar( "mod_author", "BraXi" );
-	makeDvarServerInfo( "mod_author", "BraXi" );
+	setDvar( "mod_author", "ApX / Ethan Burkett" );
+	makeDvarServerInfo( "mod_author", "ApX / Ethan Burkett" );
 
 	braxi\_assets::buildSprayInfo();
 	braxi\_assets::buildCharacterInfo();

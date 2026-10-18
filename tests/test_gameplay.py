@@ -48,7 +48,7 @@ class GameplayDecisions(unittest.TestCase):
                            'braxi\\_player::spawnPlayer': spawn,
                            'braxi\\_rank::giveRankXP': lambda *args: None,
                            'notify': lambda *args: None, 'bxLogPrint': lambda text: None,
-                           'iPrintlnBold': lambda text: None})
+                           'iPrintlnBold': lambda text: None,'iPrintln':lambda text:None})
         runtime.load(SOURCE / '_selection.gsc', {'getCandidates', 'chooseCandidate', 'pick'})
         runtime.call('pick', False)
         runtime.call('pick', False)
@@ -106,7 +106,7 @@ class GameplayDecisions(unittest.TestCase):
 
     def test_rotation_parser_ignores_duplicates_malformed_entries_and_trailing_map(self):
         rotation = 'gametype war map mp_dr_one map mp_dr_one map invalid map mp_dr_two map'
-        runtime = Runtime(natives={'getDvar': lambda name: rotation, 'toLower': str.lower,
+        runtime = Runtime(natives={'getDvar': lambda name: rotation, 'getDvarInt': lambda name:0, 'toLower': str.lower,
                                    'getSubStr': lambda text, start, end: text[start:end],
                                    'spawnstruct': lambda: {}, 'getdvar': lambda name: 'deathrun'})
         runtime.load(SOURCE / '_vote_maps.gsc', {'getMaprotation', 'addMapItem'})

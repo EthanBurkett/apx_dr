@@ -15,6 +15,7 @@ ROOT=Path(__file__).resolve().parents[1]
 SCALE=2
 STATS={252:54,2326:5,2301:594000,2303:731,2305:450,2400:1,2401:110,2402:0,2403:1,2404:0,2405:0,2406:0,988:0,981:3,980:4,982:0,979:0}
 DVARS={'apx_menu_map':'mp_dr_lithium','apx_hud_mode':'PRACTICE','apx_hud_detail':'1 / 3 players ready','dr_admin_p_n':'hype','dr_admin_p_h':'100/100','dr_admin_p_t':'Jumpers','dr_admin_p_s':'Playing'}
+LOCAL_VARS={}
 
 
 def args(text):
@@ -37,7 +38,7 @@ def lookup(table,keycol,key,column):
 
 
 def expression(source):
-    source=re.sub(r'localVarInt\((\w+)\)',lambda m:str(0),source)
+    source=re.sub(r'localVarInt\((\w+)\)',lambda m:str(LOCAL_VARS.get(m[1],0)),source)
     source=source.replace('&&',' and ').replace('||',' or ')
     source=re.sub(r'!(?!=)',' not ',source).strip()
     tree=ast.parse(source,mode='eval')
@@ -72,7 +73,8 @@ def source_menu(path,name):
     return text[opening+1:end-1]
 
 
-def render(path,name):
+def render(path,name,local_vars=None):
+    LOCAL_VARS.clear(); LOCAL_VARS.update(local_vars or {})
     image=Image.new('RGBA',(640*SCALE,480*SCALE),'#10171d'); draw=ImageDraw.Draw(image)
     def draw_text(x,y,text,size,color='#dfe7e3'):
         font=ImageFont.truetype('C:/Windows/Fonts/bahnschrift.ttf',round(size*48*SCALE))
@@ -94,11 +96,16 @@ def render(path,name):
         content=re.search(r'(?:exp text\((.*)\)|^text (.*)$)',block,re.M)
         if content:
             size=re.search(r'textscale ([0-9.]+)',block)
-            return 'APX_UI_TEXT("proof",'+','.join(rect.groups()[:3])+','+(content[1] or content[2])+','+(size[1] if size else '.25')+')'
+            color=re.search(r'forecolor ([0-9. ]+)',block)
+            align=re.search(r'textalign (ITEM_ALIGN_\w+)',block)
+            return 'APX_PROOF_TEXT('+','.join(rect.groups()[:3])+','+(content[1] or content[2])+','+(size[1] if size else '.25')+','+(color[1].strip() if color else '0.88 0.91 0.9 1')+','+(align[1] if align else 'ITEM_ALIGN_LEFT')+')'
+        if 'background "white"' in block:
+            color=re.search(r'forecolor ([0-9. ]+)',block)
+            if color:return 'APX_UI_RECT('+coords+','+color[1].strip()+')'
         return ''
     source=re.sub(r'itemDef\s*\{[^{}]*\}',reduce_item,source)
     for line in source.splitlines():
-        match=re.match(r'\s*(APX_UI_RECT|APX_UI_TEXT|APX_UI_BUTTON|APX_UI_LOCKED|APX_LOGO|APX_PROOF_IMAGE|APX_UI_BACKDROP)\((.*)\)\s*$',line)
+        match=re.match(r'\s*(APX_UI_RECT|APX_UI_TEXT|APX_UI_BUTTON|APX_UI_LOCKED|APX_LOGO|APX_PROOF_IMAGE|APX_PROOF_TEXT|APX_UI_BACKDROP)\((.*)\)\s*$',line)
         if not match: continue
         kind=match[1]; values=args(match[2])
         if kind=='APX_UI_BACKDROP':
@@ -122,6 +129,13 @@ def render(path,name):
             x,y,w,h=map(float,values[:4]); logo=Image.open(ROOT/'art/brand/apx-logo.png').convert('RGBA')
             logo.thumbnail((round(w*SCALE),round(h*SCALE)),Image.Resampling.LANCZOS)
             image.alpha_composite(logo,(round(x*SCALE),round((y+h/2)*SCALE-logo.height/2)))
+        elif kind=='APX_PROOF_TEXT':
+            x,y,w,content,size,color,align=values
+            value=label(content);x,y,w,size=map(float,(x,y,w,size))
+            font=ImageFont.truetype('C:/Windows/Fonts/bahnschrift.ttf',round(size*48*SCALE))
+            if align=='ITEM_ALIGN_RIGHT':x+=w-draw.textlength(value,font=font)/SCALE
+            rgb=tuple(round(float(v)*255) for v in color.split()[:3])
+            draw_text(x,y+16,value,size,rgb)
         elif kind=='APX_UI_TEXT':
             _,x,y,w,content,size=values
             draw_text(float(x),float(y)+15,label(content),float(size))
@@ -146,6 +160,19 @@ def main():
         result=render(path,name); result.save(output/(name+'.png'))
         sheet.paste(result,((i%2)*1280,(i//2)*960))
     sheet.save(output/'layout-proof.png')
+    DVARS.update(apx_post_map='lithium',apx_post_seconds=12,apx_vote_leader='supermario',apx_vote_total=8,apx_vote_selected=1)
+    for i in range(6):
+        DVARS.update({f'apx_post_{i}_player':'hype' if i!=1 else 'No result',
+            f'apx_post_{i}_value':['18','--','7','2650','3','31.25 s'][i],
+            f'apx_post_{i}_record_player':'hype' if i!=1 else 'Set the first record',
+            f'apx_post_{i}_record_value':['18','--','7','2650','3','31.25 s'][i],f'apx_post_{i}_new':int(i!=1),
+            f'apx_vote_name_{i}':['lithium','supermario','aperture','castle','future','snowyhills'][i],
+            f'apx_vote_count_{i}':[1,4,0,2,1,0][i],f'apx_vote_show_{i}':1})
+    for tab,title in enumerate(('match-report','map-ballot','credits')):
+        DVARS['apx_post_phase']=tab
+        result=render('ui_mp/scriptmenus/apx_intermission.menu','apx_intermission',{'apx_post_tab':tab})
+        result.save(output/(title+'.png'))
+    render('ui_mp/main.menu','single_popmenu').save(output/'about.png')
     print('Wrote art/ui/menus/layout-proof.png. Coordinate proof only; dynamic engine items require client QA.')
 
 

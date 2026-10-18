@@ -31,57 +31,19 @@
 
 firstBlood()
 {
-	if( !level.dvar["firstBlood"] )
-		return;
-
-	level waittill( "activator" );
-	wait 0.1;
-
-	level waittill( "player_killed", who );
-	level thread playSoundOnAllPlayers( "first_blood" );
-
-	hud = braxi\_hud::addTextHud( level, 320, 220, 0, "center", "middle", 2.4 );
-	hud setText( "First victim of this round is " + who.name );
-
-	hud.glowColor = (0.7,0,0);
-	hud.glowAlpha = 1;
-	hud SetPulseFX( 30, 100000, 700 );
-
-	hud fadeOverTime( 0.5 );
-	hud.alpha = 1;
-
-	wait 2.6;
-
-	hud fadeOverTime( 0.4 );
-	hud.alpha = 0;
-	wait 0.4;
-
-	hud destroy();
+    if( !level.dvar["firstBlood"] ) return;
+    level waittill( "activator" );
+    wait .1;
+    level waittill( "player_killed", who );
+    if( !isDefined( who ) ) return;
+    level thread playSoundOnAllPlayers( "first_blood" );
+    braxi\_presentation::notice( "FIRST BLOOD", braxi\_scoreboard_panel::displayName( who.name ) + " was first to fall." );
 }
 
 lastJumper()
 {
-	if( !level.dvar["lastalive"] || level.lastJumper )
-		return;
-
-	level.lastJumper = true;
-	level thread playSoundOnAllPlayers( "last_alive" );
-
-	hud = braxi\_hud::addTextHud( level, 320, 240, 0, "center", "middle", 2.4 );
-	hud setText( self.name + " is the last Jumper alive" );
-
-	hud.glowColor = (0.7,0,0);
-	hud.glowAlpha = 1;
-	hud SetPulseFX( 30, 100000, 700 );
-
-	hud fadeOverTime( 0.5 );
-	hud.alpha = 1;
-
-	wait 2.6;
-
-	hud fadeOverTime( 0.4 );
-	hud.alpha = 0;
-	wait 0.4;
-
-	hud destroy();
+    if( !level.dvar["lastalive"] || level.lastJumper ) return;
+    level.lastJumper = true;
+    level thread playSoundOnAllPlayers( "last_alive" );
+    braxi\_presentation::notice( "LAST RUNNER", braxi\_scoreboard_panel::displayName( self.name ) + " is still in the run." );
 }

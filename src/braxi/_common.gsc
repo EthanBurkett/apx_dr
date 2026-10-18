@@ -55,13 +55,13 @@ restrictSpawnAfterTime( time )
 
 getBestPlayerFromTime()
 {
-	score = 999999999;
+	score = 99999999;
 	guy = undefined;
 
 	players = getAllPlayers();
 	for( i = 0; i < players.size; i++ )
 	{
-		if( players[i].pers["time"] <= score )
+		if( isDefined( players[i].pers["time"] ) && players[i].pers["time"] > 0 && players[i].pers["time"] < score )
 		{
 			score = players[i].pers["time"];
 			guy = players[i];
@@ -247,7 +247,7 @@ getBestPlayerFromScore( type )
 	players = getAllPlayers();
 	for( i = 0; i < players.size; i++ )
 	{
-		if ( players[i].pers[type] >= score )
+		if ( isDefined( players[i].pers[type] ) && players[i].pers[type] > score )
 		{
 			score = players[i].pers[type];
 			guy = players[i];

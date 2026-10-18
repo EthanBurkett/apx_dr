@@ -1,0 +1,3783 @@
+{
+  "installed_directories": 626,
+  "rotation_maps": 480,
+  "pages": 13,
+  "classification": "Arena metadata or established Deathrun filename prefix; runtime compatibility is map-specific.",
+  "maps": [
+    {
+      "map": "mp_4hanoi",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_4t4scrap",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": [
+        "dm",
+        "koth",
+        "sd",
+        "war"
+      ]
+    },
+    {
+      "map": "mp_aim_ffa",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_berry_village",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_bo2cove",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_bo2nuketown2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_bo2raid3",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_bsf_tunnel_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_bubba",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_burgundy_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_c4s_minecraft",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_cfgf_minecraft_killhouse",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_cm_prison",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_cm_rawstyle",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_cm_rush",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dc_forward",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dc_kalakukko",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_abandoned",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_airstruck",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_amazon",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_annihilation",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_apollo",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_arbase",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_asd",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_azteca",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_backlot",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_beauty_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_bland",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_boss",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_boss_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_bounce_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_bricky",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_bunker",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_cage",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_castle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_chamber01",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_cherry",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_chunk",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_city",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_clockwork",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_control",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_cookie",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_cosmic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_coyote",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_coyote_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_creepy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_crystal",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_crystal_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_curt",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_cyber",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_darkness",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_diehard",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_dragonball",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_dudu_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_dungeon",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_ebc",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_electory",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_empire",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_epicfail",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_familyguy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_fearful",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_flow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_fluxx",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_forest",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_forgoten",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_framey_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_framey_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_freefall",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_fusion",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_galaxy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_glow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_godfather",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_godfather2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_gold",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_grassy_v4",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_haunted",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_highrise",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_hop",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_horror",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_hotel",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_iceops",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_industry",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_industryv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_inferno",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_islands",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_jailhouse",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_jam",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_lalamx_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_legend",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_liferun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_long",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_max",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_mbox",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_mc_class",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_mecha",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_mine",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_minecraft",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_mirroredge",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_night",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_nightrun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_nukebase",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_oss",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_palm",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_ponies",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_poolv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_portal_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_qube",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_rainy_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_red",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_revolution",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_rocky",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_rvs",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sanctuary",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sao",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sapphire",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_saw",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_scary",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_scoria",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_semtex",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_shadow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_short_v5",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sick_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sky_town",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_skypillar",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_slow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sm_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_smooth",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_snowic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_sonic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_spaceball",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_stagesv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_star",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_storm",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_supermario",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_thechoice",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_trans",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_tropic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_uncharted",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_underworld",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_village",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_water",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_waterwork",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_waterworld",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_wicked2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_winter",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_wipeout",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_wipeout_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_wood",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_deathrun_zero",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_1",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_2towers",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_420",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_ab_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_adamx_hell",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_airforce",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_alley",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_android",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_anime_world",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_anotherworld",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_antichamber",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_anubis",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_aperture",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_apocalypse",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_apocalypse_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_archetype",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_arctic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_around",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_asu",
+      "deathrun": false,
+      "reason": "Missing matching playable fastfile or invalid map name",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_asylum",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_atlantis",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_away",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_ax",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bananaphone",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bananaphone_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_beach",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_beat",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bhop",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bigfall",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_biohazard",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_blackandwhite2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_blacknight",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_blacknight2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_blade",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bladev2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_blue",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bounce",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bouncev2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_boy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_brainfuck",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_break",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_brix",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_bro",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_broken2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_building_escape",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_caelum",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_catherine",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_censored",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_cliffjumper",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_clifside",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_climb",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_cloudeye",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_coffin",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_communism",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_concrete",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_conox",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_construct",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_corner",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_courtesy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_crackshot",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_creek",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_creepy2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_crosscode",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_cyber",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_daiized",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_daiized_v1",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_dangerous",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_darmuhv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_dawn",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_deadzone",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_deathstyle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_deepwind",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_digital",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_digitalworld_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_disco",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_discovery",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_dova",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_dragoon11frx8",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_droid",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_easy_hard",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_easy_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_ebenezer",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_edgeville",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_edgeville_dungeon",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_ephemeral",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_evangelion",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_everglow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_experts",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fallguys",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fallrun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_familyguy",
+      "deathrun": false,
+      "reason": "Missing matching playable fastfile or invalid map name",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_famous",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fireball_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fireball_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fjord",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fnrp_ab_v4",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_fnrp_dimensions",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_foggy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_forward",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_framey_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_freakyland",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_free",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_frost",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_frzl",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_future",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_gasline",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_geno",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_glass2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_goat",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_gooby",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_guest_list",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_h2o",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_hardest_game",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_hardstyle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_harrypotter",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_hazard",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_headdy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_headdyv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_heaven",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_heavyweight_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_hilly_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_holyshiet",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_holyshiet_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_iceworld",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_idk",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_imaginary",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_impossibru",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_india",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_indipyramid",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_indoor",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_industrial",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_inside",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_jump",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_jump_hard",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_jumpv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_jungletemple",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_jurapark",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_king_sixz",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_kiti",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_knight",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_kris",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_kris_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_laboratory",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lateax",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lava_world",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lazycave",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lazyriver",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_legacy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_legion",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lentava_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_levels",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lifes",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_liserd",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lithium",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_littlemap",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lolz",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lovelyplanet",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lucidskyv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_lxury",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_madoka",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_magical",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mario_land",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_meatboy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mech",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_merry_xmas",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mew",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_minerun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mirrors_edge",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_misty",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_monino",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_moonsday",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_moonsday_r",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mors",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mountain_escape",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_mycastle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nebula",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_neon",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_neondesert",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_neuschwanstein",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nightlight",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nighty",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nimble",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nitro",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_noob",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nuka2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nxs_jump",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_nxs_road",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_offshore",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_old_factory",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_old_fucktory",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_oldschool",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_omar2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_omar3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_omg",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_onsea",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_orbit",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_outside",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_overgrown",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_owl",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pacman",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pacrun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pakistan",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pancake",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pandemonium",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_paradise",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pendulum",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_periglo",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_petrichor",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_phantasy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pillars",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pipe",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pool",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_poolv3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_porque",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_poseidon",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_prison_escape",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pro",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pro_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_progression",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_prototype",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pure_strafe",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_pure_strafe_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_purple_world",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_purple_worldv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_quack",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_quarry",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_qube_evolved",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_quick",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_race",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rage",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rainbow",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_raky",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rakyfaggot",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rakyv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_ravine",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_red",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rock",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_royals",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rubyshore",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_run",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_runner",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_running",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_running_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_runo",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_rushoween",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_samsara",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sand",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_seasons",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_serioussam",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_shawty",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_shipment",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_simple",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_simpsons",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_skii",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_skydeath",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_skypower",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_slay",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_slayv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sm64",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sm_world",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_snip",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_snowyhills",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_something",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sonic",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_spaceball_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_spacelab",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_spacetrip",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_spacetunnel",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_spedex",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_speedsky",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_squidy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_steelv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_step_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_stonerun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_stormyascent",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_storyhouse",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_stronghold",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_style",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sub",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sucatraps",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sunset",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sunset2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sunset3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_sunset4",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_takeshi",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_templerun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_terror",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_theshack",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_theship",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_thewar",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_timetravel",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_tower",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_trapntrance",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_trapntrance_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_trapz",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_trikx",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_tron",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_tropical",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_turnabout",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_un_named",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_underground",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_undertale",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_underwater",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_unique",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_universe",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_unreal",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_up",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_upt",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_upt2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_uptrooney",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_urban",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_v9x7",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_vector",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_vistic_castle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_vistic_castle_w",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_volpe",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_volpe2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_volpe3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_volpe4",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_watercity",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_wayout",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_western",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_wicked",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_windwaker",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_winter_wipeout",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_wipeout",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_workplease",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_worldofmetal",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_wtf",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xd",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xm",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xm2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xm3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmdc",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmfamily",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmfun",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmfun_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmfun_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmfunv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmgalaxy",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmnephy_v2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmsky",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmspaceship",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmstyle",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmv2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xmworld",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_xplosive",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_zvr_dimension2",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dr_zvr_dimension2_w",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_draw",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_drrun_step3_v3",
+      "deathrun": true,
+      "reason": "Deathrun naming convention",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_dust2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_easy_jump",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_ffc_de_attack",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_2013",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_ancient_italy",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_beach",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_bigfight",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_bridge",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_camp",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_cemetery",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_chocho",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_clinic",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_corridors",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_cube",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_dock",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_dock_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_dulc",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_futurama_v3",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_gas",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_hl",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_icecream",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_iceland_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_joxonfield",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_lighthouse",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_market",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_meadow",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_metro",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_mohbaazar",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_mountains",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_movies",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_outfield",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_panchokill",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_piramides",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_piratas",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_poncho_nite",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_quake3_arena",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_racecourse",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_re4village_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_remains",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_secret_base",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_sewer",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_simpsons",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_smurfs",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_snow",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_soccer_match",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_treehouse",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_fnrp_warehouse",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_galaxy",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_kejland",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_killhouse_2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_kino_der_toten",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_legoland",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_luna2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_minecraft_killhouse",
+      "deathrun": false,
+      "reason": "Missing matching playable fastfile or invalid map name",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_modern_rust",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_mw2_term",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_mystic_v3",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_nuketown",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_nwa_museum_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_omg_blackn",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_osg_hijacked_2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_poolday",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": [
+        "ctf",
+        "dm",
+        "dom",
+        "koth",
+        "sab",
+        "sd",
+        "tdm"
+      ]
+    },
+    {
+      "map": "mp_poolparty",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_pxg_capacity",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_rats_sansa_room",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_shipmentx2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_sps_s_town",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_dead_night",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_ffc_arena",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_fregata",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_gold_rush",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_graveyard",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_jakram",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_maniacmansion",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_new_moon_lg",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_oldbunker",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_oldwest_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_pacman",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_plaza",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_skatepark",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_snow_haven",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_springfield",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_testmap",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_toujane",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_trap",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_surv_village",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_toujane_beta",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": [
+        "dm",
+        "hc",
+        "sab",
+        "sd",
+        "tdm"
+      ]
+    },
+    {
+      "map": "mp_toujane_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_trapmapbeta",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_astral",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_construction",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_constructionv2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_cracking",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_downed",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_ethereal2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_ethereal3",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_garage",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_harrypotter",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_haunted",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_headquarters",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_heavy",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_mansion",
+      "deathrun": false,
+      "reason": "Missing matching playable fastfile or invalid map name",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_mansion_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_napoca",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_nebula",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_nike",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_obscure",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_paradise",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_ruins",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_sick_ev",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_skyscrapers",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_vc_tunnels",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_everglow",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_extreme",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_nephy",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_speed",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_speed_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_speed_v3",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_speed_v4",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_star",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_summer",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_summer_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_war",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_war_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_xmteam",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    },
+    {
+      "map": "mp_xm_xmteam_v2",
+      "deathrun": false,
+      "reason": "No Deathrun prefix or arena support",
+      "arena_gametypes": []
+    }
+  ]
+}

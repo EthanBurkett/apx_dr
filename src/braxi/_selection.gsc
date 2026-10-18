@@ -65,5 +65,5 @@ pick( fair )
 	player braxi\_rank::giveRankXP( "activator" );
 	level notify( "activator", player );
 	bxLogPrint( "A: " + player.name + " ; guid: " + player.guid );
-	iPrintlnBold( player.name + " ^7was picked to be ^1Activator" );
+	iPrintln( "^3ACTIVATOR ^7/ " + player.name );
 }

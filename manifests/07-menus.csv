@@ -57,3 +57,5 @@ menufile,ui_mp/cdkey.menu
 menufile,ui/playerprofile.menu
 menufile,ui/language_restart.menu
 menufile,ui_mp/scriptmenus/apx_rewards.menu
+menufile,ui_mp/scriptmenus/apx_intermission.menu
+menufile,ui_mp/scriptmenus/apx_testing.menu

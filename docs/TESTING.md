@@ -53,7 +53,7 @@ Build first, install the matching server and use an installed map:
 ```
 
 `test-progression.ps1` accepts `Progression`, `Efr`, `Hud`, `Menus`, `Content`,
-`Traffic` and `Equipment`. Each builds an isolated package with a test driver and
+`Traffic`, `Equipment` and `Presentation`. Each builds an isolated package with a test driver and
 bot. It does not modify human profiles or load private config.
 GSC fixtures live in `tests/runtime/`.
 
@@ -66,6 +66,7 @@ GSC fixtures live in `tests/runtime/`.
 | Content | Catalog/unlock behavior with live assets |
 | Traffic | Initialization/menu synchronization volume |
 | Equipment | Primary + knife inventory, arms, unlocks and special-mode rules |
+| Presentation | Fractional records, invalid finishes, rotation pages, ballots and all end-map menu phases |
 
 Fixtures copy assets and can need several GB. Logs remain in build for inspection.
 Ports must be free. The engine's fs_game path is limited to 63 characters, so

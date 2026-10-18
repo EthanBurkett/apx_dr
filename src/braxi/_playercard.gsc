@@ -20,120 +20,79 @@
 	E-mail: paulinabraxi somewhere at gmail.com
 */
 
+// ApX compact elimination strip, using saved sprays or real ApX rank badges.
 init()
 {
-	precacheShader( "black" );
-	while( 1 )
-	{
-		level waittill( "player_killed", victim, eInflictor, attacker );
-		
-		if( !isDefined( attacker ) )	
-			return;
+    for(;;)
+    {
+        level waittill( "player_killed", victim, inflictor, attacker );
+        if( !isDefined( attacker ) || !isDefined( victim ) ) continue;
+        thread showPlayerCard( attacker, victim, "ELIMINATION" );
+    }
+}
 
-		thread showPlayerCard( attacker, victim, "Owned with a hand" );
-	}
+icon( player )
+{
+    if( level.dvar["playerCardIcons"] == 0 ) return "spray"+player getStat(979)+"_menu";
+    return braxi\_rank_tables::getRankInfoIcon( player.pers["rank"], player.pers["prestige"] );
 }
 
 showPlayerCard( attacker, victim, text )
 {
-	if( !level.dvar["playerCards"] || attacker == victim || !isPlayer( attacker ) )
-		return;
-
-	level notify( "new emblem" );	// one instance at a time
-	level endon( "new emblem" );
-
-	destroyPlayerCard();
-
-	if( level.dvar["playerCardIcons"] == 0 )
-	{
-		logo1 = ( "spray" + attacker getStat(979) + "_menu" );
-		logo2 = ( "spray" + victim getStat(979) + "_menu" );
-	}
-	else
-	{
-		logo1 = ( "rank_" + attacker.pers["rank"] );
-		logo2 = ( "rank_" + victim.pers["rank"] );
-	}
-
-	level.playerCard[0] = newHudElem( level );
-	level.playerCard[0].x = 170;
-	level.playerCard[0].y = 390;
-	level.playerCard[0].alpha = 0;
-	level.playerCard[0] setShader( "black", 300, 64 );
-	level.playerCard[0].sort = 990;
-
-	//logos
-	level.playerCard[1] = braxi\_mod::addTextHud( level, 0, 390, 0, "left", "top", 1.8 ); 
-	level.playerCard[1] setShader( logo1, 64, 64 );
-	level.playerCard[1].sort = 998;
-	
-	level.playerCard[2] = braxi\_mod::addTextHud( level, 640, 390, 0, "left", "top", 1.8 ); 
-	level.playerCard[2] setShader( logo2, 64, 64 );
-	level.playerCard[2].sort = 998;
-	
-	level.playerCard[3] = braxi\_mod::addTextHud( level, 320, 390, 0, "center", "top", 1.5 ); 
-	level.playerCard[3] setText( attacker.name + " killed " + victim.name );
-	level.playerCard[3].sort = 999;
-
-	level.playerCard[4] = braxi\_mod::addTextHud( level, 320, 420, 0, "center", "top", 2.0 ); 
-	level.playerCard[4] setText( text );
-	level.playerCard[4].sort = 999;
-
-	for( i = 3; i < 5; i++ )
-	{
-		if( i == 4 )
-		{
-			level.playerCard[i].color = (0.6,0.5,0);
-			level.playerCard[i].glowColor = (1,1,0);
-		}
-		else
-		{
-			level.playerCard[i].color = level.color_cool_green;
-			level.playerCard[i].glowColor = level.color_cool_green_glow;
-		}
-
-		level.playerCard[i] SetPulseFX( 30, 100000, 700 );
-		level.playerCard[i].glowAlpha = 0.8;
-	}
-
-
-	// === animation === //
-
-	level.playerCard[1] moveOverTime( 0.44 );
-	level.playerCard[1].x = 170;
-	level.playerCard[2] moveOverTime( 0.44 );
-	level.playerCard[2].x = 170+300-64;
-
-	for( i = 0; i < level.playerCard.size; i++ )
-	{
-		level.playerCard[i] fadeOverTime( 0.3 );
-
-		if( i == 0 ) //hack
-			level.playerCard[i].alpha = 0.5;
-		else
-			level.playerCard[i].alpha = 1.0;
-	}
-	
-
-	wait 2.0;
-
-	for( i = 0; i < level.playerCard.size; i++ )
-	{
-		level.playerCard[i] fadeOverTime( 0.8 );
-		level.playerCard[i].alpha = 0;
-	}
-	wait 0.8;
-	
-	destroyPlayerCard();
+    if( !level.dvar["playerCards"] || attacker == victim || !isPlayer( attacker ) || game["state"] == "endmap" ) return;
+    level notify( "new emblem" );
+    level endon( "new emblem" );
+    destroyPlayerCard();
+    level.playerCard = [];
+    panel = newHudElem();
+    panel.horzAlign = "center";
+    panel.vertAlign = "bottom";
+    panel.x = -170;
+    panel.y = -112;
+    panel.color = (.045,.06,.069);
+    panel.alpha = .94;
+    panel.hideWhenInMenu = true;
+    panel.sort = 89;
+    panel setShader( "white", 340, 44 );
+    level.playerCard[0] = panel;
+    for( i = 0; i < 2; i++ )
+    {
+        player = attacker;
+        if( i == 1 ) player = victim;
+        hud = newHudElem();
+        hud.horzAlign = "center";
+        hud.vertAlign = "bottom";
+        hud.x = -157+i*284;
+        hud.y = -104;
+        hud.hideWhenInMenu = true;
+        hud.sort = 90;
+        hud setShader( icon(player), 30, 30 );
+        level.playerCard[level.playerCard.size] = hud;
+    }
+    title = braxi\_presentation::text( 0, -106, text, .95 );
+    title.vertAlign = "bottom";
+    title.alignX = "center";
+    title.color = (.88,.77,.53);
+    level.playerCard[level.playerCard.size] = title;
+    names = braxi\_scoreboard_panel::displayName(attacker.name)+" / "+braxi\_scoreboard_panel::displayName(victim.name);
+    hud = braxi\_presentation::text( 0, -90, names, 1.0 );
+    hud.vertAlign = "bottom";
+    hud.alignX = "center";
+    level.playerCard[level.playerCard.size] = hud;
+    wait 2;
+    for( i = 0; i < level.playerCard.size; i++ )
+    {
+        level.playerCard[i] fadeOverTime(.2);
+        level.playerCard[i].alpha = 0;
+    }
+    wait .2;
+    destroyPlayerCard();
 }
-
 
 destroyPlayerCard()
 {
-	if( !isDefined( level.playerCard ) || !level.playerCard.size )
-		return;
-
-	for( i = 0; i < level.playerCard.size; i++ )
-		level.playerCard[i] destroy();
-	level.playerCard = [];
+    if( !isDefined( level.playerCard ) ) return;
+    for( i = 0; i < level.playerCard.size; i++ )
+        if( isDefined( level.playerCard[i] ) ) level.playerCard[i] destroy();
+    level.playerCard = [];
 }

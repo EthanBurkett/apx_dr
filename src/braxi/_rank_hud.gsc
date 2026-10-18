@@ -171,39 +171,33 @@ showUnlockMessage( notifyData )
 	self.unlockMessage = [];
 
 	self.unlockMessage[0] = newClientHudElem( self );
-	self.unlockMessage[0].x = -180;
-	self.unlockMessage[0].y = 20;
-	self.unlockMessage[0].alpha = 0.76;
-	self.unlockMessage[0] setShader( "black", 195, 48 );
+	self.unlockMessage[0].x = 16;
+	self.unlockMessage[0].y = 110;
+	self.unlockMessage[0].alpha = .94;
+	self.unlockMessage[0].color = (.045,.06,.069);
+	self.unlockMessage[0] setShader( "white", 250, 48 );
 	self.unlockMessage[0].sort = 990;
 
-	self.unlockMessage[1] = braxi\_mod::addTextHud( self, -190, 20, 1, "left", "top", 1.5 ); 
-	self.unlockMessage[1] setShader( notifyData.icon, 55, 48 );
+	self.unlockMessage[1] = braxi\_mod::addTextHud( self, 24, 118, 1, "left", "top", 1.5 );
+	self.unlockMessage[1] setShader( notifyData.icon, 32, 30 );
 	self.unlockMessage[1].sort = 992;
 
-	self.unlockMessage[2] = braxi\_mod::addTextHud( self, -130, 23, 1, "left", "top", 1.4 ); 
+	self.unlockMessage[2] = braxi\_mod::addTextHud( self, 66, 116, 1, "left", "top", 1.15 );
+	self.unlockMessage[2].color = (.88,.77,.53);
 	self.unlockMessage[2].font = "objective";
 	self.unlockMessage[2] setText( notifyData.title );
 	self.unlockMessage[2].sort = 993;
 
-	self.unlockMessage[3] = braxi\_mod::addTextHud( self, -130, 40, 1, "left", "top", 1.4 ); 
+	self.unlockMessage[3] = braxi\_mod::addTextHud( self, 66, 135, 1, "left", "top", 1.05 );
 	self.unlockMessage[3] setText( notifyData.description );
 	self.unlockMessage[3].sort = 993;
 
 	for( i = 0; i < self.unlockMessage.size; i++ )
 	{
-		self.unlockMessage[i].horzAlign = "fullscreen";
-		self.unlockMessage[i].vertAlign = "fullscreen";
+		self.unlockMessage[i].horzAlign = "left";
+		self.unlockMessage[i].vertAlign = "top";
 		self.unlockMessage[i].hideWhenInMenu = true;
-
-		self.unlockMessage[i] moveOverTime( notifyData.duration/4 );
-
-		if( i == 1 )
-			self.unlockMessage[i].x = 11.5;
-		else if( i >= 2 )
-			self.unlockMessage[i].x = 71;
-		else
-			self.unlockMessage[i].x = 10;
+		self.unlockMessage[i].glowAlpha = 0;
 	}
 
 	wait notifyData.duration *0.8;

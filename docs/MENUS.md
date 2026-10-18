@@ -1,5 +1,8 @@
 # ApX menus and model previews
 
+The native match report, map ballot, credits and installed-map rotation are
+documented in [the ApX presentation audit](APX-PRESENTATION.md).
+
 All layout uses CoD4's 640x480 virtual canvas. Fullscreen background art uses
 the engine's fullscreen alignment so widescreen clients do not get black edges.
 

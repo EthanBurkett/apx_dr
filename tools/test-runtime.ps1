@@ -48,7 +48,7 @@ try {
     # textual order. Override core.cfg's gametype through the command buffer.
     $runtimeConfig = Join-Path (Join-Path $smoke $modPath) 'apx_runtime.cfg'
     New-Item -ItemType Directory -Path (Split-Path $runtimeConfig) -Force | Out-Null
-    [IO.File]::WriteAllText($runtimeConfig, "set g_gametype $GameType`n")
+    [IO.File]::WriteAllText($runtimeConfig, "set g_gametype $GameType`nset g_bots 0`n")
     $arguments = '+set dedicated 1 +set fs_homepath "' + $smoke + '" +set fs_game ' + $modPath +
         ' +set developer 1 +set developer_script 1 +set logfile 2 +set g_gametype deathrun' +
         ' +exec deathrun.cfg +exec dr_songs.cfg +exec apx_runtime.cfg' +

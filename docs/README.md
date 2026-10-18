@@ -26,6 +26,7 @@ build and a local server. Commands are run from the repository root unless noted
 | [Content](CONTENT.md) | Active collection, equipment rules and asset constraints |
 | [Content credits](CONTENT_CREDITS.md) | Generated community provenance; not a license grant |
 | [Menus](MENUS.md) | Routes, catalogs, equipment, preferences and model previews |
+| [ApX presentation](APX-PRESENTATION.md) | Match report, credits, menu ballots, installed map rotation and legacy presentation audit |
 | [Interface](INTERFACE.md) | Button artwork and native menu integration |
 | [HUD and practice](HUD-AND-PRACTICE.md) | Gameplay HUD, health feedback and EFR |
 | [Shaders](SHADERS.md) | Native HLSL compilation, still atlases and turntables |
