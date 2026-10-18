@@ -16,6 +16,11 @@ run()
     bot braxi\_teams::setTeam( "allies" );
     bot braxi\_player::spawnPlayer();
     wait 0.5;
+    bot setStat( level.dvar["warns_stat"], 2 );
+    whois = braxi\_menus::describePlayer( bot );
+    check( isSubStr( whois, "Warnings: ^22" ) && isSubStr( whois, "Guid: ^2" ), "whois uses configured warnings and includes GUID" );
+    bot notify( "menuresponse", "-1", "whois:"+bot.name );
+    wait 0.1;
     bot braxi\_preferences::defaults();
     bot braxi\_preferences::load();
     check( bot getStat( 2401 ) == 90 && bot getStat( 2402 ) == 0, "new profile defaults" );
@@ -75,7 +80,13 @@ run()
     bot notify( "menuresponse", "-1", "ui:vip:vip_dog" );
     wait 0.1;
     check( !bot.pers["isDog"], "VIP denied for regular player" );
-    bot.pers["vip"] = true;
+    bot.pers["login"] = "fixture";
+    bot.pers["password"] = "fixture-password";
+    bot braxi\_admin_auth::parseAdminInfo( "fixture;wrong-password;pv" );
+    check( !bot.pers["admin"] && !bot.pers["vip"], "wrong admin password cannot grant VIP" );
+    bot braxi\_admin_auth::parseAdminInfo( "fixture;fixture-password;pv" );
+    check( bot.pers["admin"] && bot.pers["vip"], "authenticated v permission grants both menus without GUID" );
+
     bot braxi\_menu_service::syncAccess();
     bot notify( "menuresponse", "-1", "ui:vip:vip_dog" );
     wait 0.1;

@@ -207,13 +207,7 @@ onMenuResponse()
 				self iPrintln( "No matching player found." );
 				continue;
 			}
-			str = player.name + "^7 :: ";
-			str = str + "Health: ^2" + player.health + "^7, ";
-			str = str + "Team: ^2" + player.pers["team"] + "^7, ";
-			str = str + "State: ^2" + player.sessionstate + "^7, ";
-			str = str + "Warnings: ^2" + player getStat( level.warnsStat ) + "^7, ";
-			str = str + "Guid: ^2" + player getGuid() + "^7.";
-			self iPrintln( "^3[dvar] ^7Who is: " +str );
+			self iPrintln( "^3[dvar] ^7Who is: " + describePlayer( player ) );
 		}
 		// ==============================
 
@@ -360,4 +354,16 @@ onMenuResponse()
 		}
 
 	}
+}
+
+// Build the whois response from the same configured stat used by moderation.
+describePlayer( player )
+{
+    text = player.name + "^7 :: ";
+    text = text + "Health: ^2" + player.health + "^7, ";
+    text = text + "Team: ^2" + player.pers["team"] + "^7, ";
+    text = text + "State: ^2" + player.sessionstate + "^7, ";
+    text = text + "Warnings: ^2" + player getStat( level.dvar["warns_stat"] ) + "^7, ";
+    text = text + "Guid: ^2" + player getGuid() + "^7.";
+    return text;
 }

@@ -119,7 +119,9 @@ Reset confirmations are one-use and expire after 30 seconds.
 
 VIP navigation follows server-owned `pers["vip"]`. Existing integrations can
 set that flag; alternatively configure `apx_vip_guids` as semicolon-separated
-full GUIDs in private server settings. VIP cosmetics recheck entitlement on use.
+full GUIDs in private server settings. Shared GUID `0` is ignored. Authenticated
+admin accounts can explicitly receive permission `v` to grant VIP without relying
+on a GUID (useful for local testing). VIP cosmetics recheck entitlement on use.
 
 ## Actual model art pipeline
 

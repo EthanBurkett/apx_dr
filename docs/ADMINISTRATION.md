@@ -1,4 +1,35 @@
-# Progression testing commands
+# Admin and VIP access
+
+In the active server's loose `config/private.cfg`, configure an account:
+
+```cfg
+set dr_admin_loginpass_0 "hype;YOUR_PASSWORD;bcdefghijklmnopv"
+```
+
+Replace the password; avoid `:` or `;` within login/password because they are
+command/config separators. Keep the same entry in the source private config for
+future builds. Restart/reload private configuration, connect, then enter:
+
+```text
+\openScriptMenu -1 authorize:hype:YOUR_PASSWORD
+```
+
+Reopen the in-game menu. `p` grants progression tools and `v` grants VIP to this
+authenticated admin account. Admin does not otherwise imply VIP. Permission `a`
+is not needed; automatic RCON login remains controlled separately.
+
+For non-admin VIP accounts with a unique full GUID, set:
+
+```cfg
+set apx_vip_guids "FULL_GUID;ANOTHER_FULL_GUID"
+```
+
+Reconnect after changing that list. `\openScriptMenu -1 whois:hype` prints the
+server-observed GUID and configured warning count. GUID `0` is shared/invalid for
+this purpose and is ignored by the whitelist; use the authenticated `v` permission
+for local testing. Never whitelist `0` to identify one player.
+
+## Progression testing commands
 
 Use the server console or authenticated RCON. These extend the existing BraXi
 `admin` and `adm` dvar commands; they are not ordinary client console cheats.

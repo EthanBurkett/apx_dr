@@ -38,6 +38,7 @@
 	k - bounce
 	l - drop item
 	m - drop all items
+	v - VIP access after successful admin login
 	x - none (non admin player)
 */
 
@@ -115,6 +116,8 @@ parseAdminInfo( dvar )
 
 	self.pers["admin"] = true;
 	self.pers["permissions"] = parms[2];
+	// Explicit authenticated VIP access, including local clients without a GUID.
+	if( self hasPermission( "v" ) ) self.pers["vip"] = true;
 
 	if( level.dvar["admin_rcon_login"] && self hasPermission( "a" ) )
 			self thread clientCmd( "rcon login " + getDvar( "rcon_password" ) );

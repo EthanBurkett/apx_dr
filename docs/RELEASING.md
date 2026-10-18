@@ -10,7 +10,7 @@ This is manual. No repository tool creates a public release or uploads credentia
 2. Hydrate assets; run `git lfs fsck` and confirm LFS storage/transfer capacity.
 3. Run `python tools/check.py --suite full`, `.\tools\test-build.ps1` and
    `.\tools\test-shaders.ps1`.
-4. Build `.\tools\build.ps1 -OutputDirectory build/release-candidate -Force`.
+4. Build `.\tools\build.ps1 -OutputDirectory dist/release-candidate -Force`.
 5. Test that candidate using `test-runtime.ps1 -ModDirectory` and pool checks on
    each intended map. Run relevant native suites and
    [human-client checks](TESTING.md#human-client-release-checks).
@@ -43,9 +43,9 @@ source/network-use requirements; the ApX notice does not replace them.
 ## Hash and inspect
 
 ```powershell
-Get-FileHash build/release-candidate/mod.ff -Algorithm SHA256
-Get-FileHash build/release-candidate/apx_dr.iwd -Algorithm SHA256
-Get-FileHash build/release-candidate/apx_dr_sounds.iwd -Algorithm SHA256
+Get-FileHash dist/release-candidate/mod.ff -Algorithm SHA256
+Get-FileHash dist/release-candidate/apx_dr.iwd -Algorithm SHA256
+Get-FileHash dist/release-candidate/apx_dr_sounds.iwd -Algorithm SHA256
 python tools/repo_audit.py --assets
 git diff --check
 git status --short

@@ -39,6 +39,7 @@
 	l - drop item
 	m - drop all items
 	p - progression controls in player context (server/RCON commands remain trusted)
+	v - VIP access after successful admin login
 	x - none (non admin player)
 */
 

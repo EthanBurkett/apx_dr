@@ -8,7 +8,7 @@ load()
     // Optional server-owned GUID entitlement list, compatible with the VIP plugin.
     guids = strTok( getDvar( "apx_vip_guids" ), ";" );
     for( i = 0; i < guids.size; i++ )
-        if( guids[i] != "" && toLower( guids[i] ) == toLower( self getGuid() ) ) self.pers["vip"] = true;
+        if( guids[i] != "" && guids[i] != "0" && toLower( guids[i] ) == toLower( self getGuid() ) ) self.pers["vip"] = true;
     self.apxMenuAccess = undefined;
     self syncAccess();
 }

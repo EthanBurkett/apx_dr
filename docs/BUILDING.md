@@ -10,7 +10,7 @@ point. No Python, Blender or external ZIP program is needed for normal builds.
 .\tools\build.ps1 -Target Iwd
 .\tools\build.ps1 -Target Check
 .\tools\build.ps1 -Force
-.\tools\build.ps1 -GameRoot 'C:\Games\Call of Duty 4' -OutputDirectory build/candidate
+.\tools\build.ps1 -GameRoot 'C:\Games\Call of Duty 4' -OutputDirectory dist/candidate
 ```
 
 | Option | Default | Effect |
