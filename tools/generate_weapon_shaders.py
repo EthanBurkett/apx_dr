@@ -105,6 +105,21 @@ def weapon_bytes(data):
     return source.encode("latin1")
 
 
+def save_treatment(weapon, record):
+    """Append a treatment without discarding the other weapons' registrations."""
+    path=ROOT/"ui/weapon_shaders.json"
+    registry=json.loads(path.read_text()) if path.exists() else {"version":1,"weapons":{}}
+    registry["description"]="Per-base-weapon shader treatments."
+    registry["weapons"][weapon]=record
+    path.write_text(json.dumps(registry,indent=2)+"\n",encoding="utf8")
+    manifest="// Scoped base-weapon shader materials and view/world models.\n"
+    for entry in registry["weapons"].values():
+        manifest+="material,"+entry["material"]+"\n"
+        manifest+="xmodel,"+entry["view_model"]+"\n"
+        manifest+="xmodel,"+entry["world_model"]+"\n"
+    (ROOT/"manifests/18-weapon-shaders.csv").write_text(manifest,encoding="ascii",newline="\n")
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--game-root",type=Path,default=ROOT.parent.parent)
@@ -136,14 +151,9 @@ def main():
             (ROOT/"assets/techsets"/(target+".techset")).write_text(text,encoding="ascii",newline="\n")
             fallback=ROOT/"assets/techsets/sm2"/(target+".techset")
             fallback.write_bytes((raw/"techsets/sm2"/(original+".techset")).read_bytes())
-    manifest="// M9 RIFTHEART: scoped view/world models share one custom material.\n"
-    manifest+="material,"+MATERIAL+"\nxmodel,apx_m9_rift_view\nxmodel,apx_m9_rift_world\n"
-    (ROOT/"manifests/18-weapon-shaders.csv").write_text(manifest,encoding="ascii")
-    registry={"version":1,"description":"Per-base-weapon shader treatments. First release: Beretta M9.",
-              "weapons":{"beretta_mp":{"effect":"RIFTHEART","catalog_id":0,"material":MATERIAL,
+    save_treatment("beretta_mp", {"effect":"RIFTHEART","catalog_id":0,"material":MATERIAL,
               "techset":TECHSET,"view_model":"apx_m9_rift_view","world_model":"apx_m9_rift_world",
-              "fields":CAMO,"sm2":"stock appearance","gameplay":"stock damage, animation, ammo and weapon identity"}}}
-    (ROOT/"ui/weapon_shaders.json").write_text(json.dumps(registry,indent=2)+"\n",encoding="utf8")
+              "fields":CAMO,"sm2":"stock appearance","gameplay":"stock damage, animation, ammo and weapon identity"})
     print("Generated M9 RIFTHEART: one material, one 512-square data texture, two scoped models; stock gameplay retained.")
 
 

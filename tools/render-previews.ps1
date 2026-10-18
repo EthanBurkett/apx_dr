@@ -49,6 +49,12 @@ try {
         if ($LASTEXITCODE -ne 0) { throw 'Weapon shader still preview failed.' }
         & $Python tools/preview_weapon_shader.py --turntable --width 512 --frames-directory build/model-render/frames/apx_turn_weapon_0
         if ($LASTEXITCODE -ne 0) { throw 'Weapon shader turntable preview failed.' }
+        & $Blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --effect phasewire
+        if ($LASTEXITCODE -ne 0) { throw 'Knife shader mesh export failed.' }
+        & $Python tools/preview_weapon_shader.py --effect phasewire --output art/ui/models/apx_preview_knife_0.png --frames-directory build/shader-lab/knife-frames
+        if ($LASTEXITCODE -ne 0) { throw 'Knife shader still preview failed.' }
+        & $Python tools/preview_weapon_shader.py --effect phasewire --turntable --width 512 --frames-directory build/model-render/frames/apx_turn_knife_0
+        if ($LASTEXITCODE -ne 0) { throw 'Knife shader turntable preview failed.' }
     }
     & $Python tools/package_turntables.py
     if ($LASTEXITCODE -ne 0) { throw 'Turntable packaging failed.' }

@@ -71,7 +71,7 @@ def main():
         parts=weapon_source.split('\\')
         definition=dict(zip(parts[1::2],parts[2::2]))
         model=definition.get('worldModel') or definition.get('worldModel0')
-        if category=='knife' and row[1]=='0': model='weapon_parabolic_knife'
+        if category=='knife' and row[1]=='0' and not model: model='weapon_parabolic_knife'
         if not model: raise ValueError('Missing world model: '+name)
         jobs.append({'key':category+':'+row[1],'model':model,'category':category,'id':int(row[1]),'label':row[5]})
     registry_path=ROOT/'ui/glove_catalog.json'

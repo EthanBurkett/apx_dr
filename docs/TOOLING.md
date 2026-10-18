@@ -83,8 +83,9 @@ Rendering uses a factory-startup background scene, not an open Blender project.
 | Entry point | Inputs and dependencies | Outputs / mutation |
 | --- | --- | --- |
 | `tools/generate_weapon_shaders.py` | SDK/game, Python/Pillow; optional `--game-root` | **Source:** deterministic M9 camo data, scoped models/material, weapon override, techsets, manifest and registry |
-| `tools/export_weapon_shader_mesh.py` | Blender-only, pinned importer and prepared model asset view | Actual stock M9 triangle/normal/UV data in build/shader-lab/m9-mesh.json |
-| `tools/preview_weapon_shader.py` | Windows D3D9/D3DCompiler, exported mesh, stock game textures and source HLSL | Native GPU stills/frames in build by default; `--output`, `--mesh`, `--frames-directory`, `--frames`, `--fps`, `--start-time`, `--width` and `--turntable` |
+| `tools/generate_knife_shader.py` | SDK/game; optional `--game-root` | **Source:** held default knife, grip retarget, barycentric triangle meshes, PHASEWIRE material/techsets and registry entry |
+| `tools/export_weapon_shader_mesh.py` | Blender-only, pinned importer and prepared model asset view | Actual triangle/normal/UV data under build/shader-lab; `-- --effect rift` (default) or `phasewire` |
+| `tools/preview_weapon_shader.py` | Windows D3D9/D3DCompiler, exported mesh, stock game textures and source HLSL | Native GPU stills/frames in build by default; `--effect rift` (default) or `phasewire`, `--output`, `--mesh`, `--frames-directory`, `--frames`, `--fps`, `--start-time`, `--width` and `--turntable` |
 
 `render-previews.ps1 -PrepareOnly` installs/verifies the importer and prepares
 read-only asset inputs without rendering. Normal preview generation applies

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Per-base-weapon shader treatments. First release: Beretta M9.",
+  "description": "Per-base-weapon shader treatments.",
   "weapons": {
     "beretta_mp": {
       "effect": "RIFTHEART",
@@ -12,6 +12,17 @@
       "fields": "apx_m9_rift_fields",
       "sm2": "stock appearance",
       "gameplay": "stock damage, animation, ammo and weapon identity"
+    },
+    "knife_mp": {
+      "effect": "PHASEWIRE",
+      "category": "knife",
+      "catalog_id": 0,
+      "material": "apx_phasewire_knife_mat_01",
+      "techset": "l_sm_apxphasewire",
+      "view_model": "apx_phasewire_knife_view",
+      "world_model": "apx_phasewire_knife_world",
+      "sm2": "transparent wireframe with fixed relative line width",
+      "gameplay": "existing melee damage, ammo, reach and secondary slot; visual growth only"
     }
   }
 }

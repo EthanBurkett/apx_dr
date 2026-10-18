@@ -2,8 +2,8 @@
 
 The base-weapon shader route starts with **Beretta M9 / RIFTHEART**. Selecting the
 normal Beretta equips the treatment automatically; no extra weapon variant or
-progression ID is created. Other base guns and the default knife can be added
-through this pipeline in later passes.
+progression ID is created. The default knife now uses **PHASEWIRE**. Other base
+guns can be added through this pipeline in later passes.
 
 ![RIFTHEART, rendered from the actual M9 mesh and HLSL](../art/weapons/beretta-rift/showcase.png)
 
@@ -83,10 +83,55 @@ screenshot or every map's lighting.
 and before atlas packaging, so the M9 catalog still and optional turntable match.
 Still view remains the default.
 
+## Default knife / PHASEWIRE
+
+![Actual default knife mesh with PHASEWIRE](../art/weapons/knife-phasewire/showcase.png)
+
+[Animated native GPU preview](../art/weapons/knife-phasewire/showcase.gif)
+
+The old `knife_mp` used `tag_origin` as its gun model and claymore holding
+animations. It therefore showed empty hands while selected. The held knife now
+uses the original CoD4 knife geometry, with its root renamed from `tag_knife` to
+`j_gun` to match the already imported BO2 knife idle, draw, sprint and melee
+animations. Independent arms still use the normal hand override. The stock SDK
+files and knife materials used by other weapons are not modified.
+
+PHASEWIRE renders thick, antialiased edges of the actual mesh triangles.
+Vertices are split per triangle, with barycentric basis coordinates stored in
+the texture UV stream. This avoids depending on vertex colors that can be
+replaced by the game's viewmodel draw path. The pixel shader discards triangle interiors; no opaque depth
+prepass, shadow silhouette or stock additional-light pass fills the gaps.
+Both faces are visible, with additive rainbow wires and native gameTime animation.
+The material uses transparent sorting/default-state metadata, and supplies both
+model and model-with-vertex-color technique variants.
+It adds a scoped material and two model assets, with no new image or weapon ID.
+
+The blade and guard smoothly change between pseudorandom scales from 0.72 to
+1.62, with a new target every 1.39 seconds. The grip remains anchored inside the
+hand. This is visual vertex displacement: melee damage, reach and inventory
+rules are unchanged. Model culling bounds cover the growth. SM2 retains the
+animated transparent triangle wires with a fixed relative line width; SM3 uses
+screen derivatives for a consistent pixel width.
+
+Regenerate or inspect explicitly:
+
+```powershell
+python tools/generate_knife_shader.py
+.\tools\render-previews.ps1 -PrepareOnly
+blender --background --factory-startup --python-exit-code 1 --python tools/export_weapon_shader_mesh.py -- --effect phasewire
+python tools/preview_weapon_shader.py --effect phasewire --frames 96 --fps 24 --start-time 0 --frames-directory build/shader-lab/knife-animation
+```
+
+Normal preview authoring replaces both the knife's still and optional turntable
+with native D3D9 shader renders before atlas packaging. The shared registry writer
+preserves other weapon treatments when either generator is rerun.
+
 ## Verification
 
 Tests check scoped model changes, retained gameplay fields, repeatable camo data,
 material pointer/sampler layout, lighting-state selection and SM2 fallback.
+Knife tests also verify triangle topology/attributes, UV barycentric expansion,
+root/animation compatibility, visible holding definitions and transparent paths.
 Windows CI compiles the real weapon stages in the native HLSL suite without
 requiring the proprietary SDK. SDK linking and map startup/pool checks remain
 local; final client appearance should be checked under the intended map lighting,

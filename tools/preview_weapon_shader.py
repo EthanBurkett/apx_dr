@@ -1,4 +1,4 @@
-"""Render the actual compiled CoD4 M9 shaders on a hidden D3D9 device."""
+"""Render the actual M9/knife HLSL on a hidden native D3D9 device."""
 import ctypes as C
 from pathlib import Path
 import struct,math,json,io,zipfile,sys,argparse,os
@@ -128,10 +128,12 @@ def render(args):
     elements=(Element*5)(Element(0,0,2,0,0,0),Element(0,12,4,0,10,0),
         Element(0,16,5,0,5,0),Element(0,20,5,0,3,0),Element(255,0,17,0,0,0))
     declaration=P();call(device,86,[P,C.POINTER(P)],elements,C.byref(declaration));call(device,87,[P],declaration)
-    vertex=shader(device,'vs','apx_rift_weapon')
-    body=shader(device,'ps','apx_rift_body');corona=shader(device,'ps','apx_rift_corona')
+    knife=args.effect=='phasewire'
+    vertex=shader(device,'vs','apx_phasewire' if knife else 'apx_rift_weapon')
+    body=shader(device,'ps','apx_phasewire' if knife else 'apx_rift_body')
+    corona=None if knife else shader(device,'ps','apx_rift_corona')
     call(device,92,[P],vertex)
-    textures={0:texture(device,stock_image('weapon_beretta_c')),1:cube_texture(device),
+    textures={} if knife else {0:texture(device,stock_image('weapon_beretta_c')),1:cube_texture(device),
         2:texture(device,Image.open(ROOT/'art/weapons/beretta-rift/camo-fields.png')),
         4:volume_texture(device),
         5:texture(device,stock_image('~weapon_beretta_s-r-17g-17b-1~41155d1b'))}
@@ -143,7 +145,9 @@ def render(args):
     encoded=bytearray()
     for row in meshes:
         position=row[:3];normal=row[3:6];u,v=row[6:8]
-        encoded.extend(struct.pack('<3fI',*position,0xffffffff))
+        rgba=[max(0,min(255,round(c*255))) for c in row[8:12]] if len(row)>=12 else [255]*4
+        color=rgba[2]|rgba[1]<<8|rgba[0]<<16|rgba[3]<<24
+        encoded.extend(struct.pack('<3fI',*position,color))
         encoded.extend(struct.pack('<ee',v,u))
         encoded.extend(bytes([max(0,min(255,round((n+1)*127))) for n in normal]+[63]))
     stream=C.create_string_buffer(bytes(encoded))
@@ -154,7 +158,8 @@ def render(args):
         eye=[.45*cosine+1.7*sine,.45*sine-1.7*cosine,.48]
         z=normalize([-v for v in eye]);x=normalize(cross([0,0,1],z));y=cross(z,x)
         view=[[x[0],y[0],z[0],0],[x[1],y[1],z[1],0],[x[2],y[2],z[2],0],[0,0,0,1]]
-        focal=1/math.tan(math.radians(40 if args.turntable else 24)/2);near=.01;far=100
+        fov=38 if knife and args.turntable else 30 if knife else 40 if args.turntable else 24
+        focal=1/math.tan(math.radians(fov)/2);near=.01;far=100
         projection=[[focal/(W/H),0,0,0],[0,focal,0,0],[0,0,far/(far-near),1],[0,0,-near*far/(far-near),0]]
         world=[[scale,0,0,0],[0,scale,0,0],[0,0,scale,0],[-center[a]*scale-eye[a] for a in range(3)]+[1]]
         constant(device,94,0,transpose_values(multiply(view,projection)))
@@ -173,11 +178,15 @@ def render(args):
         call(device,43,[U,P,U,U,F,U],0,None,3,0,1.0,0)
         for state,value in ((7,1),(14,1),(23,4),(22,1),(27,0),(168,15)):
             call(device,57,[U,U],state,value)
+        if knife:
+            for state,value in ((14,0),(27,1),(19,2),(20,2)):
+                call(device,57,[U,U],state,value)
         call(device,41,[])
         call(device,107,[P],body);call(device,83,[U,U,P,U],4,len(meshes)//3,stream,24)
-        call(device,57,[U,U],14,0);call(device,57,[U,U],27,1)
-        call(device,57,[U,U],19,2);call(device,57,[U,U],20,2)
-        call(device,107,[P],corona);call(device,83,[U,U,P,U],4,len(meshes)//3,stream,24)
+        if corona:
+            call(device,57,[U,U],14,0);call(device,57,[U,U],27,1)
+            call(device,57,[U,U],19,2);call(device,57,[U,U],20,2)
+            call(device,107,[P],corona);call(device,83,[U,U,P,U],4,len(meshes)//3,stream,24)
         call(device,42,[]);call(device,32,[P,P],target,readback)
         rect=LockRect();call(readback,13,[C.POINTER(LockRect),P,U],C.byref(rect),None,0x10)
         data=b''.join(C.string_at(rect.bits+y*rect.pitch,W*4) for y in range(H))
@@ -191,7 +200,8 @@ def render(args):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--mesh',type=Path,default=ROOT/'build/shader-lab/m9-mesh.json')
+    parser.add_argument('--effect',choices=('rift','phasewire'),default='rift')
+    parser.add_argument('--mesh',type=Path)
     parser.add_argument('--output',type=Path,default=ROOT/'build/shader-lab/rift-preview.png')
     parser.add_argument('--frames-directory',type=Path,default=ROOT/'build/shader-lab/frames')
     parser.add_argument('--frames',type=int,default=1)
@@ -200,6 +210,7 @@ def main():
     parser.add_argument('--start-time',type=float,default=3.0)
     parser.add_argument('--turntable',action='store_true',help='32 fixed-time camera angles for the catalog.')
     args=parser.parse_args()
+    if args.mesh is None: args.mesh=ROOT/'build/shader-lab'/('knife-mesh.json' if args.effect=='phasewire' else 'm9-mesh.json')
     if os.name!='nt':parser.error('The shader preview requires Windows Direct3D 9.')
     if not 1<=args.frames<=240 or not 1<=args.fps<=60:parser.error('frames must be 1..240 and fps 1..60')
     if args.width<128 or args.width>2048 or args.width%2:parser.error('width must be an even value in 128..2048')

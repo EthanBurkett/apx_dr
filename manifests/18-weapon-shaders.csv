@@ -1,4 +1,7 @@
-// M9 RIFTHEART: scoped view/world models share one custom material.
+// Scoped base-weapon shader materials and view/world models.
 material,apx_m9_rift_chrome
 xmodel,apx_m9_rift_view
 xmodel,apx_m9_rift_world
+material,apx_phasewire_knife_mat_01
+xmodel,apx_phasewire_knife_view
+xmodel,apx_phasewire_knife_world
