@@ -80,4 +80,7 @@
 	loadMenu { "ui_mp/scriptmenus/apx_intermission.menu" }
 
 	loadMenu { "ui_mp/scriptmenus/apx_testing.menu" }
+
+	loadMenu { "ui_mp/apx_options.menu" }
+	loadMenu { "ui_mp/apx_controls.menu" }
 }

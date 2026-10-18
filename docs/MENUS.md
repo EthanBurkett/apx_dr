@@ -14,6 +14,13 @@ pages. In-server navigation adds the run overview, loadout, progression,
 challenges, field guide and entitled VIP/admin pages. Client visibility is a
 convenience; the server checks entitlement again on every privileged action.
 
+**Classic settings** and **Classic controls** buttons open the SDK's original
+settings and binding pages from the main menu and the custom Settings/Controls
+pages. Native `main_options`, `main_controls` and `controls_multi` retain their
+stock behavior; the custom pages use `apx_main_options`, `apx_main_controls` and
+`apx_controls`. The quick-message categories have complete clickable/number-key
+pages, wired to the native server's 8 command, 7 statement and 6 response choices.
+
 Loadout has a dedicated operator showcase, the saved **Primary**, knife and
 independently selectable arms. Every firearm belongs to Primary (stat 981),
 with the selected knife carried as the secondary (stat 2405). Selecting

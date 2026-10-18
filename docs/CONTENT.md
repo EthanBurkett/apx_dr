@@ -57,13 +57,12 @@ Run `python tools/optimize_content_images.py` after importing content and before
 
 Asset counts and texture memory are separate limits. The client launcher requests supported larger image/model/FX/sound pools before loading the mod UI. The official-client profile targets at most 156 weapon definitions and 2000 materials after stock/map assets load, below the fixed client limits of 168 and 2048. Run `tools/build-client-audit.ps1` once after preparing the server toolchain. `tools/test-runtime.ps1 -Map <map> -ClientBudget` then uses an isolated diagnostic executable including `ui_mp` and `localized_common_mp`, which a normal dedicated server omits. This measures the extra client startup assets as well as stock/map assets. `tools/audit_map_assets.py` measures the full installed rotation. Ordinary dedicated-server pool counters are insufficient for client-budget validation. Each supported map needs that check; a different map can consume more assets. Server pool changes alone do not enlarge the client's fixed pools. Dedicated-server tests do not verify GPU allocation or client rendering.
 
-The image-page correction retains the measured map baseline with an explicit
-`budget_adjustment` in `ui/map_asset_budget.json`: fifteen additional image
-dependencies and a conservative one-material fresh-start reserve. The previous
-report's commit/hash and native crosschecks are recorded. Only five rotation
-materials and their two sampler techniques changed among linked resource inputs.
-Crosschecked maps store native counters; other rows are labeled as adjusted
-baseline bounds. All 446 admitted maps still fit; this is not a new full-map sweep.
+The current `ui/map_asset_budget.json` contains native client-zone counters for
+the rebuilt menu collection, including all image-page dependencies. All 441
+admitted maps fit the safety budgets. Failed or timed-out map transitions were
+retried in fresh servers; five map-script failures remain excluded. Source text
+signatures normalize line endings and trailing whitespace, which do not change
+asset references. The report records the exact measured mod fastfile hash.
 
 The stock SDK linker's fixed vertex/index save streams are too small for the combined collection (about 86 MiB vertices and 17 MiB indices). The `cod4-sdk-large-content-v1` build profile verifies the original executable's exact SHA-256, creates a private sibling copy with 128/64 MiB ranges, and deletes it afterward. Only the two capacity constants change; assertions and serialization code remain intact. The original SDK executable is never patched. These are build-time stream limits, not client asset pools or increased weapon limits.
 

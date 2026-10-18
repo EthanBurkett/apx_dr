@@ -1,6 +1,6 @@
 {
   "installed_directories": 626,
-  "rotation_maps": 446,
+  "rotation_maps": 441,
   "pages": 12,
   "classification": "Deathrun prefix/arena support, plus measured client-zone asset budgets and a successful native load.",
   "maps": [
@@ -134,7 +134,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_airstruck",
@@ -142,15 +142,15 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_amazon",
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "Native map load failed; repair and retest"
     },
     {
       "map": "mp_deathrun_annihilation",
@@ -158,7 +158,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_apollo",
@@ -166,7 +166,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_arbase",
@@ -174,7 +174,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_asd",
@@ -182,7 +182,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_azteca",
@@ -190,7 +190,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_backlot",
@@ -198,7 +198,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_beauty_v2",
@@ -206,7 +206,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_bland",
@@ -214,7 +214,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_boss",
@@ -222,7 +222,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_boss_v2",
@@ -230,7 +230,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_bounce_v3",
@@ -238,7 +238,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_bricky",
@@ -246,7 +246,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_bunker",
@@ -254,7 +254,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_cage",
@@ -262,7 +262,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_castle",
@@ -270,7 +270,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_chamber01",
@@ -278,7 +278,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_cherry",
@@ -286,7 +286,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_chunk",
@@ -294,7 +294,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_city",
@@ -302,7 +302,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_clockwork",
@@ -310,7 +310,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_control",
@@ -318,7 +318,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_cookie",
@@ -326,7 +326,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_cosmic",
@@ -334,7 +334,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_coyote",
@@ -342,7 +342,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_coyote_v2",
@@ -350,7 +350,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_creepy",
@@ -358,7 +358,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_crystal",
@@ -366,7 +366,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_crystal_v2",
@@ -374,7 +374,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_curt",
@@ -382,7 +382,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_cyber",
@@ -390,7 +390,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_darkness",
@@ -398,7 +398,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_diehard",
@@ -406,7 +406,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_dragonball",
@@ -414,7 +414,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_dudu_v2",
@@ -422,7 +422,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_dungeon",
@@ -430,7 +430,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_ebc",
@@ -438,7 +438,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_electory",
@@ -446,7 +446,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_empire",
@@ -454,7 +454,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_epicfail",
@@ -462,7 +462,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_familyguy",
@@ -470,7 +470,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_fearful",
@@ -478,7 +478,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_flow",
@@ -486,7 +486,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_fluxx",
@@ -494,7 +494,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_forest",
@@ -502,7 +502,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_forgoten",
@@ -510,7 +510,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_framey_v2",
@@ -518,7 +518,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_framey_v3",
@@ -526,7 +526,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_freefall",
@@ -534,7 +534,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_fusion",
@@ -542,7 +542,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_galaxy",
@@ -550,7 +550,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_glow",
@@ -558,7 +558,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_godfather",
@@ -566,7 +566,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_godfather2",
@@ -574,7 +574,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_gold",
@@ -582,7 +582,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_grassy_v4",
@@ -590,7 +590,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_haunted",
@@ -598,7 +598,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_highrise",
@@ -606,7 +606,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_hop",
@@ -614,7 +614,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_horror",
@@ -622,7 +622,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_hotel",
@@ -630,7 +630,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_iceops",
@@ -638,7 +638,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_industry",
@@ -646,7 +646,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_industryv2",
@@ -654,7 +654,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_inferno",
@@ -662,7 +662,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_islands",
@@ -670,7 +670,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_jailhouse",
@@ -678,7 +678,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_jam",
@@ -686,7 +686,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_lalamx_v2",
@@ -694,7 +694,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_legend",
@@ -702,7 +702,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_liferun",
@@ -710,7 +710,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_long",
@@ -718,7 +718,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_max",
@@ -726,7 +726,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_mbox",
@@ -734,7 +734,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_mc_class",
@@ -742,7 +742,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_mecha",
@@ -750,7 +750,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_mine",
@@ -758,7 +758,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_minecraft",
@@ -766,7 +766,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_mirroredge",
@@ -774,7 +774,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_night",
@@ -782,7 +782,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_nightrun",
@@ -790,7 +790,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_nukebase",
@@ -798,7 +798,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_oss",
@@ -806,7 +806,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_palm",
@@ -814,7 +814,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_ponies",
@@ -822,7 +822,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_poolv2",
@@ -830,7 +830,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_portal_v3",
@@ -838,7 +838,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_qube",
@@ -846,7 +846,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_rainy_v2",
@@ -854,7 +854,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "material uses 2032 / budget 2000"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_red",
@@ -862,7 +862,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_revolution",
@@ -870,7 +870,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_rocky",
@@ -878,7 +878,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_rvs",
@@ -886,7 +886,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_sanctuary",
@@ -894,7 +894,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_sao",
@@ -902,7 +902,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_sapphire",
@@ -910,7 +910,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_saw",
@@ -918,7 +918,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_scary",
@@ -926,7 +926,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_scoria",
@@ -934,7 +934,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_semtex",
@@ -942,7 +942,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_shadow",
@@ -950,7 +950,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_short_v5",
@@ -958,7 +958,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_sick_v2",
@@ -966,7 +966,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_sky_town",
@@ -974,7 +974,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_skypillar",
@@ -982,7 +982,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_slow",
@@ -990,7 +990,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_sm_v2",
@@ -998,7 +998,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_smooth",
@@ -1006,7 +1006,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_snowic",
@@ -1014,7 +1014,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_sonic",
@@ -1022,7 +1022,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_spaceball",
@@ -1030,7 +1030,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_stagesv2",
@@ -1038,7 +1038,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_star",
@@ -1046,7 +1046,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_storm",
@@ -1054,7 +1054,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_supermario",
@@ -1062,7 +1062,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_thechoice",
@@ -1070,7 +1070,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_trans",
@@ -1078,7 +1078,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_tropic",
@@ -1086,7 +1086,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_uncharted",
@@ -1094,7 +1094,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_underworld",
@@ -1102,7 +1102,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_village",
@@ -1118,7 +1118,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_waterwork",
@@ -1126,7 +1126,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_waterworld",
@@ -1134,7 +1134,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_wicked2",
@@ -1142,7 +1142,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_winter",
@@ -1150,7 +1150,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_wipeout",
@@ -1158,7 +1158,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_wipeout_v2",
@@ -1166,7 +1166,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_wood",
@@ -1174,7 +1174,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_deathrun_zero",
@@ -1182,7 +1182,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_1",
@@ -1190,7 +1190,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_2towers",
@@ -1198,7 +1198,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_420",
@@ -1206,7 +1206,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_ab_v3",
@@ -1214,7 +1214,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_adamx_hell",
@@ -1222,7 +1222,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_airforce",
@@ -1230,7 +1230,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_alley",
@@ -1238,7 +1238,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_android",
@@ -1246,7 +1246,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_anime_world",
@@ -1254,7 +1254,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_anotherworld",
@@ -1262,7 +1262,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_antichamber",
@@ -1270,7 +1270,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_anubis",
@@ -1278,7 +1278,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_aperture",
@@ -1286,7 +1286,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_apocalypse",
@@ -1294,7 +1294,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_apocalypse_v2",
@@ -1302,7 +1302,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_archetype",
@@ -1310,7 +1310,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_arctic",
@@ -1318,7 +1318,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_around",
@@ -1326,7 +1326,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_asu",
@@ -1341,7 +1341,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_atlantis",
@@ -1349,7 +1349,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_away",
@@ -1357,7 +1357,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_ax",
@@ -1365,7 +1365,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bananaphone",
@@ -1373,7 +1373,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bananaphone_v2",
@@ -1381,7 +1381,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_beach",
@@ -1389,7 +1389,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_beat",
@@ -1397,7 +1397,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bhop",
@@ -1405,7 +1405,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bigfall",
@@ -1413,7 +1413,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_biohazard",
@@ -1421,7 +1421,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_blackandwhite2",
@@ -1429,7 +1429,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_blacknight",
@@ -1437,7 +1437,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_blacknight2",
@@ -1445,7 +1445,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_blade",
@@ -1453,7 +1453,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bladev2",
@@ -1461,7 +1461,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_blue",
@@ -1469,7 +1469,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bounce",
@@ -1477,7 +1477,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bouncev2",
@@ -1485,7 +1485,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_boy",
@@ -1493,7 +1493,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_brainfuck",
@@ -1501,7 +1501,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_break",
@@ -1517,7 +1517,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_bro",
@@ -1525,7 +1525,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_broken2",
@@ -1533,7 +1533,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_building_escape",
@@ -1541,7 +1541,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_caelum",
@@ -1549,7 +1549,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_catherine",
@@ -1557,7 +1557,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_censored",
@@ -1565,7 +1565,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_cliffjumper",
@@ -1573,7 +1573,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_clifside",
@@ -1581,7 +1581,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_climb",
@@ -1589,7 +1589,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_cloudeye",
@@ -1597,7 +1597,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_coffin",
@@ -1605,7 +1605,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_communism",
@@ -1613,7 +1613,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_concrete",
@@ -1621,7 +1621,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_conox",
@@ -1629,7 +1629,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_construct",
@@ -1637,7 +1637,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_corner",
@@ -1645,7 +1645,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_courtesy",
@@ -1653,7 +1653,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_crackshot",
@@ -1661,7 +1661,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_creek",
@@ -1669,7 +1669,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_creepy2",
@@ -1677,7 +1677,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_crosscode",
@@ -1685,7 +1685,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_cyber",
@@ -1693,7 +1693,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_daiized",
@@ -1701,7 +1701,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_daiized_v1",
@@ -1709,7 +1709,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_dangerous",
@@ -1717,7 +1717,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_darmuhv2",
@@ -1725,7 +1725,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_dawn",
@@ -1733,7 +1733,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_deadzone",
@@ -1741,7 +1741,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_deathstyle",
@@ -1749,15 +1749,15 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_deepwind",
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "Native map load failed; repair and retest"
     },
     {
       "map": "mp_dr_digital",
@@ -1765,7 +1765,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_digitalworld_v2",
@@ -1773,7 +1773,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_disco",
@@ -1781,7 +1781,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_discovery",
@@ -1789,7 +1789,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_dova",
@@ -1797,7 +1797,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_dragoon11frx8",
@@ -1805,7 +1805,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_droid",
@@ -1813,7 +1813,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_easy_hard",
@@ -1821,7 +1821,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_easy_v2",
@@ -1829,7 +1829,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_ebenezer",
@@ -1837,7 +1837,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_edgeville",
@@ -1845,7 +1845,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_edgeville_dungeon",
@@ -1853,7 +1853,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_ephemeral",
@@ -1861,7 +1861,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_evangelion",
@@ -1869,7 +1869,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_everglow",
@@ -1877,7 +1877,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_experts",
@@ -1885,7 +1885,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fallguys",
@@ -1893,7 +1893,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fallrun",
@@ -1901,7 +1901,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_familyguy",
@@ -1916,7 +1916,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fireball_v2",
@@ -1924,7 +1924,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fireball_v3",
@@ -1932,7 +1932,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fjord",
@@ -1940,7 +1940,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fnrp_ab_v4",
@@ -1948,7 +1948,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_fnrp_dimensions",
@@ -1956,7 +1956,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_foggy",
@@ -1964,7 +1964,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_forward",
@@ -1972,7 +1972,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_framey_v2",
@@ -1980,7 +1980,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_freakyland",
@@ -1988,7 +1988,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_free",
@@ -1996,7 +1996,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_frost",
@@ -2004,7 +2004,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_frzl",
@@ -2012,7 +2012,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_future",
@@ -2020,7 +2020,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_gasline",
@@ -2028,7 +2028,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_geno",
@@ -2036,7 +2036,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_glass2",
@@ -2044,7 +2044,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_goat",
@@ -2052,7 +2052,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_gooby",
@@ -2060,7 +2060,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_guest_list",
@@ -2068,7 +2068,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_h2o",
@@ -2076,7 +2076,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_hardest_game",
@@ -2084,7 +2084,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_hardstyle",
@@ -2092,7 +2092,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_harrypotter",
@@ -2100,7 +2100,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_hazard",
@@ -2108,7 +2108,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_headdy",
@@ -2116,7 +2116,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_headdyv2",
@@ -2124,7 +2124,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_heaven",
@@ -2132,7 +2132,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_heavyweight_v2",
@@ -2140,7 +2140,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_hilly_v2",
@@ -2148,7 +2148,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_holyshiet",
@@ -2156,7 +2156,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_holyshiet_v2",
@@ -2164,7 +2164,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_iceworld",
@@ -2172,15 +2172,15 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_idk",
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "Native map load failed; repair and retest"
     },
     {
       "map": "mp_dr_imaginary",
@@ -2188,7 +2188,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_impossibru",
@@ -2196,7 +2196,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_india",
@@ -2204,7 +2204,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_indipyramid",
@@ -2212,7 +2212,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_indoor",
@@ -2220,7 +2220,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_industrial",
@@ -2228,7 +2228,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_inside",
@@ -2236,7 +2236,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_jump",
@@ -2244,7 +2244,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_jump_hard",
@@ -2252,7 +2252,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_jumpv2",
@@ -2260,7 +2260,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_jungletemple",
@@ -2268,7 +2268,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_jurapark",
@@ -2276,7 +2276,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_king_sixz",
@@ -2284,7 +2284,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_kiti",
@@ -2292,7 +2292,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_knight",
@@ -2300,7 +2300,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_kris",
@@ -2308,7 +2308,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_kris_v2",
@@ -2316,7 +2316,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_laboratory",
@@ -2324,7 +2324,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lateax",
@@ -2332,7 +2332,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lava_world",
@@ -2340,7 +2340,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lazycave",
@@ -2348,7 +2348,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lazyriver",
@@ -2356,7 +2356,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_legacy",
@@ -2364,7 +2364,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_legion",
@@ -2372,7 +2372,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lentava_v2",
@@ -2380,7 +2380,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_levels",
@@ -2388,7 +2388,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lifes",
@@ -2396,7 +2396,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_liserd",
@@ -2404,7 +2404,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lithium",
@@ -2412,7 +2412,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_littlemap",
@@ -2420,7 +2420,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lolz",
@@ -2428,7 +2428,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_lovelyplanet",
@@ -2436,7 +2436,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lucidskyv2",
@@ -2444,7 +2444,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_lxury",
@@ -2452,7 +2452,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_madoka",
@@ -2460,7 +2460,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_magical",
@@ -2468,7 +2468,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_mario_land",
@@ -2476,7 +2476,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_meatboy",
@@ -2484,7 +2484,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "material uses 2015 / budget 2000"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_mech",
@@ -2492,15 +2492,15 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_merry_xmas",
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "Native map load failed; repair and retest"
     },
     {
       "map": "mp_dr_mew",
@@ -2508,7 +2508,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_minerun",
@@ -2516,7 +2516,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_mirrors_edge",
@@ -2524,7 +2524,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_misty",
@@ -2532,7 +2532,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_monino",
@@ -2540,7 +2540,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_moonsday",
@@ -2548,7 +2548,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_moonsday_r",
@@ -2556,7 +2556,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_mors",
@@ -2564,7 +2564,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_mountain_escape",
@@ -2572,7 +2572,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_mycastle",
@@ -2580,7 +2580,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nebula",
@@ -2588,7 +2588,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_neon",
@@ -2596,7 +2596,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_neondesert",
@@ -2604,7 +2604,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_neuschwanstein",
@@ -2612,7 +2612,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nightlight",
@@ -2620,7 +2620,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nighty",
@@ -2628,7 +2628,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nimble",
@@ -2636,7 +2636,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nitro",
@@ -2644,7 +2644,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_noob",
@@ -2652,7 +2652,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nuka2",
@@ -2660,7 +2660,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nxs_jump",
@@ -2668,7 +2668,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_nxs_road",
@@ -2676,7 +2676,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_offshore",
@@ -2684,7 +2684,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_old_factory",
@@ -2692,7 +2692,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_old_fucktory",
@@ -2700,7 +2700,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_oldschool",
@@ -2708,7 +2708,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_omar2",
@@ -2716,7 +2716,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_omar3",
@@ -2724,7 +2724,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_omg",
@@ -2732,7 +2732,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_onsea",
@@ -2740,7 +2740,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_orbit",
@@ -2748,7 +2748,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_outside",
@@ -2756,7 +2756,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_overgrown",
@@ -2764,7 +2764,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_owl",
@@ -2772,7 +2772,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pacman",
@@ -2780,7 +2780,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pacrun",
@@ -2788,7 +2788,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pakistan",
@@ -2796,7 +2796,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_pancake",
@@ -2804,7 +2804,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pandemonium",
@@ -2812,7 +2812,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_paradise",
@@ -2820,7 +2820,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pendulum",
@@ -2828,7 +2828,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_periglo",
@@ -2836,7 +2836,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_petrichor",
@@ -2844,7 +2844,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_phantasy",
@@ -2852,7 +2852,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pillars",
@@ -2860,7 +2860,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pipe",
@@ -2868,7 +2868,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pool",
@@ -2876,7 +2876,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_poolv3",
@@ -2884,7 +2884,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_porque",
@@ -2892,7 +2892,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_poseidon",
@@ -2900,7 +2900,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_prison_escape",
@@ -2908,7 +2908,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pro",
@@ -2916,7 +2916,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pro_v2",
@@ -2924,7 +2924,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_progression",
@@ -2932,7 +2932,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_prototype",
@@ -2940,7 +2940,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pure_strafe",
@@ -2948,7 +2948,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_pure_strafe_v2",
@@ -2956,7 +2956,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_purple_world",
@@ -2964,7 +2964,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_purple_worldv2",
@@ -2972,7 +2972,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_quack",
@@ -2980,7 +2980,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_quarry",
@@ -2988,7 +2988,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_qube_evolved",
@@ -2996,7 +2996,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_quick",
@@ -3004,7 +3004,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_race",
@@ -3012,7 +3012,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rage",
@@ -3020,7 +3020,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rainbow",
@@ -3028,7 +3028,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_raky",
@@ -3036,7 +3036,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rakyfaggot",
@@ -3044,7 +3044,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rakyv2",
@@ -3052,7 +3052,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_ravine",
@@ -3060,7 +3060,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_red",
@@ -3068,7 +3068,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rock",
@@ -3076,7 +3076,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_royals",
@@ -3084,7 +3084,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rubyshore",
@@ -3092,7 +3092,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_run",
@@ -3100,7 +3100,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_runner",
@@ -3108,7 +3108,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_running",
@@ -3116,7 +3116,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_running_v2",
@@ -3124,7 +3124,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_runo",
@@ -3132,7 +3132,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_rushoween",
@@ -3140,7 +3140,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_samsara",
@@ -3148,7 +3148,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sand",
@@ -3156,7 +3156,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_seasons",
@@ -3164,7 +3164,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_serioussam",
@@ -3172,7 +3172,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_shawty",
@@ -3180,7 +3180,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_shipment",
@@ -3188,15 +3188,15 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_simple",
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "Native map load failed; repair and retest"
     },
     {
       "map": "mp_dr_simpsons",
@@ -3204,7 +3204,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_skii",
@@ -3212,7 +3212,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_skydeath",
@@ -3220,7 +3220,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_skypower",
@@ -3228,7 +3228,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_slay",
@@ -3236,7 +3236,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_slayv2",
@@ -3244,7 +3244,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sm64",
@@ -3252,7 +3252,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sm_world",
@@ -3260,7 +3260,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_snip",
@@ -3268,7 +3268,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_snowyhills",
@@ -3276,7 +3276,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_something",
@@ -3284,7 +3284,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sonic",
@@ -3292,7 +3292,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_spaceball_v2",
@@ -3300,7 +3300,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_spacelab",
@@ -3308,7 +3308,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_spacetrip",
@@ -3316,7 +3316,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_spacetunnel",
@@ -3324,7 +3324,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_spedex",
@@ -3332,7 +3332,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_speedsky",
@@ -3340,7 +3340,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_squidy",
@@ -3348,7 +3348,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_steelv2",
@@ -3356,7 +3356,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_step_v2",
@@ -3364,7 +3364,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_stonerun",
@@ -3372,7 +3372,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_stormyascent",
@@ -3380,7 +3380,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_storyhouse",
@@ -3388,7 +3388,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_stronghold",
@@ -3396,7 +3396,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_style",
@@ -3404,7 +3404,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sub",
@@ -3412,7 +3412,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sucatraps",
@@ -3420,7 +3420,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sunset",
@@ -3428,7 +3428,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sunset2",
@@ -3436,7 +3436,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sunset3",
@@ -3444,7 +3444,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_sunset4",
@@ -3452,7 +3452,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_takeshi",
@@ -3460,7 +3460,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_templerun",
@@ -3468,7 +3468,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_terror",
@@ -3476,7 +3476,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_theshack",
@@ -3484,7 +3484,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_theship",
@@ -3492,7 +3492,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_thewar",
@@ -3500,7 +3500,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_timetravel",
@@ -3508,7 +3508,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_tower",
@@ -3516,7 +3516,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_trapntrance",
@@ -3524,7 +3524,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_trapntrance_v2",
@@ -3532,7 +3532,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_trapz",
@@ -3540,7 +3540,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_trikx",
@@ -3548,7 +3548,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_tron",
@@ -3556,7 +3556,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_tropical",
@@ -3564,7 +3564,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_turnabout",
@@ -3572,7 +3572,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_un_named",
@@ -3580,7 +3580,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_underground",
@@ -3588,7 +3588,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_undertale",
@@ -3596,7 +3596,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_underwater",
@@ -3604,7 +3604,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_unique",
@@ -3612,7 +3612,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_universe",
@@ -3620,7 +3620,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_unreal",
@@ -3628,7 +3628,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_up",
@@ -3636,7 +3636,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_upt",
@@ -3644,7 +3644,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_upt2",
@@ -3652,7 +3652,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_uptrooney",
@@ -3660,7 +3660,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_urban",
@@ -3668,7 +3668,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_v9x7",
@@ -3676,7 +3676,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_vector",
@@ -3684,7 +3684,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_vistic_castle",
@@ -3692,7 +3692,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_vistic_castle_w",
@@ -3700,7 +3700,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_volpe",
@@ -3708,7 +3708,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_volpe2",
@@ -3716,7 +3716,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_volpe3",
@@ -3724,7 +3724,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_volpe4",
@@ -3732,7 +3732,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_watercity",
@@ -3740,7 +3740,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_wayout",
@@ -3748,7 +3748,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_western",
@@ -3756,7 +3756,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_wicked",
@@ -3764,7 +3764,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_windwaker",
@@ -3772,7 +3772,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_winter_wipeout",
@@ -3780,7 +3780,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_wipeout",
@@ -3788,7 +3788,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_workplease",
@@ -3796,7 +3796,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_worldofmetal",
@@ -3804,7 +3804,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_wtf",
@@ -3812,7 +3812,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xd",
@@ -3820,7 +3820,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xm",
@@ -3828,7 +3828,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xm2",
@@ -3836,7 +3836,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xm3",
@@ -3844,7 +3844,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmdc",
@@ -3852,7 +3852,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_xmfamily",
@@ -3860,7 +3860,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmfun",
@@ -3868,7 +3868,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmfun_v2",
@@ -3876,7 +3876,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_xmfun_v3",
@@ -3884,7 +3884,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmfunv2",
@@ -3892,7 +3892,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmgalaxy",
@@ -3900,7 +3900,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_xmnephy_v2",
@@ -3908,7 +3908,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmsky",
@@ -3916,7 +3916,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_xmspaceship",
@@ -3924,7 +3924,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_xmstyle",
@@ -3932,7 +3932,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmv2",
@@ -3940,7 +3940,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xmworld",
@@ -3948,7 +3948,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_xplosive",
@@ -3956,7 +3956,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_zvr_dimension2",
@@ -3964,7 +3964,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dr_zvr_dimension2_w",
@@ -3972,7 +3972,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_draw",
@@ -3987,7 +3987,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": true,
-      "asset_budget": "Measured baseline plus image-page dependencies; within client-zone asset budgets"
+      "asset_budget": "Measured within client-zone asset budgets"
     },
     {
       "map": "mp_dust2",

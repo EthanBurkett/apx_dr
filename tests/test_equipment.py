@@ -105,7 +105,7 @@ class Equipment(unittest.TestCase):
         count=json.loads((ROOT/'ui/content_profile.json').read_text())['prestiges']
         progression=(ROOT/'src/ui_mp/scriptmenus/apx_prestige.menu').read_text()
         self.assertIn('+ " / '+str(count)+'"',progression)
-        controls=(ROOT/'src/ui_mp/controls_multi.menu').read_text()
+        controls=(ROOT/'src/ui_mp/apx_controls.menu').read_text()
         self.assertIn('dvar "+actionslot 2"',controls)
         self.assertIn('text "Select knife"',controls)
 

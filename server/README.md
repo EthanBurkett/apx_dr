@@ -1,8 +1,16 @@
 # ApX CoD4x server
 
-This is a source-built Windows CoD4x server for the expanded ApX content catalog.
+These are source-built Windows and Linux CoD4x servers for the ApX content catalog.
 Upstream: https://github.com/callofduty4x/CoD4x_Server
 Pinned revision: `ddd65fce1a1093017bad2dbb6840d75d11c0d56f`.
+
+The public Debian server, private credentials, native smoke tests, Bunny publishing,
+GitHub environment and automatic deployment are documented in
+[Public server deployment](../docs/DEPLOYMENT.md). Its Linux binary was built with
+GCC 14.2, `make -j4 mbedtls tomcrypt`, then
+`make -j4 bin/apx_cod4x_dedrun TARGETNAME=apx_cod4x_dedrun BUILD_BRANCH=apx_dr`,
+using the same pinned revision and pool patch. `linux/apx-dr.service` runs it as
+the unprivileged `apxdr` account; `linux/install.sh` installs a prepared deployment.
 
 The reviewed patch in `patches/asset-pools.patch` changes the database pools:
 

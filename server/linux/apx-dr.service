@@ -1,0 +1,32 @@
+[Unit]
+Description=ApX Deathrun CoD4x dedicated server
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=apxdr
+Group=apxdr
+WorkingDirectory=/srv/apx-dr/game
+ExecStart=/srv/apx-dr/game/apx_cod4x_dedrun +set dedicated 2 +set net_ip 0.0.0.0 +set net_port 28960 +set sv_maxclients 32 +set fs_basepath /srv/apx-dr/game +set fs_homepath /var/lib/apx-dr +set fs_game mods/apx_dr +set g_gametype deathrun +exec server.cfg +map mp_deathrun_supermario
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+UMask=0027
+LimitNOFILE=8192
+MemoryMax=6G
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/apx-dr /srv/apx-dr/game/autoupdate.lock
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=apx-dr
+
+[Install]
+WantedBy=multi-user.target

@@ -20,6 +20,8 @@ private.*.cfg
 !private.example.cfg
 .env
 .env.*
+*.env
+*.tmp.cache
 !.env.example
 *.pem
 *.key

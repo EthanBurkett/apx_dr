@@ -20,6 +20,11 @@ download content, import packs or regenerate artwork.
 | `tools/validate.py` | Scripts/tables/configs; `--root`, `--game-root`, `--source-only` | Static references/packaging diagnostics; SDK inventory in ui/sdk_dependencies.json; never opens private.cfg |
 | `tools/build-server.ps1` | Git, NASM, Windows tar, network for pinned source/compiler; `-GameRoot`, `-Install` | Server EXE, build record and full source ZIP under server; cache/logs in build |
 | `tools/download_maps.py` | `--url`, `--destination`, `--state-directory`, `--workers` 1–8 | Explicit mirror download; resumable parts, length checks, atomic replacement and previous-file backups |
+| `tools/deploy.py` | `trigger` uses your gh login; `fetch-sdk`, `package`, `deploy` use private SSH environment values | Start main deployment, fetch SDK, or package/upload a committed public release |
+| `tools/ci_build.ps1` | Private pinned SDK ZIP, `-ExpandedSdk` for an already expanded CI SDK | Windows CI fastfile/HLSL/IWD build in an ephemeral checkout |
+| `tools/prepare_ci_sdk.py` | `--game-root`, `--output`; licensed SDK | Operator-only SDK ZIP and checksum; never a public artifact |
+| `tools/bunny_upload.py` | Explicit public file, ignored env file, storage zone | Storage upload with redacted diagnostics; never upload a whole deployment directory |
+| `tools/prepare_public_rotation.py` | Validated map inventory/file manifest, CDN, output/report paths | Atomically updates rotation to public, complete map downloads |
 
 A map mirror URL is supplied by the operator. Length checks do not establish
 authenticity; retain trusted source/checksum records for distributed maps.

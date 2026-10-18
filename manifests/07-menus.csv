@@ -59,3 +59,5 @@ menufile,ui/language_restart.menu
 menufile,ui_mp/scriptmenus/apx_rewards.menu
 menufile,ui_mp/scriptmenus/apx_intermission.menu
 menufile,ui_mp/scriptmenus/apx_testing.menu
+menufile,ui_mp/apx_options.menu
+menufile,ui_mp/apx_controls.menu

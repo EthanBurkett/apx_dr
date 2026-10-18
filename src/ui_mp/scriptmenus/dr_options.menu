@@ -19,7 +19,7 @@ APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_p
 APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
 APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
 APX_UI_RECT(40,257,98,1,0.8 0.69 0.45 0.9)
-APX_UI_BUTTON("nav_controls_multi",28,261,122,"Controls",close self; open controls_multi;,1)
+APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
 APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
 APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
 APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
@@ -56,7 +56,8 @@ APX_UI_BUTTON("thirdperson0",398,311,100,"Off",scriptMenuResponse "ui:dr_options
 APX_UI_LOCKED("thirdperson_set0",398,311,100,"Off / SET",dvarInt("apx_pref_thirdperson")==0)
 APX_UI_BUTTON("thirdperson1",504,311,100,"On",scriptMenuResponse "ui:dr_options:pref:thirdperson:1";,dvarInt("apx_pref_thirdperson")!=1)
 APX_UI_LOCKED("thirdperson_set1",504,311,100,"On / SET",dvarInt("apx_pref_thirdperson")==1)
-APX_UI_TEXT("saved",180,355,424,"FOV and display preferences persist across reconnects.",0.22)
+APX_UI_BUTTON("stock_settings",180,351,206,"Classic settings",open main_options;,1)
+APX_UI_BUTTON("stock_controls",398,351,206,"Classic controls",open main_controls;,1)
 APX_UI_BUTTON("reset",180,391,206,"Restore display defaults",scriptMenuResponse "ui:dr_options:preferences_reset";,1)
 APX_UI_BUTTON("graphics",398,391,206,"Audio / input",close self; open apx_audio;,1)
 

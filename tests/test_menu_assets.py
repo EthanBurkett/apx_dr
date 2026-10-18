@@ -153,10 +153,10 @@ class MenuAssets(unittest.TestCase):
         main=(ROOT/'src/ui_mp/main.menu').read_text()
         self.assertNotIn('apx_preview_',main)
         self.assertIn('APX_UI_BACKDROP("apx_menu_background")',main)
-        for relative in ['ui_mp/options.menu','ui_mp/scriptmenus/apx_audio.menu','ui_mp/scriptmenus/apx_graphics.menu']:
+        for relative in ['ui_mp/apx_options.menu','ui_mp/scriptmenus/apx_audio.menu','ui_mp/scriptmenus/apx_graphics.menu']:
             source=(ROOT/'src'/relative).read_text()
             for chunk in source.split('menuDef')[1:]:
-                if not any('name "'+name+'"' in chunk for name in ['main_options','main_controls','apx_audio_offline','apx_graphics_offline']): continue
+                if not any('name "'+name+'"' in chunk for name in ['apx_main_options','apx_main_controls','apx_audio_offline','apx_graphics_offline']): continue
                 self.assertNotIn('scriptMenuResponse',chunk)
                 for destination in ['team_select','dr_options','controls_multi','apx_audio','apx_graphics','dr_weapons','character_stuff']:
                     self.assertNotIn('open '+destination+';',chunk)
@@ -169,13 +169,13 @@ class MenuAssets(unittest.TestCase):
     def test_settings_and_edit_fields_respect_native_client_contracts(self):
         # Server-only stat writes disconnect real clients, even though dedicated
         # bot tests accept the corresponding GSC setStat calls.
-        for relative in ['ui_mp/options.menu','ui_mp/scriptmenus/dr_options.menu']:
+        for relative in ['ui_mp/apx_options.menu','ui_mp/scriptmenus/dr_options.menu']:
             source=(ROOT/'src'/relative).read_text()
             self.assertNotIn('statset',source)
             self.assertNotIn('statGetInDvar 2400',source)
         connected=(ROOT/'src/ui_mp/scriptmenus/dr_options.menu').read_text()
         self.assertIn('ui:dr_options:pref:fov:110',connected)
-        offline=(ROOT/'src/ui_mp/options.menu').read_text()
+        offline=(ROOT/'src/ui_mp/apx_options.menu').read_text()
         self.assertIn('seta cg_fovScale 1.375',offline)
         for name in ['dr_weapons','apx_primary','dr_characters','dr_abilities','dr_sprays']:
             source=(ROOT/f'src/ui_mp/scriptmenus/{name}.menu').read_text()

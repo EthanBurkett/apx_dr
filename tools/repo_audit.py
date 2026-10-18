@@ -12,7 +12,7 @@ from urllib.parse import unquote
 ROOT = Path(__file__).resolve().parents[1]
 LFS_HEADER = b"version https://git-lfs.github.com/spec/v1"
 LOCAL_DIRS = {"build", "dist", "content-check", ".codex-backups", "graphify-out", ".graphify_cache", "__pycache__"}
-SECRET_NAMES = {"rcon_password", "g_password", "sv_privatepassword"}
+SECRET_NAMES = {"rcon_password", "g_password", "sv_privatepassword", "sv_authtoken"}
 
 
 def forbidden(path):
@@ -20,7 +20,7 @@ def forbidden(path):
     name = path.name.lower()
     return (bool(path.parts and path.parts[0].lower() in LOCAL_DIRS) or '__pycache__' in path.parts
             or (name == "private.cfg" or name.startswith("private.") and name.endswith(".cfg")) and name != "private.example.cfg"
-            or name == ".env" or name.startswith(".env.") and name != ".env.example"
+            or name == ".env" or name.endswith('.env') or name.startswith(".env.") and name != ".env.example"
             or path.suffix.lower() in {".pem", ".key", ".pfx", ".ff", ".iwd", ".log"})
 
 
