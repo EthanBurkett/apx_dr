@@ -66,7 +66,9 @@ def filter_previews():
     table_manifest=ROOT/'manifests/04-tables.csv';lines=table_manifest.read_text().splitlines()
     if 'stringtable,mp/apx_knife_previews.csv' not in lines: lines.append('stringtable,mp/apx_knife_previews.csv')
     table_manifest.write_text('\n'.join(lines)+'\n')
-    keep={name+'.iwi' for name in packed+turn_materials}
+    from pack_turntable_atlases import page_names
+    keep={name+'.iwi' for name in packed}
+    keep.update(image+'.iwi' for name in turn_materials for image in page_names(name))
     inactive=[p.name for p in (ROOT/'assets/images').glob('*.iwi')
               if (p.name.startswith(('apx_preview_','apx_still_','apx_turn_','apx_rotation_')) and p.name not in keep)
               or (p.name.startswith('apx_prestige_') and int(p.stem.rsplit('_',1)[1])>json.loads((ROOT/'ui/content_profile.json').read_text())['prestiges'])]

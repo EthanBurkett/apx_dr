@@ -28,6 +28,16 @@ remain fixed. Restore `ui/content_profile.json` and use the supported client
 overrides through `launch.ps1`. Run map-specific `-AssetUsage -ClientBudget`
 checks. A different map can push a fitting profile over a shared pool.
 
+## Needed to allocate at least 21.3 MB to load images
+
+The native image reader has a fixed 6 MiB scratch buffer. A single 4096-square
+DXT5 IWI with mips exceeds it; more RAM, a server pool change or preloading the
+mod does not fix that file. Rotation materials use four 2048-square pages to
+preserve frame resolution while keeping each allocation below 6 MiB. Rebuild
+and install both `mod.ff` and `apx_dr.iwd`, then fully restart the client/server.
+`build.ps1` validates each packaged image before linking or publishing. The
+native GPU page test checks every cell/frame through the actual pixel shaders.
+
 ## Create2DTexture / ran out of memory
 
 Pool counts do not add GPU/address-space memory. Apply the runtime texture policy

@@ -108,8 +108,18 @@ class MenuAssets(unittest.TestCase):
                         tile=source.convert('RGBA').resize((1024,1024),Image.Resampling.LANCZOS)
                         self.assertEqual(atlas.crop((x,y,x+1024,y+1024)).tobytes(),tile.tobytes(),name)
                     self.assertEqual(int(round((cell+.5)/16*255)/255*16),cell)
-            header=(ROOT/'assets/images'/(material+'.iwi')).read_bytes()[:28]
-            self.assertEqual(struct.unpack_from('<2H',header,6),(4096,4096))
+            from pack_turntable_atlases import page_names
+            data=(ROOT/'assets/materials'/material).read_bytes()
+            self.assertEqual(data[48],4)
+            table=struct.unpack_from('<I',data,56)[0]
+            for page,image in enumerate(page_names(material)):
+                semantic,flags,texture=struct.unpack_from('<III',data,table+page*12)
+                text=lambda offset:data[offset:data.index(b'\0',offset)].decode()
+                self.assertEqual(text(semantic),'colorMap' if page==0 else 'page'+str(page)+'Map')
+                self.assertEqual(text(texture),image)
+                payload=(ROOT/'assets/images'/(image+'.iwi')).read_bytes()
+                self.assertEqual(struct.unpack_from('<2H',payload,6),(2048,2048))
+                self.assertLessEqual(len(payload)-28,6*1024**2)
         jobs={row['key']:row for row in json.loads((ROOT/'art/ui/models/catalog.json').read_text())}
         for job in jobs.values():
             name='apx_turn_'+job['category']+'_'+str(job['id'])
@@ -132,6 +142,10 @@ class MenuAssets(unittest.TestCase):
     def test_preview_texture_memory_stays_within_client_budget(self):
         names={row.split(',',1)[1] for path in ('14-model-previews.csv','15-turntables.csv')
                for row in (ROOT/'manifests'/path).read_text().splitlines() if row.startswith('material,')}
+        from pack_turntable_atlases import page_names
+        rotations=set(json.loads((ROOT/'ui/turntable_atlas.json').read_text())[name]['material']
+                      for name in json.loads((ROOT/'ui/turntable_atlas.json').read_text()))
+        names.update(image for material in rotations for image in page_names(material))
         size=sum((ROOT/'assets/images'/(name+'.iwi')).stat().st_size for name in names)
         self.assertLessEqual(size,512*1024**2,'Preview textures exceeded the 512 MiB runtime budget')
 

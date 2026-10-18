@@ -30,6 +30,7 @@ authenticity; retain trusted source/checksum records for distributed maps.
 | --- | --- | --- |
 | `tools/test-build.ps1` | SDK transactions, rollback, archives and cache | Windows/.NET Framework C# compiler; fake SDK in build; no real SDK |
 | `tools/test-shaders.ps1` | HLSL compile/cache/errors and SM2 contracts | Windows D3D compiler, hydrated inputs; fixtures in build |
+| `tools/test_turntable_pages.py` | All 1,024 rotation page/cell/frame selections, RGB and alpha | Windows D3D9/compiler, Pillow; hidden GPU fixture using the actual pixel shaders |
 | `tools/test-runtime.ps1` | Real-server startup, marker and optional pool budgets | Built mod/server/map; `-Map`, `-Duration` 10–120, `-Port`, `-GameType`, `-RequiredMarker`, `-ExpectedNextMap`, `-AssetUsage`, `-ClientBudget`, `-ModDirectory`, `-GameRoot`, `-Executable` |
 | `tools/test-progression.ps1` | Bot progression, EFR, HUD, menus, content, traffic, equipment or presentation | SDK/server/assets; `-Suite Progression\|Efr\|Hud\|Menus\|Content\|Traffic\|Equipment\|Presentation`; isolated fixture in build; never copies private.cfg |
 

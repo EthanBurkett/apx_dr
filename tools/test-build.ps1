@@ -24,6 +24,15 @@ function Put-File([string]$Path, [string]$Text) {
     New-Item -ItemType Directory -Path (Split-Path $Path) -Force | Out-Null
     [IO.File]::WriteAllText($Path, $Text)
 }
+function Put-TestIwi([byte]$Red = 0) {
+    $bytes = [byte[]]::new(32)
+    [Array]::Copy([Text.Encoding]::ASCII.GetBytes('IWi'), $bytes, 3)
+    $bytes[3] = 6; $bytes[4] = 1; $bytes[5] = 1
+    $bytes[6] = 1; $bytes[8] = 1; $bytes[10] = 1
+    $bytes[12] = 32; $bytes[16] = 28; $bytes[20] = 28; $bytes[24] = 28
+    $bytes[28] = $Red; $bytes[31] = 255
+    [IO.File]::WriteAllBytes((Join-Path $mod 'assets\images\test.iwi'), $bytes)
+}
 function Invoke-Build([string]$Target = 'All', [string[]]$Extra = @()) {
     $output = & $powershell -NoLogo -NoProfile -ExecutionPolicy Bypass -File (Join-Path $mod 'tools\build.ps1') -Target $Target @Extra 2>&1
     return [PSCustomObject]@{ Code = $LASTEXITCODE; Text = ($output -join "`n") }
@@ -48,6 +57,7 @@ try {
         'config\private.example.cfg', 'assets\images\test.iwi', 'assets\sound\test.wav', 'src\weapons\mp\test')) {
         Put-File (Join-Path $mod $name) 'fixture'
     }
+    Put-TestIwi
     $stub = @'
 using System;
 using System.IO;
@@ -114,10 +124,26 @@ class TestLinker {
     $configEdit = Invoke-Build
     Assert-True ($configEdit.Code -eq 0 -and ([regex]::Matches($configEdit.Text, '\[SKIP\s*\]')).Count -eq 3) 'A config-only edit rebuilt binary artifacts.'
     Assert-True (([IO.File]::ReadAllText((Join-Path $mod 'dist\server.cfg'))) -eq 'changed config') 'The changed loose config was not published.'
-    Put-File (Join-Path $mod 'assets\images\test.iwi') 'changed image'
+    Put-TestIwi 64
     $imageEdit = Invoke-Build
     Assert-True ($imageEdit.Code -eq 0 -and !$imageEdit.Text.Contains('apx_dr.iwd: unchanged') -and $imageEdit.Text.Contains('apx_dr_sounds.iwd: unchanged')) 'An image edit must rebuild its IWD and leave the sound IWD alone.'
     Assert-True ((Get-Item -LiteralPath (Join-Path $mod 'dist\apx_dr_sounds.iwd')).LastWriteTimeUtc -eq $soundTime) 'An unrelated sound archive was rewritten.'
+    $imagePath = Join-Path $mod 'assets\images\test.iwi'
+    $imageBefore = [IO.File]::ReadAllBytes($imagePath)
+    $iwdBefore = (Get-FileHash -LiteralPath (Join-Path $mod 'dist\apx_dr.iwd')).Hash
+    # A valid 4096-square DXT5 mip chain reproduces the reported 21.3 MiB
+    # loader overflow even though the material/image pool counts still fit.
+    $oversized = [byte[]]::new(22369676)
+    [Array]::Copy($imageBefore, $oversized, 28)
+    $oversized[4] = 13
+    [Array]::Copy([BitConverter]::GetBytes([uint16]4096), 0, $oversized, 6, 2)
+    [Array]::Copy([BitConverter]::GetBytes([uint16]4096), 0, $oversized, 8, 2)
+    [Array]::Copy([BitConverter]::GetBytes([uint32]$oversized.Length), 0, $oversized, 12, 4)
+    [IO.File]::WriteAllBytes($imagePath, $oversized)
+    $overflow = Invoke-Build
+    Assert-True ($overflow.Code -ne 0 -and $overflow.Text.Contains('client limit is 6 MiB')) 'Oversized IWI scratch allocation was not rejected before linking.'
+    Assert-True ($iwdBefore -eq (Get-FileHash -LiteralPath (Join-Path $mod 'dist\apx_dr.iwd')).Hash) 'Rejected oversized image changed the installed archive.'
+    [IO.File]::WriteAllBytes($imagePath, $imageBefore)
     [IO.File]::WriteAllText((Join-Path $mod 'dist\mod.ff'), 'corrupted output')
     $corrupted = Invoke-Build
     Assert-True ($corrupted.Code -eq 0 -and !$corrupted.Text.Contains('mod.ff: unchanged')) 'A changed output must invalidate the cache.'

@@ -33,6 +33,8 @@ def compatible(record,limits):
         if kind not in usage:return False,'Missing '+kind+' counter'
         if usage[kind]>maximum:return False,kind+' uses '+str(usage[kind])+' / budget '+str(maximum)
     if usage.get('material',0)<=0:return False,'No loaded map assets'
+    if record.get('measurement')=='baseline-plus-image-pages':
+        return True,'Measured baseline plus image-page dependencies; within client-zone asset budgets'
     return True,'Measured within client-zone asset budgets'
 
 

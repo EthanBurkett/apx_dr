@@ -46,6 +46,7 @@ function Test-Manifest {
             Test-RelativeArtifact $file.Relative
             if ($entries.ContainsKey($file.Relative)) { throw "Duplicate archive path: $($file.Relative)" }
             $entries[$file.Relative] = $true
+            if ($file.Relative.EndsWith('.iwi', [StringComparison]::OrdinalIgnoreCase)) { Test-IwiLoadBudget $file.Source }
             if ($file.Relative -match '(?i)(^|/)private(?:\.example)?\.cfg$') { throw 'Private configuration cannot be packaged in a client archive.' }
         }
         if ($outputs.ContainsKey($archive.file)) { throw "Duplicate output: $($archive.file)" }

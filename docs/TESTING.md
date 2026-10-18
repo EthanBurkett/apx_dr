@@ -28,6 +28,7 @@ git lfs pull
 git lfs fsck
 python tools/check.py --suite full
 .\tools\test-shaders.ps1
+python tools/test_turntable_pages.py
 .\tools\build.ps1 -Target Check
 ```
 
@@ -40,6 +41,10 @@ SDK-free Windows runners; native linking still needs the SDK.
 `tests/gsc_runtime.py` runs selected GSC decisions with explicit native doubles.
 It is not a VM, network simulator, renderer or replacement for CoD4x compilation.
 Asset tests inspect real encoded layouts, atlas cells and packaging contracts.
+The hidden D3D9 page test exercises all 16 cells and 32 frames in both rotation
+shaders, checking page selection, RGB and alpha. Build validation separately
+rejects packaged IWI scratch allocations above the native 6 MiB loader limit;
+the build fixture reproduces the rejected 21.3 MiB case and verifies rollback.
 
 ## Real server checks
 
