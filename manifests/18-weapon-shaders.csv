@@ -1,0 +1,4 @@
+// M9 RIFTHEART: scoped view/world models share one custom material.
+material,apx_m9_rift_chrome
+xmodel,apx_m9_rift_view
+xmodel,apx_m9_rift_world

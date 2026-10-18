@@ -78,6 +78,18 @@ only into build and verifies its pinned SHA-256. See its
 [GPL notice](../tools/licenses/cod-asset-importer.txt).
 Rendering uses a factory-startup background scene, not an open Blender project.
 
+## Weapon shader authoring
+
+| Entry point | Inputs and dependencies | Outputs / mutation |
+| --- | --- | --- |
+| `tools/generate_weapon_shaders.py` | SDK/game, Python/Pillow; optional `--game-root` | **Source:** deterministic M9 camo data, scoped models/material, weapon override, techsets, manifest and registry |
+| `tools/export_weapon_shader_mesh.py` | Blender-only, pinned importer and prepared model asset view | Actual stock M9 triangle/normal/UV data in build/shader-lab/m9-mesh.json |
+| `tools/preview_weapon_shader.py` | Windows D3D9/D3DCompiler, exported mesh, stock game textures and source HLSL | Native GPU stills/frames in build by default; `--output`, `--mesh`, `--frames-directory`, `--frames`, `--fps`, `--start-time`, `--width` and `--turntable` |
+
+`render-previews.ps1 -PrepareOnly` installs/verifies the importer and prepares
+read-only asset inputs without rendering. Normal preview generation applies
+the M9 native shader pass before packaging. See [weapon shaders](WEAPON-SHADERS.md).
+
 ## Diagnostics and repair
 
 | Entry point | Inputs and dependencies | Outputs / mutation |

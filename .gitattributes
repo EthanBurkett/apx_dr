@@ -16,6 +16,7 @@
 # Include extensionless binary engine assets.
 assets/** filter=lfs diff=lfs merge=lfs -text linguist-generated=true
 *.png filter=lfs diff=lfs merge=lfs -text
+art/weapons/**/*.gif filter=lfs diff=lfs merge=lfs -text
 art/source-images/*.iwi filter=lfs diff=lfs merge=lfs -text
 server/bin/** filter=lfs diff=lfs merge=lfs -text
 server/apx-cod4x-source.zip filter=lfs diff=lfs merge=lfs -text

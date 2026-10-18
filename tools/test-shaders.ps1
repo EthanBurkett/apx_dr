@@ -23,7 +23,13 @@ try {
     Copy-Item -Path (Join-Path $root 'src\shaders\*apx_xp_fill.hlsl') -Destination (Join-Path $modRoot 'src\shaders')
     Copy-Item -Path (Join-Path $root 'tools\build\Shaders.*') -Destination (Join-Path $scriptDirectory 'build')
     $sdkRegistry = Join-Path $GameRoot 'raw\shader_bin\shader_names'
-    Copy-Item -LiteralPath (Join-Path $root '..\..\raw\shader_bin\shader_names') -Destination $sdkRegistry
+    $installedRegistry = Join-Path $root '..\..\raw\shader_bin\shader_names'
+    if (Test-Path -LiteralPath $installedRegistry) {
+        Copy-Item -LiteralPath $installedRegistry -Destination $sdkRegistry
+    } else {
+        # SDK-free CI still exercises the real compiler and registry/cache format.
+        [IO.File]::WriteAllBytes($sdkRegistry, [byte[]]::new(8))
+    }
     . (Join-Path $root 'tools\build\Cache.ps1')
     . (Join-Path $root 'tools\build\Shaders.ps1')
     $sdkBefore = Get-FileDigest $sdkRegistry
@@ -65,5 +71,14 @@ try {
     foreach ($binary in Get-ChildItem (Join-Path $modRoot 'assets\shader_bin\*_2_0_*')) {
         Assert-True (([BitConverter]::ToUInt32([IO.File]::ReadAllBytes($binary.FullName),4) -band 0xffff) -eq 0x0200) 'SM2 output has the wrong shader bytecode version'
     }
+    Copy-Item -Path (Join-Path $root 'src\shaders\*_3_0_apx_rift_*.hlsl') -Destination (Join-Path $modRoot 'src\shaders')
+    Invoke-TestCompile
+    Assert-True (($script:steps -join ' ') -match 'Compiled 3 changed') 'The weapon vertex/body/corona stages did not compile'
+    foreach ($stage in @('vs_3_0_bd8f9512', 'ps_3_0_e1edf03f', 'ps_3_0_4fe22cbf')) {
+        $binary = Join-Path $modRoot ('assets\shader_bin\' + $stage)
+        Assert-True (([BitConverter]::ToUInt32([IO.File]::ReadAllBytes($binary),4) -band 0xffff) -eq 0x0300) 'Weapon shader has the wrong bytecode version'
+    }
     Write-Host ("PASS: {0} native HLSL/cache assertions." -f $passed) -ForegroundColor Green
 } catch { Write-Host $_.Exception.Message -ForegroundColor Red; exit 1 }
+
+exit 0

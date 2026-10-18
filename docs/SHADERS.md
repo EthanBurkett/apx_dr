@@ -1,4 +1,4 @@
-# Native ApX HUD shaders
+# Native ApX shaders
 
 The Windows CoD4 renderer uses Direct3D 9 HLSL. GLSL examples need porting to that
 pipeline. The community's [custom CoD4 shader introduction](https://xoxor4d.github.io/tutorials/hlsl-intro/)
@@ -69,3 +69,8 @@ is visible. This avoids using alpha as control data or interfering with fades.
 The packing tests compare every source cell pixel, verify native 8-bit color
 quantization, and enforce the active texture budget. The native shader tests also
 compile the SM2 stages and check their bytecode version.
+
+## Weapon materials
+
+[Weapon shaders](WEAPON-SHADERS.md) covers the M9 RIFTHEART treatment, packed model
+vertices, lighting-state coverage, additive clearcoat and native D3D9 previews.

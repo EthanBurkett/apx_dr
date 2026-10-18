@@ -12,7 +12,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_MODULES = {"test_interface_assets", "test_menu_assets"}
 ASSET_TESTS = {"test_progression.Progression.test_tables_and_all_custom_assets_are_complete",
-               "test_repository.Repository.test_authoring_originals_are_retained_for_every_optimized_texture"}
+               "test_repository.Repository.test_authoring_originals_are_retained_for_every_optimized_texture",
+               "test_weapon_shaders.WeaponShaders.test_material_models_and_all_lighting_paths_are_packaged"}
 
 
 def flatten(suite):

@@ -86,7 +86,7 @@ def audit(root=ROOT, assets=False):
             relative = path.relative_to(root).as_posix()
             is_lfs = (relative.startswith(("assets/", "server/bin/"))
                       or relative.startswith("art/source-images/") and path.suffix == ".iwi"
-                      or path.suffix.lower() == ".png" and not relative.startswith("docs/images/")
+                      or path.suffix.lower() in {".png", ".gif"} and not relative.startswith("docs/images/")
                       or relative in {"server/apx-cod4x-source.zip", "tools/iwi2dds.exe"})
             if is_lfs and path.is_file():
                 with path.open("rb") as stream:

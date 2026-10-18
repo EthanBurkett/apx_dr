@@ -29,6 +29,7 @@ build and a local server. Commands are run from the repository root unless noted
 | [Interface](INTERFACE.md) | Button artwork and native menu integration |
 | [HUD and practice](HUD-AND-PRACTICE.md) | Gameplay HUD, health feedback and EFR |
 | [Shaders](SHADERS.md) | Native HLSL compilation, still atlases and turntables |
+| [Weapon shaders](WEAPON-SHADERS.md) | M9 RIFTHEART, scoped camo materials and native GPU previewing |
 
 [Product intent](../PRODUCT.md), [visual direction](../DESIGN.md),
 [contributing](../CONTRIBUTING.md), [security](../SECURITY.md), and

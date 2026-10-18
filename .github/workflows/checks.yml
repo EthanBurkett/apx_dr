@@ -37,6 +37,10 @@ jobs:
         if: runner.os == 'Windows'
         shell: powershell
         run: .\tools\test-build.ps1
+      - name: Native HLSL compiler tests
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: .\tools\test-shaders.ps1
   assets:
     if: github.event_name == 'workflow_dispatch' && inputs.assets
     runs-on: windows-latest

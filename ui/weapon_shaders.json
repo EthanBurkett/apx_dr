@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "description": "Per-base-weapon shader treatments. First release: Beretta M9.",
+  "weapons": {
+    "beretta_mp": {
+      "effect": "RIFTHEART",
+      "catalog_id": 0,
+      "material": "apx_m9_rift_chrome",
+      "techset": "l_sm_apxrift",
+      "view_model": "apx_m9_rift_view",
+      "world_model": "apx_m9_rift_world",
+      "fields": "apx_m9_rift_fields",
+      "sm2": "stock appearance",
+      "gameplay": "stock damage, animation, ammo and weapon identity"
+    }
+  }
+}

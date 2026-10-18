@@ -33,7 +33,9 @@ python tools/check.py --suite full
 
 Full mode adds binary/PNG assertions and SDK import checks; use `--game-root` for
 another SDK location. It fails early on LFS pointers. The shader suite compiles
-native HLSL and covers caching, failures and supported SM2 behavior.
+native HLSL and covers caching, failures, supported SM2 behavior and the M9
+weapon vertex/body/clearcoat stages. It can use an empty synthetic registry on
+SDK-free Windows runners; native linking still needs the SDK.
 
 `tests/gsc_runtime.py` runs selected GSC decisions with explicit native doubles.
 It is not a VM, network simulator, renderer or replacement for CoD4x compilation.
@@ -94,7 +96,7 @@ Use the official client on a stock map and intended Deathrun maps:
 ## CI boundary
 
 [CI](../.github/workflows/checks.yml) runs SDK-free checks on Linux and Windows
-without LFS downloads. Windows also runs fake-SDK build tests. An explicit manual
+without LFS downloads. Windows also runs fake-SDK build tests and native HLSL compiler tests. An explicit manual
 asset-check input hydrates LFS and runs all Python tests, without pretending that
 hosted runners have the proprietary SDK.
 
