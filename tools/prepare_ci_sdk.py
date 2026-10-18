@@ -7,6 +7,7 @@ comment-only fileSysCheck.cfg filesystem marker is the sole config exception.
 """
 import argparse
 import hashlib
+import os
 from pathlib import Path, PurePosixPath
 import zipfile
 
@@ -14,6 +15,13 @@ import zipfile
 def sdk_files(game_root):
     binaries = ['linker_pc.exe', 'mfc71.dll', 'MSVCP71.DLL', 'msvcr71.dll', 'mss32.dll']
     files = [(game_root / 'bin' / name, 'bin/' + name) for name in binaries]
+    d3dx = game_root / 'bin/d3dx9_34.dll'
+    if not d3dx.exists() and os.name == 'nt':
+        d3dx = Path(os.environ['SystemRoot']) / 'SysWOW64/d3dx9_34.dll'
+    if d3dx.exists():
+        files.append((d3dx, 'bin/d3dx9_34.dll'))
+    elif os.name == 'nt':
+        raise ValueError('The 32-bit DirectX June 2007 d3dx9_34.dll runtime is required by the SDK linker')
     for path in sorted((game_root / 'raw').rglob('*')):
         if not path.is_file() or path.is_symlink():
             continue
