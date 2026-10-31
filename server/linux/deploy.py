@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Root-owned deployment entry point. CI may supply a release, never root code.
+"""Root-owned release activation; uploaded archives cannot supply root code.
 
-Install outside the checkout at /usr/local/lib/apx-dr/deploy.py. The dedicated
-SSH user can invoke this program with one commit SHA through a narrow sudo rule.
+Install outside the checkout at /usr/local/lib/apx-dr/deploy.py. Operators invoke
+this program with one commit SHA inside a recorded Teleport terminal.
 """
 import hashlib
 from concurrent.futures import ThreadPoolExecutor

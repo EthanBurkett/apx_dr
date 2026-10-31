@@ -5,6 +5,8 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.ps1 text eol=crlf
+*.sh text eol=lf
+*.service text eol=lf
 *.cs text eol=lf
 *.gsc text eol=lf linguist-language=GSC
 *.menu text eol=lf

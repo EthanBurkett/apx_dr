@@ -14,7 +14,7 @@ build and a local server. Commands are run from the repository root unless noted
 | [Architecture](ARCHITECTURE.md) | Script/module ownership and runtime boundaries |
 | [Content workflow](CONTENT-WORKFLOW.md) | Import, IDs, active profile, renders and budgets |
 | [Releasing](RELEASING.md) | Public/private packaging, verification and publication |
-| [Public deployment](DEPLOYMENT.md) | GitHub main-branch builds, private SDK/SSH setup, Bunny, native smoke tests and rollback |
+| [Public deployment](DEPLOYMENT.md) | Miami VM, recorded Teleport access, manual release upload, Bunny, native checks and rollback |
 | [Troubleshooting](TROUBLESHOOTING.md) | Linker, runtime, client pools, search and previews |
 | [Licensing](LICENSING.md) | Permission-required ApX work and third-party exceptions |
 

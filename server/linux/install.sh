@@ -11,7 +11,7 @@ test -f "$mod/mod.ff"
 test -f "$mod/apx_dr.iwd"
 test -f "$game/zone/english/common_mp.ff"
 id apxdr >/dev/null 2>&1 || useradd --system --home-dir /var/lib/apx-dr --create-home --shell /usr/sbin/nologin apxdr
-install -d -o apxdr -g apxdr -m 0750 /var/lib/apx-dr /var/lib/apx-dr/main /var/lib/apx-dr/mods/apx_dr
+install -d -o apxdr -g apxdr -m 0750 /var/lib/apx-dr /var/lib/apx-dr/main /var/lib/apx-dr/mods/apx_dr /var/lib/apx-dr/smoke
 install -d -o root -g apxdr -m 0750 /etc/apx-dr
 if [ ! -e "$game/autoupdate.lock" ]; then
     install -o apxdr -g apxdr -m 0600 /dev/null "$game/autoupdate.lock"
@@ -46,6 +46,10 @@ set sv_wwwBaseURL "http://cdn.apx.ethanburkett.dev"
 set sv_wwwDlDisconnected 0
 CFG
 install -m 0644 "$here/apx-dr.service" /etc/systemd/system/apx-dr.service
+install -d -o root -g root -m 0750 /usr/local/lib/apx-dr /srv/apx-dr/incoming
+install -o root -g root -m 0750 "$here/deploy.py" /usr/local/lib/apx-dr/deploy.py
+printf '%s\n' '#!/bin/sh' 'exec /usr/bin/python3 /usr/local/lib/apx-dr/deploy.py "$@"' > /usr/local/sbin/apx-deploy
+chmod 0750 /usr/local/sbin/apx-deploy
 systemctl daemon-reload
 systemctl enable apx-dr.service
 echo 'Service installed. Start with: sudo systemctl start apx-dr'

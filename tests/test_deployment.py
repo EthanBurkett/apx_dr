@@ -7,8 +7,6 @@ import tarfile
 import tempfile
 import unittest
 import sys
-import os
-import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
@@ -18,21 +16,21 @@ spec.loader.exec_module(deploy)
 
 
 class Deployment(unittest.TestCase):
-    @unittest.skipUnless(os.name == 'nt', 'Windows key permissions')
-    def test_windows_ssh_key_has_only_the_current_owner_access_rule(self):
-        from deploy import secure_windows_key
-        with tempfile.TemporaryDirectory() as folder:
-            path = Path(folder) / 'identity'
-            path.write_text('test key placeholder')
-            secure_windows_key(path)
-            shell = str(Path(os.environ['SystemRoot']) / 'System32/WindowsPowerShell/v1.0/powershell.exe')
-            script = '''$acl = [System.IO.File]::GetAccessControl($env:APX_SSH_IDENTITY)
-$rules = @($acl.GetAccessRules($true, $true, [System.Security.Principal.SecurityIdentifier]))
-$sid = [System.Security.Principal.WindowsIdentity]::GetCurrent().User.Value
-if ($rules.Count -ne 1 -or $rules[0].IdentityReference.Value -ne $sid -or !$acl.AreAccessRulesProtected) { exit 1 }
-'''
-            subprocess.run([shell, '-NoProfile', '-NonInteractive', '-Command', script],
-                           env=dict(os.environ, APX_SSH_IDENTITY=str(path)), check=True)
+    def test_manual_deployment_uses_only_teleport_and_recorded_terminals(self):
+        from deploy import transport_deploy
+        from unittest.mock import patch
+        revision='a'*40
+        with patch('deploy.subprocess.run') as call:
+            transport_deploy(Path('release.tar'),revision)
+        commands=[c.args[0] for c in call.call_args_list]
+        self.assertEqual(len(commands),3)
+        self.assertTrue(all(c[0]=='tsh' for c in commands))
+        self.assertEqual(commands[0][1],'scp')
+        for c in commands[1:]:self.assertEqual(c[:4],['tsh','ssh','-t','root@apx-dr-mia'])
+        with patch('deploy.subprocess.run') as call:
+            for node,sha in [('apx-dr-mia;bad',revision),('apx-dr-mia','../bad')]:
+                with self.assertRaises(ValueError):transport_deploy(Path('release.tar'),sha,node)
+            call.assert_not_called()
 
     def test_private_sdk_keeps_password_dialog_but_excludes_saved_credentials(self):
         from prepare_ci_sdk import sdk_files
