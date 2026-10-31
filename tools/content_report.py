@@ -10,7 +10,7 @@ def main():
     spec=json.loads((ROOT/'ui/content_catalog.json').read_text())
     entries=[e for e in spec['entries'] if not e.get('quarantined') and not e.get('moved_to')]
     lines=['# Community content credits','','Source: [CFGFactory community archive](https://cfgfactory.com/skins/category/32/).',
-           'Names and author credits below follow the archived download records. The original games and models belong to their respective creators.',
+           'Display names are curated for ApX; original download names remain in `archive_name` in the import registry. Author credits and source links retain archive provenance. The original games and models belong to their respective creators.',
            'Original archives, checksums and supplied readmes are retained in build/content-cache and build/content-staging. No downloaded scripts or executables are run or shipped.','',
            '| Category / ID | Content | Author / archive credit | Unlock | Source |','|---|---|---|---|---|']
     for e in sorted(entries,key=lambda e:(e['prestige'],e['level'],e['category'],e['id'])):
@@ -29,5 +29,18 @@ def main():
         counts[kind]=sum(bool(row) and (len(row)<9 or row[8]!='0') for row in rows)
     active=[e for e in entries if not e.get('inactive_profile')]
     print('Active content:',counts,'active community entries:',len(active),'retained community imports:',len(entries))
+    profile=json.loads((ROOT/'ui/content_profile.json').read_text())
+    labels=json.loads((ROOT/'ui/catalog_labels.json').read_text())
+    roster=['# Active ApX roster','','Generated from the active profile and curated display labels. Stable IDs are never reassigned.','']
+    for kind,title in [('weapon','Weapons'),('character','Operators'),('knife','Melee')]:
+        roster+=['## '+title,'']
+        roster += ['- '+labels[kind+':'+str(id)]['name']+' ('+str(id)+'): '+labels[kind+':'+str(id)]['description'] for id in profile['active'][kind]]
+        roster+=['']
+    roster+=['## Prestige tracks','','Each row is one rank-gated reward; earlier prestige content stays unlocked.','',
+             '| Level | Prestige 1 | Prestige 2 | Prestige 3 | Prestige 4 | Prestige 5 |','|---|---|---|---|---|---|']
+    for index,level in enumerate(profile['reward_levels']):
+        roster.append('| '+str(level)+' | '+' | '.join(labels[tier[index]]['name'] for tier in profile['prestige_rewards'])+' |')
+    roster+=['','Base progression adds Five-SeveN at level 40 and The Mandalorian at level 70.','']
+    (ROOT/'docs/ROSTER.md').write_text('\n'.join(roster),encoding='utf8')
 
 if __name__=='__main__': main()

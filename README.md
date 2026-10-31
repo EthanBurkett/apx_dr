@@ -42,8 +42,8 @@ has enough players for a round.
 
 | Progression                              | Equipment                                 | Interface                                     |
 | ---------------------------------------- | ----------------------------------------- | --------------------------------------------- |
-| 70 levels and 5 prestiges                | 18 active primaries and 9 knives          | Dedicated loadout and catalog menus           |
-| Ten rank-gated rewards per prestige      | 42 active operators                       | Actual-model stills and optional turntables   |
+| 70 levels and 5 prestiges                | 22 pistols, 2 snipers and 9 melee choices          | Dedicated loadout and catalog menus           |
+| Ten rank-gated rewards per prestige      | 36 recognizable operators                       | Actual-model stills and optional turntables   |
 | Lifetime stats, challenges and abilities | 5 arms sets, plus automatic operator arms | Compact HUD, smooth XP and custom scoreboard  |
 | Admin XP, rank, prestige and full reset  | Primary + knife carried as secondary      | Saved FOV, Fullbright and display preferences |
 

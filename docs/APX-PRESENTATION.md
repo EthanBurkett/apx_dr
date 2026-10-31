@@ -52,16 +52,18 @@ python tools/sync_map_rotation.py
 ```
 
 The current inventory contains 626 folders: 480 Deathrun candidates and 146
-regular multiplayer/survival, incomplete or unrecognized entries. Of the candidates,
-441 passed the current native load and asset-budget recheck. Five additional
-map-script failures were confirmed in fresh servers; 34 previously excluded
-candidates remain outside this rotation pending repair/revalidation. A
-playable matching `.ff` is required. Arena metadata declaring Deathrun or the
+regular multiplayer/survival, incomplete or unrecognized entries. The curated
+pistol-first build was measured on 441 previously admitted maps; nine transition
+timeouts passed fresh-server retries. 439 maps fit all safety budgets. Village
+and Break load below the fixed client material limit but exceed the conservative
+2,000-material target (2,030 and 2,028), so they are withheld from public rotation.
+Previously excluded candidates still require repair or a new native validation.
+A playable matching `.ff` is required. Arena metadata declaring Deathrun or the
 established `mp_dr_`, `mp_deathrun_`, `mp_drrun_` prefixes identify candidates.
 Native loading and pool measurements do not certify every gameplay trigger.
 Review individual failures before enabling an excluded map on a public server.
 
-The generated config stores the 441 admitted maps in 12 `apx_rotation_<n>` dvars. Each
+The generated config stores the 439 admitted maps in 12 `apx_rotation_<n>` dvars. Each
 command is below 1024 bytes. `_vote_maps.gsc` reads every page, deduplicates it
 and uses the same collection for voting and end-of-match progression.
 `sv_mapRotation` contains the first page for engine startup/fallback; manual

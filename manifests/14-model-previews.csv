@@ -1,7 +1,6 @@
 // Active content profile; inactive source art is retained.
 material,apx_still_tall_0
 material,apx_still_tall_1
-material,apx_still_tall_10
 material,apx_still_tall_2
 material,apx_still_tall_3
 material,apx_still_tall_4
@@ -9,8 +8,8 @@ material,apx_still_tall_5
 material,apx_still_tall_6
 material,apx_still_tall_7
 material,apx_still_tall_8
-material,apx_still_tall_9
 material,apx_still_wide_0
 material,apx_still_wide_1
 material,apx_still_wide_2
 material,apx_still_wide_3
+material,apx_still_wide_4

@@ -1,0 +1,302 @@
+{
+  "weapon:0": {
+    "name": "Beretta M9",
+    "description": "Semi-automatic service pistol.",
+    "role": "pistol"
+  },
+  "weapon:1": {
+    "name": "Colt M1911",
+    "description": "Classic semi-automatic .45 pistol.",
+    "role": "pistol"
+  },
+  "weapon:2": {
+    "name": "USP .45",
+    "description": "Semi-automatic .45 service pistol.",
+    "role": "pistol"
+  },
+  "weapon:3": {
+    "name": "Desert Eagle",
+    "description": "High-powered semi-automatic pistol.",
+    "role": "pistol"
+  },
+  "weapon:4": {
+    "name": "M40A3",
+    "description": "Classic bolt-action sniper rifle.",
+    "role": "sniper"
+  },
+  "weapon:5": {
+    "name": "Gold Desert Eagle",
+    "description": "Gold-finished Desert Eagle.",
+    "role": "pistol"
+  },
+  "weapon:6": {
+    "name": "Remington 700",
+    "description": "Classic bolt-action sniper rifle.",
+    "role": "sniper"
+  },
+  "weapon:7": {
+    "name": "Colt Anaconda .44",
+    "description": ".44 Magnum revolver.",
+    "role": "pistol"
+  },
+  "weapon:12": {
+    "name": "MP-443 Grach",
+    "description": "Ghosts / Semi-automatic service pistol.",
+    "role": "pistol"
+  },
+  "weapon:15": {
+    "name": "Oni",
+    "description": "Infinite Warfare / Automatic energy pistol.",
+    "role": "pistol"
+  },
+  "weapon:19": {
+    "name": "Rift E9",
+    "description": "Black Ops III / Energy pistol.",
+    "role": "pistol"
+  },
+  "weapon:22": {
+    "name": "Bloodhound",
+    "description": "Black Ops III / Eight-shot revolver.",
+    "role": "pistol"
+  },
+  "weapon:27": {
+    "name": "G18",
+    "description": "Modern Warfare 2 Remastered / Machine pistol.",
+    "role": "pistol"
+  },
+  "weapon:32": {
+    "name": "MR6",
+    "description": "Black Ops III / Semi-automatic pistol.",
+    "role": "pistol"
+  },
+  "weapon:35": {
+    "name": "Dischord",
+    "description": "Infinite Warfare / Energy pistol.",
+    "role": "pistol"
+  },
+  "weapon:38": {
+    "name": "KAP-40",
+    "description": "Black Ops II / Automatic pistol.",
+    "role": "pistol"
+  },
+  "weapon:42": {
+    "name": "Nambu",
+    "description": "World at War / WWII service pistol.",
+    "role": "pistol"
+  },
+  "weapon:46": {
+    "name": "Five-SeveN",
+    "description": "Counter-Strike / High-capacity pistol.",
+    "role": "pistol"
+  },
+  "weapon:48": {
+    "name": "P2000",
+    "description": "Counter-Strike / Semi-automatic service pistol.",
+    "role": "pistol"
+  },
+  "weapon:49": {
+    "name": "USP-S",
+    "description": "Counter-Strike / Suppressed pistol.",
+    "role": "pistol"
+  },
+  "weapon:52": {
+    "name": "TAC-45",
+    "description": "Black Ops II / Semi-automatic .45 pistol.",
+    "role": "pistol"
+  },
+  "weapon:74": {
+    "name": "RK5",
+    "description": "Black Ops III / Compact pistol.",
+    "role": "pistol"
+  },
+  "weapon:88": {
+    "name": "Makarov",
+    "description": "Black Ops / Compact service pistol.",
+    "role": "pistol"
+  },
+  "weapon:99": {
+    "name": "P99",
+    "description": "Modern Warfare 3 / Semi-automatic service pistol.",
+    "role": "pistol"
+  },
+  "character:0": {
+    "name": "SAS Sniper",
+    "description": "Call of Duty 4 / British SAS operator."
+  },
+  "character:4": {
+    "name": "Zoey",
+    "description": "Left 4 Dead / Survivor."
+  },
+  "character:5": {
+    "name": "General Shepherd",
+    "description": "Modern Warfare 2 / Task Force 141 commander."
+  },
+  "character:6": {
+    "name": "Master Chief",
+    "description": "Halo / Spartan supersoldier."
+  },
+  "character:7": {
+    "name": "Vladimir Makarov",
+    "description": "Modern Warfare 2 / Ultranationalist leader."
+  },
+  "character:8": {
+    "name": "Juggernaut",
+    "description": "Call of Duty / Armored assault operator."
+  },
+  "character:10": {
+    "name": "Alice Murray",
+    "description": "Army of Two / T.W.O. mission coordinator."
+  },
+  "character:11": {
+    "name": "50 Cent",
+    "description": "50 Cent: Blood on the Sand / Curtis Jackson."
+  },
+  "character:13": {
+    "name": "The Mandalorian",
+    "description": "Star Wars / Bounty hunter Din Djarin."
+  },
+  "character:14": {
+    "name": "Hermione Granger",
+    "description": "Harry Potter / Gryffindor witch."
+  },
+  "character:15": {
+    "name": "Venom",
+    "description": "Marvel / Symbiote antihero."
+  },
+  "character:18": {
+    "name": "Iron Spider",
+    "description": "Marvel / Armored Spider-Man suit."
+  },
+  "character:20": {
+    "name": "Alucard",
+    "description": "Castlevania / Son of Dracula."
+  },
+  "character:22": {
+    "name": "Gordon Freeman",
+    "description": "Half-Life / Theoretical physicist."
+  },
+  "character:23": {
+    "name": "Rick Sanchez",
+    "description": "Rick and Morty / Dimension-hopping scientist."
+  },
+  "character:27": {
+    "name": "Steve",
+    "description": "Minecraft / The original adventurer."
+  },
+  "character:29": {
+    "name": "Hulk",
+    "description": "Marvel / The strongest Avenger."
+  },
+  "character:30": {
+    "name": "John Wick",
+    "description": "John Wick / Legendary assassin."
+  },
+  "character:39": {
+    "name": "Naruto Uzumaki",
+    "description": "Naruto / Hidden Leaf ninja."
+  },
+  "character:41": {
+    "name": "Peely",
+    "description": "Fortnite / Banana adventurer."
+  },
+  "character:42": {
+    "name": "Black Panther",
+    "description": "Marvel / Wakandan hero."
+  },
+  "character:44": {
+    "name": "Thanos",
+    "description": "Marvel / The Mad Titan."
+  },
+  "character:46": {
+    "name": "John Marston",
+    "description": "Red Dead Redemption / Former outlaw."
+  },
+  "character:47": {
+    "name": "Scorpion",
+    "description": "Mortal Kombat / Shirai Ryu warrior."
+  },
+  "character:53": {
+    "name": "Black Widow",
+    "description": "Marvel / Natasha Romanoff."
+  },
+  "character:56": {
+    "name": "Lara Croft",
+    "description": "Tomb Raider / Archaeologist and adventurer."
+  },
+  "character:57": {
+    "name": "Chucky",
+    "description": "Child's Play / The killer doll."
+  },
+  "character:58": {
+    "name": "Harley Quinn",
+    "description": "DC / Gotham antihero."
+  },
+  "character:59": {
+    "name": "Vaas Montenegro",
+    "description": "Far Cry 3 / Rook Islands pirate."
+  },
+  "character:64": {
+    "name": "Iron Man",
+    "description": "Marvel / Tony Stark."
+  },
+  "character:65": {
+    "name": "Shrek",
+    "description": "Shrek / The swamp's most famous ogre."
+  },
+  "character:66": {
+    "name": "Big Smoke",
+    "description": "Grand Theft Auto: San Andreas / Los Santos gangster."
+  },
+  "character:68": {
+    "name": "Carl Johnson",
+    "description": "Grand Theft Auto: San Andreas / CJ."
+  },
+  "character:74": {
+    "name": "Tommy Vercetti",
+    "description": "Grand Theft Auto: Vice City / Vice City kingpin."
+  },
+  "character:76": {
+    "name": "Kermit the Frog",
+    "description": "The Muppets / The familiar green host."
+  },
+  "character:90": {
+    "name": "Terminator",
+    "description": "Terminator / Cybernetic assassin."
+  },
+  "knife:0": {
+    "name": "Standard Knife",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:1": {
+    "name": "Ballistic Knife",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:2": {
+    "name": "MW2 Throwing Knife",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:3": {
+    "name": "Ice Pick",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:4": {
+    "name": "Ghosts Combat Knife",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:5": {
+    "name": "Black Ops II Combat Knife",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:6": {
+    "name": "Homerun Bat",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:7": {
+    "name": "CQB Bayonet",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  },
+  "knife:8": {
+    "name": "Street Sign",
+    "description": "Carried alongside your primary. Use your melee attack while held."
+  }
+}

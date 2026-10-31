@@ -1,6 +1,6 @@
 {
   "installed_directories": 626,
-  "rotation_maps": 441,
+  "rotation_maps": 439,
   "pages": 12,
   "classification": "Deathrun prefix/arena support, plus measured client-zone asset budgets and a successful native load.",
   "maps": [
@@ -150,7 +150,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_deathrun_annihilation",
@@ -1109,8 +1109,8 @@
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "material uses 2030 / budget 2000"
     },
     {
       "map": "mp_deathrun_water",
@@ -1508,8 +1508,8 @@
       "deathrun": true,
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
-      "rotation": true,
-      "asset_budget": "Measured within client-zone asset budgets"
+      "rotation": false,
+      "asset_budget": "material uses 2028 / budget 2000"
     },
     {
       "map": "mp_dr_brix",
@@ -1757,7 +1757,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_digital",
@@ -2180,7 +2180,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_imaginary",
@@ -2500,7 +2500,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_mew",
@@ -3196,7 +3196,7 @@
       "reason": "Deathrun naming convention",
       "arena_gametypes": [],
       "rotation": false,
-      "asset_budget": "Native map load failed; repair and retest"
+      "asset_budget": "Not measured for this asset build"
     },
     {
       "map": "mp_dr_simpsons",

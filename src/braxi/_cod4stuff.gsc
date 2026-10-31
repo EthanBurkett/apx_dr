@@ -33,4 +33,6 @@ main()
 	level.teamBased = true;
 	level.oldschool = false;
 	level.gameEnded = false;
+	// Deathrun spectators are part of the conversation, including on first map.
+	setDvar( "g_deadChat", 1 );
 }

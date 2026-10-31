@@ -3,6 +3,8 @@ import csv
 import json
 from pathlib import Path
 import unittest
+from copy import deepcopy
+from apply_content_profile import reward_assignments
 from gsc_runtime import Runtime
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -77,5 +79,66 @@ class ContentCatalog(unittest.TestCase):
         self.assertEqual(set(models),expected)
         for row in tables['mp/characterTable.csv']:
             self.assertEqual(level['characterInfo'][int(row[1])]['enabled'],row[8]!='0')
+
+    def test_curated_roster_uses_handguns_and_keeps_exact_authored_rewards(self):
+        profile=json.loads((ROOT/'ui/content_profile.json').read_text())
+        labels=json.loads((ROOT/'ui/catalog_labels.json').read_text())
+        weapons={int(r[1]):r for r in rows('itemTable.csv') if r[8]=='1'}
+        self.assertEqual(len(weapons),24)
+        self.assertEqual(sum(labels['weapon:'+str(id)]['role']=='pistol' for id in weapons),22)
+        self.assertEqual({id for id in weapons if labels['weapon:'+str(id)]['role']=='sniper'},{4,6})
+        for id,row in weapons.items():
+            path=ROOT/'src/weapons/mp'/(row[4]+'_mp')
+            if id<8:continue # Stock definitions are retained by the shader preservation tests.
+            parts=path.read_text(encoding='latin1').split('\\');fields=dict(zip(parts[1::2],parts[2::2]))
+            self.assertEqual(fields['weaponClass'],'pistol',row[5])
+            self.assertEqual(fields['displayName'],row[5])
+        unlocks={r[0]:(int(r[1]),int(r[2])) for r in rows('apx_content_unlocks.csv')}
+        for tier,keys in enumerate(profile['prestige_rewards'],1):
+            for level,key in zip(profile['reward_levels'],keys):self.assertEqual(unlocks[key],(tier,level))
+
+    def test_bad_reward_tracks_are_rejected_without_mutating_catalog(self):
+        profile=json.loads((ROOT/'ui/content_profile.json').read_text())
+        active=[e for e in self.spec['entries'] if not any(e.get(k) for k in ('moved_to','quarantined','inactive_profile'))]
+        original=deepcopy(active)
+        for failure in ('duplicate','unknown','missing_tier','short_tier','inactive_base'):
+            broken=deepcopy(profile)
+            if failure=='duplicate':broken['prestige_rewards'][0][0]=broken['prestige_rewards'][1][0]
+            if failure=='unknown':broken['prestige_rewards'][0][0]='weapon:99999'
+            if failure=='missing_tier':broken['prestige_rewards'].pop()
+            if failure=='short_tier':broken['prestige_rewards'][0].pop()
+            if failure=='inactive_base':broken['base_rewards']['weapon:99999']=1
+            with self.subTest(failure=failure),self.assertRaises(ValueError):reward_assignments(active,broken)
+            self.assertEqual(active,original)
+
+    def test_browser_lists_pistols_first_without_changing_selection_or_filters(self):
+        def lookup(table,keycol,key,col):
+            row=self.catalog.get(str(key),[])
+            return row[col] if col<len(row) else ''
+        for search,owned in [('',False),('',True),('remington',False),('usp',True)]:
+            with self.subTest(search=search,owned=owned):
+                runtime=Runtime({'level':{'numItems':100}},{'tableLookup':lookup,'toLower':str.lower,
+                    'getSubStr':lambda s,a,b:s[a:b],'min':min,'isUnlocked':lambda player,cat,id:id<8,
+                    'publish':lambda player:None,'spawnStruct':lambda:{},'isSubStr':lambda s,q:q in s})
+                runtime.load(ROOT/'src/braxi/_menu_browser.gsc',{'query','validCategory','pageSize'})
+                player={'stats':{981:6}}
+                runtime.call('query','weapon',search,owned,receiver=player)
+                result=list(player['apxBrowser']['ids'].values())
+                expected=[int(r[2]) for r in self.catalog.values() if r[1]=='weapon' and
+                          search in r[3].lower() and (not owned or int(r[2])<8)]
+                expected.sort(key=lambda id:id in (4,6))
+                self.assertEqual(result,expected)
+                if 6 in expected:self.assertEqual(player['apxBrowser']['selected'],6)
+
+    def test_display_labels_are_complete_and_archive_names_are_retained(self):
+        labels=json.loads((ROOT/'ui/catalog_labels.json').read_text())
+        for kind,table,nc,dc in [('weapon','itemTable.csv',5,6),('character','characterTable.csv',6,7),('knife','knifeTable.csv',5,6)]:
+            for row in rows(table):
+                if row[8]=='0':continue
+                label=labels[kind+':'+row[1]]
+                self.assertEqual((row[nc],row[dc]),(label['name'],label['description']))
+        for e in self.spec['entries']:
+            if e.get('inactive_profile') or e.get('moved_to') or e.get('quarantined'):continue
+            self.assertTrue(e.get('archive_name'),e['name'])
 
 if __name__=='__main__': unittest.main()

@@ -1,10 +1,10 @@
 # Content catalog
 
-The official-client profile activates 18 primaries, 9 standalone knives/melee items and 42 operators, including existing selections and 52 community additions. The complete imported library (89 primaries, 9 melee items and 104 operators, including 185 community additions) remains in the source workspace. Attribution, source pages and active/inactive status are listed in [CONTENT_CREDITS.md](CONTENT_CREDITS.md) and shipped as `content_credits.txt` inside the client IWD.
+The official-client profile activates 24 primaries (22 pistols and two classic sniper rifles), 9 standalone knives/melee items and 36 operators, including existing selections and 52 community additions. The complete imported library (89 primaries, 9 melee items and 104 operators, including 185 community additions) remains in the source workspace. Attribution, source pages and active/inactive status are listed in [CONTENT_CREDITS.md](CONTENT_CREDITS.md) and shipped as `content_credits.txt` inside the client IWD.
 
 ## Progression
 
-There are 5 prestiges with 70 levels each. Every prestige has ten content rewards at levels 7, 14, 21, 28, 35, 42, 49, 56, 63 and 70. Base progression retains its original selections and adds the FNC at level 40 and Mandalorian at level 70. Requirements compare prestige first, then level: earlier prestige content remains available, while current prestige rewards require their listed level. The Progression menu includes a tier and page browser for the actual reward table.
+There are 5 prestiges with 70 levels each. Every prestige has ten content rewards at levels 7, 14, 21, 28, 35, 42, 49, 56, 63 and 70. Base progression retains its original selections and adds the Five-SeveN at level 40 and Mandalorian at level 70. Requirements compare prestige first, then level: earlier prestige content remains available, while current prestige rewards require their listed level. The Progression menu includes a tier and page browser for the actual reward table.
 
 `ui/content_profile.json` selects permanent catalog IDs, prestige count, reward milestones and runtime asset budgets. Run `python tools/apply_content_profile.py`, `python tools/generate_menus.py` and `python tools/content_report.py` after changing it. Inactive rows retain their IDs, raw files, renders, provenance and original unlock metadata. They are excluded from the generated browser, community manifest and preview manifests, and are not precached or equipped; saved inactive selections fall back to base equipment. Never reassign their IDs to different content.
 
@@ -33,13 +33,21 @@ stay under `build/`; the published report omits local log paths. Operators can
 still bypass the rotation using a raw console `map` command; validate manually
 loaded or newly installed maps before using them with the official client.
 
+## Curated roster
+
+The pistol-first selection removes active rifles, SMGs, shotguns and novelty heavy weapons. M40A3 and Remington 700 remain as the two classic sniper choices, including their original ApX shaders. The browser lists all pistols before snipers while preserving saved IDs.
+
+`ui/catalog_labels.json` owns player-facing names, short source descriptions and weapon roles. The importer retains original download titles as `archive_name`; author credits, source URLs and hashes remain intact. Names are shared by the loadout, browser, rewards and community weapon HUD definitions.
+
+`prestige_rewards` in `ui/content_profile.json` explicitly assigns each of the 50 milestones. The generator rejects duplicate, missing, unknown or inactive rewards. [ROSTER.md](ROSTER.md) lists the complete active selection and all five tracks. Saved retired or newly locked selections use existing safe defaults on the next spawn; no IDs are reused and lifetime progression is retained.
+
 ## Melee classification
 
 Eight zero-ammo, zero-bullet-damage melee ports were removed from Primary and placed in `mp/knifeTable.csv`: Ballistic Knife, MW2 ending knife, ice pick, Ghosts knife, BO2 knife, Homerun bat, CQB bayonet and street sign. Primary search, primary families and equip validation exclude their reserved former IDs. Each knife has its own static render and 32-angle rotating preview. Tactical-knife/Beretta remains a primary because it is a working firearm.
 
 Knife selection is server-owned stat 2405 and is cleared by full profile reset. Human players carry the selected knife alongside their primary (or the Activator tomahawk). Normal weapon cycling selects it; action slot 2 also selects it directly without rebinding controls. Use the normal melee attack while holding it; these ports do not fire bullets. Spawns start with the primary. Knife-only free runs carry only the knife, including respawns; dog form carries only its bite weapon. Returning to human form restores the current loadout. A firearm's attached melee model remains part of its compiled definition.
 
-Arms use independent server-owned stat 2406: zero follows the operator, and positive IDs are permanent `ui/glove_catalog.json` IDs plus one. The arms browser lists the five active sets plus the automatic option, reusing existing renders and models. A set unlocks when any active operator using it is unlocked. It applies on the next spawn, survives operator changes and reconnects, and resets with the full profile. Disabled and locked choices fall back to the operator's arms. No new models or textures are loaded.
+Arms use independent server-owned stat 2406: zero follows the operator, and positive IDs are permanent `ui/glove_catalog.json` IDs plus one. The arms browser lists the active arms sets plus the automatic option, reusing existing renders and models. A set unlocks when any active operator using it is unlocked. It applies on the next spawn, survives operator changes and reconnects, and resets with the full profile. Disabled and locked choices fall back to the operator's arms. No new models or textures are loaded.
 
 ## Assets and build tools
 
@@ -57,17 +65,10 @@ Run `python tools/optimize_content_images.py` after importing content and before
 
 Asset counts and texture memory are separate limits. The client launcher requests supported larger image/model/FX/sound pools before loading the mod UI. The official-client profile targets at most 156 weapon definitions and 2000 materials after stock/map assets load, below the fixed client limits of 168 and 2048. Run `tools/build-client-audit.ps1` once after preparing the server toolchain. `tools/test-runtime.ps1 -Map <map> -ClientBudget` then uses an isolated diagnostic executable including `ui_mp` and `localized_common_mp`, which a normal dedicated server omits. This measures the extra client startup assets as well as stock/map assets. `tools/audit_map_assets.py` measures the full installed rotation. Ordinary dedicated-server pool counters are insufficient for client-budget validation. Each supported map needs that check; a different map can consume more assets. Server pool changes alone do not enlarge the client's fixed pools. Dedicated-server tests do not verify GPU allocation or client rendering.
 
-The current `ui/map_asset_budget.json` contains native client-zone counters for
-the rebuilt menu collection, including all image-page dependencies. All 441
-admitted maps fit the safety budgets. Failed or timed-out map transitions were
-retried in fresh servers; five map-script failures remain excluded. Source text
-signatures normalize line endings and trailing whitespace, which do not change
-asset references. The report records the exact measured mod fastfile hash.
-The subsequent Controls shortcut-spacing correction retains those counters as
-conservative bounds: it changes two button coordinates and removes static help
-text, adding no asset references or dependencies. `budget_adjustment` records the
-measured baseline and this zero-increase proof; it does not claim a second full
-map sweep for a layout-only edit.
+The active collection and menus require a matching native client-zone audit.
+`ui/map_asset_budget.json` records the measured fastfile, source fingerprint,
+per-map counters and load failures. Do not reuse an earlier roster's measurements
+after changing models, weapons, preview atlases or material references.
 
 The stock SDK linker's fixed vertex/index save streams are too small for the combined collection (about 86 MiB vertices and 17 MiB indices). The `cod4-sdk-large-content-v1` build profile verifies the original executable's exact SHA-256, creates a private sibling copy with 128/64 MiB ranges, and deletes it afterward. Only the two capacity constants change; assertions and serialization code remain intact. The original SDK executable is never patched. These are build-time stream limits, not client asset pools or increased weapon limits.
 

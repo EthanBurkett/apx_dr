@@ -8,28 +8,15 @@ rect 0 0 640 480 0 0
 fullScreen 0
 focuscolor 0.89 0.78 0.53 1
 onOpen { scriptMenuResponse "ui:quickstuff:apx_open";  }
-onEsc { close self; open team_select; }
-APX_UI_RECT(0,0,640,480,0.027 0.038 0.046 0.96)
-APX_UI_RECT(16,20,144,440,0.045 0.06 0.069 1)
-APX_LOGO(28,30,112,56,0 0,1,1)
-APX_UI_TEXT("navigation",40,88,110,"DEATHRUN",0.17)
-APX_UI_BUTTON("nav_team_select",28,116,122,"Overview",close self; open team_select;,1)
-APX_UI_RECT(40,141,98,1,0.8 0.69 0.45 0.9)
-APX_UI_BUTTON("nav_character_stuff",28,145,122,"Loadout",close self; open character_stuff;,1)
-APX_UI_BUTTON("nav_apx_prestige",28,174,122,"Progression",close self; open apx_prestige;,1)
-APX_UI_BUTTON("nav_menu_challenges",28,203,122,"Challenges",close self; open menu_challenges;,1)
-APX_UI_BUTTON("nav_dr_options",28,232,122,"Settings",close self; open dr_options;,1)
-APX_UI_BUTTON("nav_apx_controls",28,261,122,"Controls",close self; open apx_controls;,1)
-APX_UI_BUTTON("nav_dr_help",28,290,122,"Field guide",close self; open dr_help;,1)
-APX_UI_BUTTON("nav_vip",28,319,122,"VIP",close self; open vip;,dvarInt("apx_access_vip"))
-APX_UI_BUTTON("nav_dr_admin",28,348,122,"Administration",close self; open dr_admin;,dvarInt("apx_access_admin"))
-APX_UI_TEXT("section",180,32,420,"APX / OPERATIONS",0.17)
-APX_UI_TEXT("title",180,59,420,"Quick actions",0.48)
-APX_UI_RECT(180,96,424,1,0.3 0.36 0.38 0.5)
-APX_UI_TEXT("footer",180,436,424,"ESC  Back     /     Selections save automatically",0.18)
-APX_UI_BUTTON("third",180,132,206,"Third-person camera",scriptMenuResponse "ui:quickstuff:3rdperson";,1)
-APX_UI_BUTTON("suicide",398,132,206,"Respawn / suicide",scriptMenuResponse "ui:quickstuff:suicide";,1)
-APX_UI_TEXT("notice",180,180,424,"Suicide is unavailable to the Activator.",0.24)
+onEsc { close self; open quickmessage; }
+APX_UI_RECT(20,114,208,126,0.027 0.038 0.046 0.94)
+APX_UI_TEXT("title",32,124,184,"Player actions",0.28)
+APX_UI_RECT(32,150,184,1,0.8 0.69 0.45 0.65)
+APX_UI_BUTTON("quick1",32,160,184,"1  Third-person camera",scriptMenuResponse "ui:quickstuff:3rdperson"; close self;,1)
+execKey "1" { scriptMenuResponse "ui:quickstuff:3rdperson"; close self; }
+APX_UI_BUTTON("quick2",32,190,184,"2  Respawn / suicide",scriptMenuResponse "ui:quickstuff:suicide"; close self;,1)
+execKey "2" { scriptMenuResponse "ui:quickstuff:suicide"; close self; }
+APX_UI_TEXT("hint",32,224,184,"ESC  Back",0.17)
 
 }
 }

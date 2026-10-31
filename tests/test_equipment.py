@@ -135,7 +135,8 @@ class Equipment(unittest.TestCase):
         rt.load(ROOT/'src/braxi/_assets.gsc',{'buildGloveInfo'})
         rt.call('buildGloveInfo')
         self.assertEqual(level['numGloves'],13)
-        self.assertEqual(sum(v['enabled'] for v in level['gloveInfo'].values()),6)
+        expected={int(r[2]) for r in tables['apx_catalog.csv'] if r[1]=='gloves'}
+        self.assertEqual({id for id,v in level['gloveInfo'].items() if v['enabled']},expected)
         self.assertEqual(level['gloveInfo'][9]['model'],'viewhands_kermit')
 
 

@@ -8,6 +8,16 @@ SOURCE = Path(__file__).resolve().parents[1] / 'src/braxi'
 
 
 class GameplayDecisions(unittest.TestCase):
+    def test_spectator_public_chat_is_enabled_on_initialization_and_restart(self):
+        settings={}
+        runtime=Runtime({'level':{}},{'isSplitScreen':lambda:False,
+                         'getDvarInt':lambda name:1,'setDvar':lambda key,value:settings.update({key:value})})
+        runtime.load(SOURCE/'_cod4stuff.gsc',{'main'})
+        for _ in range(2):
+            settings['g_deadChat']=0
+            runtime.call('main')
+            self.assertEqual(settings['g_deadChat'],1)
+
     def selection(self, previous=-1, random_last=False):
         runtime = Runtime({'level': {'dvar': {'dont_make_peoples_angry': True}}},
                           {'getDvarInt': lambda name: previous,

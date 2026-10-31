@@ -1,9 +1,9 @@
-1,0,1,killiconmelee,knife,Standard knife,Carried alongside your primary. Use your melee attack while held.,0,1
-2,1,14,hud_icon_usp_45,apxc_5fa8040686593,BO1 Ballistic Knife [melee only],Carried alongside your primary. Use your melee attack while held.,2,1
-3,2,14,hud_icon_usp_45,apxc_5f874cac80200,MW2 Ending Knife,Carried alongside your primary. Use your melee attack while held.,3,1
-4,3,21,hud_icon_usp_45,apxc_5f7074b3d4479,MW2 Ice Pick,Carried alongside your primary. Use your melee attack while held.,1,1
-5,4,21,hud_icon_usp_45,apxc_5f5cbc21e8e88,Cod Ghosts Knife,Carried alongside your primary. Use your melee attack while held.,3,1
-6,5,28,hud_icon_usp_45,apxc_5eda26587ef69,BO2 Knife,Carried alongside your primary. Use your melee attack while held.,3,1
-7,6,42,hud_icon_usp_45,apxc_5e0179981ee63,WW2 Homerun,Carried alongside your primary. Use your melee attack while held.,2,1
-8,7,42,hud_icon_usp_45,apxc_5dffe926d1e40,MWR CQB Bayonet,Carried alongside your primary. Use your melee attack while held.,3,1
-9,8,49,hud_icon_usp_45,apxc_5ce168acf3d63,End of the line - Street sign weapon,Carried alongside your primary. Use your melee attack while held.,5,1
+1,0,1,killiconmelee,knife,Standard Knife,Carried alongside your primary. Use your melee attack while held.,0,1
+2,1,49,hud_icon_usp_45,apxc_5fa8040686593,Ballistic Knife,Carried alongside your primary. Use your melee attack while held.,2,1
+3,2,21,hud_icon_usp_45,apxc_5f874cac80200,MW2 Throwing Knife,Carried alongside your primary. Use your melee attack while held.,3,1
+4,3,49,hud_icon_usp_45,apxc_5f7074b3d4479,Ice Pick,Carried alongside your primary. Use your melee attack while held.,1,1
+5,4,21,hud_icon_usp_45,apxc_5f5cbc21e8e88,Ghosts Combat Knife,Carried alongside your primary. Use your melee attack while held.,2,1
+6,5,21,hud_icon_usp_45,apxc_5eda26587ef69,Black Ops II Combat Knife,Carried alongside your primary. Use your melee attack while held.,1,1
+7,6,21,hud_icon_usp_45,apxc_5e0179981ee63,Homerun Bat,Carried alongside your primary. Use your melee attack while held.,4,1
+8,7,49,hud_icon_usp_45,apxc_5dffe926d1e40,CQB Bayonet,Carried alongside your primary. Use your melee attack while held.,3,1
+9,8,21,hud_icon_usp_45,apxc_5ce168acf3d63,Street Sign,Carried alongside your primary. Use your melee attack while held.,5,1

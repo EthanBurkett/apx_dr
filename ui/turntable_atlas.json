@@ -35,23 +35,23 @@
     "material": "apx_rotation_tall_0",
     "cell": 8
   },
-  "apx_turn_character_15": {
+  "apx_turn_character_14": {
     "material": "apx_rotation_tall_0",
     "cell": 9
   },
-  "apx_turn_character_16": {
+  "apx_turn_character_15": {
     "material": "apx_rotation_tall_0",
     "cell": 10
   },
-  "apx_turn_character_17": {
+  "apx_turn_character_18": {
     "material": "apx_rotation_tall_0",
     "cell": 11
   },
-  "apx_turn_character_18": {
+  "apx_turn_character_20": {
     "material": "apx_rotation_tall_0",
     "cell": 12
   },
-  "apx_turn_character_20": {
+  "apx_turn_character_22": {
     "material": "apx_rotation_tall_0",
     "cell": 13
   },
@@ -59,113 +59,89 @@
     "material": "apx_rotation_tall_0",
     "cell": 14
   },
-  "apx_turn_character_25": {
+  "apx_turn_character_27": {
     "material": "apx_rotation_tall_0",
     "cell": 15
   },
-  "apx_turn_character_27": {
-    "material": "apx_rotation_tall_1",
-    "cell": 0
-  },
   "apx_turn_character_29": {
     "material": "apx_rotation_tall_1",
-    "cell": 1
+    "cell": 0
   },
   "apx_turn_character_30": {
     "material": "apx_rotation_tall_1",
-    "cell": 2
-  },
-  "apx_turn_character_31": {
-    "material": "apx_rotation_tall_1",
-    "cell": 3
-  },
-  "apx_turn_character_35": {
-    "material": "apx_rotation_tall_1",
-    "cell": 4
+    "cell": 1
   },
   "apx_turn_character_39": {
     "material": "apx_rotation_tall_1",
-    "cell": 5
+    "cell": 2
   },
   "apx_turn_character_41": {
     "material": "apx_rotation_tall_1",
-    "cell": 6
+    "cell": 3
   },
   "apx_turn_character_42": {
     "material": "apx_rotation_tall_1",
-    "cell": 7
+    "cell": 4
   },
   "apx_turn_character_44": {
     "material": "apx_rotation_tall_1",
-    "cell": 8
+    "cell": 5
+  },
+  "apx_turn_character_46": {
+    "material": "apx_rotation_tall_1",
+    "cell": 6
   },
   "apx_turn_character_47": {
     "material": "apx_rotation_tall_1",
-    "cell": 9
-  },
-  "apx_turn_character_48": {
-    "material": "apx_rotation_tall_1",
-    "cell": 10
-  },
-  "apx_turn_character_50": {
-    "material": "apx_rotation_tall_1",
-    "cell": 11
-  },
-  "apx_turn_character_51": {
-    "material": "apx_rotation_tall_1",
-    "cell": 12
-  },
-  "apx_turn_character_52": {
-    "material": "apx_rotation_tall_1",
-    "cell": 13
+    "cell": 7
   },
   "apx_turn_character_53": {
     "material": "apx_rotation_tall_1",
+    "cell": 8
+  },
+  "apx_turn_character_56": {
+    "material": "apx_rotation_tall_1",
+    "cell": 9
+  },
+  "apx_turn_character_57": {
+    "material": "apx_rotation_tall_1",
+    "cell": 10
+  },
+  "apx_turn_character_58": {
+    "material": "apx_rotation_tall_1",
+    "cell": 11
+  },
+  "apx_turn_character_59": {
+    "material": "apx_rotation_tall_1",
+    "cell": 12
+  },
+  "apx_turn_character_64": {
+    "material": "apx_rotation_tall_1",
+    "cell": 13
+  },
+  "apx_turn_character_65": {
+    "material": "apx_rotation_tall_1",
     "cell": 14
   },
-  "apx_turn_character_55": {
+  "apx_turn_character_66": {
     "material": "apx_rotation_tall_1",
     "cell": 15
   },
-  "apx_turn_character_57": {
+  "apx_turn_character_68": {
     "material": "apx_rotation_tall_2",
     "cell": 0
   },
-  "apx_turn_character_62": {
+  "apx_turn_character_74": {
     "material": "apx_rotation_tall_2",
     "cell": 1
   },
-  "apx_turn_character_64": {
+  "apx_turn_character_76": {
     "material": "apx_rotation_tall_2",
     "cell": 2
   },
-  "apx_turn_character_65": {
-    "material": "apx_rotation_tall_2",
-    "cell": 3
-  },
-  "apx_turn_character_66": {
-    "material": "apx_rotation_tall_2",
-    "cell": 4
-  },
-  "apx_turn_character_72": {
-    "material": "apx_rotation_tall_2",
-    "cell": 5
-  },
-  "apx_turn_character_74": {
-    "material": "apx_rotation_tall_2",
-    "cell": 6
-  },
-  "apx_turn_character_75": {
-    "material": "apx_rotation_tall_2",
-    "cell": 7
-  },
-  "apx_turn_character_76": {
-    "material": "apx_rotation_tall_2",
-    "cell": 8
-  },
   "apx_turn_character_90": {
     "material": "apx_rotation_tall_2",
-    "cell": 9
+    "cell": 3
   },
   "apx_turn_weapon_0": {
     "material": "apx_rotation_wide_0",
@@ -199,15 +175,15 @@
     "material": "apx_rotation_wide_0",
     "cell": 7
   },
-  "apx_turn_weapon_10": {
+  "apx_turn_weapon_12": {
     "material": "apx_rotation_wide_0",
     "cell": 8
   },
-  "apx_turn_weapon_12": {
+  "apx_turn_weapon_15": {
     "material": "apx_rotation_wide_0",
     "cell": 9
   },
-  "apx_turn_weapon_15": {
+  "apx_turn_weapon_19": {
     "material": "apx_rotation_wide_0",
     "cell": 10
   },
@@ -215,84 +191,112 @@
     "material": "apx_rotation_wide_0",
     "cell": 11
   },
-  "apx_turn_weapon_28": {
+  "apx_turn_weapon_27": {
     "material": "apx_rotation_wide_0",
     "cell": 12
   },
-  "apx_turn_weapon_30": {
+  "apx_turn_weapon_32": {
     "material": "apx_rotation_wide_0",
     "cell": 13
   },
-  "apx_turn_weapon_36": {
+  "apx_turn_weapon_35": {
     "material": "apx_rotation_wide_0",
     "cell": 14
   },
-  "apx_turn_weapon_39": {
+  "apx_turn_weapon_38": {
     "material": "apx_rotation_wide_0",
     "cell": 15
   },
-  "apx_turn_weapon_44": {
+  "apx_turn_weapon_42": {
     "material": "apx_rotation_wide_1",
     "cell": 0
   },
-  "apx_turn_weapon_60": {
+  "apx_turn_weapon_46": {
     "material": "apx_rotation_wide_1",
     "cell": 1
   },
-  "apx_turn_knife_0": {
+  "apx_turn_weapon_48": {
     "material": "apx_rotation_wide_1",
     "cell": 2
   },
-  "apx_turn_knife_1": {
+  "apx_turn_weapon_49": {
     "material": "apx_rotation_wide_1",
     "cell": 3
   },
-  "apx_turn_knife_2": {
+  "apx_turn_weapon_52": {
     "material": "apx_rotation_wide_1",
     "cell": 4
   },
-  "apx_turn_knife_3": {
+  "apx_turn_weapon_74": {
     "material": "apx_rotation_wide_1",
     "cell": 5
   },
-  "apx_turn_knife_4": {
+  "apx_turn_weapon_88": {
     "material": "apx_rotation_wide_1",
     "cell": 6
   },
-  "apx_turn_knife_5": {
+  "apx_turn_weapon_99": {
     "material": "apx_rotation_wide_1",
     "cell": 7
   },
-  "apx_turn_knife_6": {
+  "apx_turn_knife_0": {
     "material": "apx_rotation_wide_1",
     "cell": 8
   },
-  "apx_turn_knife_7": {
+  "apx_turn_knife_1": {
     "material": "apx_rotation_wide_1",
     "cell": 9
   },
-  "apx_turn_knife_8": {
+  "apx_turn_knife_2": {
     "material": "apx_rotation_wide_1",
     "cell": 10
   },
-  "apx_turn_gloves_0": {
+  "apx_turn_knife_3": {
     "material": "apx_rotation_wide_1",
     "cell": 11
   },
-  "apx_turn_gloves_8": {
+  "apx_turn_knife_4": {
     "material": "apx_rotation_wide_1",
     "cell": 12
   },
-  "apx_turn_gloves_11": {
+  "apx_turn_knife_5": {
     "material": "apx_rotation_wide_1",
     "cell": 13
   },
-  "apx_turn_gloves_1": {
+  "apx_turn_knife_6": {
     "material": "apx_rotation_wide_1",
     "cell": 14
   },
-  "apx_turn_gloves_2": {
+  "apx_turn_knife_7": {
     "material": "apx_rotation_wide_1",
     "cell": 15
+  },
+  "apx_turn_knife_8": {
+    "material": "apx_rotation_wide_2",
+    "cell": 0
+  },
+  "apx_turn_gloves_0": {
+    "material": "apx_rotation_wide_2",
+    "cell": 1
+  },
+  "apx_turn_gloves_7": {
+    "material": "apx_rotation_wide_2",
+    "cell": 2
+  },
+  "apx_turn_gloves_8": {
+    "material": "apx_rotation_wide_2",
+    "cell": 3
+  },
+  "apx_turn_gloves_11": {
+    "material": "apx_rotation_wide_2",
+    "cell": 4
+  },
+  "apx_turn_gloves_1": {
+    "material": "apx_rotation_wide_2",
+    "cell": 5
+  },
+  "apx_turn_gloves_2": {
+    "material": "apx_rotation_wide_2",
+    "cell": 6
   }
 }
