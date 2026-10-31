@@ -4,8 +4,8 @@ These are source-built Windows and Linux CoD4x servers for the ApX content catal
 Upstream: https://github.com/callofduty4x/CoD4x_Server
 Pinned revision: `ddd65fce1a1093017bad2dbb6840d75d11c0d56f`.
 
-The public Debian server, private credentials, native smoke tests, Bunny publishing,
-GitHub environment and automatic deployment are documented in
+The Miami Debian VM, private credentials, native smoke tests, Bunny publishing,
+and recorded manual deployment through Teleport are documented in
 [Public server deployment](../docs/DEPLOYMENT.md). Its Linux binary was built with
 GCC 14.2, `make -j4 mbedtls tomcrypt`, then
 `make -j4 bin/apx_cod4x_dedrun TARGETNAME=apx_cod4x_dedrun BUILD_BRANCH=apx_dr`,

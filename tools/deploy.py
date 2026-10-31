@@ -1,71 +1,23 @@
-"""Fetch the private SDK, package a committed build, or deploy it over SSH.
+"""Package committed public files and deploy through recorded Teleport sessions.
 
-Credentials arrive through APX_DEPLOY_KEY and APX_SSH_KNOWN_HOSTS environment
-variables. Nothing private enters the release archive or the command line.
+No OpenSSH client, ProxyJump, personal key export or direct host connection is
+used. Authenticate with Teleport Connect/tsh first. CI is intentionally disabled.
 """
 import argparse
-from contextlib import contextmanager
 import hashlib
 import io
 import json
-import os
 from pathlib import Path
 import re
-import shutil
 import subprocess
 import tarfile
-import tempfile
 
-ROOT = Path(__file__).resolve().parents[1]
-REMOTE = 'apxdeploy@10.50.0.10'
-JUMP = 'apx-ci@apx.ethanburkett.dev'
-PUBLIC = ('mod.ff', 'apx_dr.iwd', 'apx_dr_sounds.iwd')
+ROOT=Path(__file__).resolve().parents[1]
+PUBLIC=('mod.ff','apx_dr.iwd','apx_dr_sounds.iwd')
 
 
 def git(*args):
-    return subprocess.check_output(['git', *args], cwd=ROOT)
-
-
-def secure_windows_key(path):
-    powershell = str(Path(os.environ['SystemRoot']) / 'System32/WindowsPowerShell/v1.0/powershell.exe')
-    # Start with a fresh DACL. Removing inheritance alone leaves explicit
-    # OWNER RIGHTS entries installed by the hosted runner's temp directory.
-    script = '''$ErrorActionPreference = 'Stop'
-$account = [System.Security.Principal.WindowsIdentity]::GetCurrent()
-$acl = New-Object System.Security.AccessControl.FileSecurity
-$acl.SetOwner($account.User)
-$acl.SetAccessRuleProtection($true, $false)
-$rule = New-Object System.Security.AccessControl.FileSystemAccessRule($account.User, 'FullControl', 'Allow')
-$acl.AddAccessRule($rule)
-[System.IO.File]::SetAccessControl($env:APX_SSH_IDENTITY, $acl)
-'''
-    environment = dict(os.environ, APX_SSH_IDENTITY=str(path))
-    subprocess.run([powershell, '-NoProfile', '-NonInteractive', '-Command', script],
-                   check=True, env=environment, stdout=subprocess.DEVNULL)
-
-
-@contextmanager
-def ssh_options():
-    key = os.environ.get('APX_DEPLOY_KEY', '')
-    hosts = os.environ.get('APX_SSH_KNOWN_HOSTS', '')
-    if not key or not hosts:
-        raise ValueError('Set APX_DEPLOY_KEY and APX_SSH_KNOWN_HOSTS')
-    with tempfile.TemporaryDirectory(prefix='apx-deploy-ssh-') as folder:
-        identity = Path(folder) / 'identity'
-        identity.write_text(key.strip() + '\n', encoding='ascii')
-        identity.chmod(0o600)
-        known = Path(folder) / 'known_hosts'
-        known.write_text(hosts.strip() + '\n', encoding='ascii')
-        if os.name == 'nt':
-            secure_windows_key(identity)
-        # ProxyJump's inner SSH process inherits -F, unlike command-line -i.
-        config = Path(folder) / 'config'
-        config.write_text(
-            'Host *\n  IdentityFile "' + identity.as_posix() + '"\n'
-            '  IdentitiesOnly yes\n  BatchMode yes\n  StrictHostKeyChecking yes\n'
-            '  UserKnownHostsFile "' + known.as_posix() + '"\n  ConnectTimeout 20\n'
-            'Host 10.50.0.10\n  ProxyJump ' + JUMP + '\n', encoding='ascii')
-        yield ['-F', str(config)]
+    return subprocess.check_output(['git',*args],cwd=ROOT)
 
 
 def package(output, artifacts, revision):
@@ -111,44 +63,32 @@ def package(output, artifacts, revision):
     print('Packaged committed release ' + revision, flush=True)
 
 
+def transport_deploy(output,revision,node='apx-dr-mia'):
+    if not re.fullmatch('[0-9a-f]{40}',revision):raise ValueError('Expected a full commit SHA')
+    if not re.fullmatch('[a-zA-Z0-9][a-zA-Z0-9._-]*',node):raise ValueError('Invalid Teleport node')
+    target='root@'+node
+    remote='/srv/apx-dr/incoming/'+revision+'.tar'
+    subprocess.run(['tsh','scp',str(output),target+':'+remote+'.pending'],check=True)
+    subprocess.run(['tsh','ssh','-t',target,'mv',remote+'.pending',remote],check=True)
+    subprocess.run(['tsh','ssh','-t',target,'/usr/local/sbin/apx-deploy',revision],check=True)
+
+
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    sub = parser.add_subparsers(dest='command', required=True)
-    sub.add_parser('trigger', help='Start the production workflow for main using your gh login')
-    fetch = sub.add_parser('fetch-sdk')
-    fetch.add_argument('--output', type=Path, default=ROOT / 'build/ci-sdk.zip')
-    pack = sub.add_parser('package')
-    deploy = sub.add_parser('deploy')
-    for command in (pack, deploy):
-        command.add_argument('--artifacts', type=Path, default=ROOT / 'dist')
-        command.add_argument('--revision', default=git('rev-parse', 'HEAD').decode().strip())
-        command.add_argument('--output', type=Path, default=ROOT / 'build/public-release.tar')
-    args = parser.parse_args()
-    if args.command == 'trigger':
-        subprocess.run(['gh', 'workflow', 'run', 'deploy.yml', '--ref', 'main',
-                        '--repo', 'EthanBurkett/apx_dr'], check=True)
-        print('Production workflow requested; follow it in GitHub Actions.')
-        return
-    if args.command == 'fetch-sdk':
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        with ssh_options() as options:
-            subprocess.run(['scp', '-q', *options, REMOTE + ':/srv/apx-dr/sdk/build-sdk.zip', str(args.output)], check=True)
-        expected = os.environ.get('APX_SDK_SHA256', '')
-        with args.output.open('rb') as stream:
-            actual = hashlib.file_digest(stream, 'sha256').hexdigest()
-        if not re.fullmatch('[0-9a-f]{64}', expected) or actual != expected:
-            raise ValueError('Private SDK archive failed its pinned checksum')
-        print('Private SDK archive checksum verified.')
-        return
-    package(args.output, args.artifacts, args.revision)
-    if args.command == 'package':
-        return
-    with ssh_options() as options:
-        remote_path = '/srv/apx-dr/incoming/' + args.revision + '.tar'
-        subprocess.run(['scp', '-q', *options, str(args.output), REMOTE + ':' + remote_path + '.pending'], check=True)
-        subprocess.run(['ssh', *options, REMOTE, 'mv', remote_path + '.pending', remote_path], check=True)
-        subprocess.run(['ssh', *options, REMOTE, 'sudo', '/usr/local/sbin/apx-deploy', args.revision], check=True)
+    parser=argparse.ArgumentParser(description=__doc__)
+    sub=parser.add_subparsers(dest='command',required=True)
+    sub.add_parser('trigger',help='Explain the retired CI trigger')
+    pack=sub.add_parser('package',help='Package committed public files only')
+    deploy=sub.add_parser('deploy',help='Upload through Teleport and activate in a recorded terminal')
+    deploy.add_argument('--node',default='apx-dr-mia')
+    for command in (pack,deploy):
+        command.add_argument('--artifacts',type=Path,default=ROOT/'dist')
+        command.add_argument('--revision',default=git('rev-parse','HEAD').decode().strip())
+        command.add_argument('--output',type=Path,default=ROOT/'build/public-release.tar')
+    args=parser.parse_args()
+    if args.command=='trigger':
+        raise SystemExit('CI deployment is intentionally disabled. Use: python tools/deploy.py deploy (Teleport only).')
+    package(args.output,args.artifacts,args.revision)
+    if args.command=='deploy':transport_deploy(args.output,args.revision,args.node)
 
 
-if __name__ == '__main__':
-    main()
+if __name__=='__main__':main()
