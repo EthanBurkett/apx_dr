@@ -35,25 +35,27 @@
         "prestige": 0,
         "level": 40
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "The Mandalorian"
     },
     {
       "category": "character",
       "id": 14,
-      "name": "Hermione",
+      "name": "Hermione Granger",
       "model": "plr_mrh_hermione",
       "hands": "viewmodel_base_viewhands",
       "pack": "5f2a961f720cf",
       "page": "https://cfgfactory.com/skins/show/5f2a961f720cf.html",
       "author": "MrHeyLey",
       "sha256": "cfd462a2928dd54bc6e701f803766efa2e2c23810cd068bbd294511308152dcc",
-      "prestige": 0,
-      "level": 50,
+      "prestige": 2,
+      "level": 28,
       "original_unlock": {
         "prestige": 0,
         "level": 50
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Hermione"
     },
     {
       "category": "character",
@@ -65,13 +67,14 @@
       "page": "https://cfgfactory.com/skins/show/5f1c4869e2f1d.html",
       "author": "MrHeyLey",
       "sha256": "8c37c0650e1fafa0628eb72fb01ac2f29120d246731197d42f8487a81512760e",
-      "prestige": 1,
-      "level": 7,
+      "prestige": 5,
+      "level": 42,
       "original_unlock": {
         "prestige": 0,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Venom"
     },
     {
       "category": "character",
@@ -83,13 +86,13 @@
       "page": "https://cfgfactory.com/skins/show/5f019ffb3fba0.html",
       "author": "MrHeyLey",
       "sha256": "11e73a2c643424f7faad6590f59a53b0b99a563f1d389815887459cc47d24cfd",
-      "prestige": 3,
-      "level": 7,
+      "prestige": 0,
+      "level": 70,
       "original_unlock": {
         "prestige": 0,
         "level": 70
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -101,13 +104,13 @@
       "page": "https://cfgfactory.com/skins/show/5efb828155a73.html",
       "author": "MrHeyLey",
       "sha256": "6b1f9aec78d2610e1ad33d86162638d5f3055ce4c1093fc22f9bcbbe020f3132",
-      "prestige": 4,
-      "level": 7,
+      "prestige": 1,
+      "level": 30,
       "original_unlock": {
         "prestige": 1,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -119,13 +122,14 @@
       "page": "https://cfgfactory.com/skins/show/5ee2726e00c7b.html",
       "author": "",
       "sha256": "dc52fff69f2610143eeeb99d56ad1ddeb7c255c42bddeb36560df0df487682f2",
-      "prestige": 1,
-      "level": 14,
+      "prestige": 5,
+      "level": 28,
       "original_unlock": {
         "prestige": 2,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Iron Spider"
     },
     {
       "category": "character",
@@ -155,13 +159,14 @@
       "page": "https://cfgfactory.com/skins/show/5e75f3d567c62.html",
       "author": "Rex109",
       "sha256": "644a999dcd437cfdea45a2c3c8a8974d6a461cb029aa5ab8f0ad072a63d884ca",
-      "prestige": 4,
-      "level": 14,
+      "prestige": 5,
+      "level": 49,
       "original_unlock": {
         "prestige": 4,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Alucard"
     },
     {
       "category": "character",
@@ -191,31 +196,33 @@
       "page": "https://cfgfactory.com/skins/show/5d05329df1ee9.html",
       "author": "Rex109",
       "sha256": "953acff47ae467394fcba3bf1ae4f745b16e59e6ba167e8921b3501c313c5377",
-      "prestige": 6,
-      "level": 30,
+      "prestige": 1,
+      "level": 14,
       "original_unlock": {
         "prestige": 6,
         "level": 30
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Gordon Freeman"
     },
     {
       "category": "character",
       "id": 23,
-      "name": "Rick Sanchez Model",
+      "name": "Rick Sanchez",
       "model": "rick_model",
       "hands": "viewmodel_base_viewhands",
       "pack": "5cec707e77e12",
       "page": "https://cfgfactory.com/skins/show/5cec707e77e12.html",
       "author": "Rampage199731",
       "sha256": "49888db553fe11e1b533061886011d6f1429394c161087fe16559ae271329b6b",
-      "prestige": 2,
-      "level": 21,
+      "prestige": 1,
+      "level": 28,
       "original_unlock": {
         "prestige": 7,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Rick Sanchez Model"
     },
     {
       "category": "character",
@@ -245,13 +252,13 @@
       "page": "https://cfgfactory.com/skins/show/5ce3188aaadf0.html",
       "author": "Terry",
       "sha256": "82d573e6c575a151dfef44b522defebd71a6b53ed33285d541ca3ea6c39a74fb",
-      "prestige": 1,
-      "level": 28,
+      "prestige": 9,
+      "level": 30,
       "original_unlock": {
         "prestige": 9,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -274,20 +281,21 @@
     {
       "category": "character",
       "id": 27,
-      "name": "Steve(Minecraft)",
+      "name": "Steve",
       "model": "plr_terry_steve",
       "hands": "viewmodel_base_viewhands",
       "pack": "5ce25d24d2fba",
       "page": "https://cfgfactory.com/skins/show/5ce25d24d2fba.html",
       "author": "Terry, Mojang",
       "sha256": "ea4a0ec231b7fc86fa252ae42d94b0c784f5509a440c3e5637ef113ee54f4fa0",
-      "prestige": 5,
-      "level": 28,
+      "prestige": 1,
+      "level": 42,
       "original_unlock": {
         "prestige": 11,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Steve(Minecraft)"
     },
     {
       "category": "character",
@@ -317,13 +325,14 @@
       "page": "https://cfgfactory.com/skins/show/5cdff6c61115b.html",
       "author": "Terry",
       "sha256": "e9d9572341327351a63fa78283192d51f038cabdc3dfb4ff68223c31c54453b4",
-      "prestige": 1,
-      "level": 35,
+      "prestige": 4,
+      "level": 56,
       "original_unlock": {
         "prestige": 13,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Hulk"
     },
     {
       "category": "character",
@@ -335,13 +344,14 @@
       "page": "https://cfgfactory.com/skins/show/5cdfd935112ce.html",
       "author": "Terry, Epic Games",
       "sha256": "d9fd6e790335be488647238049f0a728a1dac455574eb25b164d164a2a344770",
-      "prestige": 2,
-      "level": 35,
+      "prestige": 1,
+      "level": 70,
       "original_unlock": {
         "prestige": 14,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "John Wick"
     },
     {
       "category": "character",
@@ -353,13 +363,13 @@
       "page": "https://cfgfactory.com/skins/show/5cdd341264680.html",
       "author": "Terry",
       "sha256": "a65258fa170036335391dc05e6b1f34b03752fb94e8650c6aec1a8580728de7d",
-      "prestige": 4,
-      "level": 35,
+      "prestige": 15,
+      "level": 30,
       "original_unlock": {
         "prestige": 15,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -425,13 +435,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd9825a52ed5.html",
       "author": "Terry, Epic Games",
       "sha256": "514c1993f22fdddf936a895bb5085f80e728e66d2fef2656d863468903ac0a03",
-      "prestige": 1,
-      "level": 42,
+      "prestige": 19,
+      "level": 30,
       "original_unlock": {
         "prestige": 19,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -490,20 +500,21 @@
     {
       "category": "character",
       "id": 39,
-      "name": "Naruto",
+      "name": "Naruto Uzumaki",
       "model": "plr_terry_naruto",
       "hands": "viewmodel_base_viewhands",
       "pack": "5cd792c1d2deb",
       "page": "https://cfgfactory.com/skins/show/5cd792c1d2deb.html",
       "author": "Terry",
       "sha256": "3ddeaa7625ebc95a59e3854d3821bc67dcacaecd9d5d383e2a6abc51cfdd77db",
-      "prestige": 5,
-      "level": 42,
+      "prestige": 4,
+      "level": 14,
       "original_unlock": {
         "prestige": 23,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Naruto"
     },
     {
       "category": "character",
@@ -533,13 +544,14 @@
       "page": "https://cfgfactory.com/skins/show/5cd71fd8817f0.html",
       "author": "Terry, Epic Games",
       "sha256": "b8b22a58535cdd639b0929b58609392b2eae12d2aed8b0eacc3b146b5bf3039e",
-      "prestige": 2,
-      "level": 49,
+      "prestige": 4,
+      "level": 42,
       "original_unlock": {
         "prestige": 25,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Peely"
     },
     {
       "category": "character",
@@ -557,7 +569,8 @@
         "prestige": 26,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Black Panther"
     },
     {
       "category": "character",
@@ -587,13 +600,14 @@
       "page": "https://cfgfactory.com/skins/show/5cd3b79f52de6.html",
       "author": "Terry, Epic Games",
       "sha256": "831968c478d745d7295b9b2a6210418c33141de80abe41740d911d2c9902a9f0",
-      "prestige": 1,
+      "prestige": 5,
       "level": 56,
       "original_unlock": {
         "prestige": 28,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Thanos"
     },
     {
       "category": "character",
@@ -623,13 +637,14 @@
       "page": "https://cfgfactory.com/skins/show/5cd258b4b7a11.html",
       "author": "Snakey",
       "sha256": "8c99fc78ad3d5a9b38bf703005ce77712fce4a74927e47ab4c7dc31720f79cb6",
-      "prestige": 30,
-      "level": 30,
+      "prestige": 2,
+      "level": 42,
       "original_unlock": {
         "prestige": 30,
         "level": 30
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "John Marston"
     },
     {
       "category": "character",
@@ -642,12 +657,13 @@
       "author": "Terry, Mortal Kombat",
       "sha256": "c106adbaf1c5b9482baea678459850183a14cc9dfffbf8cea5fc644c06787d1a",
       "prestige": 3,
-      "level": 56,
+      "level": 70,
       "original_unlock": {
         "prestige": 31,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Scorpion"
     },
     {
       "category": "character",
@@ -659,13 +675,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd1110f645c7.html",
       "author": "Terry, Piranha Bytes(RISEN)",
       "sha256": "859ff0868fc9628a394c33d64d42be0d9f9ad5d62359810994b6ce47d8d1ebbd",
-      "prestige": 4,
-      "level": 56,
+      "prestige": 32,
+      "level": 30,
       "original_unlock": {
         "prestige": 32,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -695,13 +711,13 @@
       "page": "https://cfgfactory.com/skins/show/5cd07aac2d1bf.html",
       "author": "Terry",
       "sha256": "72c647130325437712ef4304add9f5194f19460e493745cbde70e29a5a4e7b7c",
-      "prestige": 5,
-      "level": 56,
+      "prestige": 34,
+      "level": 30,
       "original_unlock": {
         "prestige": 34,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -713,13 +729,13 @@
       "page": "https://cfgfactory.com/skins/show/5ccf6c2f49860.html",
       "author": "Terry",
       "sha256": "7c72a6f6463839ce47ad3235c8f6b2bdb1074f5727aa0c2310a4ed1f4f101c1a",
-      "prestige": 1,
-      "level": 63,
+      "prestige": 35,
+      "level": 30,
       "original_unlock": {
         "prestige": 35,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -731,13 +747,13 @@
       "page": "https://cfgfactory.com/skins/show/5ccefb0053274.html",
       "author": "Snakey",
       "sha256": "ea04d68cb89061d3aa9299c1cb07d31742d487b508c61e6973fe182b57a39810",
-      "prestige": 2,
-      "level": 63,
+      "prestige": 36,
+      "level": 30,
       "original_unlock": {
         "prestige": 36,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -749,13 +765,14 @@
       "page": "https://cfgfactory.com/skins/show/5ccefa31288fb.html",
       "author": "Terry",
       "sha256": "2ad3d3c69acfd0be22119e0af8862bb11baec37bc1e79819a0a0efe7d5b16b0a",
-      "prestige": 3,
-      "level": 63,
+      "prestige": 4,
+      "level": 28,
       "original_unlock": {
         "prestige": 37,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Black Widow"
     },
     {
       "category": "character",
@@ -785,31 +802,32 @@
       "page": "https://cfgfactory.com/skins/show/5ccca1ce890f3.html",
       "author": "Terry",
       "sha256": "48d48095abeede618a3419d8908738aab9705fceeb5df9aa57cd024a459d4b25",
-      "prestige": 4,
-      "level": 63,
+      "prestige": 39,
+      "level": 30,
       "original_unlock": {
         "prestige": 39,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
       "id": 56,
-      "name": "Lara Croft (Tomb Raider)",
+      "name": "Lara Croft",
       "model": "plr_terry_laracroft",
       "hands": "viewmodel_base_viewhands",
       "pack": "5ccbe6cd3ce4c",
       "page": "https://cfgfactory.com/skins/show/5ccbe6cd3ce4c.html",
       "author": "Terry",
       "sha256": "d6a111b7b933a1f65ef4dce115b820f7d4f19d187bad0bb03cf9795f3bcca374",
-      "prestige": 40,
-      "level": 30,
+      "prestige": 1,
+      "level": 56,
       "original_unlock": {
         "prestige": 40,
         "level": 30
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Lara Croft (Tomb Raider)"
     },
     {
       "category": "character",
@@ -822,12 +840,13 @@
       "author": "Terry",
       "sha256": "cf121460e75476f2d0b878c7f0d78b433546bee70735fffa6f41dee59e96c734",
       "prestige": 5,
-      "level": 63,
+      "level": 14,
       "original_unlock": {
         "prestige": 41,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Chucky"
     },
     {
       "category": "character",
@@ -839,13 +858,14 @@
       "page": "https://cfgfactory.com/skins/show/5ccb20c253a67.html",
       "author": "Terry",
       "sha256": "d1074b7f585bdc700eaf02b90cbf0c8bfd6fc4a90928d210b18cc801eb30ef5e",
-      "prestige": 42,
-      "level": 30,
+      "prestige": 3,
+      "level": 28,
       "original_unlock": {
         "prestige": 42,
         "level": 30
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Harley Quinn"
     },
     {
       "category": "character",
@@ -857,13 +877,14 @@
       "page": "https://cfgfactory.com/skins/show/5cca1bbf89414.html",
       "author": "Sanya",
       "sha256": "54794d44bd95047dd9fe27d1a89f220f64ab7c8dcb77073e91d0a79fc61ace3c",
-      "prestige": 43,
-      "level": 30,
+      "prestige": 2,
+      "level": 14,
       "original_unlock": {
         "prestige": 43,
         "level": 30
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Vaas Montenegro"
     },
     {
       "category": "character",
@@ -911,13 +932,13 @@
       "page": "https://cfgfactory.com/skins/show/5cc7df39e8475.html",
       "author": "Terry",
       "sha256": "d6b036eafd35b6f02ebfb926ffaa3a92176235e5d49b18d6fd8fbd5eaf272577",
-      "prestige": 1,
-      "level": 70,
+      "prestige": 46,
+      "level": 30,
       "original_unlock": {
         "prestige": 46,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -940,20 +961,21 @@
     {
       "category": "character",
       "id": 64,
-      "name": "IRON MAN",
+      "name": "Iron Man",
       "model": "plr_terry_ironman",
       "hands": "viewmodel_base_viewhands",
       "pack": "5cc657f59aa4c",
       "page": "https://cfgfactory.com/skins/show/5cc657f59aa4c.html",
       "author": "Terry",
       "sha256": "05304b2d3c15465fc53e6d3f6e691c86778d375696c0f589ec2b38685936cb33",
-      "prestige": 3,
+      "prestige": 4,
       "level": 70,
       "original_unlock": {
         "prestige": 48,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "IRON MAN"
     },
     {
       "category": "character",
@@ -965,31 +987,33 @@
       "page": "https://cfgfactory.com/skins/show/5cc561c9c0daf.html",
       "author": "Terry",
       "sha256": "e0e38f10ce15b91a25ec1513320c15ee5f7d035b408eacc84e88593d7e576067",
-      "prestige": 4,
-      "level": 70,
+      "prestige": 3,
+      "level": 56,
       "original_unlock": {
         "prestige": 49,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Shrek"
     },
     {
       "category": "character",
       "id": 66,
-      "name": "Big smoke",
+      "name": "Big Smoke",
       "model": "plr_big_smoke",
       "hands": "viewmodel_base_viewhands",
       "pack": "5cc4ac448e843",
       "page": "https://cfgfactory.com/skins/show/5cc4ac448e843.html",
       "author": "Snakey",
       "sha256": "e3774e8e18cc775a81a81612244b572fbe7ed5909af2826bd06e53db19eb4adf",
-      "prestige": 5,
-      "level": 70,
+      "prestige": 2,
+      "level": 56,
       "original_unlock": {
         "prestige": 50,
         "level": 30
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Big smoke"
     },
     {
       "category": "character",
@@ -1019,13 +1043,14 @@
       "page": "https://cfgfactory.com/skins/show/5cc3648e43ee4.html",
       "author": "Snakey",
       "sha256": "d7fe44997fd53bcd00423593ea4667b1a4b65af57edcc27b2d0a39f3207648bb",
-      "prestige": 2,
-      "level": 60,
+      "prestige": 3,
+      "level": 14,
       "original_unlock": {
         "prestige": 2,
         "level": 60
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Carl Johnson"
     },
     {
       "category": "character",
@@ -1091,13 +1116,13 @@
       "page": "https://cfgfactory.com/skins/show/5cb1b37295130.html",
       "author": "Snakey",
       "sha256": "b6c4aa21affbaeb0e63ab66f8693f4582b6a2675c4078fd3d61af9c9d6d4dd5b",
-      "prestige": 5,
-      "level": 14,
+      "prestige": 6,
+      "level": 60,
       "original_unlock": {
         "prestige": 6,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
@@ -1127,13 +1152,14 @@
       "page": "https://cfgfactory.com/skins/show/5ca96d1ddb751.html",
       "author": "Snakey",
       "sha256": "84d9a846dd42a0e8f699fb210d80bb1253960e3761f654c89667310ebecbbe02",
-      "prestige": 4,
-      "level": 21,
+      "prestige": 3,
+      "level": 42,
       "original_unlock": {
         "prestige": 8,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Tommy Vercetti"
     },
     {
       "category": "character",
@@ -1145,31 +1171,32 @@
       "page": "https://cfgfactory.com/skins/show/5ca3f07496f6d.html",
       "author": "Hitbox",
       "sha256": "673e128529672d5d4f3791ceefcad56aab5a52ee14ac1d7be21b079e10e49e86",
-      "prestige": 2,
-      "level": 28,
+      "prestige": 9,
+      "level": 60,
       "original_unlock": {
         "prestige": 9,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "character",
       "id": 76,
-      "name": "kermit the frog",
+      "name": "Kermit the Frog",
       "model": "playermodel_kermit_the_frog",
       "hands": "viewhands_kermit",
       "pack": "5c8f90bbaca6b",
       "page": "https://cfgfactory.com/skins/show/5c8f90bbaca6b.html",
       "author": "VC' Fox",
       "sha256": "e349235765acb0f9934ec5eb09e78df3b2863d946f9a76d82f735e5b637f3dff",
-      "prestige": 4,
-      "level": 28,
+      "prestige": 2,
+      "level": 70,
       "original_unlock": {
         "prestige": 10,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "kermit the frog"
     },
     {
       "category": "character",
@@ -1415,13 +1442,14 @@
       "page": "https://cfgfactory.com/skins/show/54bf8168a4bb2.html",
       "author": "Sanya",
       "sha256": "415f2d986a9ebd58432beeb8b2fc44a1ceea92ab4bcd82a9b5949772b0a6ba15",
-      "prestige": 1,
-      "level": 49,
+      "prestige": 5,
+      "level": 70,
       "original_unlock": {
         "prestige": 24,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Terminator"
     },
     {
       "category": "character",
@@ -1791,7 +1819,7 @@
         "prestige": 0,
         "level": 40
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -1814,20 +1842,21 @@
     {
       "category": "weapon",
       "id": 12,
-      "name": "ghosts mp443 grach final",
+      "name": "MP-443 Grach",
       "model": "weapon_ghosts_mp443",
       "weapon": "apxc_61db34772538f_mp",
       "pack": "61db34772538f",
       "page": "https://cfgfactory.com/skins/show/61db34772538f.html",
       "author": "Kortun",
       "sha256": "075ae71dbb9f4ed59c31300eed97280367c9068c69700efd3a8b955dcc454643",
-      "prestige": 2,
+      "prestige": 1,
       "level": 7,
       "original_unlock": {
         "prestige": 0,
         "level": 60
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "ghosts mp443 grach final"
     },
     {
       "category": "weapon",
@@ -1868,20 +1897,21 @@
     {
       "category": "weapon",
       "id": 15,
-      "name": "Infinite Warfare ONI",
+      "name": "Oni",
       "model": "iw_oni_world",
       "weapon": "apxc_6078e0fe51d80_mp",
       "pack": "6078e0fe51d80",
       "page": "https://cfgfactory.com/skins/show/6078e0fe51d80.html",
       "author": "Infinity Ward ~ Mist",
       "sha256": "fcf6adef94849c2f3db11512b74eb4f9d87e98ec5dc08a7f01375c92d26e2a99",
-      "prestige": 5,
-      "level": 7,
+      "prestige": 4,
+      "level": 63,
       "original_unlock": {
         "prestige": 2,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Infinite Warfare ONI"
     },
     {
       "category": "weapon",
@@ -1932,20 +1962,21 @@
     {
       "category": "weapon",
       "id": 19,
-      "name": "BO3 RIFT E9 ENERGY",
+      "name": "Rift E9",
       "model": "weapon_bo3_rift_e9_energy",
       "weapon": "apxc_5f84aad2a2e07_mp",
       "pack": "5f84aad2a2e07",
       "page": "https://cfgfactory.com/skins/show/5f84aad2a2e07.html",
       "author": "Kortun/SEKTOR_GAZA_XOU",
       "sha256": "7ce8ef7474ba01d7cc2d82812843444990cab14246988fc01d2aff9fe59835dd",
-      "prestige": 6,
-      "level": 15,
+      "prestige": 5,
+      "level": 63,
       "original_unlock": {
         "prestige": 6,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "BO3 RIFT E9 ENERGY"
     },
     {
       "category": "weapon",
@@ -1978,20 +2009,21 @@
     {
       "category": "weapon",
       "id": 22,
-      "name": "Black Ops 3 Bloodhound",
+      "name": "Bloodhound",
       "model": "bo3_bloodhound_world",
       "weapon": "apxc_5f48eac37a863_mp",
       "pack": "5f48eac37a863",
       "page": "https://cfgfactory.com/skins/show/5f48eac37a863.html",
       "author": "Treyarch / Mist",
       "sha256": "495105d5f457578ef1447a7efe2ca35a862af26bd473fbd92533e064fba149f4",
-      "prestige": 5,
-      "level": 21,
+      "prestige": 4,
+      "level": 35,
       "original_unlock": {
         "prestige": 9,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Black Ops 3 Bloodhound"
     },
     {
       "category": "weapon",
@@ -2064,20 +2096,21 @@
     {
       "category": "weapon",
       "id": 27,
-      "name": "MW2 Campaign Remastered - G18",
+      "name": "G18",
       "model": "mw2cr_g18_world",
       "weapon": "apxc_5eacbe08ef1c1_mp",
       "pack": "5eacbe08ef1c1",
       "page": "https://cfgfactory.com/skins/show/5eacbe08ef1c1.html",
       "author": "Infinity Ward",
       "sha256": "e10352db4d4c4bef8d4b76b4b58d1a48889173c5f984ece6f802a0818d32fe91",
-      "prestige": 14,
-      "level": 15,
+      "prestige": 3,
+      "level": 7,
       "original_unlock": {
         "prestige": 14,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "MW2 Campaign Remastered - G18"
     },
     {
       "category": "weapon",
@@ -2089,13 +2122,13 @@
       "page": "https://cfgfactory.com/skins/show/5eaaef2644d6b.html",
       "author": "Rex109",
       "sha256": "ac52f173f1dab346cfb44f79a5b75eef5b287d5903926a6e8d57db1dd3403526",
-      "prestige": 3,
-      "level": 35,
+      "prestige": 15,
+      "level": 15,
       "original_unlock": {
         "prestige": 15,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2125,13 +2158,13 @@
       "page": "https://cfgfactory.com/skins/show/5e99f74da6646.html",
       "author": "Myself",
       "sha256": "32d202bd6e45760c64be3600b689994877fa22f936191b198df2e92c3ef0c33e",
-      "prestige": 5,
-      "level": 35,
+      "prestige": 17,
+      "level": 15,
       "original_unlock": {
         "prestige": 17,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2154,20 +2187,21 @@
     {
       "category": "weapon",
       "id": 32,
-      "name": "BO3 MR6",
+      "name": "MR6",
       "model": "world_bo3_mr6",
       "weapon": "apxc_5e53bb74c39e6_mp",
       "pack": "5e53bb74c39e6",
       "page": "https://cfgfactory.com/skins/show/5e53bb74c39e6.html",
       "author": "Kortun",
       "sha256": "2e524c69923b213b6bb5c7c4824aae2b66642b00d9732cbe25fcafed79cdaf6c",
-      "prestige": 19,
-      "level": 15,
+      "prestige": 2,
+      "level": 7,
       "original_unlock": {
         "prestige": 19,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "BO3 MR6"
     },
     {
       "category": "weapon",
@@ -2200,20 +2234,21 @@
     {
       "category": "weapon",
       "id": 35,
-      "name": "Infinite Warfare Dischord",
+      "name": "Dischord",
       "model": "iw_zapper_world",
       "weapon": "apxc_5dfbe6eaa1cf0_mp",
       "pack": "5dfbe6eaa1cf0",
       "page": "https://cfgfactory.com/skins/show/5dfbe6eaa1cf0.html",
       "author": "Infinity Ward - actualmist",
       "sha256": "e6b422f331fc22a258a04a8f43a4bb36d198b66003477d7e4372d1a561d68f43",
-      "prestige": 22,
-      "level": 15,
+      "prestige": 5,
+      "level": 35,
       "original_unlock": {
         "prestige": 22,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Infinite Warfare Dischord"
     },
     {
       "category": "weapon",
@@ -2225,13 +2260,13 @@
       "page": "https://cfgfactory.com/skins/show/5ddfbed84dead.html",
       "author": "Infinity Ward - actualmist",
       "sha256": "2f3e9bfd2577395ea3573d14e79c8e3c38bdd761f1aac80f98a9969e9a26faef",
-      "prestige": 4,
-      "level": 42,
+      "prestige": 23,
+      "level": 15,
       "original_unlock": {
         "prestige": 23,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2254,20 +2289,21 @@
     {
       "category": "weapon",
       "id": 38,
-      "name": "BO2 KAP-40",
+      "name": "KAP-40",
       "model": "st_core_kard_worldmodel",
       "weapon": "apxc_5d35f621114ba_mp",
       "pack": "5d35f621114ba",
       "page": "https://cfgfactory.com/skins/show/5d35f621114ba.html",
       "author": "Treyarch / Mist",
       "sha256": "fbd95983f253f082bf56203d31c29d7bb3faab6ace0a5d7bcedf129820a944d2",
-      "prestige": 25,
-      "level": 15,
+      "prestige": 3,
+      "level": 35,
       "original_unlock": {
         "prestige": 25,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "BO2 KAP-40"
     },
     {
       "category": "weapon",
@@ -2279,13 +2315,13 @@
       "page": "https://cfgfactory.com/skins/show/5cf8567a2c7c7.html",
       "author": "Treyarch / Mist#0001",
       "sha256": "8742307276dbd41f957571125c740fc74a27c0a7b3124d19296b07f1f3b37dbb",
-      "prestige": 3,
-      "level": 49,
+      "prestige": 26,
+      "level": 15,
       "original_unlock": {
         "prestige": 26,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2322,20 +2358,21 @@
     {
       "category": "weapon",
       "id": 42,
-      "name": "CoD WaW Nambu",
+      "name": "Nambu",
       "model": "weapon_jap_nambu_pistol",
       "weapon": "apxc_5ca9cb4202266_mp",
       "pack": "5ca9cb4202266",
       "page": "https://cfgfactory.com/skins/show/5ca9cb4202266.html",
       "author": "Treyarch",
       "sha256": "cc0bf12c20bf340406bdacf26f29afd6e3418bf57e210cd35e9018be83a7f4c1",
-      "prestige": 29,
-      "level": 15,
+      "prestige": 5,
+      "level": 7,
       "original_unlock": {
         "prestige": 29,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "CoD WaW Nambu"
     },
     {
       "category": "weapon",
@@ -2365,13 +2402,13 @@
       "page": "https://cfgfactory.com/skins/show/5c68080b046ed.html",
       "author": "LitkuReiska",
       "sha256": "4c5a343f0be14f58b0fd9d4fb5b69e4886260ec3c52d1af9c75c92ee0b55b9c2",
-      "prestige": 2,
-      "level": 56,
+      "prestige": 31,
+      "level": 15,
       "original_unlock": {
         "prestige": 31,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2394,20 +2431,21 @@
     {
       "category": "weapon",
       "id": 46,
-      "name": "CS:GO Five-Seven",
+      "name": "Five-SeveN",
       "model": "w_pist_fiveseven",
       "weapon": "apxc_5c1f9d081fe61_mp",
       "pack": "5c1f9d081fe61",
       "page": "https://cfgfactory.com/skins/show/5c1f9d081fe61.html",
       "author": "LitkuReiska",
       "sha256": "823b38918e04c601460709fc113b3e45a587c7a42ac31bad5abcf75698848792",
-      "prestige": 33,
-      "level": 15,
+      "prestige": 0,
+      "level": 40,
       "original_unlock": {
         "prestige": 33,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "CS:GO Five-Seven"
     },
     {
       "category": "weapon",
@@ -2430,38 +2468,40 @@
     {
       "category": "weapon",
       "id": 48,
-      "name": "CS:GO P2000",
+      "name": "P2000",
       "model": "w_pist_hkp2000",
       "weapon": "apxc_5c1bb39ca0eab_mp",
       "pack": "5c1bb39ca0eab",
       "page": "https://cfgfactory.com/skins/show/5c1bb39ca0eab.html",
       "author": "LitkuReiska",
       "sha256": "059317803428d4ae949064e88a8d079393df91753792521ba30bd831f3a085e8",
-      "prestige": 35,
-      "level": 15,
+      "prestige": 1,
+      "level": 35,
       "original_unlock": {
         "prestige": 35,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "CS:GO P2000"
     },
     {
       "category": "weapon",
       "id": 49,
-      "name": "CS:GO USP-S",
+      "name": "USP-S",
       "model": "w_pist_223",
       "weapon": "apxc_5c1ad3fbaca3b_mp",
       "pack": "5c1ad3fbaca3b",
       "page": "https://cfgfactory.com/skins/show/5c1ad3fbaca3b.html",
       "author": "LitkuReiska",
       "sha256": "44fec0737c628f7cd236f4c26cd6d0e37f61c26c18acf0aea5bd70a8ed98a5e2",
-      "prestige": 36,
-      "level": 15,
+      "prestige": 4,
+      "level": 7,
       "original_unlock": {
         "prestige": 36,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "CS:GO USP-S"
     },
     {
       "category": "weapon",
@@ -2502,20 +2542,21 @@
     {
       "category": "weapon",
       "id": 52,
-      "name": "Black Ops 2 TAC-45",
+      "name": "TAC-45",
       "model": "fnp45_world",
       "weapon": "apxc_5b290be6b086a_mp",
       "pack": "5b290be6b086a",
       "page": "https://cfgfactory.com/skins/show/5b290be6b086a.html",
       "author": "Mist#0001",
       "sha256": "a2ac604fea4d4f613faae878f0d597a7097193ff7de3dad70ddebcf6ed208b18",
-      "prestige": 39,
-      "level": 15,
+      "prestige": 2,
+      "level": 35,
       "original_unlock": {
         "prestige": 39,
         "level": 15
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "Black Ops 2 TAC-45"
     },
     {
       "category": "weapon",
@@ -2653,13 +2694,13 @@
       "page": "https://cfgfactory.com/skins/show/5a595ae4629c3.html",
       "author": "ConvictioNDR",
       "sha256": "240fa0dba08a9764e5205bbfd50c7915df5f77d834d2b9d0d29561a0ab730a77",
-      "prestige": 2,
-      "level": 70,
+      "prestige": 47,
+      "level": 15,
       "original_unlock": {
         "prestige": 47,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": true
     },
     {
       "category": "weapon",
@@ -2894,20 +2935,21 @@
     {
       "category": "weapon",
       "id": 74,
-      "name": "BO3 RK5",
+      "name": "RK5",
       "model": "wm_bo3_triton_2",
       "weapon": "apxc_59e3001db2de6_mp",
       "pack": "59e3001db2de6",
       "page": "https://cfgfactory.com/skins/show/59e3001db2de6.html",
       "author": "mitsurugi",
       "sha256": "40e2bf6afcbbba341752d7f1729d4f78d092879410dbfb41ea7181e07c9cc0ed",
-      "prestige": 10,
-      "level": 45,
+      "prestige": 3,
+      "level": 63,
       "original_unlock": {
         "prestige": 10,
         "level": 45
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "BO3 RK5"
     },
     {
       "category": "weapon",
@@ -3142,20 +3184,21 @@
     {
       "category": "weapon",
       "id": 88,
-      "name": "BO - Makarov",
+      "name": "Makarov",
       "model": "worldmodel_bo_makarov",
       "weapon": "apxc_5763c4a1eb8ca_mp",
       "pack": "5763c4a1eb8ca",
       "page": "https://cfgfactory.com/skins/show/5763c4a1eb8ca.html",
       "author": "tito",
       "sha256": "e40b75b0da72797962af2ceab625357462fddd1682c987f5a6c029790574e602",
-      "prestige": 23,
-      "level": 45,
+      "prestige": 1,
+      "level": 63,
       "original_unlock": {
         "prestige": 23,
         "level": 45
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "BO - Makarov"
     },
     {
       "category": "weapon",
@@ -3340,25 +3383,26 @@
     {
       "category": "weapon",
       "id": 99,
-      "name": "MW3 P99",
+      "name": "P99",
       "model": "wm_mw3_p99",
       "weapon": "apxc_572e05262b1e3_mp",
       "pack": "572e05262b1e3",
       "page": "https://cfgfactory.com/skins/show/572e05262b1e3.html",
       "author": "mitsurugi",
       "sha256": "d45f4a34e904847f8f2ae6cb561fef3b752a0f8cd5abe3441dbb763b1bc2cadc",
-      "prestige": 34,
-      "level": 45,
+      "prestige": 2,
+      "level": 63,
       "original_unlock": {
         "prestige": 34,
         "level": 45
       },
-      "inactive_profile": true
+      "inactive_profile": false,
+      "archive_name": "MW3 P99"
     },
     {
       "category": "knife",
       "id": 1,
-      "name": "BO1 Ballistic Knife [melee only]",
+      "name": "Ballistic Knife",
       "model": "worldmodel_bo1_ballistic_knife",
       "weapon": "apxc_5fa8040686593_mp",
       "pack": "5fa8040686593",
@@ -3366,18 +3410,19 @@
       "author": "VC'Fox",
       "sha256": "d546d8317d43bb1e6f766e3dcd3a1a0c131b58932ba37cc84e2c55c45653fb49",
       "prestige": 2,
-      "level": 14,
+      "level": 49,
       "source_weapon_id": 16,
       "original_unlock": {
         "prestige": 3,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "BO1 Ballistic Knife [melee only]"
     },
     {
       "category": "knife",
       "id": 2,
-      "name": "MW2 Ending Knife",
+      "name": "MW2 Throwing Knife",
       "model": "worldmodel_mw2_ending_knife",
       "weapon": "apxc_5f874cac80200_mp",
       "pack": "5f874cac80200",
@@ -3385,18 +3430,19 @@
       "author": "VC'Fox",
       "sha256": "f70f69243954cf8723c8d23c87358783c630acde5fc04dd8a0ae62b14ac762c5",
       "prestige": 3,
-      "level": 14,
+      "level": 21,
       "source_weapon_id": 17,
       "original_unlock": {
         "prestige": 4,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "MW2 Ending Knife"
     },
     {
       "category": "knife",
       "id": 3,
-      "name": "MW2 Ice Pick",
+      "name": "Ice Pick",
       "model": "worldmodel_mw2_ice_pick",
       "weapon": "apxc_5f7074b3d4479_mp",
       "pack": "5f7074b3d4479",
@@ -3404,75 +3450,79 @@
       "author": "VC'Fox",
       "sha256": "b13a4ccac77b90608854ae1b7d04274938a49abb2f5f7c4c2fe91c0d3348be29",
       "prestige": 1,
-      "level": 21,
+      "level": 49,
       "source_weapon_id": 20,
       "original_unlock": {
         "prestige": 7,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "MW2 Ice Pick"
     },
     {
       "category": "knife",
       "id": 4,
-      "name": "Cod Ghosts Knife",
+      "name": "Ghosts Combat Knife",
       "model": "worldmodel_ghosts_knife",
       "weapon": "apxc_5f5cbc21e8e88_mp",
       "pack": "5f5cbc21e8e88",
       "page": "https://cfgfactory.com/skins/show/5f5cbc21e8e88.html",
       "author": "VC'Fox",
       "sha256": "84839656bef87d818184b67331e201e97bbde9e618406076032e5c3e14927aa3",
-      "prestige": 3,
+      "prestige": 2,
       "level": 21,
       "source_weapon_id": 21,
       "original_unlock": {
         "prestige": 8,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "Cod Ghosts Knife"
     },
     {
       "category": "knife",
       "id": 5,
-      "name": "BO2 Knife",
+      "name": "Black Ops II Combat Knife",
       "model": "worldmodel_bo2_knife",
       "weapon": "apxc_5eda26587ef69_mp",
       "pack": "5eda26587ef69",
       "page": "https://cfgfactory.com/skins/show/5eda26587ef69.html",
       "author": "VC'Fox",
       "sha256": "75289ef4271ee22f4f5827731b2751fe1dfe825da395fd8b081ea982bfd7139f",
-      "prestige": 3,
-      "level": 28,
+      "prestige": 1,
+      "level": 21,
       "source_weapon_id": 23,
       "original_unlock": {
         "prestige": 10,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "BO2 Knife"
     },
     {
       "category": "knife",
       "id": 6,
-      "name": "WW2 Homerun",
+      "name": "Homerun Bat",
       "model": "ww2_bat_view",
       "weapon": "apxc_5e0179981ee63_mp",
       "pack": "5e0179981ee63",
       "page": "https://cfgfactory.com/skins/show/5e0179981ee63.html",
       "author": "actualmist",
       "sha256": "a5bcb1b3485c0f58dddbf0bd55b60961e8381c6a454cc4d8d6a1a50727da846d",
-      "prestige": 2,
-      "level": 42,
+      "prestige": 4,
+      "level": 21,
       "source_weapon_id": 33,
       "original_unlock": {
         "prestige": 20,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "WW2 Homerun"
     },
     {
       "category": "knife",
       "id": 7,
-      "name": "MWR CQB Bayonet",
+      "name": "CQB Bayonet",
       "model": "mwr_bayonet_world",
       "weapon": "apxc_5dffe926d1e40_mp",
       "pack": "5dffe926d1e40",
@@ -3480,18 +3530,19 @@
       "author": "Infinity Ward - actualmist",
       "sha256": "0b12abf5bf530be7257abdc39662fc4f3f3fa44918a46052115b3f9f487d1cff",
       "prestige": 3,
-      "level": 42,
+      "level": 49,
       "source_weapon_id": 34,
       "original_unlock": {
         "prestige": 21,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "MWR CQB Bayonet"
     },
     {
       "category": "knife",
       "id": 8,
-      "name": "End of the line - Street sign weapon",
+      "name": "Street Sign",
       "model": "streetsign_melee",
       "weapon": "apxc_5ce168acf3d63_mp",
       "pack": "5ce168acf3d63",
@@ -3499,13 +3550,14 @@
       "author": "Rex109",
       "sha256": "65c76ffb844651ba06a5e428ac7c0046edb4c3ce455456002efa0e704d70fe41",
       "prestige": 5,
-      "level": 49,
+      "level": 21,
       "source_weapon_id": 40,
       "original_unlock": {
         "prestige": 27,
         "level": 15
       },
-      "inactive_profile": false
+      "inactive_profile": false,
+      "archive_name": "End of the line - Street sign weapon"
     }
   ],
   "rejected": [

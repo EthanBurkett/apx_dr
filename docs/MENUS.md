@@ -208,3 +208,17 @@ eight rows plus the selected item. Overview metadata sends once per map.
 checks packet size. `tools/test-progression.ps1 -Suite Traffic` exercises repeated
 native menu envelopes and all browser categories. Native bots bypass the
 reliable-command queue, so bot survival alone is not a network-overflow test.
+
+## In-game shortcuts and chat
+
+The existing Quick Message binding (B by default) opens a small left-side panel.
+Commands, statements, responses and player actions retain number-key shortcuts
+and clickable rows. Escape backs out one level; the root closes directly. These
+pages have no full-screen dimmer, logo or operations navigation. The full ApX
+menus remain available through the normal pause menu. Existing binds are retained.
+
+Public text chat (`say`, normally T) reaches Jumpers, the Activator, dead players
+and spectators in both directions. `g_deadChat 1` is set by server defaults and
+gametype initialization, so it applies before the first intermission and after
+map restarts. Intentional team chat (`say_team`, normally Y) remains team-only.
+Voice routing and administrative mutes are unchanged.

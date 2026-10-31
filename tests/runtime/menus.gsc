@@ -2,6 +2,7 @@
 run()
 {
     wait 1;
+    check( getDvarInt( "g_deadChat" ) == 1, "spectator public chat enabled before intermission" );
     players = braxi\_common::getAllPlayers();
     if( players.size ) bot = players[0];
     else bot = addTestClient();
@@ -63,6 +64,8 @@ run()
     check( bot.apxBrowser.ids.size == 1 && bot.apxBrowser.selected == originalItems+99, "direct name lookup across 100 choices" );
     level.numItems = originalItems;
     bot braxi\_menu_browser::query( "weapon", "", false );
+    ids = bot.apxBrowser.ids;
+    check( ids.size == 24 && ids[0] == 0 && ids[22] == 4 && ids[23] == 6, "native catalog presents pistols before the two classic snipers" );
     previous = bot getStat( 981 );
     bot notify( "menuresponse", "-1", "ui:dr_weapons:equip:weapon:255" );
     wait 0.1;

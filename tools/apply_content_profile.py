@@ -16,6 +16,27 @@ TABLES={'weapon':'itemTable.csv','character':'characterTable.csv','knife':'knife
 def rows(name): return [r for r in csv.reader((ROOT/'src/mp'/name).read_text().splitlines()) if r]
 
 
+def reward_assignments(usable,profile):
+    """Validate the complete authored track before touching output files."""
+    base=profile.get('base_rewards',{})
+    entries={e['category']+':'+str(e['id']):e for e in usable}
+    if not set(base).issubset(entries):raise ValueError('Base reward is not an active import')
+    rewards=sorted((e for key,e in entries.items() if key not in base),
+                   key=lambda e:(e['prestige'],e['level'],e['category'],e['id']))
+    tiers=profile['prestiges'];levels=profile['reward_levels']
+    if len(rewards)!=tiers*len(levels):raise ValueError('Active rewards must fill every configured prestige milestone')
+    schedule=profile.get('prestige_rewards')
+    if schedule is None:
+        schedule=[[e['category']+':'+str(e['id']) for e in rewards[tier::tiers]] for tier in range(tiers)]
+    if len(schedule)!=tiers or any(len(tier)!=len(levels) for tier in schedule):
+        raise ValueError('Every prestige must fill every configured reward level')
+    ordered=[key for tier in schedule for key in tier]
+    if len(ordered)!=len(set(ordered)) or set(ordered)!=set(entries)-set(base):
+        raise ValueError('Prestige rewards must name each active non-base import exactly once')
+    return {**{key:(0,level) for key,level in base.items()},
+            **{key:(prestige,level) for prestige,tier in enumerate(schedule,1) for level,key in zip(levels,tier)}}
+
+
 def filter_previews():
     tables={kind:rows(name) for kind,name in TABLES.items()}
     active={kind:{r[1] for r in table if r[8]!='0'} for kind,table in tables.items()}
@@ -81,6 +102,17 @@ def main():
     tables={kind:rows(name) for kind,name in TABLES.items()}
     path=ROOT/'ui/content_catalog.json';spec=json.loads(path.read_text())
     entries={(e['category'],e['id']):e for e in spec['entries']}
+    labels=json.loads((ROOT/'ui/catalog_labels.json').read_text())
+    for kind,table in tables.items():
+        namecol,desccol=(6,7) if kind=='character' else (5,6)
+        for row in table:
+            label=labels.get(kind+':'+row[1])
+            if not label:continue
+            row[namecol],row[desccol]=label['name'],label['description']
+            entry=entries.get((kind,int(row[1])))
+            if entry:
+                entry.setdefault('archive_name',entry['name'])
+                entry['name']=label['name']
     for kind,table in tables.items():
         if not active[kind].issubset({int(r[1]) for r in table}): raise ValueError('Unknown '+kind+' ID in content profile')
         if 0 not in active[kind]: raise ValueError('The safe base selection must stay active: '+kind)
@@ -98,18 +130,19 @@ def main():
         e.update(e['original_unlock'])
         e['inactive_profile']=e['id'] not in active[e['category']]
         if not e['inactive_profile']: usable.append(e)
-    base=profile.get('base_rewards',{})
-    rewards=sorted((e for e in usable if e['category']+':'+str(e['id']) not in base),
-                   key=lambda e:(e['prestige'],e['level'],e['category'],e['id']))
-    tiers=profile['prestiges'];levels=profile['reward_levels']
-    if len(rewards)!=tiers*len(levels): raise ValueError('Active rewards must fill every configured prestige milestone')
-    for i,e in enumerate(rewards):
-        e.update(prestige=i%tiers+1,level=levels[i//tiers])
+    tiers=profile['prestiges']
+    assignments=reward_assignments(usable,profile)
     for e in usable:
         key=e['category']+':'+str(e['id'])
-        if key in base: e.update(prestige=0,level=base[key])
+        prestige,level=assignments[key];e.update(prestige=prestige,level=level)
         row=tables[e['category']][e['id']];row[2]=str(e['level'])
         if e['category']=='knife': row[7]=str(e['prestige'])
+        # Stock shader definitions keep their original localization fields.
+        if e['category']!='character' and key in labels:
+            weapon=ROOT/'src/weapons/mp'/e['weapon']
+            parts=weapon.read_text(encoding='latin1').split('\\')
+            if 'displayName' in parts:parts[parts.index('displayName')+1]=labels[key]['name']
+            weapon.write_text('\\'.join(parts),encoding='latin1')
     for kind,table in tables.items():
         with (ROOT/'src/mp'/TABLES[kind]).open('w',newline='',encoding='ascii',errors='replace') as handle:
             csv.writer(handle,lineterminator='\n').writerows(table)

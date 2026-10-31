@@ -44,6 +44,7 @@ query( category, search, owned )
     if( category == "spray" ) count = level.numSprays;
     if( category == "knife" ) count = level.numKnives;
     if( category == "gloves" ) count = level.numGloves;
+    snipers = [];
     for( id = 0; id < count; id++ )
     {
         key = category+":"+id;
@@ -52,8 +53,12 @@ query( category, search, owned )
         if( search != "" && !isSubStr( toLower( name ), search ) ) continue;
         if( owned && !self isUnlocked( category, id ) ) continue;
         if( id == preferred ) state.selected = id;
-        state.ids[state.ids.size] = id;
+        // Presentation order never changes the permanent equipment/save IDs.
+        if( category == "weapon" && tableLookup( "mp/apx_catalog.csv", 0, key, 10 ) == "sniper" )
+            snipers[snipers.size] = id;
+        else state.ids[state.ids.size] = id;
     }
+    for( index = 0; index < snipers.size; index++ ) state.ids[state.ids.size] = snipers[index];
     if( state.ids.size && state.selected < 0 ) state.selected = state.ids[0];
     for( index = 0; index < state.ids.size; index++ )
         if( state.ids[index] == state.selected ) state.page = int( index/pageSize() );

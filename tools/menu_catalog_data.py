@@ -32,6 +32,7 @@ NAMES = {
 
 def build():
     result = []
+    labels=json.loads((ROOT/'ui/catalog_labels.json').read_text())
     atlas=json.loads((ROOT/'ui/preview_atlas.json').read_text())
     path=ROOT/'ui/turntable_atlas.json'
     rotations=json.loads(path.read_text()) if path.exists() else {}
@@ -52,7 +53,8 @@ def build():
             turn = 'apx_turn_'+category+'_'+id if category in ('weapon', 'character','knife') else material
             turn_slot=rotations.get(turn,{'material':turn,'cell':0})
             result.append([category+':'+id, category, id, NAMES.get(row[nc], row[nc]),
-                           NAMES.get(row[dc], row[dc]), material, row[2] if category != 'ability' else '0', turn_slot['material'],cell,turn_slot['cell']])
+                           NAMES.get(row[dc], row[dc]), material, row[2] if category != 'ability' else '0', turn_slot['material'],cell,turn_slot['cell'],
+                           labels.get(category+':'+id,{}).get('role','')])
     # Zero follows the operator. Explicit IDs are permanent registry IDs + 1.
     characters=list(csv.reader((ROOT/'src/mp/characterTable.csv').read_text().splitlines()))
     active_hands={r[5] for r in characters if r and r[8]!='0'}
@@ -70,10 +72,10 @@ def build():
         turn_slot=rotations.get('apx_turn_gloves_'+str(index),{'material':'apx_turn_gloves_'+str(index),'cell':0})
         previews.append([id,slot['material'],slot['cell'],turn_slot['material'],turn_slot['cell']])
         result.append(['gloves:'+str(id),'gloves',id,name,'First-person arms / independent of your operator.',
-                       slot['material'],1,turn_slot['material'],slot['cell'],turn_slot['cell']])
+                       slot['material'],1,turn_slot['material'],slot['cell'],turn_slot['cell'],''])
     base=next(r for r in previews if r[0]==registry[characters[0][5]]+1)
     previews.insert(0,[0]+base[1:])
-    result.append(['gloves:0','gloves',0,'Operator arms','Follow your selected operator.',base[1],1,base[3],base[2],base[4]])
+    result.append(['gloves:0','gloves',0,'Operator arms','Follow your selected operator.',base[1],1,base[3],base[2],base[4],''])
     for name,data in [('gloveTable.csv',glove_rows),('apx_glove_previews.csv',previews),('apx_catalog.csv',result)]:
         with (ROOT/'src/mp'/name).open('w',newline='') as handle:
             csv.writer(handle,lineterminator='\n').writerows(data)
